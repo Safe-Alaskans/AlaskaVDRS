@@ -1,0 +1,883 @@
+{
+  "summary": [
+    "This document outlines various circumstances and mechanisms related to unintentional firearm deaths, detailing definitions, response options, discussions, and manners of death for each scenario. It also provides guidance on weapon variables, including types, coding methods, and specific firearm characteristics. The information is structured to assist in accurate reporting and analysis of firearm-related incidents."
+  ],
+  "keywords": [
+    "unintentional firearm",
+    "circumstances",
+    "weapon variables",
+    "firearm characteristics",
+    "coding methods",
+    "injury mechanisms",
+    "response options",
+    "definitions",
+    "firearm types",
+    "crisis situations"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooter was showing the gun to another person when the gun discharged."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.8 Playing with gun: CME/LE_GunPlaying"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Shooter was playing with gun when it discharged."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item}} other phrases that would trigger coding this context include “horsing around” and “fooling around.”",
+      "content": ""
+    },
+    {
+      "type": "list_item}} this variable is not limited to children. for example, this could include suicide play (i.e., an adult pointing a gun believed to be unloaded at her and pulling the trigger).",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.9 Other context of injury: CME/LE_OtherContextInjury"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooting occurred during some context other than those described by the existing codes."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Always describe the other context of injury in the narrative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.10 Thought safety was engaged: CME/LE_GunThoughtSafetyEngaged"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Shooter thought the safety was on and the firearm would not discharge."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.11 Thought gun was unloaded, magazine disengaged: CME/LE_GunThoughtUnloadedMagazDisen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Shooter thought the gun was unloaded because the magazine was disengaged."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item}} this circumstance would not apply to revolvers, derringers, or certain long guns that do not use a magazine.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} frequently when the magazine is removed from a semi-automatic pistol, the gun handler believes it is unloaded when in fact a cartridge may remain in the firing chamber.",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.12 Thought gun was unloaded, other: CME/LE_GunThoughtUnloadedOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Shooter thought the gun was unloaded for a reason other than the magazine being disengaged, or for an unspecified reason."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.13 Unintentionally pulled trigger: CME/LE_GunUnintentPulledTrigger"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Shooter unintentionally pulled the trigger."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.14 Bullet ricochet: CME/LE_BulletRicochet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Bullet ricocheted off course from its intended target and struck the victim."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.15 Gun defect or malfunction: CME/LE_GunDefectMalfunction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Firearm discharged due to some defect or mechanical malfunction."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the shooting resulted from a gun defect or malfunction. Because it is difficult for a nonexpert to judge whether a shooting resulted from operator error versus a true defect or malfunction, this code should be based on a finding by a trained firearm and tool-mark examiner."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.16 Fired while holstering/unholstering: CME/LE_GunFiredHolstering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Firearm discharged while it was being placed in or removed from its holster or clothing."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item}} code as “yes” if the gun was being placed in or removed from its holster or clothing when it discharged.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} do not code if the gun discharged after falling out of a holster accidentally (code “dropped gun” instead).",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.17 Dropped gun: CME/LE_GunDropped"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Gun was dropped and unintentionally discharged upon impact."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item}} this code applies to situations in which the impact of the crash causes the gun to discharge.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} it does not apply to situations in which a gun starts to fall and is fired when the handler grabs for it and unintentionally pulls the trigger. that situation should be coded as “unintentionally pulled trigger.”",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.18 Fired while operating safety/lock: CME/LE_GunFiredOperatingSafetyLock"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Gun unintentionally discharged while the gun handler was attempting to open or close the lock."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable will be important in detecting any unintended injuries that result from using safety equipment. Also code: Code “Unintentionally pulled trigger” because the fatal injury occurred due to pulling the trigger."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.19 Gun mistaken for toy: CME/LE_GunThoughtToy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Gun was mistaken for a toy and discharged during handling/play."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item}} code as “yes” if a person (usually a child) thought the gun was a toy and was firing it without understanding the danger.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} this code applies to the shooter’s understanding of the gun that he or she was handling.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} it does not apply to situations in which a person kills another person because they thought the victim was aiming a gun (in reality, a toy) at them. these situations would be coded as homicides.",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.8.20 Other mechanism of injury: CME/LE_OtherMechanismInjury"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooting occurred as the result of a mechanism not already described by one of the existing codes."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 0  no, not available, unknown",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 1  yes",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Always describe the mechanism in the narrative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "subsection",
+      "content": "5.9 Other Circumstances: All Manners"
+    },
+    {
+      "type": "subsection",
+      "content": "5.9.1 Other circumstance: CME/LE_CircumstancesOtherText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Other specified problems contributed to the death."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable should only be used if a noted contributory circumstance is not already covered by existing variables in the reporting system."
+    },
+    {
+      "type": "list_item}} be sure to describe the circumstance in the text field provided and in the narrative.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} please indicate if the other circumstance is a crisis.",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.9.2 Other circumstance was crisis: CME/LE CrisisOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim experienced a crisis within two weeks of the incident, or a crisis was imminent within two weeks of the incident that was not associated with another circumstance variable."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable captures crises not associated with a standard NVDRS circumstance. Please note that in the analytic data file, the legacy data element “CrisisRecent” has been archived as of the 2016 dataset in order to avoid confusion. All cases endorsed as having a recent crisis in the legacy data, as well as current cases with a specific or “other” crisis as described above are captured under the calculated variable “AnyCrisis_c” in the analytic data file. Consistent with previous coding manual versions, a “Crisis” is a current/acute event (within two weeks of death) that is indicated in one of the source reports to have contributed to the death. Inclusion in the source document and indication that the event occurred within two weeks of the death is sufficient to code a circumstance a crisis. Direct language that the event caused or contributed to the death is not required to code “Yes.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following guidance will assist in identifying crises (see also 5.1.6 “Coding the Crisis Variables):"
+    },
+    {
+      "type": "list_item}} a crisis can precede the death (e.g., had a bad argument the day before the incident, divorce papers served that day, or victim laid off the week before) or be an impending event (e.g., house was to be foreclosed on the day after the incident or court date for a criminal offense three days after the suicide). crisis should be interpreted from the eyes of the victim. this is particularly relevant for young victims whose crises, such as a bad grade or a dispute with parents over a curfew, may appear to others as relatively minor.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} an actual time period for the crisis may not be mentioned in the records, so use language as a clue.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} “decedent was experiencing financial difficulties after losing his job” would not trigger coding a recent crisis, because the timeframe is unclear.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} “decedent had just received a pink slip at work” would be coded, because the word “just” indicates that the crisis occurred right before the death, or within two weeks.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} ongoing/chronic problems should not be coded as crises unless there was an acute change in the status (change in prognosis of chronic illness). coding a case as being related to a crisis does not mean that there aren’t also chronic conditions that have contributed to the victim’s death.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} a homicide followed by a suicide should always be coded as “yes” for “crisis” for the suicide victim unless the two deaths were both clearly consensual and planned in advance (i.e., a double suicide).",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "section",
+      "content": "6. Weapon Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "SECTION 6: WEAPON VARIABLES"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of a weapon in NVDRS combines the concepts of objects used to injure and actions that lead to injury. Weapons can therefore range from instruments commonly thought of as weapons, such as a gun or bayonet, to actions such as setting fires, pushing someone over a cliff, or shaking (as in shaken baby syndrome). Only the weapon(s) that caused the death should be entered. When there are multiple weapons in an incident and the fatal weapon can be determined, only enter the weapon that caused the fatal injury. If a weapon caused a non-fatal injury, do not enter the weapon. For example, if a victim was shot in the head and stabbed in the foot, and the foot wound was known to be non-fatal, enter only the firearm. For the vast majority of deaths, only one weapon should be entered."
+    },
+    {
+      "type": "paragraph",
+      "content": "General guidance on coding weapons is provided below:"
+    },
+    {
+      "type": "list_item}} if the weapon that caused the fatal injury cannot be determined, then enter all of the weapons that contributed to the death of the victim. for example, if a victim was shot in the chest and also stabbed in the chest, and it cannot be determined which wound was fatal (if not both); enter a firearm and a sharp instrument as separate weapons.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} legal intervention deaths represent a unique situation. how to code these incidents is described below. sometimes an individual officer with a single firearm can be identified as firing the fatal shot. for those situations, one weapon (firearm) should be entered.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} for situations where multiple officers fired and hit the victim, and the number of officers is specified, enter the number of weapons equal to the number of firearms causing injury. for example, for a report listing two officers known to have struck the victim, code two firearms. do not count firearms associated with officers at the scene who did not fire their weapons. for example, if six officers were on scene but only two fired their weapons causing injury, code only two firearms.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} if a report indicates multiple officers fired at the victim, but it is not known how many officers or how many firearms were involved, code only one firearm.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} coding deaths involving firearms: details are collected on individual firearms, such as make, model, caliber, and gauge. if a victim was fatally injured by multiple firearms, and it is not possible to identify a single firearm as being responsible for the victim’s death, enter information for all of the firearms.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} if a gun is not recovered, but the victim died of a gunshot wound, code the number of weapons as “1.” guns on the scene that were not used to shoot the victim (e.g., a gun on the person of the victim) are not counted as weapons in the incident.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} for poisonings, nvdrs tracks information on individual poisonous substances in the toxicology section, including the poison that killed the victim, while tracking the weapon type on the weapons screen.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} for an incident where a single poison killed the victim, record the weapon type as “poisoning” and identify the substance that killed the victim in the toxicology section by checking the “cause of death” box next to the substance on the toxicology screen. if multiple poisons resulted in the death of the victim, please record the weapon type as “poisoning” and identify the substances suspected of killing the victim in the toxicology section by checking the “cause of death” box next to each substance that killed the victim. if it is unknown which poison killed the victim, do not check any of the “cause of death” boxes.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} poisons or drugs on the scene that were not ingested by the victim and not found in toxicology should not be entered.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} weapon types that are not firearms or poisons: for all other weapon types involved in a violent death, list the weapon only once per incident. for example, if multiple sharp objects or knives are used to kill one or more persons in an incident, enter only one weapon to represent all these sharp objects. if multiple knives and multiple blunt objects are used, one “sharp instrument” and one “blunt instrument” weapon should be entered.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} if a knife is not recovered, but the victim died from wounds inflicted by a sharp object, code the number of weapons as “1.” note: before august 2013, the number of weapons was limited to three. as of august 2013, there is no longer a limit of three weapons. enter data for as many weapons as were involved in inflicting fatal injuries.",
+      "content": ""
+    },
+    {
+      "type": "subsection",
+      "content": "6.1 Weapon Type: WeaponType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Type of weapon or means used to inflict the fatal injury."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 1  firearm",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 5  non-powder gun",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 6  sharp instrument",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 7  blunt instrument",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 8  poisoning",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 9  hanging, strangulation, suffocation",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 10  personal weapons",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 11  fall",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 12  explosive",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 13  drowning",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 14  fire or burns",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 15  shaking (e.g., shaken baby syndrome)",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 16  motor vehicle, including buses, motorcycles",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 17  other transport vehicle, (e.g., trains, planes, boats)",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 18  intentional neglect, (e.g., starving a baby or oneself)",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 19  biological weapons",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 66  other (e.g., taser, electrocution, nail gun, exposure to environment/weather)",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 99  unknown",
+      "content": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Weapon type reports the broad category of weapon(s) or means used to inflict the fatal injury. Objects (such as knives), actions (such as jumping from a height), hostile environments (such as fire, water), and even the lack of action (such as neglect of a child or disabled person) are all weapons in NVDRS. Only code more than one weapon when multiple weapons were known to have inflicted fatal injuries. Otherwise, if it is possible to determine, code only the primary weapon that resulted in death. When faced with choosing multiple possible weapon types, enter first the weapon that exerted the most force to the body or deprived it of essentials such as oxygen."
+    },
+    {
+      "type": "paragraph",
+      "content": "“Sharp instrument” refers not only to knives but also to razors, machetes, or pointed instruments (e.g., chisel, broken glass, bow and arrow)."
+    },
+    {
+      "type": "paragraph",
+      "content": "“Blunt instrument” refers to clubs, bats, rocks, etc. or a general statement of “blunt force trauma.” If a victim is killed by the weight of a heavy object or objects, rather than by the force of impact, code “Other weapon” rather than “Blunt instrument.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Carbon monoxide poisoning should be coded as a poisoning. For deaths where carbon monoxide due to a fire was also contributory, code “Carbon monoxide poisoning” as a secondary weapon and “Fire or burns” as the primary weapon. Also code: “Carbon monoxide source.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deaths involving asphyxiant (non-toxic) gases should be coded as suffocation. Asphyxiant gases are not normally harmful in the breathing air but become hazardous when elevated concentrations of these gases displace the normal oxygen concentration, occurring in either confined spaces (e.g., refrigerator) or direct, exclusive administration (e.g., inhaling contents of balloon filled with helium). Some common examples of asphyxiant gases are helium, nitrogen, argon, butane, propane."
+    },
+    {
+      "type": "paragraph",
+      "content": "“Personal weapons” include fists, feet, and hands in actions such as punching, kicking or hitting. If the victim is manually strangled, code “Hanging, strangulation, suffocation” instead of “Personal weapon.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "“Fall” covers both being pushed (as in a homicide) or jumping (as in a suicide). Generally, if a person is at standing height, is pushed by another, and falls backward hitting his head, code weapon as “Personal weapons” due to the push. If a person is higher than standing height, as in a two-story balcony or on a roof, code weapon as “Fall.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "For fires that cause deaths by burns or carbon monoxide poisoning, code “Fire or burns.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "If a victim is noted to have died by an external force (e.g., hanging, gunshot wound, stab wound, etc.), but also was noted to have a lethal level of alcohol or drugs in his or her system, code the weapon of external force and not the poisoning."
+    },
+    {
+      "type": "paragraph",
+      "content": "If a victim is fatally injured falling from a bridge into a body of water, the weapon type should reflect the information in the C/ME report. That is, if the victim was noted to have drowned, weapon type should be coded as “Drowning.” If the victim was noted to have died from injuries sustained on impact from hitting the water, weapon type should be coded as “Fall.”"
+    },
+    {
+      "type": "subsection",
+      "content": "6.2 Other Weapon Information: WeaponOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Please put additional descriptive information about the weapon in this text box. If the weapon type is checked as “Other,” please describe the weapon here."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item}} if the weapon type was classified as “other,” please use this text box to describe the weapon. a weapon type should only be classified as “other” after it has been determined that the weapon type does not match any of the standard categories.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} additional descriptive information about any type of weapon can also be placed in this field. for instance, modifications to firearms or a description of a sharp weapon can be entered.",
+      "content": ""
+    },
+    {
+      "type": "subsection",
+      "content": "6.3 Firearm Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following twelve variables will only be completed when the weapon type is “Firearm.” These variables will not display for all other weapon types."
+    },
+    {
+      "type": "subsection",
+      "content": "6.3.1 Firearm type: FirearmType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Specific type of firearm used to inflict injury."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item}} 1  submachine gun",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 2  handgun, unknown type",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 3  handgun, pistol- bolt action",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 4  handgun, pistol- derringer",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 5  handgun, pistol- single shot",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 6  handgun, pistol- semi-automatic",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 7  handgun, revolver",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 8  rifle, unknown type",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 9  rifle, automatic",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 10  rifle, bolt action",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 11  rifle, lever action",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 12  rifle, pump action",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 13  rifle, semi-automatic",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 14  rifle, single shot",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 15  rifle-shotgun combination",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 16  shotgun, unknown type",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 17  shotgun, automatic",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 18  shotgun, bolt action",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 19  shotgun, double barrel (over/under, side by side)",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 20  shotgun, pump action",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 21  shotgun, semi-automatic",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 22  shotgun, single shot",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 23  long gun, unknown type",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 66  other (e.g., handmade gun)",
+      "content": ""
+    },
+    {
+      "type": "list_item}} 99  unknown",
+      "content": ""
+    },
+    {
+      "type": "subsection",
+      "content": "6.3.2 Firearm caliber: FirearmCaliber"
+    },
+    {
+      "type": "subsection",
+      "content": "6.3.3 Firearm gauge: FirearmGauge"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:"
+    },
+    {
+      "type": "list_item}} firearmcaliber: caliber of the firearm used to inflict the injury.",
+      "content": ""
+    },
+    {
+      "type": "list_item}} firearmgauge: gauge of firearm used to inflict the injury.",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "summary": [
+    "This document outlines the optional module for collecting data on intimate partner violence (IPV), focusing on various aspects such as relationship break-ups, children in the victim's home, children present during incidents, restraining orders, prior arrests and convictions, and disability variables. Each section provides definitions, response options, and discussions to guide data coders in accurately capturing relevant information. The module aims to enhance understanding of IPV dynamics and the impact on victims and children involved."
+  ],
+  "keywords": [
+    "Intimate Partner Violence",
+    "Relationship Break-Up",
+    "Children",
+    "Restraining Order",
+    "Prior Arrests",
+    "Disability",
+    "Data Collection",
+    "IPV Perpetrator",
+    "IPV Victim",
+    "Homicide"
+  ],
+  "structured_content": [
+    {
+      "type": "title",
+      "content": "Intimate Partner Violence Optional Module"
+    },
+    {
+      "type": "chapter",
+      "content": "10"
+    },
+    {
+      "type": "section",
+      "content": "10.9 Relationship Break-Up"
+    },
+    {
+      "type": "subsection",
+      "content": "10.9.1 Breakup or breakup in progress: IPV_RelationshipBreakup"
+    },
+    {
+      "type": "subsection",
+      "content": "10.9.2 Breakup length number of units: IPV_BreakupLength"
+    },
+    {
+      "type": "subsection",
+      "content": "10.9.3 Unit of time used in breakup length: IPV_BreakupLengthUOM"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_RelationshipBreakup: Indication of a breakup or in-process breakup of IPV Perpetrator and IPV Victim.\nIPV_BreakupLength: Unit of time for IPV Perpetrator and IPV Victim breakup.\nIPV_BreakupLengthUOM: IPV Perpetrator and IPV Victim relationship breakup length."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nIPV_RelationshipBreakup\n0 No, there was no indication of a breakup between the IPV Perpetrator and IPV Victim\n1 No, a breakup was threatened by the IPV Perpetrator or IPV Victim but did not happen\n2 Yes, a breakup occurred immediately preceding or during the incident\n3 Yes, a breakup occurred at some point prior to the incident but not during or immediately preceding the incident\n9 Unknown\nIPV_BreakupLength\n88 Not applicable\n99 Unknown\nIPV_BreakupLengthUOM\n1 Years\n2 Months\n3 Weeks\n4 Days\n5 Hours\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables provide information drawn from C/ME or LE reports that provide information whether a breakup occurred or was occurring between the IPV Perpetrator and IPV Victim.\nIPV_RelationshipBreakup should be coded as “Yes” if there is information in the reports indicating the IPV Perpetrator and IPV Victim had broken up or were in the process of breaking up. This should include cases in which the partners recently divorced or one of the partners filed for divorce or threatened divorce.\nIPV_BreakupLengthUOM and IPV_BreakupLength time period should be estimated from information drawn from C/ME or LE reports. It is coded using a numerical indication of the number of years, months, weeks, and days of how long ago the breakup occurred. First, the coder should provide information on the unit that best describes the amount of time that has passed since the IPV Perpetrator and IPV Victim breakup in terms of years, months, or less than one month. This is then followed by the number that best describes the time length of the breakup. If the IPV Perpetrator and IPV Victim relationship is described as having numerous breakups, the length should be measured using the most recent breakup. Information on the status of the relationship and timing of relationship termination may provide insight into precipitating events that may have contributed to the incident."
+    },
+    {
+      "type": "section",
+      "content": "10.10 Children in Victim’s Home"
+    },
+    {
+      "type": "subsection",
+      "content": "10.10.1 Children under 18 living at home: IPV_ChildrenHome"
+    },
+    {
+      "type": "subsection",
+      "content": "10.10.2 Number of children under 18 living at home: IPV_ChildrenNumberLiving"
+    },
+    {
+      "type": "subsection",
+      "content": "10.10.3 Any children not offspring of IPV Perpetrator: IPV_StepChildPerpetrator"
+    },
+    {
+      "type": "subsection",
+      "content": "10.10.4 Any children not offspring of IPV Victim: IPV_StepChildVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_ChildrenHome: Indicator of whether or not there were children under 18 living at the home.\nIPV_ChildrenNumberLiving: How many children under age 18 were living at the victim’s home at the time of the incident?\nIPV_StepChildPerpetrator: Were any of those children not the IPV Perpetrator’s offspring?\nIPV_StepChildVictim: Were any of those children not the IPV Victim’s offspring?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nIPV_ChildrenHome\n0 No\n1 Yes\n9 Unknown\nIPV_ChildrenNumberLiving\n88 Not applicable\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis set of variables is only for IPV Victims or IPV Perpetrators who are killed by an intimate partner.\nIPV_ChildrenHome: Code “Yes” if there were children under age 18 living in the IPV Victim’s home at the time of the incident.\nIPV_ChildrenNumberLiving: Code the number of children under age 18 living in the IPV Victim’s home at the time of the incident. If a report indicates that children were living in the home but does not specify their age, it is acceptable to code this variable.\nIPV_StepChildPerpetrator: Code “Yes” if any of the children at home were not the IPV Perpetrator’s from a previous or subsequent relationship.\nIPV_StepChildVictim: Code “Yes” if any of the IPV Perpetrator’s children at home were not the IPV Victim’s offspring. For example, if the perpetrator had one child with an ex-spouse (the IPV Victim) and one from a previous or subsequent relationship, code “Yes.” Because we are attempting to describe the problem of children who are exposed to the violent death of a parent by a partner, please answer these questions with reference to the IPV Victim’s or IPV Perpetrator’s children and not with reference to other children who may be living in the house (such as cousins or neighbors) or witnessed the incident (such as a passer-by)."
+    },
+    {
+      "type": "section",
+      "content": "10.11 Children Present During Incident"
+    },
+    {
+      "type": "subsection",
+      "content": "10.11.1 Number of children exposed to homicide: IPV_ChildrenNumberExposed"
+    },
+    {
+      "type": "subsection",
+      "content": "10.11.2 Number of children 5 or under exposed to homicide: IPV_ChildrenNumberUnder5"
+    },
+    {
+      "type": "subsection",
+      "content": "10.11.3 Use of child as shield during incident: IPV_ChildrenShield"
+    },
+    {
+      "type": "subsection",
+      "content": "10.11.4 Child intervened during incident: IPV_ChildrenIntervened"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_ChildrenNumberExposed: Number of children directly exposed to the incident (i.e., saw it, heard it, or discovered the body).\nIPV_ChildrenNumberUnder5: Number of children age 5 or younger who witnessed the incident.\nIPV_ChildrenShield: Use of child as shield during the incident.\nIPV_ChildrenIntervened: Child intervened during the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nIPV_ChildrenNumberExposed\nIPV_ChildrenNumberUnder5\nNumeric\n9 Some, but unknown number\n99 Unknown\nIPV_ChildrenShield\nIPV_ChildrenIntervened\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nIPV_ChildrenNumberExposed: Code the number of children (under the age of 18) who were directly exposed to the homicide. For example, they saw it, they heard it through the walls, they witnessed the suspect abducting the victim, they were attacked or threatened during the incident or were used as a shield, or they discovered the body.\nIPV_ChildrenNumberUnder5: Code the number of children (age 5 and younger) who were directly exposed to the homicide. For example, they saw it, they heard it through the walls, they witnessed the suspect abducting the victim, they were attacked or threatened during the incident or were used as a shield, or they discovered the body.\nIPV_ChildrenShield: Code “Yes” if a person in the incident attempted to use a child as a physical shield to prevent or end an attack.\nIPV_ChildrenIntervened: Code “Yes” if a child attempted to intervene during the homicide incident. For example, if a child tried to in some way prevent the IPV Perpetrator from harming the IPV Victim by stepping between them, made verbal threats, etc."
+    },
+    {
+      "type": "section",
+      "content": "10.12 Restraining Order Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "10.12.1 Restraining order ever: IPV_RestrainingOrderHistory"
+    },
+    {
+      "type": "subsection",
+      "content": "10.12.2 Restraining order at time of incident: IPV_RestrainingOrder"
+    },
+    {
+      "type": "subsection",
+      "content": "10.12.3 Restraining order type: IPV_RestrainingOrderType"
+    },
+    {
+      "type": "subsection",
+      "content": "10.12.4 Restraining order issue date: IPV_RestrainingOrderIssueDate"
+    },
+    {
+      "type": "subsection",
+      "content": "10.12.5 Restraining order served: IPV_RestrainingOrderServed"
+    },
+    {
+      "type": "subsection",
+      "content": "10.12.6 Persons protected by restraining order: IPV_RestOrderPersonsProtect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_RestrainingOrderHistory: Refers to whether there was ever a restraining order between the members of the couple (IPV Victim and IPV Perpetrator).\nIPV_RestrainingOrder: Refers to whether there was a restraining order between the members of the couple at the time of incident.\nIPV_RestrainingOrderType: The type of restraining order in place.\nIPV_RestrainingOrderIssueDate: The date the restraining order was issued.\nIPV_RestrainingOrderServed: Indication of whether the restraining order was served.\nIPV_RestOrderPersonsProtect: Individual(s) protected by the restraining order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nIPV_RestrainingOrderHistory\nIPV_RestrainingOrder\n0 No\n1 Yes\n9 Unknown\nIPV_RestrainingOrderType\n1 Emergency\n2 Temporary\n3 Permanent\n8 No restraining order\n9 Unknown\nIPV_RestrainingOrderIssueDate\nDate (format: MM/DD/YYYY)\nIPV_RestrainingOrderServed\n0 No\n1 Yes\n8 No restraining order\n9 Unknown\nIPV_RestOrderPersonsProtect\n1 IPV Victim\n2 IPV Perpetrator\n3 Both\n8 Other\n9 No restraining order\n88 Not applicable\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCode “IPV_RestrainingOrder” as “Yes” if a restraining order involving both the IPV Perpetrator and IPV Victim was issued at the time of the incident. Data sources for this information will likely vary by state. Some states can utilize statewide restraining order databases, while other states must rely on contacting county courthouses where the fatal incident took place. The LE report is another possible source for this information. Restraining orders may be referred to in a number of ways including restraining order, protective order, or by specific state statute number. Restraining orders that are not abuse prevention orders do not qualify and should not be included. For example, a restraining order not to spend money from a joint account filed as part of divorce proceedings should not be included.\n\nInformation may also be available on the date that the restraining order was issued and served; documentation of the restraining order should indicate the date on which it was issued. This should be entered with month, day, and year. The date served may not be as readily available. This information may be found in LE report, Domestic Violence Fatality Review Team (DVFRT) report, or court records. The element only requires a “Yes,” “No,” or “Unknown” response.\n\nDocumentation for the restraining order should also include information on the individual(s) protected by the order. While most restraining orders will include only one of the partners, some may also include other child dependents. The information requested for the restraining orders provides more detail on the timing and coverage of the restraining order and may provide insight into precipitating events of the incident. If multiple restraining orders exist, record only the most recent between the intimate partners."
+    },
+    {
+      "type": "section",
+      "content": "10.13 Prior Arrests/Convictions"
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.1 Prior arrest(s): IPV_PriorArrestPerpetrator, IPV_PriorArrestVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.2 Type of arrest(s): IPV_PerpetratorArrestType, IPV_VictimArrestType"
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.3 Type of arrest(s) if other: IPV_PerpetratorArrestTypeText, IPV_VictimArrestTypeText"
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.4 Prior conviction(s): IPV_PriorConvictionsPerpetrator, PriorConvictionsVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.5 Type of conviction(s): IPV_ConvictionTypePerpetrator, IPV_ConvictionTypeVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.6 Type of conviction(s) if other: IPV_ConvictionTypeOtherPerp, IPV_ConvictionTypeOtherVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_PriorArrest: IPV Perpetrator/Victim had prior arrest(s).\nIPV_ArrestType: Type of arrests for IPV Perpetrator/Victim.\nIPV_ArrestTypeText: Text describing other type(s) of arrest for IPV Perpetrator/Victim.\nIPV_PriorConviction: IPV Perpetrator/Victim had prior criminal conviction(s).\nIPV_ConvictionType: Type of convictions for IPV Perpetrator/Victim.\nIPV_ConvictionTypeOther: Text describing other type(s) of conviction for IPV Perpetrator/Victim."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nIPV_PriorArrest\nIPV_PriorConviction\n0 No\n1 Yes\n9 Unknown\nIPV_ArrestType\nIPV_ConvictionType\n1 Homicide\n2 Robbery\n3 Sexual assault (forcible)\n4 Assault offenses (other than sexual assault)\n5 Property offenses\n6 Weapons offenses\n7 Drug abuse violations\n8 Offenses against family or children\n9 Alcohol-related offenses\n10 Restraining order violations\n11 Other (specify)\n12 Other unspecified\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThe data elements provide information from state criminal history records. The coder should first indicate if an arrest or conviction occurred and then indicate the category. If a person has arrests and/or convictions in more than one category, list the most severe type of offense (homicide, then sexual assault, other assaults, offenses against family or children, robbery, property offenses, weapons offenses, drug abuse violations, and alcohol-related offenses). If this data element is coded from the criminal history records of a specific municipal or county law enforcement department, the variable should be coded as “Unknown” if no arrest is found, because these records do not include other law enforcement departments in the state.\n\nDefinitions for all Part I and Part II offenses can be found in the UCR handbook (FBI, 2004).\n\nPrior arrests or convictions for homicide offenses include murder/non-negligent manslaughter, negligent manslaughter, and justifiable homicide. Sex offenses include forcible rape, forcible sodomy, sexual assault with an object, and forcible fondling. Assault offenses include aggravated assault, simple assault, and intimidation. Property offenses should include the crimes of: burglary, larceny/theft, fraud, possession of stolen property, embezzlement, and vandalism. Weapons offenses include any crimes related to the manufacture, sale, or possession of deadly weapons. Drug abuse violations are defined as “the violation of laws prohibiting the production, distribution, and/or use of certain controlled substances and the equipment or devices utilized in their preparation and/or use.” Offenses against family or children are defined as “unlawful nonviolent acts by a family member (or legal guardian) that threaten the physical, mental, or economic well-being or morals of another family member and that are not classifiable as other offenses, such as assault or sex offenses.” Alcohol-related offenses include driving under the influence and drunkenness."
+    },
+    {
+      "type": "subsection",
+      "content": "10.13.7 Prior IPV Arrest(s): IPV_PriorArrestPerpetratorIPV, IPV_PriorArrestVictimIPV"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nIPV Perpetrator/Victim had prior arrest for violence against an intimate partner."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis variable provides information that is most likely to be included in the LE reports. Some state criminal history databases explicitly identify domestic violence offenses, but some do not, so this variable may be difficult for some states to code. Prior IPV arrests should be defined as any UCR Part I crimes—homicide, forcible rape, robbery, and aggravated assault—or the Part II crime of simple assault when committed against a former or current intimate partner."
+    },
+    {
+      "type": "section",
+      "content": "10.14 Disability Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.1 Physical illness: IPV_PhysicalIllnessPerpetrator, IPV_PhysicalIllnessVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.2 Diagnosis of physical illness: IPV_DiagPhysicalIllnessPerp, IPV_DiagPhysicalIllnessVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.3 Disability: IPV_DisabilityPerpetrator, IPV_DisabilityVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.4 Disability was physical: IPV_DisabilityPhysicalPerp, IPV_DisabilityPhysicalVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.5 Disability was developmental: IPV_DisabilityDevelopmentalPerp, IPV_DisabilityDevelopmentalVic"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.6 Disability was sensory: IPV_DisabilitySensoryPerp, IPV_DisabilitySensoryVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_PhysicalIllness: IPV Perpetrator/Victim had an acute or chronic physical illness at the time of the incident.\nIPV_DiagPhysicalIllness: Free text field to indicate diagnosis if IPV Perpetrator/Victim was physically ill at the time of the incident.\nIPV_Disability: IPV Perpetrator/Victim had a disability at the time of the incident.\nIPV_DisabilityPhysical: IPV Perpetrator’s/Victim’s disability was physical (e.g., paraplegia, cerebral palsy).\nIPV_DisabilityDevelopmental: IPV Perpetrator’s/Victim’s disability was developmental (e.g., intellectual disability).\nIPV_DisabilitySensory: IPV Perpetrator’s/Victim’s disability was sensory (e.g., blindness, deafness)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nPhysical illness may be acute (e.g., viral gastroenteritis, pneumonia) or chronic (e.g., diabetes, asthma). However, if the chronic illness did not impose increased care demands at the time of the incident, do not code “Yes.” For example, if an individual had a history of asthma, but had no acute exacerbation at the time of the incident, code “No.” The severity of the illness should not be considered when coding; any mention in the record of the individual being physically ill at the time of the incident is sufficient to warrant coding “PhysicalIllness” as “Yes.” Physical disability implies a chronic physical impairment that has a substantial, long-term effect on the individual’s day-to-day functioning (e.g., cerebral palsy). Developmental disability implies a chronic cognitive or developmental deficit that has a substantial, long-term effect on the individual’s day-to-day functioning (e.g., autism, intellectual disability). Sensory disability implies a chronic sensory deficit that has a substantial, long-term impact on the individual’s day-to-day functioning (e.g., blindness, deafness). If an individual was not specifically diagnosed with or documented to have one of the listed disabilities, answer “No.” The information used to complete this data element may come from medical records and/or autopsy."
+    },
+    {
+      "type": "paragraph",
+      "content": "±For information about CDC and WHO definitions of disability, see:"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.7 Alcohol use suspected: IPV_SuspectedIntoxicatedPerp, IPV_SuspectedIntoxicatedVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.8 Drug use suspected: IPV_SuspectedDrugUsePerpetrator, IPV_SuspectedDrugUseVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_SuspectedIntoxicated: IPV Perpetrator/Victim suspected to be under the influence of alcohol at the time of the incident.\nIPV_SuspectedDrugUse: IPV Perpetrator/Victim suspected to be under the influence of an illicit drug at the time of the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nSuspectedIntoxicated is asked of victims only. In the IPV module, it is also asked of both the IPV Victim and IPV Perpetrator. SuspectedDrugUse is a new variable also asked of both IPV Victims and Perpetrators. Alcohol use suspected should be coded “Yes” using information from witness or investigator reports (e.g., Law enforcement note that the IPV Perpetrator or Victim had been drinking), circumstantial evidence (e.g., empty six pack scattered around IPV Perpetrator or Victim), or test results (e.g., Law enforcement breathalyzer). This variable refers only to alcohol use and not drug use. Therefore, if an IPV Perpetrator or Victim was said to have been smoking crack on the day of the incident, but tested negative for alcohol and there is..."
+    }
+  ]
+}

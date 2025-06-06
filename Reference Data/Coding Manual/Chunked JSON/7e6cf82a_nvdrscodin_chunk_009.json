@@ -1,0 +1,315 @@
+{
+  "summary": [
+    "This document outlines the variables related to injury and death, including coding guidelines for causes of death, place of death, and wound characteristics. It emphasizes the importance of accurate data entry and the use of standardized codes to ensure consistency across reporting systems. The document also provides definitions and response options for various data fields relevant to death certificates."
+  ],
+  "keywords": [
+    "Injury Variables",
+    "Death Variables",
+    "Cause of Death",
+    "ICD-10",
+    "Death Certificate",
+    "Wound Count",
+    "Autopsy",
+    "Place of Death",
+    "Data Entry",
+    "Medical Examiner"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "4. Injury and Death Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "While engaged in other specified activities\nWhile engaged in unspecified activities\nUnspecified"
+    },
+    {
+      "type": "discussion",
+      "content": "The underlying cause of death assigned on the DC is the basis for the nation’s official count of deaths due to homicide, suicide, and other causes. A comparison of this variable with the C/ME variable “Manner” and the abstractor variable “Type of Death,” will indicate the degree to which data sources vary in classifying deaths."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cause of death is coded using the system established by the World Health Organization’s ICD, the most recent version of which is ICD-10. The variable should be coded exactly as it appears in the underlying cause of death field in the DC data and should never be determined by the abstractor. Use the decimal point following the second digit. Do not use trailing zeroes after the decimal point (unless a true zero is part of the actual code). Note the following guidance:"
+    },
+    {
+      "type": "list_item",
+      "content": "If DC data are not available at the time that the reporting site is gathering data on the case, code as “Unknown.” The ICD-10 codes are added after the preliminary DC is created; consequently these data may not be available until months after the death or when you first receive the DC.\nThe fourth ICD-10 digit in the underlying cause of death code is used with some external cause code categories to identify the place of occurrence of the external cause where relevant. Please leave blank if unavailable.\nThe fifth ICD-10 digit is provided for optional use in a supplementary character position with some categories to indicate the activity of the injured person at the time the event occurred. This subclassification should not be confused with, or be used instead of, the recommended fourth character subdivisions provided to indicate the place of occurrence. Please leave blank if unavailable."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2 Cause of Death Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2.1 Immediate cause of death text: DeathCause1"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2.2 Cause leading to immediate cause of death text: DeathCause2"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2.3 Next antecedent cause of death text: DeathCause3"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2.4 Underlying cause of death text: DeathCause4"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2.5 Other significant conditions contributing to death text: OtherCondition"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.2.6 How injury occurred text: HowInjuryOccurred"
+    },
+    {
+      "type": "definitions",
+      "content": "Immediate cause of death (text from DC): The final disease, injury, or complication directly causing death.\nCause leading to the immediate cause of death (text from DC): Next sequential cause of death, if any leading to the immediate cause of death.\nNext antecedent cause of death (text from DC): Next sequential cause of death, if any, leading to the immediate cause of death.\nUnderlying cause of death (text from DC): The disease or injury that initiated the chain of morbid events that led directly and inevitably to death.\nOther significant conditions contributing to death (text from DC): Conditions contributing to death are pre-existing or coexisting diseases, conditions, or injuries that may have contributed to the death but did not directly result in the underlying cause of death.\nHow injury occurred (text from DC): A brief, specific, and clear description of how the injury occurred. It may include circumstances surrounding the injury, the cause of injury, and in the case of firearm injuries, the type of firearm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Text as it appears on DC"
+    },
+    {
+      "type": "discussion",
+      "content": "The text that the death certifier supplies on the DC regarding the causes of death can be used to identify reportable cases in a timely manner. Note the following guidance:"
+    },
+    {
+      "type": "list_item",
+      "content": "Enter the text exactly as it appears on the DC.\nThe letters in the variable names correspond to the lettered lines appearing on the DC.\nSome DCs will not have an entry on all four cause of death lines or on the lines for “other significant conditions contributing to death” or “how injury occurred.” In this case, the abstractor should only complete the lines with available data and leave the others blank.\nWhile coded data that captures the underlying cause of death using ICD-10 codes is an efficient means of identifying confirmed cases, they will not be available in some states for many months. Consequently, this information may help in identifying cases."
+    },
+    {
+      "type": "paragraph",
+      "content": "± Defined by CDC’s National Center for Health Statistics, Instructions for Completing the Cause-of-Death Section of the Death Certificate. Causes of death are typically listed top to bottom in the order seen here, with immediate cause of death listed first."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.3 Place of Death: DeathPlace"
+    },
+    {
+      "type": "definition",
+      "content": "Victim’s place of death"
+    },
+    {
+      "type": "response_options",
+      "content": "1 Hospital inpatient\n2 ED/outpatient\n3 Dead on arrival\n4 Hospice facility\n5 Nursing home, long-term care facility\n6 Decedent’s home\n7 Other (specify)\n9 Undetermined"
+    },
+    {
+      "type": "discussion",
+      "content": "The code list is the same as that used on the current standard DC in the U.S. The place of death may be useful for emergency response planning and to assist in evaluating hospital or EMS services. The older DC standard certificate uses slightly different codes (e.g., no separate code exists for “Hospice,” and “Residence” is used rather than “Decedent’s home.”)"
+    },
+    {
+      "type": "list_item",
+      "content": "Some deaths will be coded on the DC as “Other” for place of death. This will usually refer to “scene” deaths (e.g., a homicide victim who dies on the street). If “Other” is coded on the DC, enter the place of death in the free text field if the place is specified on the DC. If it is not, leave the text field blank. In the free text field, do not enter an address or proper name that could identify the location. Only enter a general description of the place (e.g., bridge, road, forest, field, etc.)\nDo not enter the information supplied in the death certificate’s item, “Place of injury,” in this field as this may be a different location than the place where the victim actually died and is captured in another variable.\n“Body location” can be used as place of death if there is no indication that the person died elsewhere.\nIf your state uses the older code list, “residence” should be coded as “Decedent’s home” (although this may sometimes be incorrect)."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.4 Place of death if other: DeathPlaceText"
+    },
+    {
+      "type": "definition",
+      "content": "Text if place of death is “Other”"
+    },
+    {
+      "type": "response_option",
+      "content": "Text"
+    },
+    {
+      "type": "discussion",
+      "content": "Some deaths will be coded on the DC as “Other” for place of death. This will usually refer to “scene” deaths (e.g., a homicide victim who dies on the street). If “Other” is coded on the DC, enter the place of death in the free text field if it is specified on the DC. If it is not, leave the text field blank. In the free text field, do not enter an address or proper name that could identify the location. Only enter a general description of the place (e.g., bridge, road, forest, field, etc.)."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.5 Date pronounced dead: DeathPronouncedDate"
+    },
+    {
+      "type": "definition",
+      "content": "Date on which the victim was found or pronounced dead"
+    },
+    {
+      "type": "response_options",
+      "content": "Date (format: MM/DD/YYYY)\nUse “99” if the day or month is unknown and “9999” if the year is unknown:\n06/99/2007 for June 2007 with the day unknown\n99/99/2007 for 2007 with the month and day unknown\n99/99/9999 for the year, month, and day unknown"
+    },
+    {
+      "type": "discussion",
+      "content": "This variable is useful when a person is found dead and the actual date of death is unclear. It provides a date that the death must have preceded. This field is found on the standard DC as Item 24, “Date pronounced dead.” It should differ from the actual date of death ONLY when the death was not observed and may have occurred prior to the date the body was found. This date should be known in every case, whereas the day, month, or even year of actual death may be unknown."
+    },
+    {
+      "type": "list_item",
+      "content": "If your state does not report a date pronounced, please notify CDC and leave the field blank."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.6 Date of death: DeathDate"
+    },
+    {
+      "type": "definition",
+      "content": "Date of victim’s death"
+    },
+    {
+      "type": "response_options",
+      "content": "Date (format: MM/DD/YYYY)\nUse “99” if the day or month is unknown:\n06/99/2007 for June 2007 with the day unknown\n99/99/2007 for 2007 with the month and day unknown\nNote: The system will not accept an unknown year of death. Year of death governs which year an incident should be entered in (See Discussion)."
+    },
+    {
+      "type": "discussion",
+      "content": "Date of death determines the data year in which the victim will be counted in conjunction with date and time of the incident, and with survival time. When recording the information from the DC, enter the date of death exactly as it appears in the “Date of Death” field, even if the word “found” or “pronounced” precedes it on the hard copy. Note the following guidance:"
+    },
+    {
+      "type": "list_item",
+      "content": "If the date on the C/ME report is referred to as an actual date of death, record it.\nIf the date is referred to as the date on which the body was found or the death was pronounced, and it is unknown on which date the death actually occurred, enter only that portion of the date that is known.\n\nThe process for placing violent deaths in the appropriate year is described below."
+    },
+    {
+      "type": "list_item",
+      "content": "Year of a violent death. The year of death is the calendar year in which the victim died. So, for example, if a victim was injured at the end of December 2002, but died in early January 2003, the death would be reported in the 2003 data year. Although the NVDRS software allows for specific month or date of death to be entered as “Unknown,” the year of death must be filled in. In the case of a true unknown year of death (as in skeletal remains with unknown year of death, or an unattended death that may have occurred either shortly before or shortly after January 1), enter the year in which the body was found as the year of death.\nYear of a violent death for multiple death incidents. The year of a violent death incident is the first year in which any of the victims in the incident died. For example, if two people are shot on December 21, 2006 and one dies on December 22, 2006 and the second dies on January 4, 2007, the year of the incident would be 2006. The only exception to this rule occurs when any of the deaths occurred in a year prior to 2003, the first year of NVDRS. In that case, place the incident in the first year of death after 2002. In other words, incidents with deaths in 2002 and 2003 should be placed in 2003. Incidents with deaths in 2002 and 2004 should be placed in 2004. Incidents with deaths in 2003 and 2004 should be placed in 2003."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.7 State or territory of death: DeathState"
+    },
+    {
+      "type": "definition",
+      "content": "State in which the death occurred."
+    },
+    {
+      "type": "response_option",
+      "content": "Start typing the state or territory to activate auto-complete."
+    },
+    {
+      "type": "discussion",
+      "content": "DeathState identifies the state in which the DC was filed. This variable will be used to facilitate data sharing across states when state of injury and state of death differ. State of death will usually be the same as state of injury; however, on occasion the two will differ. For instance, a victim who is injured in one state may be transported to another state for emergency medical care. Note the following guidance:"
+    },
+    {
+      "type": "list_item",
+      "content": "If the state of death is unknown, enter the state in which the person was pronounced dead (i.e., the state that issued the DC).\nIf the person was pronounced dead in a U.S. territory, enter the FIPS code for that territory.\nIf the person was not pronounced dead in any U.S. state or territory, enter 88, for “Not applicable.” This can still be an NVDRS case if the victim was fatally injured in a participating NVDRS state.\nA death on an American Indian reservation should be coded as the state in which it is located or, if the reservation spans multiple states, be based on state borders."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.8 Autopsy performed: AutopsyPerformed"
+    },
+    {
+      "type": "definition",
+      "content": "Autopsy performed on the person"
+    },
+    {
+      "type": "response_options",
+      "content": "0 Not autopsied\n1 Autopsied (full or partial)\n9 Unknown"
+    },
+    {
+      "type": "discussion",
+      "content": "Autopsies are not performed on every case that comes to the attention of a C/ME, but decedents who have been autopsied are likely to have more reliable cause of death codes and pregnancy findings. A yes/no item appears on the DC to indicate if an autopsy was performed. However, the same criteria to determine whether an autopsy was performed may not uniformly be applied across jurisdictions. Therefore, NVDRS attempts to achieve some standardization of this variable through the definitions below."
+    },
+    {
+      "type": "paragraph",
+      "content": "External examination consists of measuring and recording body length and weight and assessing external aspects of the body before internal examination. It documents identifying features, signs of or absence of disease and trauma, and of death. External examination (including post-mortem imaging) does not qualify as an autopsy. Toxicology testing alone (i.e., without an internal examination) also does not qualify as an autopsy."
+    },
+    {
+      "type": "paragraph",
+      "content": "An autopsy is defined as the examination and dissection (i.e., internal examination) of a dead body by a physician for the purpose of determining the cause, mechanism, or manner of death, or the seat of disease, confirming the clinical diagnosis, obtaining specimens for specialized testing, retrieving physical evidence, identifying the deceased or educating medical professionals and students. A full autopsy typically includes the removal and examination of all internal organs, including the organs of the central nervous system, pelvis, and abdomen."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the main concern is limited specifically to one organ or tissue disease process, the C/ME may focus their examination on that specific tissue. Partial autopsy consists of internal examination of only those body cavities where the C/ME expects some findings to explain the cause of death."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.9 Wound Count Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.9.1 Number of penetrating wounds: NumberWounds"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.9.2 Number of bullets: NumberBullets"
+    },
+    {
+      "type": "definitions",
+      "content": "NumberWounds: Number of wounds to the victim\nNumberBullets: Number of bullets that hit the victim"
+    },
+    {
+      "type": "response_options",
+      "content": "Number of wounds/bullets up to 75\n75\n75 or more\n76 Multiple, unspecified\n88 Not applicable (no firearm or sharp instrument wounds)\n99 Unknown"
+    },
+    {
+      "type": "discussion",
+      "content": "These data elements only apply to firearm injuries and sharp instrument wounds (including shrapnel from explosions). Only the wounds from the weapon(s) that caused the death should be entered. For victims fatally injured by both a gun and a knife, and it is unclear which one inflicted the fatal injury, count all wounds from both weapon types and code all wound locations. Note the following guidance:"
+    },
+    {
+      "type": "list_item",
+      "content": "For “NumberWounds,” code the total number of penetrating wounds on the victim. Count both entry and exit wounds:\nIf the victim was reported as having multiple wounds, but no number is provided, please use the code “76 – Multiple, unspecified.”\nIf the record refers only to a “wound” in the singular, the number of wounds is one. If it refers only to “wounds,” the number of wounds is “Multiple, unspecified.”\nFor “NumberBullets” (for gunshot wound victims only), code the total number of bullets that hit the victim:\nWhen determining the number of wounds and bullets for shotgun injuries, treat each shotgun blast as one injury and each shotgun shell as one bullet.\nIf the victim was reported as having multiple bullet wounds, but no number is provided, please use the code “76 – Multiple, unspecified.”"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10 Wound Location Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.1 Wound to the head: WoundToHead"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.2 Wound to the face: WoundToFace"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.3 Wound to the neck: WoundToNeck"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.4 Wound to an upper extremity: WoundToUpperExtremity"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.5 Wound to the spine: WoundToSpine"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.6 Wound to the thorax: WoundToThorax"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.7 Wound to the abdomen: WoundToAbdomen"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.10.8 Wound to a lower extremity: WoundToLowerExtremity"
+    },
+    {
+      "type": "definitions",
+      "content": "WoundToHead: Presence of wound to the head\nWoundToFace: Presence of wound to the face (e.g., mouth, nose, eyes, ears, and chin/under chin [between chin and neck])\nWoundToNeck: Presence of wound to the neck\nWoundToUpperExtremity: Presence of wound in the upper extremities (shoulders, arms, hands)\nWoundToSpine: Presence of wound to the spine\nWoundToThorax: Presence of wound to the thorax (between the neck and the diaphragm, partially encased by the ribs and containing the heart and lungs; the chest) or upper back\nWoundToAbdomen: Presence of wound to the abdomen (lies between the thorax and includes the pelvis) and encloses the stomach, intestines, liver, spleen, pancreas, pelvic contents (including genital area), or lower back\nWoundToLowerExtremity: Presence of wound to the lower extremities (feet, hips, legs)"
+    },
+    {
+      "type": "response_options",
+      "content": "0 Absent (not wounded)\n1 Present (wounded)\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "discussion",
+      "content": "These codes help describe the relationship between incident circumstance and wound location(s) on the victim’s body. These data elements only apply to firearm injuries and sharp instrument wounds (including shrapnel from explosions). Note the following guidance:"
+    },
+    {
+      "type": "list_item",
+      "content": "Code the wound locations of penetrating wounds only; do not code the locations of superficial grazing wounds or blunt trauma wounds.\nCode only the location of the external entrance or exit wound.\nFor victims fatally injured by both a gun and a knife, and it is unclear which one inflicted the fatal injury, count all wounds from both weapon types and code all wound locations.\nIf the record only refers to a “wound” in the singular, the number of wounds is one. If it refers only to “wounds,” the number of wounds is “Multiple, unspecified.”\nIf a wound is described as being on the “back,” with no reference to “upper” or “lower” back, code as “thorax.”"
+    },
+    {
+      "type": "figure",
+      "content": "WOUND LOCATION DIAGRAM"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.11 Multiple Condition Codes 1-10: MultipleConditionCode01ICD10- MultipleConditionCode10ICD10"
+    },
+    {
+      "type": "definition",
+      "content": "These variables describe the nature of the injury and other conditions leading to death. Up to 10 condition codes can be entered."
+    },
+    {
+      "type": "response_options",
+      "content": "Format: L##. ## (the first character must be a letter, followed by at least two and up to four digits)\nL88.88 Not applicable+\nL99.99 Unknown or missing+"
+    },
+    {
+      "type": "discussion",
+      "content": "The “nature of injury” (or “multiple condition”) codes assigned to the DC specify the anatomic location and nature of the injuries. This information may assist in evaluating emergency medical response. The registry of vital records assigns multiple condition codes to DC records to indicate the nature of injuries and diseases leading to death. Codes are based on ICD-10 edition coding protocols; thus, “MultiCondxxICD10” elements should be entered into NVDRS exactly as they are coded in the multiple cause of death fields in DC data. These codes can include both diagnosis codes (nature of injury and disease) and external cause of injury codes. Codes should be entered with decimal points in the fourth position. No more than 10 codes can be entered."
+    }
+  ]
+}

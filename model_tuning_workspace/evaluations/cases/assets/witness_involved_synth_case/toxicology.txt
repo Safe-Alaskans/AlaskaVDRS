@@ -1,0 +1,81 @@
+Labs CONFIDENTIAL
+
+123 Sesame Street
+Phone: 123-456-7891 Fax: 123-456-7891 e-mail: labs@labs.com
+
+Toxicology Report
+Report Issued 11/25/2023 14:32
+
+To: 10261
+State Medical Examiners Office
+Attn: Jane Smith
+456 Highway, NY 12345
+
+Positive Findings:
+
+Patient Name     WILSON, JAMES
+Patient ID       0000-00001
+Chain           AB0001
+DOB             5/15/1998
+Sex             Male
+Workorder       00001
+Page 1 of 2
+
+Compound                          Result                Matrix Source
+Tetrahydrocannabinol (THC)       12 ng/mL             Blood
+Tetrahydrocannabinol Carboxylic  85 ng/mL             Blood
+Acid (THC-COOH)
+
+See Detailed Findings section for additional information
+
+Testing Requested:
+Test Test Name
+8051B  Postmortem, Basic, Blood (Forensic)
+
+Specimens
+Received:
+
+ID Tube/Container Volume/  Collection  Matrix Source
+                Mass      Date/Time
+001 Gray Top Tube  10 mL    11/21/2023  Peripheral Blood
+002 Red Top Tube   10 mL    11/21/2023  Heart Blood
+003 Gray Top Tube  5 mL     11/21/2023  Vitreous Fluid
+
+All sample volumes/weights are approximations.
+Specimens received on 11/22/2023.
+
+v.27.0
+
+CONFIDENTIAL Workorder 00001
+Chain AB0001
+Patient ID 0000-00001
+Page 2 of 2
+
+Detailed Findings:
+Analysis of the specimens revealed presence of THC and its metabolite THC-COOH, indicating recent cannabis use. No other substances of toxicological significance were detected by procedures outlined in the accompanying Analysis Summary.
+
+Sample Comments:
+001 Physician/Pathologist Name: Jane Smith
+
+Unless alternate arrangements are made by you, the remainder of the submitted specimens will be discarded two (2) years from the date of this report; and generated data will be discarded five (5) years from the date the analyses were performed.
+
+Workorder 00001 was electronically signed on 11/25/2023 14:32 by:
+
+John Smith, Ph.D., F-ABFT
+Forensic Toxicologist
+
+Analysis Summary and Reporting Limits:
+All of the following tests were performed for this case. For each test, the compounds listed were included in the scope. The Reporting Limit listed for each compound represents the lowest concentration of the compound that will be reported as being positive. If the compound is listed as None Detected, it is not present above the Reporting Limit. Please refer to the Positive Findings section of the report for those compounds that were identified as being present.
+
+Test 8051B - Postmortem, Basic, Blood (Forensic)
+-Analysis by Enzyme-Linked Immunosorbent Assay (ELISA) for:
+
+Analyte               Rpt. Limit    Analyte                Rpt. Limit
+Amphetamines          20 ng/mL      Fentanyl               2.0 ng/mL
+Barbiturates          0.05 mcg/mL   Methadone              25 ng/mL
+Benzodiazepines       100 ng/mL     Methamphetamine        20 ng/mL
+Cannabinoids          10 ng/mL      Opiates                20 ng/mL
+Cocaine/Metabolites   20 ng/mL      Oxycodone              10 ng/mL
+                                    Phencyclidine          10 ng/mL
+
+Digital data review may have taken place remotely by qualified staff utilizing a secure VPN connection for some or all of the reported results. This is in accordance with and follows CLIA regulations.

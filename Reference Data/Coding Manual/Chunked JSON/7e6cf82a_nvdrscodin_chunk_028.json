@@ -1,0 +1,527 @@
+{
+  "summary": [
+    "This section outlines various variables related to victimization and suspect behavior in the context of school-associated violent deaths. It includes definitions and response options for each variable, as well as discussions on how to interpret and apply the data. The document emphasizes the importance of capturing both victim and suspect experiences to provide a comprehensive understanding of incidents."
+  ],
+  "keywords": [
+    "victimization",
+    "suspect behavior",
+    "school violence",
+    "abuse experiences",
+    "crisis intervention",
+    "data collection",
+    "bullying",
+    "threats",
+    "intimate partner violence",
+    "mental health"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 11. School-Associated Violent Death Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "These variables capture victimization that the victim might have experienced in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.12 SAVDVictimPriorVictimization_CalledNamesTeasedBullied"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced name calling, teasing and/or bullying by peers or school personnel (in person or online) in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion: Peers referenced in this variable did not have to attend the same school where the incident took place."
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.13 SAVDVictimPriorVictimization_PropertyDamagedStolen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim had their personal property damaged or stolen in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.14 SAVDVictimPriorVictimization_ReceivedThreats"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim received verbal, written, or electronic threats in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.15 SAVDVictimPriorVictimization_PhysicallyThreatenedAssaulted"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim was physically assaulted or threatened by peers in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.16-11.3.20 SAVD Victim Abuse Experiences/Was this individual victimized in any of the following ways?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate if the victim experienced ongoing or past experiences of abuse, neglect, or other forms of victimization."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Abuse or neglect experienced by the victim does not have to be related to the incident in order to be endorsed. This variable expands the NVDRS variable “History of abuse or neglect as a child – 5.4.13” by allowing the type of abuse/neglect to be specified and allowing forms of victimization that can occur but are not necessarily related to the incident (i.e., intimate partner violence, sexual violence)."
+    },
+    {
+      "type": "list_item",
+      "content": "Endorse abuse and neglect variables if the victim experienced child abuse/neglect at any point in the past, even if the victim is currently an adult.\nEndorse if evidence of ongoing abuse is suspected, but not confirmed. Endorse if autopsy evidence from official records (i.e., C/ME report, hospital examination report) describes anatomical evidence of old or healing injuries as an indication of previous abuse.\nAbuse can be physical, psychological, sexual or others if the source document refers to “abuse.” If the abuse is unspecified and happened in childhood endorse “History of abuse and neglect as a child – 5.4.13.” If “abuse” is mentioned in source documents but the type of abuse and timing (i.e., childhood versus adulthood) is not specified, do not endorse these variables. Instead, indicate in the narrative that abuse was mentioned in the source documents.\nNeglect may be physical, emotional, medical, or educational.\nIndicate the nature of the abuse or neglect in the incident narrative.\nAbuse or neglect could have been perpetrated by a parent, guardian, or other individual in a caretaking role (e.g., person who was primarily responsible for caring for the victim when the abuse occurred, such as babysitter, older sibling sexually molesting victim).\nThis variable and “History of abuse and neglect as a child – 5.4.13” can be endorsed together if applicable.\nIntimate partner is defined as a current or former girlfriend/boyfriend, dating partner, ongoing sexual partner, or spouse. It does not include instances of sex/intimacy in exchange for money/goods. There must be evidence of an intimate relationship (i.e., this does not apply to instances where there is simply attraction/infatuation between two individuals or in cases where one person is romantically interested in the other, but the feelings are not returned). The definition of intimate partner does not require sexual intimacy. This definition includes same-sex partners. IPV might include physical violence, sexual violence, stalking, and psychological aggression inflicted by an intimate partner. Sexual violence refers to sexual activity when consent is not obtained or not given freely (e.g., rape, sexual assault)."
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.16 SAVDVictimAbuseExperiences_PhysicalChildAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced ongoing or past experiences of physical abuse in childhood."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.17 SAVDVictimAbuseExperiences_SexualChildAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced ongoing or past experiences of sexual abuse in childhood."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.18 SAVDVictimAbuseExperiences_EmotionalChildAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced ongoing or past emotional (verbal or psychological) abuse in childhood."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.19 SAVDVictimAbuseExperiences_ChildNeglect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced ongoing or past neglect (physical, emotional, medical, or educational neglect) in childhood."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.20 SAVDVictimAbuseExperiences_IntimatePartnerViolence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced ongoing or past intimate partner violence or teen dating violence."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.21 SAVDVictimAbuseExperiences_SexualViolence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced ongoing or past sexual violence as an adult (e.g., rape, sexual assault)."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4 SAVD Suspect Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "The SAVD suspect variables are on the NVDRS Suspect Tab and become available when an incident is identified by an abstractor as an SAVD."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.1 Had the suspect ever been arrested before the victim’s death? SAVDSuspect_PriorArrest"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures whether or not the suspect had ever been arrested prior to the victim’s death."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable expands NVDRS variable “Suspect recently in contact with law enforcement – 7.14” by allowing for a timeframe of arrest beyond 12 months prior to the fatal injury. Specifics about charges (if any) against the suspect do not have to be known to endorse this variable."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.2 At the time of the death, was the suspect perceived by self or others to have a problem with, or to be addicted to alcohol or other drugs? SAVDSuspect_AlcoholDrugUse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures the suspect’s perceived drug or alcohol problems or addiction."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the suspect was perceived by self or others to have a problem with, or to be addicted to, alcohol or drugs. There does not need to be any indication that the alcohol or drug problem directly contributed to the death. “SAVDSuspect_AlcoholDrugUse” can be endorsed if a suspect was noted as using illicit drugs (such as heroin or cocaine), abusing prescription medications (such as pain relievers or Valium), or regularly using inhalants (e.g., sniffing gas)."
+    },
+    {
+      "type": "list_item",
+      "content": "A suspect who is noted as participating in an alcohol rehabilitation program or treatment — including self-help groups and 12-step programs — should be coded as “Yes” for “SAVDSuspect_AlcoholDrugUse” even if the victim was noted as being currently sober.\nA problem from the past (i.e., five years or more ago) that has resolved and no longer appears to apply should not be coded.\nDo not code if suspect was using alcohol or drugs in the hours preceding the incident, and there is no evidence of dependence or a problem.\nIf the suspect is mentioned as using illicit drugs, even if addiction or abuse is not specifically mentioned, code “SAVDSuspect_AlcoholDrugUse” as “Yes.”\nThe exception to this is marijuana use. For marijuana, the use must be noted as chronic, abusive, or problematic (e.g., “suspect smoked marijuana regularly,” “suspect’s family indicated he had been stoned much of the past month”).\nIf marijuana was used at the time of the incident, and there is no evidence of regular use, addiction, or abuse, code to “Other circumstance.”\nThe phrase “history of drug abuse” is sufficient to justify endorsing “SAVDSuspect_AlcoholDrugUse” unless it is noted that the suspect is no longer a drug user.\nPreviously attempting suicide via overdose is not sufficient justification for endorsing “SAVDSuspect_AlcoholDrugUse” in the absence of other information."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.3 What is the highest grade or year of school the suspect completed? SAVDSuspect_HighestGradeCompleted"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates the highest level of formal education obtained by the suspect."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1 Last completed grades K-11\n2 High school graduate or equivalency (e.g., GED)\n3 Trade school or some college\n4 College graduate or more\n5 Other\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable captures the suspect’s highest level of formal education completed or degree attained, per source documents."
+    },
+    {
+      "type": "list_item",
+      "content": "If the suspect never attended school, endorse “5 – Other.”"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.4 What is the suspect’s primary affiliation with the school associated with this death? SAVDSuspect_SchoolAffiliation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable describes the suspect’s primary affiliation with the school associated with the death."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1 Student at this school\n2 Former student at this school\n3 Teacher, administrator, or other staff at this school\n4 Security guard or police officer\n5 Family member of a student or staff member at this school\n6 Resident of surrounding community\n7 Not associated with the school or community\n66 Other (Fill in text)\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Select the affiliation to the school that describes the closest and most primary relationship between the suspect and the school. For example, if a suspect is a resident of the surrounding community and a former student of the school, select “Former student at this school.” If “Other” is selected, fill in the text box to provide any available details."
+    },
+    {
+      "type": "subsection",
+      "content": "SAVD Suspect Crises Experienced/Did the suspect experience a crisis in any of the following areas within two weeks of the death (either prior or impending)?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable asks, “Did the suspect experience a crisis in any of the following areas within two weeks of the death (either prior to the death or impending)?”"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check all that apply)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.5 SAVDSuspectCrisesExperienced_SchoolRelatedCrisis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced a crisis related to the school environment within two weeks of the death (either prior or impending)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nSchool-related crises include events that the suspect experiences related to the school environment (e.g., disciplinary infraction or events that might be experienced by larger groups or school-wide). Examples include:\nReceiving a bad grade/report card\nGetting expelled, suspended, or other disciplinary action\nDisruption in school affiliation or schedule (e.g., being moved to a new school or placed on a different track, re-zoning of school)\nSchool-wide conflict (e.g., racial conflict, conflict between clubs, groups, or organizations, experiencing bullying at school)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.6 SAVDSuspectCrisesExperienced_FamilyRelatedCrisis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced a family-related crisis within two weeks of the death (either prior or impending)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nFamily-related crises encompass relationship problems with a family member other than an intimate partner. Examples include:\nThe suspect and his parents get into an argument which is noted as one of the triggers for the suspect’s plan to execute a mass school-shooting.\nGuidance for “NVDRS Relationship Problem – 5.4” should also be followed."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.7 SAVDSuspectCrisesExperienced_RelationshipRelatedCrisis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced a crisis related to a relationship with an intimate partner or peer within two weeks of the death (either prior or impending)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nRelationship-related crises cover those encompassing intimate partner crisis and other relationship (e.g., friendship) crises. Examples include:\nSuspect’s partner threatened a breakup within a week of the injury\nSuspect and partner engaged in an argument hours before the injury\nSuspect’s best friend posted a negative comment toward the suspect on social media the day before the injury"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.8 SAVDSuspectCrisesExperienced_MentalHealthRelatedCrisis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced a mental health-related crisis within two weeks of the death (either prior or impending)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nExamples of mental health crises include:\nSuspect receives mental health diagnosis\nSuspect’s mental health condition abruptly changes or worsens within two weeks of the violence (such as, suspect experiencing a psychotic episode or victim fails to comply with medication and symptomatology increases)\nSuspect experiences changes in care within two weeks of care (such as suspect was hospitalized, suspect’s therapist moves)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.9 SAVDSuspectCrisesExperienced_OtherCrisis"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.9b SAVDSuspectCrisesExperienced_OtherCrisis_Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim experienced a crisis aside from those available to be endorsed in the SAVD module. Please use the open text field to specify the type of crisis the suspect experienced."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is important to identify deaths that appear to involve an element of impulsivity in the context of a crisis. A “crisis” is a current/acute event (within 2 weeks of death) that is indicated in one of the source reports to have contributed to the death. Inclusion in the source document and indication that the event occurred within two weeks of the death is sufficient to code a circumstance as a crisis. Direct language that the event caused or contributed to the death is not required to endorse a crisis. Guidance for coding NVDRS crisis variables – 5.1.6 should also be followed for this crisis variable."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.10-11.4.18 Suspect Behavior/In the 12 months prior to this event did the suspect engage in any of the following behaviors?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate behavior in which the suspect engaged in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.10 SAVDSuspectBehavior_NameCallingTeasingBullying"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect engaged in name calling, teasing and/or bullying peers or school personnel (in person or online) in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Peers referenced in this variable did not have to attend the same school where the incident took place."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.11 SAVDSuspectBehavior_SentThreats"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect sent verbal, written, or electronic threats in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.12 SAVDSuspectBehavior_PostedThreats"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect posted threats or manifestos online via social media or other platforms in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.13 SAVDSuspectBehavior_AlignedwithViolentIdeologiesOnline"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect participated in activity aligning themselves with violent ideologies in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.14 SAVDSuspectBehavior_PhysicallyThreatenedOthers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect physically threatened or physically fought with peers in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Peers referenced in this variable did not have to attend the same school where the incident took place."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.15 SAVDSuspectBehavior_DamagedStoleProperty"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect damaged or stole another's personal property or damaged school property in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.16 SAVDSuspectBehavior_PossessedUsedIllicitSubstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect possessed or used illicit substances in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.17 SAVDSuspectBehavior_PossessedWeapon"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect possessed a weapon in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.18 SAVDSuspectBehavior_Other"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This free text field can be used to describe details or other notable information about the suspect’s behavior in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable captures behavior that the suspect engaged in within the year prior to the injury event. This information can provide context for what was happening in the suspect’s life that might have contributed to risk for the injury; however, the behavior does not necessarily need to be related to the incident for it to be endorsed."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.19-11.4.22 Prior Victimization of Suspect/In the 12 months prior to this event was the suspect victimized in any of the following ways?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables capture victimization experiences of the suspect within the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables capture prior victimization of the suspect within the year prior to the incident. This information can provide context for what was happening in the suspect’s life that might have contributed to risk for the injury; however, the behavior does not necessarily need to be related to the incident for it to be endorsed. These variables should not capture the fatal injury, but events prior to the fatal injury."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.19 SAVDSuspectPriorVictimization_CalledNamesTeasedBullied"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced name calling, teasing and/or bullying by peers or school personnel (in person or online) in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Peers referenced in this variable did not have to attend the same school where the incident took place."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.20 SAVDSuspectPriorVictimization_PropertyDamagedStolen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect had their personal property damaged or stolen in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.21 SAVDSuspectPriorVictimization_ReceivedThreats"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect received verbal, written, or electronic threats in the 12 months prior to the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.22 SAVDSuspectPriorVictimization_PhysicallyThreatenedAssaulted"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect was physically threatened or assaulted in the 12 months prior to the incident."
+    }
+  ]
+}

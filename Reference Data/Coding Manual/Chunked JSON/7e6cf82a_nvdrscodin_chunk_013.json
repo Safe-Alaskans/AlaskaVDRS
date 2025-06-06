@@ -1,0 +1,315 @@
+{
+  "summary": [
+    "This document outlines various circumstances related to violent deaths, focusing on historical abuse, violence perpetration, and victimization. It includes definitions, response options, and discussions for each variable, emphasizing the importance of context in understanding the relationship between these factors and the incidents. The document also highlights modifications made to certain variables over time to enhance data collection and analysis."
+  ],
+  "keywords": [
+    "violent death",
+    "abuse history",
+    "neglect",
+    "interpersonal violence",
+    "argument",
+    "disaster exposure",
+    "child protective services",
+    "substance abuse",
+    "living transition",
+    "crisis impact"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: The variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.13 History of abuse or neglect as a child: CME/LE_AbusedAsChild"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The victim had a history of abuse (physical, sexual, or psychological) or neglect (physical, including medical/dental, emotional, or educational neglect; or exposure to violent environments; or inadequate supervision) as a child."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable more broadly captures the victim’s experiences of abuse and neglect irrespective of its relationship to the violent death. Code “Yes” if the victim experienced abuse or neglect, but there is no direct link to the violent death, or the link is unknown."
+    },
+    {
+      "type": "list_item",
+      "content": "Do NOT code if the abuse or neglect directly causes or precipitated the death; instead, code abuse/neglect led to death.\nCode “Yes” if the victim had been the victim of child abuse at any point in the past, even if the victim is currently an adult.\nCode “Yes” if the evidence of ongoing abuse is suspected but not confirmed. Code “Yes” if autopsy evidence reported an indication of previous abuse.\nAbuse can be physical, psychological, sexual, or other as long as the source document refers to “abuse.” Neglect may be medical, physical, or emotional.\nIndicate the nature of the abuse or neglect in the incident narrative.\nAbuse could have been perpetrated by a caregiver or other individual."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in 2009. Before August 2013, this variable was used to collect deaths related to abuse and deaths related to intimate partner violence that had a history of abuse. As of August 2013, this variable captures any history of abuse as a child outside the fatal incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "quote",
+      "content": "±Source: Leeb RT, Paulozzi L, Melanson C, Simon T, Arias I. Child Maltreatment Surveillance: Uniform Definitions for Public Health and Recommended Data Elements, Version 1.0. Atlanta (GA): Centers for Disease Control and Prevention, National Center for Injury Prevention and Control; 2008. Available from: http://www.cdc.gov/ViolencePrevention/pub/CMP-Surveillance.html"
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.14 Previous perpetrator of violence in the past month: CME/LE_InterpersonalViolencePerpet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was a perpetrator of violence within the past month that was distinct and occurred before the violence that killed the victim."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable refers to all violence (e.g., a robbery of a stranger or an assault in a bar)."
+    },
+    {
+      "type": "list_item",
+      "content": "There does not need to be any causal link between the earlier violence and the death itself.\nThis variable should also be coded “Yes” if a restraining order has been filed against the victim within the past month.\nThis should NOT be coded to represent the fatal incident. For instance, if the victim is killed while assaulting another person, this variable would be coded “No.”\nA victim/suspect who perpetrates a homicide and then dies by suicide (e.g., homicide followed by suicide) should be coded as “Yes.”\nAlso code: Intimate partner violence or intimate partner problem, if applicable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.15 Previous victim of violence in the past month: CME/LE_InterpersonalViolenceVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim experienced violence in the past month that was distinct and occurred before the violence that killed the victim."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable refers to all violence (e.g., a robbery targeting the victim, or the victim is assaulted in a bar two weeks before the incident)."
+    },
+    {
+      "type": "list_item",
+      "content": "Intimate partner violence should be coded as “Yes.” For example, code “Yes” if a victim was assaulted by her husband two weeks before she was killed by him.\nThere does not need to be any causal link between the earlier violence and the death itself (e.g., victim experienced a robbery by a stranger two weeks before being killed by his spouse).\nThis should NOT be coded to represent the violence involved in the fatal incident. For example, the victim dies as a result of a fight in a bar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.16 Physical fight between two people: CME/LE_FightBetweenTwoPeople"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Immediately before the violent death, there was a physical fight between two individuals which resulted in the death of individuals involved in the fight, bystanders, or individuals trying to stop the fight."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This code is meant to capture violent deaths that appear unplanned and occur in the heat of a physical confrontation. Code all physical confrontations (e.g., slapping, pushing, punching, kicking, scratching, etc.)."
+    },
+    {
+      "type": "list_item",
+      "content": "This should NOT be coded when the suspect attacks the victim as part of a crime (e.g., an attempted robbery or burglary) or in an unprovoked manner (e.g., walks up and attacks the person or ambushes them from a hiding place) even if a physical fight ensues. Consider coding “Precipitated by another crime” and “First other crime in progress” or “Walk-by assault.”\nMost physical fights will be preceded by arguments. In these cases, the abstractor should also code “Argument” and “Timing of argument.”\nWhen this code is endorsed, the narratives should provide information on what the physical fight was about, whether the conflict was new or was related to a series of arguments, and whether the fight occurred in a private or in public setting.\nWhen a SHR indicates a “brawl,” it may be a physical fight (i.e., physical confrontation among two people) or a brawl (i.e., physical confrontation among three or more people) in NVDRS. Please review the narrative and code appropriately.\nSuicide example: The victim was arguing with his father and got into a pushing match, which resulted in the victim being pushed to the ground. The victim was very upset and went into the next room and died by suicide with a handgun.\nHomicide examples:\nThe suspect was asking to see his ex-wife and a new boyfriend would not let him in to see her. They scuffled and the boyfriend threw the suspect out of the house. At that point, the suspect pulled a gun and shot and killed the boyfriend.\nThe suspect and his friend began arguing over a girl at a party that they both were interested in. The argument escalated, and the suspect pulled out a knife. The friend and suspect began scuffling. The victim attempted to break up the fight between the suspect and his friend and was stabbed."
+    },
+    {
+      "type": "list_item",
+      "content": "Also code: Almost always an argument will precede the physical fight. Thus, consider coding “Argument” and “Timing of the most recent argument” when coding this variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.17 Argument: CME/LE_Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: An argument or conflict led to the victim’s death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable identifies violent deaths where a specific argument was perceived as related to the death. There must be a specific argument or disagreement that is related to the violent death (e.g., an argument over money, a relationship problem, or an insult) to code this variable “Yes.”"
+    },
+    {
+      "type": "list_item",
+      "content": "The following should be coded “Yes”:\nHomicide example: If a verbal argument immediately escalates into a physical confrontation (e.g., a bar argument leads to a fight where the victim is killed), code argument as “Yes.”\nSuicide examples:\nIf a child has an argument with their parent, becomes distraught, and then dies by suicide that night, code “Yes.”\nA principal expels the victim from school after which the victim dies by suicide.\nVictim has an argument with his boss over poor performance then goes to a local park and dies by suicide.\nIf there are chronic arguments, code “Yes” if a specific argument is noted (e.g., child and parent argued a lot, and they had a very upsetting argument the night before the suicide).\nThe following should be coded “No”:\nA relationship problem is insufficient to code this variable. A specific argument prior to the death must be noted in the investigative reports.\nIf it was only reported that the child argued constantly with his parents, but no specific argument was noted in the investigative reports. Note: This should be coded using the “Family relationship problem” variable.\nOngoing conflicts (e.g., a husband and wife argue a lot, but no specific argument was noted prior to death). [Note: this information should be coded using the intimate partner problem or family relationship problem variable].\nIf the victim had a history of abuse by the suspect, the argument would be coded “No” unless there was a specific argument related to the victim’s death (e.g., victim, an elderly man, told his caregiver that he was going to report him to the police for abuse before the caretaker killed him).\nThe following types of death should also be coded as “No”:\nThe victim is killed committing a crime such as robbery or burglary not motivated by a previous argument with the victim.\nThe victim is killed by law enforcement acting in the line of duty.\nThe victim is killed while committing a crime (e.g., robbery, assault) by sanctioned security or a person acting in self-defense."
+    },
+    {
+      "type": "list_item",
+      "content": "Also code: Always complete “Timing of the most recent argument” when this variable is checked."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was modified in two ways in August 2013. First, the “Other argument” and “Argument over money and property” variables were combined into a single variable. Second, the previous prohibition not to use this code when “Intimate partner violence” and “Jealousy between intimate partners” are coded has been removed. Code based on the guidance above regardless of other circumstances checked."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.18 Timing of the most recent argument: CME/LE_ArgumentTiming"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Timing of the argument that led to victim’s death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1 Injury occurred during argument\n2 Injury occurred within 24 hours, but not during argument\n3 Injury occurred between 24 hours and 2 weeks after argument\n4 Injury occurred more than 2 weeks after argument\n9 Timing unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable can help determine what percent of violent deaths are immediately preceded by or occur within two weeks of an argument."
+    },
+    {
+      "type": "list_item",
+      "content": "This variable is only completed when “argument” is checked.\nViolence is considered as occurring during an argument if the violence occurs immediately following an argument (e.g., the victim dies by suicide right after arguing with his wife) or the suspect leaves the argument to grab a weapon that they immediately use to kill the suspect.\nIf the argument is described as “leading to the violence” or occurring “just” before violence, code “1”, or “Injury occurred during argument.”\nIf there is a pause between the argument and the violence (e.g., suspect comes back the next day to attack the victim with which he argued or the suicide occurs the morning after the argument), first see if the timeframe is clearly established in the source documents.\nIf the timeframe is clearly established, and the attack is within 24 hours of the argument, this should be coded as occurring “within 24 hours but not during argument.”\nIf the timeframe is clearly established, and the attack is not within 24 hours, code as occurring “between 24 hours and 2 weeks” of the argument.\nIf the timeframe is not clearly established, but just expressed as “the next day,” code as occurring “between 24 hours and 2 weeks” of the argument.\nIf the argument was described as occurring “recently” or using similar terminology that denotes an unspecified timeframe in the recent past (i.e., the victim has been very upset since his recent argument with his boss), code as “3”, or “Injury occurred between 24 hours and 2 weeks after argument.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.19 Disaster exposure: CME/LE_DisasterExposure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Exposure to a disaster was perceived as a contributing factor in the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The variable identifies the proportion of violent deaths that are a consequence of exposure to a natural or man-made disaster of any kind. In the narrative, specify the type(s) of disaster: nuclear accident, earthquake, bombing, hurricane, flood, tornado, wildfire, pandemic or other infectious disease epidemic or outbreak (please specify pandemic or disease outbreak [e.g., coronavirus, also known as COVID-19 or SARS-CoV-2])."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples include:\nA person was distraught over losing their house (which was uninsured) due to flooding. The suicide occurred a month after the flood.\nA woman died by suicide after finding out that her children died during an earthquake.\nA man died by suicide, and his neighbors reported that he had been devastated by his family’s recent loss of their home in the area wildfires.\nA tornado destroyed a woman’s place of business, and she had to close the business while it was being rebuilt. She subsequently had to file for bankruptcy, which she did on the day she died by suicide.\nA store security guard was killed by a woman’s partner who became angry that the guard had asked the woman to wear a surgical mask in compliance with state laws during the COVID-19 pandemic.\nA woman was killed by her partner, with case reports noting that neighbors mentioned witnessing the partner drinking more and becoming more violent since stay-at-home orders related to COVID-19 began in the area.\nA child died of nutritional neglect, and case reports noted that case workers from Child Protective Services had not been able to check on the child’s family recently due to COVID-19.\nA man lost his job due to COVID-19, and the stress of unemployment was noted to be a factor in his suicide.\nA family had recently purchased a firearm because they were concerned about their safety during COVID-19. Their teenage son was showing the weapon to friends on a video chat and unintentionally discharged the weapon, consequently dying unintentionally.\nA man killed his wife and then himself because he falsely feared both had coronavirus (i.e., COVID-19)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013. It was modified in November 2020 to expand to all manners of death and to add “pandemic or other infectious disease epidemic or outbreak.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.20 Disaster exposure was crisis: CME/LE_CrisisDisasterExposure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim lost a relative in a tornado the day before the suicide, the victim found out their insurance would not cover damage to their business due to a forest fire the week before the suicide, and the victim died a week after a nuclear accident where they received a heavy dose of radiation that caused numerous physical symptoms."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013. It was modified in May 2020 to expand to all manners of death and to add “pandemic or other infectious disease epidemic or outbreak.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.21 Prior Child Protective Services (CPS) report on the child victim’s household: CME/LE_PriorCPSReport"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Prior Child Protective Services (CPS) report was filed on the child victim’s household."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable refers to CPS contact(s) prior to the current incident and not contact(s) that resulted from the current incident. Child is defined as a person younger than 18 years of age. “Household” is defined as the residence where the victim lived the majority of the time when the fatal incident occurred. Household was chosen as the unit for this question in an attempt to characterize the victim’s environment."
+    },
+    {
+      "type": "list_item",
+      "content": "Code “Yes” if source documents indicate the suspect or someone else in the child victim’s household was under investigation by CPS for suspected child abuse and/or neglect of the child victim or other children in the household.\nAny report of abuse/neglect should be coded as “Yes” regardless of whether the reports/referrals were substantiated.\nCode “Yes” if a CPS case was opened on other children in the victim’s household prior to this fatal event.\nCode “Yes” if the child (a person younger than 18 years of age) had previously been placed in foster care, prior to this event.\nPlease note that a CPS report or referral can be in reference to a child or an adult living in the household.\nCode “No” if someone in the household had a prior CPS report on them and the CPS report happened in a different household and was not related to the current child victim. For example, a CPS report had been made on the child’s mother’s boyfriend previously, pertaining to abuse of his other son, and the boyfriend now lives in the child victim’s household."
+    },
+    {
+      "type": "list_item",
+      "content": "Also code: “Household known to local authorities”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.22 Substance abuse in child victim's household: CME/LE_HouseholdSubstanceAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Evidence of substance use in child victim’s household."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Substance use refers to all drugs (including alcohol) that are either non-prescription or being used by someone other than the person to whom the prescription was prescribed or being used in a manner inconsistent with safe prescribing practices. Child is defined as a person younger than 18 years of age."
+    },
+    {
+      "type": "list_item",
+      "content": "Code “Yes” if anyone else in the household was misusing substances, including other children younger than 18 years of age.\nCode “Yes” if drugs (e.g., heroin, marijuana) or drug paraphernalia (e.g., crack pipe) was found in the house.\nCode “Yes” if there is any indication of substance abuse, misuse, or substance use problems by parents, caregivers, or other persons living in the child victim’s household in investigative reports. A direct link to the death is not required.\nCode “No” if the child victim misused or abused substances, but there was no knowledge of anyone else in the household misusing or abusing substances. Child is defined as a person younger than 18 years of age."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.23 Living transition/loss of independent living: CME/LE_LivingTransition"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Source documents indicate that the victim recently (i.e., within the past 12 months) transitioned from an independent or family living situation (e.g., family home, living on one’s own) to an assisted one, or that such a transition was imminent and contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option:\nCircumstance checkbox"
+    }
+  ]
+}

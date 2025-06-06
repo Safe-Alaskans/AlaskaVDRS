@@ -1,0 +1,81 @@
+# Synthetic data pipeline
+
+## Features built for the ME report
+- Participants
+  - [x] Number of participants
+  - [x] The relationship between participants
+  - [x] Participant details
+    - [x] Sex
+    - [x] Age
+    - [x] Ethnicity
+  - [x] Witnesses
+    - [x] Num present
+- Location
+  - [x] Type of location
+  - [x] Relationship to participants
+  - [x] Include names of businesses, hospitals, LE agencies
+  - [x] Include street names, city names
+- Mortality cause
+  - [x] Type
+    - [x] Manslaughter
+    - [x] Suicide
+    - [x] Murder
+    - [x] Accident
+  - [x] Method
+    - [x] Firearm
+      - [x] Type
+      - [x] Caliber
+      - [x] Ownership
+    - [x] Bladed weapon
+      - [x] Type
+      - [x] Length
+      - [x] Commercial/Improvised
+    - [x] Blunt object
+      - [x] Type
+      - [x] Material
+    - [x] Poison/Drugs
+      - [x] Type
+      - [x] Source
+    - [x] Other methods
+      - [x] Strangulation
+      - [x] Drowning
+      - [x] Falls
+      - [x] Vehicle-related
+- Motive Elements
+  - [x] Financial
+  - [x] Personal relationships
+  - [x] Mental health
+  - [x] Criminal history
+  - [x] Professional conflicts
+  - [x] Substance abuse
+  - [x] Property disputes
+- Medical Findings
+  - [x] Num of injuries
+- Timeline
+  - [x] Date
+    - [x] Is known day (e.g. Xmas, Labour day, etc) 
+  - [x] Time since death
+  - [x] Discovery of body
+    - [x] Who discovered
+  - [x] Key events sequence
+    - [x] Number of key events 
+- Include unrelated info
+  - [x] Include unrelated weapon
+  - [x] Include unrelated drugs
+
+## Desired additional features for the Autopsy report
+- [x] Name of victim
+- [x] Date of incident
+- [x] Date of report (+ random(n to m) days since incident)
+- [x] Case number randomization
+- [x] Clothing description
+- [x] Physical description of victim
+  - [x] Height & Weight
+  - [x] General physical health
+  - [x] Has scars
+  - [x] Has tattoos
+
+## Desired additional features for the Toxicology report
+- [x] DOB of the victim
+- [x] Patient ID
+- [x] Time of the report

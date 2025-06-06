@@ -1,0 +1,407 @@
+{
+  "summary": [
+    "This document outlines various circumstances surrounding homicides, detailing specific categories such as justifiable self-defense, police officer victims, bystanders, random violence, and more. Each category includes definitions, response options, discussions, and examples to clarify the application of the codes. The document serves as a comprehensive guide for classifying homicide incidents based on specific situational factors."
+  ],
+  "keywords": [
+    "homicide",
+    "circumstances",
+    "justifiable self-defense",
+    "police officer",
+    "bystander",
+    "random violence",
+    "hate crime",
+    "drug involvement",
+    "intimate partner violence",
+    "mercy killing"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example incident: The victim was shot during a gang-related shooting."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Before August 2013, this variable only had two response categories, “Yes” or “No, Unknown, Not available.” This variable also included both youth gangs. In August 2013, more response options were added to better define the type of gang-related activity involved in the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsection",
+      "content": "5.6 Manner Specific Circumstances for Homicide"
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.1 Justifiable self-defense: CME/LE_JustifiableSelfDefense"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The homicide was committed by a law enforcement officer in the line of duty or was committed by a civilian in legitimate self-defense or in defense of others."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This code includes homicides that are committed by a law enforcement officer in the line of duty. It also includes homicides by a civilian in self-defense or in defense of others. Only use this code when SHR codes the case as a justifiable homicide or LE reports indicate that law enforcement and prosecutors have classified the case as a justifiable homicide. It is not enough that the record notes that the civilian suspect claims that they acted in self-defense. The LE report must explicitly indicate that the death resulted from justifiable homicide (e.g., that the victim was killed by another person who was acting in self-defense or that the victim died as a result of legal intervention). The report may use the term “justifiable homicide” or some equivalent such as homicide ruled self-defense. Whether the killing was truly justifiable is not something that the coder should interpret."
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition of Self-Defense: The right of a civilian to repel by force, even to the taking of life, in defense of his person or property against anyone who attempts by violence or surprise to commit a forcible felony. Essential elements of self-defense are that the civilian does not provoke the difficulty and that there must be impending peril without a convenient or reasonable mode of escape."
+    },
+    {
+      "type": "list_item",
+      "content": "Code “Yes” for all legal interventions (i.e., any killing by a law enforcement officer in the line of duty).\nCode “Yes” for a death where the victim attempted to rob the suspect by gunpoint and the suspect killed the victim in self-defense and the police report indicates that this is a “justifiable homicide.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code the precipitating event that led to the killing under the “Precipitating crime,” “Nature of the crime,” and “Crime in progress” variables, if available."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.2 Victim was a police officer on duty: CME/LE_VictimPoliceOfficerOnDuty"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The victim was a law enforcement officer killed in the line of duty."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: At the time of the incident, the victim was a law enforcement officer killed in the line of duty. Also code the precipitating event and describe in the narrative."
+    },
+    {
+      "type": "list_item",
+      "content": "This circumstance should not be endorsed for victims in other occupations, such as bail bondsmen, private security guards, or emergency responders such as firefighters or emergency medical technicians."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code the precipitating event that led to the killing under the “Precipitating crime,” “Nature of the crime,” and “Crime in progress” variables, if applicable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.3 Victim was a bystander: CME/LE_Bystander"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The victim was a bystander, not the intended target."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The victim was a bystander and not directly involved in the incident (e.g., pedestrian walking past a gang fight, customer in a convenience store at the time of a robbery, or victim struck by stray bullet)."
+    },
+    {
+      "type": "list_item",
+      "content": "Also code the precipitating event (e.g., gang-related, robbery).\nDo not code if the bystander intervened to try to stop the violence and was killed (e.g., customer during a robbery was shot while trying to tackle the robber). In this case, code “Victim was intervener assisting crime victim.”\nDo not code if the intended target was unknown or there was a case of mistaken identity.\nDo not code if a place was targeted even if individual people were not. For instance, a suspect returning to the job from which he was recently fired and killed several people would not be coded or a suspect shooting into a house."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code the precipitating event that led to the killing under the “Precipitating crime,” “Nature of the crime,” and “Crime in progress” variables, if available."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.4 Random violence: CME/LE_RandomViolence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The victim was killed by a random act of violence."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the victim was killed by a random act of violence. A random act is one in which the suspect is not concerned with who is being harmed, just that someone is being harmed, such as a person who shoots randomly at passing cars from a highway bridge or opens fire in a crowded shopping mall."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when to code “Yes” for random violence:\nA group of active duty servicemen drove around a neighborhood looking for victims of opportunity to shoot and kill at random. Two persons were killed.\nAn 18-year-old suspect encountered a man experiencing homelessness asleep on a bridge, went home to retrieve a weapon and came back and killed him because he “thought he could get away with it.”\nA young pregnant woman was killed by two teenage boys throwing heavy rocks off an overpass at the cars below.\nA middle-aged male suspect ambushed a group of teenagers swimming in a local river and began shooting into the group at random, killing several victims.\nA young man armed with a semi-automatic rifle shoots several victims at random in a local shopping mall until law enforcement intervenes, killing suspect."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code should not be used for cases in which the target such as a place or group of people was chosen intentionally (e.g., white supremacist group opened fire in a daycare center that served African American children, a suspect who was fired from a workplace attacks co-workers, or any terrorist incident). Also, this code should not be used to indicate that a homicide is unsolved, for homicides in which the motive is simply unknown, for acts of terrorism, or for bystander deaths."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when not to code random violence:\nA young male suspect approached the middle-aged male victim’s vehicle at a red light and shot and killed the victim in either an attempted carjacking or “road rage” incident. Victim was on the way to pick up his wife from work and is unknown to the suspect.\nA young victim and suspect were drinking together, when the suspect picked up what he reportedly believed was an unloaded gun from the table. He pointed the weapon at the victim and fired, shooting the victim in the head.\nA person delivering newspapers found a 40-year-old man suffering from several gunshot wounds in a parking lot. The victim subsequently died of his injuries.\nA female victim was stabbed to death by her neighbor’s boyfriend (suspect). The neighbor would not answer her boyfriend’s persistent knocking because she was with another male. The victim answered the door to their shared duplex and was assaulted by the suspect.\nWhen visiting his girlfriend, the victim confronted one of the girlfriend’s neighbors (suspect), whose dog was barking loudly. The conflict escalated, resulting in a fistfight between the two men. The suspect pushed the victim, who fell over the stairwell railing and died from injuries sustained in the fall.\nOfficers were investigating a shooting in the area when they located the body of the victim suffering from a gunshot wound to the head. No witnesses were identified. The victim is a known gang member. This homicide is classified as gang-related."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are instances where the abstractor must decide if the preponderance of evidence indicates that this meets the case definition for random violence versus simply an unknown motive versus a bystander shooting."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of ambiguous cases:\nOfficers responded to a report of shots fired. On arrival, they found the victim lying unresponsive in his doorway. The victim was shot by an unknown suspect who came to the door of his home. Reports indicate that the incident may have been drug-related and was a random act of violence.\nThe victim, a 21-year-old white female, and another male were shot in a parking lot of an apartment building. The victim died in surgery. Her sister said the victim was “just in the wrong place at the wrong time.”\nThe victim died at the scene from a gunshot. Officers found a car with bullet holes in the side, where the victim and another passenger suffered gunshot wounds. A third passenger told the police that a man started shooting at their car while they were driving.\nTwo black females, one 15 years old and one 24 years old, died of multiple gunshot wounds. The victims were standing along a highway when the suspect pulled up and got out of his vehicle firing a shotgun. No other information is given.\nOfficers responded to a call of shots fired. Upon arrival the victim, was located lying in the street; he had been shot several times. The victim is known for drug possession and possible sales. A suspect has been identified."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in 2009."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.5 Victim was intervener assisting crime victim: CME/LE_IntervenerAssistingVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: An intervener other than a law enforcement officer was killed while assisting a crime victim."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The victim was attempting to assist a crime victim at the time of the incident (e.g., the victim tries to stop a fight and is killed, or the victim tries to stop a robbery and is killed). Also code the crime in which the victim was intervening (e.g., assault/homicide, robbery, or burglary) and whether it was in progress."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code the precipitating event that led to the killing under the “Precipitating crime,” “Nature of the crime,” and “Crime in progress” variables, if available."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.6 Victim used weapon: CME/LE_VictimUsedWeapon"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The victim used a weapon during the course of the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the victim was armed with a weapon such as a gun, knife, or blunt instrument and used the weapon either to attack or to defend against the suspect or another person during the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Any object that could be reasonably perceived as life-threatening that is used to threaten, harm, or kill another person could be coded as a weapon (e.g., a victim/suspect being pursued by law enforcement intentionally used a motor vehicle to hit and kill a law enforcement officer, and then was subsequently shot by other officers).\nDo not endorse for victims who resisted an attacker by kicking, punching, etc., without wielding some kind of object as a weapon.\nCode this variable as “Yes” when a person made an attempt to use a weapon. For example, if a person made an attempt to pull a gun but did not actually fire a round.\nAn unloaded, inoperable, or fake weapon (such as a realistic-looking toy) that is used by the victim to threaten or defend against attack should be coded as “Yes.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.7 Mercy killing: CME/LE_MercyKilling"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was killed, at the victim’s request, out of compassion in order to end his or her pain or distress."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The suspect acted to bring about immediate death allegedly in a painless way and based on a clear indication that the dying person wished to die because of a terminal or hopeless disease or condition."
+    },
+    {
+      "type": "list_item",
+      "content": "Do not assume that a murder/suicide by a sick, elderly couple is a mercy killing.\nCode as “Yes” only when there is documentation that the victim wanted to be killed (e.g., left a note, told a relative or friend) and the law enforcement are not charging the suspect with an intentional homicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.8 Hate crime: CME/LE_HateCrime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The homicide was associated with a hate crime. A hate crime is an aggravated assault, arson, burglary, criminal homicide, motor vehicle theft, robbery, sexual assault, or crime involving bodily injury in which the victim was intentionally selected because of his or her actual or perceived race, gender or gender identity, religion, sexual orientation, ethnicity, or disability. Incidents motivated by immigration status and national origin should also be coded as hate crimes in NVDRS. Specify the type of hate crime in the incident narrative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable identifies the proportion of deaths that are associated with hate crimes."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples:\nCode “Yes” if a cross was burned in the front yard of the victim's home and several racial slurs were spray painted on the home’s exterior. This incident should be coded as a hate crime in NVDRS because the victim was targeted because of his/her race.\nCode “No” if the victim was killed by a suspect in retaliation for using a slur against the suspect. For example, if a white male calls a black male a racial slur, and the black male later kills the white male in retaliation for having used the racial slur, this would not meet the NVDRS definition of hate crime because the victim was not targeted because of his race. Rather, he was targeted for using a racial slur. Although this incident may have been racially motivated, it does not meet the NVDRS definition for hate crime."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.9 Jealousy (lovers’ triangle): CME/LE_Jealousy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Identifies cases in which jealousy or distress over a current or former intimate partner’s relationship or suspected relationship with another person led to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable categorizes violence that is directed against any individual that is involved in the love triangle, such as the current or former intimate partner or the romantic interest. Do NOT apply this code to others who may have been present at the time of the incident (e.g., bystander, child) and killed but were not part of the love triangle. Someone in the jealous incident has to have an intimate relationship with another person in the incident for it to qualify as jealousy. Because jealousy is a type of intimate partner violence, always code “intimate partner violence-related” for these cases. Code if jealousy is part of the incident, regardless of whom the jealous party is."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples to code:\nMale suspect killed his ex-wife and her new boyfriend because he was angry that she was dating. Code “Yes” for both the ex-wife and her new boyfriend.\nMale suspect killed his girlfriend and his friend because he believed they were romantically involved. Code “Yes” for both the girlfriend and his friend.\nMale suspect killed a man in a bar because he was angry that the victim was flirting with his girlfriend. Code “Yes” for the man flirting with the suspect’s girlfriend."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code “Intimate partner violence related” as “Yes” because the death was related to an immediate or ongoing conflict or violence between current or former intimate partners."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicides and legal interventions."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.10 Jealousy (lovers’ triangle) was crisis: CME/LE_CrisisJealousy"
+    },
+    {
+      "type": "list_item",
+      "content": "Examples include:\nSuspect killed his wife after finding out the previous day that she was cheating on him.\nSuspect killed his friend and girlfriend after seeing his friend flirting with his girlfriend during a party an hour before the homicides occurred.\nSuspect killed her husband after coming home and finding him in bed with another woman.\nSuspect killed his girlfriend after looking at her phone and seeing text messages to another guy that he suspected she was seeing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.11 Brawl (3 people or more): CME/LE_Brawl"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Immediately before the violent death, there was a mutual physical fight between three or more individuals which resulted in the death of individuals involved in the fight or bystanders or individuals trying to stop the argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Three or more persons were involved in a mutual, physical fight. The brawl may or may not escalate to involve weapons."
+    },
+    {
+      "type": "list_item",
+      "content": "Do not code “Brawl” if the attack was one-sided (e.g., a group beats a single victim to death) or a person or people were ambushed (e.g., two people were walking along and jumped by five suspects).\nDo not code as “Brawl” if only two people were fighting; instead code physical fight between two people.\nWhen a SHR indicates a “brawl,” it may be a physical fight (i.e., physical confrontation among two people) or a brawl (i.e., physical confrontation among three or more people) in NVDRS. Please review the narrative and code appropriately."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.12 Walk-by Assault: CME/LE_WalkbyAssault"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: A targeted attack, such as an ambush, where the suspect(s) approached and fled on foot."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable accounts for deaths where the victim appeared to be jumped or ambushed. The attack should have been targeted such that there was no or minimal interaction between suspect and victim just prior to incident. Walk-up is the mechanism by which the victim was shot. Also choose a precipitating circumstance code to document why the walk-up occurred (e.g., gang-related), if known."
+    },
+    {
+      "type": "list_item",
+      "content": "Do not code walk-up in incidents where the only victim was a bystander (e.g., walk-ups include at least one targeted victim).\nCode deaths that use non-motorized transportation such as a skateboard or bicycle and meet the other requirements of the definition as a walk-up shooting.\nDo not code deaths that occur during criminal acts (e.g., store employee surprises and shoots an armed robber or law enforcement pursue and kill a suspect fleeing a burglary)."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples:\nCode “Yes”:\nIf the victim was shot right as they left their house and the suspect fled the scene on foot.\nIf the two victims were walking home and shot by two opposing gang members who were hiding in alley.\nIf two suspects walked up to a house opened fire killing the victim and then fled the scene.\nIf a suspect killed his ex-wife by hiding in the bushes, then shooting her when she returned from work.\nCode “No”:\nIf the victim and the suspect were arguing before the suspect pulled out a gun and shot the victim.\nIf a fight broke out during a drug deal and the victim was killed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.13 Drive-by shooting: CME/LE_DrivebyShooting"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was killed in shooting where the suspect or group of suspects drives near the victim or target and shoots while driving or uses a car to approach and flee the scene of a homicide but steps out of the car just long enough to use a weapon."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Drive-by shootings must involve a motorized vehicle, such as a car, motorcycle, truck, and does not include other modes of transportation, such as bicycles, scooters, or skateboards. For all incidents, note the mode of transportation and the precipitating circumstance in the narrative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code “Bystander” if the victim was a bystander and not the intended victim."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in 2009."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide."
+    },
+    {
+      "type": "subsubsection",
+      "content": "5.6.14 Drug involvement: CME/LE_DrugInvolvement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Drug dealing, drug trade, or drug use is suspected to have played a role in precipitating the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not available, Unknown\n1 Yes"
+    }
+  ]
+}

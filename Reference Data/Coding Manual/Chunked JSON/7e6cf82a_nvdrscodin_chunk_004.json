@@ -1,0 +1,399 @@
+{
+  "summary": [
+    "This document outlines the variables and definitions related to incidents, document tracking, and victim demographics within the NVDRS system. It emphasizes the importance of accurate data collection and categorization for incidents, including the identification of victims and the documentation of narratives. The guidelines also stress the need for confidentiality and the proper handling of sensitive information."
+  ],
+  "keywords": [
+    "NVDRS",
+    "incident variables",
+    "victim demographics",
+    "data abstraction",
+    "document tracking",
+    "incident narratives",
+    "confidentiality",
+    "data quality",
+    "response options",
+    "coding"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 1: Incident Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nUsed together, the SiteID, IncidentYear, and Incident Number uniquely identify each incident and can be used to link incident level information with victims and documents.\nIf an incident is merged or deleted, no information will be displayed for that incident number. For instance, if a 2008 homicide occurring in Maryland assigned IncidentNumber 5 is later found to be part of a multiple homicide, and is merged into Maryland 2008 IncidentNumber 6, no information will be displayed for Incident Number 5.\nThe SiteID and LocationID should never be missing on a record that is displayed or exported by the system."
+    },
+    {
+      "type": "subsection",
+      "content": "1.4 Incident type: IncidentType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nIncident type identifies the type of incident collected by various users of the NVDRS web-based system."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1. NVDRS\n2. NVDRS Non-Targeted Area\n3. SUDORS\n9. Other (State-Defined)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nNVDRS: Incidents collected for the National Violent Death Reporting System. Drug overdose deaths of undetermined intent should be coded here.\nNVDRS Non-Targeted Area: Incidents collected for NVDRS outside a state’s designated catchment area. These cases are all optional and are to be entered at the state’s discretion. The following are examples of cases that fall into this category:\nDeaths where the fatal injury occurred within a state’s boundary, but in an area outside of the VDRS program’s target county or counties. This only applies to states collecting data on violent deaths within a selected county or counties as part of their data collection plan.\nCases that are part of the subset that are ONLY required to have DC data (only applies to states funded under Option 3 for large states).\nSUDORS: Incidents collected for the State Unintentional Drug Overdose Reporting System. Drug overdose deaths of undetermined intent should be coded under “NVDRS.”\nOther (State-Defined): Incidents collected by state or other partner organizations outside of regular NVDRS case definitions (e.g., sudden unexplained infant death [SUID]). These cases are all optional and can be entered at the VDRS program’s discretion. Resident deaths where the fatal injury occurred in another NVDRS state should be coded here. Please note, the state of injury occurrence is responsible for collecting information on the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Prior to September 2018, this variable described whether the incident involved a single victim or multiple ones and the manner of all victims’ deaths. Beginning in September 2018, a calculated variable, Incident Category, identifies whether the incident involved a single victim or multiple ones and the manner of all the victims’ deaths. Incident Category will be calculated automatically based on the victim(s) in an incident using the “manner of death” data elements. Manner of Death per abstractor is checked first, but if it is missing, the NVDRS software will use the DC Manner, C/ME Manner, or LE Manner to assign an incident category. The field is updated whenever an incident is saved. The incident categories are:\nSingle Suicide\nSingle Homicide\nSingle Unintentional Firearm Death\nSingle Legal Intervention Death\nSingle Death of Undetermined Intent\nMultiple Suicide\nMultiple Homicide\nMultiple Unintentional Firearm Deaths\nMultiple Legal Intervention Deaths\nMultiple Deaths of Undetermined Intent\nHomicide(s) Followed by Legal Intervention Death(s)\nMutual Homicide/Shootout\nMultiple Deaths – Other\nSingle Homicide Followed by Suicide\nHomicide(s) Followed by Suicide(s), Over 2 Fatalities\nMissing or Other Death Manner"
+    },
+    {
+      "type": "subsection",
+      "content": "1.5 Incident Narrative C/ME: NarrativeCME"
+    },
+    {
+      "type": "subsection",
+      "content": "1.6 Incident Narrative LE: NarrativeLE"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nNarrative accounts of the incident serve multiple purposes:\nTo briefly summarize the incident (who, what, when, where, why)\nTo provide supporting information on circumstances that the abstractor has endorsed in an incident\nTo provide the context for understanding the incident\nTo record information and additional details that cannot be captured elsewhere\nTo facilitate data quality control checks for coding key variables"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nIncident narratives are written based on a single type data source (e.g., LE or C/ME) that may involve single or multiple documents (e.g., C/ME and toxicology report). Consequently, there is an incident narrative that summarizes the law enforcement findings and an incident narrative that describes the C/ME’s findings. The narratives based on these separate data sources will often vary in the level of detail they contain, and may even differ from each other on details of the incident.\n\nUse “Victim” or “V” to refer to the victim when referring to persons in the narrative, or “V1,” “V2,” etc., in incidents with multiple victims. Similarly, use “Suspect” or “S1,” “S2,” etc. Victim/Suspects may be designated as “V/S.”\n\nAt a minimum, the following should be included in all narratives:\nThe number of victims, suspects, and victim/suspects described in the source document who were injured, and by whom\nThe relationship between victim and suspect if injury was not self-inflicted\nWhere the injury occurred (or the victim was found)—not a specific place or address, but a description such as “at home,” “at work,” or “on the street,” which is listed in the “Type of location where injured” data element\nAdditional details on all circumstances coded in the data source tab\nTiming of circumstances (e.g., was the argument right before the suicide or the night before)\nA description of other circumstances not captured in standardized coding\nSex and age of person(s) involved\nWeapon(s) involved\n\nThe following should NEVER be included in any narratives:\nPII such as names of people, towns, streets, law enforcement departments, and hospitals\nSpecific dates\nAbbreviations (with the exception of V, S, and V/S for the persons in the narrative or commonly used abbreviations such as DUI, ADHD)\nIncomplete sentences (as they are hard to understand)\n\nSometimes a data abstractor will receive two data sources in one document from data providers (e.g., a C/ME report contains a copy of the police report) or multiple documents from the same source (e.g., C/ME report on two victims in the same incident).\nIf two data sources are found in one source (i.e., the LE includes a copy of the C/ME report), information from both sources should be entered. In the circumstance section where LE and C/ME data are distinguished, the C/ME information should only be listed in the C/ME section and the LE information should only be listed in the LE section regardless of how the information was collected.\nA C/ME or LE report may contain information on multiple victims or suspects involved in a violent incident. In these instances, the information from this report can be used to fill out information about both victims. LE and C/ME information, however, should always be requested for all victims.\n\nSometimes information across or within C/ME and LE reports may provide different or conflicting information.\nBecause C/ME and LE circumstances come from different investigations, the C/ME and LE narratives are expected to provide unique insights into the violent death. Thus, the differences between the coding sources provide a more comprehensive understanding of the death. If the C/ME and LE narratives are conflicting, record the information as reported by the data sources and code the circumstances accordingly.\nThe one exception to this rule is when either the C/ME or LE report has clearly found, through further investigation, that a previous description of the event was incorrect (e.g., witness lied or more evidence comes to light that disproves previous conclusion). In this case, indicate in the narrative that provides false information that this information was disproved and do not check any circumstance that was found false.\nIf multiple LE reports conflict about the narrative details, record what you believe to be the most accurate narrative. Do the same for multiple C/ME reports. The circumstances coded should be consistent with these decisions."
+    },
+    {
+      "type": "subsection",
+      "content": "1.7 Number of source documents in incident: NumberOfDocuments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nCounts the number of source documents in the incident. This number is automatically generated by the program."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nNumber of documents"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nEach incident must have a minimum of one document, but should have at least three documents or one from each of the required data sources:\nDeath certificate\nC/ME report\nLE report\n\nA list of all documents can be found in the variable document type."
+    },
+    {
+      "type": "subsection",
+      "content": "1.8 Number of victims in incident: NumberOfVictims"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nNumber of victims counts the number of victims in the incident. The program automatically generates this number."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nNumber of victims"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nA minimum of one victim must be in each incident. Victims in the incident are only those who are fatally injured. A person may be both a suspect and a victim, as in the case of a husband who murders his wife and then dies by suicide. Identifying the victims in the incident is not difficult once you have determined how to define an incident (see Definitions section)."
+    },
+    {
+      "type": "subsection",
+      "content": "1.9 Number of nonfatally shot persons in incident: NumberNonfatallyShot"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nNumber of persons who were nonfatally shot in the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\nNumber of nonfatally shot victims or one of the following:\n0 None\n8888 Not applicable\n9999 Nonfatally shot victims, number unknown or unspecified"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nRecord the total number of victims who sustained a projectile wound from a firearm during the course of the incident and survived.\nVictims of pistol whipping should not be counted here.\nEnter “0” if the incident had firearm fatalities, but there is no indication of nonfatal shooting victim(s).\nEnter “8888” if the incident did not have firearm fatalities and there is no indication of nonfatal shooting victim(s).\nEnter “9999” if source documents indicate that the incident had nonfatal shooting victims, but the number is unknown or unspecified."
+    },
+    {
+      "type": "subsection",
+      "content": "1.10 Flag this incident for follow-up: FollowUp"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThe user can manually flag an incident for follow-up. These incidents can be located with the search function."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nCheckbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis function allows the user to indicate that an incident needs further follow-up. For instance, an abstractor may want to flag incidents that need clarification. Flagged incidents can be retrieved using the search function."
+    },
+    {
+      "type": "subsection",
+      "content": "1.11 Data Abstraction Completion Indicators"
+    },
+    {
+      "type": "subsection",
+      "content": "1.11.1 Date supervisor checked incident: SupervisorCheckedDate"
+    },
+    {
+      "type": "subsection",
+      "content": "1.11.2 Date supervisor rechecked incident: SupervisorRecheckedDate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nSupervisors can use these fields to track whether they have checked or finalized an incident. Problems or questions noted in the supervisor’s review can be placed in the activity log."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nDate (MM/DD/YYYY)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCompleting these fields is not required. Their sole purpose is to support the data entry and verification process. Missing dates are not allowed because exact dates should be known."
+    },
+    {
+      "type": "subsection",
+      "content": "1.12 Abstractor Name: AbstractorName"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nList the name(s) of the abstractors working on the record."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis helps VDRS programs track who entered their data and can be used to examine data quality by abstractor. Multiple data abstractors can be tracked by listing their name separated by a delimiter such as a comma or slash (e.g., Craig / Shane). This field is not required and is provided to support data abstraction and data quality efforts."
+    },
+    {
+      "type": "section",
+      "content": "SECTION 2. DOCUMENT TRACKING VARIABLES"
+    },
+    {
+      "type": "subsection",
+      "content": "2.1 Document unavailable: DocumentUnavailable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nEnter if the document did not exist, was unavailable to NVDRS, or could not be obtained for other reasons."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nCheckbox"
+    },
+    {
+      "type": "subsection",
+      "content": "2.2 Document type: DocumentType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nDocument type is the type of document being requested, logged in, or tracked. Death certificate, medical examiner or coroner report, and police report are required documents."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1. Death certificate\n2. Medical examiner report\n3. Coroner report\n4. Police report\n5. SHR\n6. NIBRS\n7. Crime lab report\n8. Toxicology report\n9. Hospital discharge record\n10. ED record\n11. Gun trace\n12. EMS report\n13. CFRT report\n14. Newspaper article\n88. Other"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nNone"
+    },
+    {
+      "type": "subsection",
+      "content": "2.3 Source agency requested from: AgencySource"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nSource agency requested from provides the agency name from which the data are being collected. This allows a record to be kept of the document sources used for each incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis variable is optional, but can be used to help track requests. Do not enter the names of people at the agency or other personal identifying information in this field."
+    },
+    {
+      "type": "subsection",
+      "content": "2.4 Date record requested: Date_record_requested"
+    },
+    {
+      "type": "subsection",
+      "content": "2.5 Date record re-requested: Date_record_rerequested"
+    },
+    {
+      "type": "subsection",
+      "content": "2.6 Date record received: Date_record_received"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThese variables allow a record to be kept of the dates each document was requested, re-requested if necessary, and the date received. This can be useful as an abstractor “logbook” to track the status of records that have been requested."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nDate (format: MM/DD/YYYY)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables are optional, but their use is encouraged. Missing dates are not allowed because exact dates should be known."
+    },
+    {
+      "type": "subsection",
+      "content": "2.7 Date record abstracted/imported: AbstractedDate"
+    },
+    {
+      "type": "subsection",
+      "content": "2.8 Date entered data checked: Date_entered_data_checked"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThese variables record the date documents were abstracted and checked by another abstractor or their supervisor(s)."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nDate (format: MM/DD/YYYY)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables are optional, but their use is encouraged. They can be used for measuring timeliness by calculating the interval between date of death and date abstracted. Partial missing date values cannot be entered (e.g., 02/99/2013) because the abstractor should always know the date the incident was completed or checked. Please leave this field blank if you choose not to use it."
+    },
+    {
+      "type": "subsection",
+      "content": "2.9 Document notes field: DocumentNotes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThis variable allows a record to be kept of notes regarding the source document receipt process. Personal identifying information about the incident, victim, and suspect should NEVER be entered."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis variable is optional."
+    },
+    {
+      "type": "section",
+      "content": "SECTION 3. DEMOGRAPHIC VARIABLES FOR VICTIMS"
+    },
+    {
+      "type": "subsection",
+      "content": "3.1 Demographics, Race, and Ethnicity"
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.1 Person type: PersonType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThis variable indicates whether the person was a victim of violence or both a victim and suspect (i.e., the person killed someone else and then died by suicide)."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1. Victim\n3. Both victim and suspect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nVictims (Person Type = 1)\nVictims are those who died in a suicide, violence-related homicide, or legal intervention as the result of a firearm injury or undetermined manner.\n\nNote: A fetus who dies as the result of direct, violent injuries sustained before birth (i.e., a fetal death) should not be recorded as a victim. Only babies who were delivered and lived outside the womb for any period of time and were issued both a birth certificate and a death certificate, OR babies who a C/ME has conclusively determined to have been born alive and subsequently killed should be included as victims. However, states that want to collect such deaths may enter these as a separate incident and follow the guidance as described in the Definitions section (4.0) of this document.\n\nExample of Person Type = 1 Victim\n1. Person died by suicide and was found dead in their residence.\n\nBoth Suspect/Victim (Person Type= 3)\nSuspect/Victims are victims of homicide, suicide or legal intervention, or undetermined intent who also killed someone else in the incident.\n\nExamples of Person Type = 3 Suspect/Victim\n1. A man kills his wife and then dies by suicide. He is a suspect because he killed someone else and is a suicide victim because he died by suicide; thus, he is both suspect and victim (Person Type = 3).\n2. A person robs a store and kills the store clerk. While running from the store he is shot and killed by a law enforcement officer. The person is a suspect in the killing of the store clerk and is a legal intervention victim because he is killed by a law enforcement officer; thus, he is both suspect and victim (Person Type = 3).\n3. A husband learns his wife is having an affair with a male friend. The husband kills the male friend in anger. The distraught wife kills her husband. The husband is a suspect because he killed the male friend and is also a victim because he was then killed by his wife; thus, he is both suspect and victim (Person Type = 3).\n\nDO NOT CODE as a suspect/victim if the victim is a suspect in another violent incident (i.e., occurs 24 hours after the original death). For instance, a man kills a guard during a bank robbery. Two weeks later the man dies by suicide when he is surrounded by police and refuses to be arrested. The person should be listed as a suicide victim in the incident in which he died.\n\nNote: Before August 2013, this variable was also used to collect information on suspects, victims and victim/suspects. As of August 2013, suspect information is collected as part of the victim’s record and thus no longer captured by this variable."
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.2 First initial of last name: LastNameFirstInitial"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThis variable indicates the first initial of the victim’s last name."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis de-identified information can be used to match victims across data sources (e.g., LE and C/ME reports) and to link with identifying information maintained by states. This is an optional variable."
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.3 Day of birth: BirthDayOfMonth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThis variable indicates the day of the month in which the victim was born."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nPlease enter the day as a two digit number (e.g., the 6th is entered as 06 and the 21st is entered as 21)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis de-identified information can be used to match victims across data sources (e.g., LE and C/ME reports) and to link with identifying information maintained by states. This is an optional variable."
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.4 Last 4 of C/ME: CMENumberLastFour"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThis variable provides the last four digits on the C/ME report associated with the victim. State abstractors may also choose to enter less than four digits to preserve confidentiality."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis de-identified information can be used to match victims across data sources (e.g., LE and C/ME reports) and to link with identifying information maintained by states. This is an optional variable."
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.5 Last 4 of DC: DCNumberLastFour"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThis variable provides the last four digits on the DC record associated with the victim. State abstractors may also choose to enter fewer than four digits to preserve confidentiality."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis de-identified information can be used to match victims across data sources (e.g., LE and C/ME reports) and to link with identifying information maintained by states. This is an optional variable."
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.6 Sex of victim: Sex"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThe victim’s sex at the time of the incident."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1. Male\n2. Female\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nSex captures the sex of the victim according to the DC. If the victim is transgender, please record sex as indicated by at least one of the three primary data collection sources: DC, C/ME report, or LE report."
+    },
+    {
+      "type": "subsection",
+      "content": "3.1.7 Transgender: Transgender"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThe victim self-identifies as transgender or a friend/family member reports that the victim self-identified as transgender."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nCheckbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nTransgender is defined as people “who experience incongruence between birth sex and gender identity.” For instance, a person born a male may identify themselves as female. A person should be identified as transgender if he or she identified as transgender or family, friends, physician, or other acquaintances identified the person as transgender. Also, check this variable if the victim was undergoing or had undergone surgery or hormone therapy to support a sex reassignment."
+    }
+  ]
+}

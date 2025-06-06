@@ -1,0 +1,259 @@
+{
+  "summary": [
+    "This document outlines the coding guidelines for various aspects of intimate partner violence (IPV) and school-associated violent deaths (SAVD). It includes definitions, response options, and discussions on how to interpret evidence related to alcohol and drug use, mental health issues, and the context of violent deaths. The guidelines aim to standardize data collection for better understanding and intervention strategies in these critical areas."
+  ],
+  "keywords": [
+    "Intimate Partner Violence",
+    "School-Associated Violent Death",
+    "Mental Health",
+    "Substance Abuse",
+    "Coding Guidelines",
+    "Alcohol Use",
+    "Drug Use",
+    "Suicide",
+    "Victimization",
+    "Perpetrator"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "10. Intimate Partner Violence Optional Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "No evidence of drinking should be coded as “No.” The phrase “in the hours preceding the incident” can be interpreted relatively broadly. For example, if friends report that an IPV Perpetrator or Victim was drinking heavily at a party and returned home that evening and was killed sometime later that night, it should be coded as “Yes.” The level of intoxication is not relevant in coding this variable. Without evidence of alcohol use, code this variable as “No.” Use the “Unknown” option only if the source does not have a narrative that could provide the evidence of intoxication."
+    },
+    {
+      "type": "paragraph",
+      "content": "Drug use suspected should be coded “Yes” based on witness or investigator reports or test results from the IPV Perpetrator or Victim. Illicit drugs include not only street drugs like heroin, cocaine, marijuana, and methamphetamine, but also illicitly obtained prescription drugs like oxycodone and substances that are sniffed for their mood-altering effects (e.g., sniffing glue, “huffing” gasoline). Prescription drugs believed to be taken in accordance with the prescription directions should not be included as illicit drug use."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both SuspectedIntoxicated and SuspectedDrugUse will include some false positives, since they are not necessarily based on test results. For a more conservative evaluation of drug and alcohol use in suspects, use toxicological testing if available. Note: As of August 2013, a perpetrator/victim who takes methadone is no longer assumed to be in treatment for heroin addiction and should be coded as “No” unless other information is available (e.g., taking methadone as part of substance abuse treatment). Please note that the victim is taking methadone on the toxicology page (for perpetrator taking methadone, please note this in the narrative)."
+    },
+    {
+      "type": "subsection",
+      "content": "10.14.9 Mental health problem: IPV_MentalHealthProblemPerp, IPV_MentalHealthProblemVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions: IPV Perpetrator/Victim had a mental health problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: If the case involves a suicide, this information will be captured in the general NVDRS system for the suicide victim. Code a person as “Yes” if he or she has been identified as having a mental health problem. Mental health problems include disorders and syndromes listed in the DSM-5 (Diagnostic and Statistical Manual of Mental Disorders, 5th Revision) with the exception of alcohol and other substance disorders (as these are captured in separate variables). Examples of disorders qualifying as mental health problems include not only diagnoses such as major depression, schizophrenia, and generalized anxiety disorder, but developmental disorders (e.g., intellectual disability, autism, attention deficit hyperactivity disorder), eating disorders, personality disorders, and organic mental disorders such as Alzheimer’s and other dementias. Also code “Yes” if the person was being treated for a mental health problem including treatment through involuntary mechanisms such as an Emergency Order of Detention, even if the nature of the problem is unclear (e.g., “was being treated for various psychiatric problems”). It is acceptable to endorse this variable on the basis of past treatment of a mental health problem unless it is specifically noted that the problem has been resolved. For example, “IPV Victim or Perpetrator was hospitalized twice for mental problems,” is adequate basis for coding as “Yes.” Code “Yes” if a mental health problem is noted even if the timeframe is unclear (as in “history of depression”), or if the person was seeking mental health treatment or someone was seeking treatment on his or her behalf (e.g., “family was attempting to have him hospitalized for psychiatric problems”). This should also be coded as “Yes” if the IPV Victim or Perpetrator has a prescription for an antidepressant or other psychiatric medication. The drug list provided in the training notebook identifies drugs that can be considered psychiatric medications. We have separate questions for substance use problems. Therefore, do not include substance abuse as a “current mental health problem.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Coding “No” (as opposed to “Unknown”) means that the record explicitly stated that the person had no known mental health problems. Code “Unknown” without information about the person’s mental health status or if the information is unclear."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples\nYes\nToxicology report from medical examiner indicates that the IPV Victim or Perpetrator tested positive for Sertraline (an antidepressant)\nPerson had posttraumatic stress disorder (PTSD)\nHistory of depression\nWas under the care of a psychiatrist\nNo\nRecord states “no known mental disorders”\nUnknown\nNeighbor indicates that the person was not acting normally. Was depressed over a recent break-up."
+    },
+    {
+      "type": "subsection",
+      "content": "10.15 Mental Health Diagnoses"
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.1 Mental health diagnosis 1: IPV_MentalHealthDiagPerp1, IPV_MentalHealthDiagVictim1"
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.2 Mental health diagnosis 2: IPV_MentalHealthDiagPerp2, IPV_MentalHealthDiagVictim2"
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.3 Mental health diagnosis 3: IPV_MentalHealthDiagPerp3, IPV_MentalHealthDiagVictim3"
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.4 Other mental health diagnosis: IPV_MentalHealthDiagOtherPerp, IPV_MentalHealthDiagOtherVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_MentalHealthDiagnosis1: IPV Perpetrator/Victim mental health diagnosis\nIPV_MentalHealthDiagnosis2: IPV Perpetrator/Victim mental health diagnosis 2\nIPV_MentalHealthDiagnosis3: IPV Perpetrator/Victim mental health diagnosis 3\nIPV_MentalHealthDiagnosisOther: IPV Perpetrator/Victim other mental health diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nIPV_Mentalhealthdiagnosis1/2/3\n1 Depression/dysthymia\n2 Bipolar disorder\n3 Schizophrenia\n4 Anxiety disorder\n5 Posttraumatic stress disorder\n6 ADD or hyperactivity disorder\n7 Eating disorder\n8 Obsessive-compulsive disorder\n9 Mental retardation\n10 Autism\n11 Personality disorders (e.g., borderline, schizoid, histrionic, avoidant, etc.)\n12 Alzheimer’s\n88 Not applicable\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "IPV_MentalHealthDiagnosisOther: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code up to three diagnoses. If a diagnosis is not on the code list, code other mental health diagnosis by recording the diagnosis in the text field. If the record indicates more than three diagnoses, note the additional diagnoses. For cases in which the person was noted as being treated for a mental health problem, but the actual diagnosis is not documented, code as “Unknown.” If the person had a mental health problem but the nature of the problem has not been diagnosed (e.g., “was hearing voices and having paranoid delusions; family was attempting to have her committed”), code as “Not applicable” since she/he had not been treated or diagnosed. Do not attempt to apply a diagnosis based on reading the symptoms. While it is acceptable to code “mental health problem” based on the IPV Victim’s or Perpetrator’s prescription for a psychiatric medication, do not infer a specific diagnosis based on the medication."
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.5 Currently in treatment for mental health problem: IPV_TreatmentMentalHealthPerp, IPV_TreatmentMentalHealthVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.6 Ever treated for mental health problem: IPV_HistoryMentalIllnessPerp, IPV_HistoryMentalIllnessVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_TreatmentMentalHealth: IPV Perpetrator/Victim currently in treatment for a mental health problem.\nIPV_HistoryMentalIllness: IPV Perpetrator/Victim ever treated for a mental health problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This should be coded “Yes” if the IPV Victim or Perpetrator was in current treatment (that is, had a current prescription for a psychiatric medication or saw a mental health professional within the past 2 months). Treatment includes seeing a psychiatrist, psychologist, medical doctor, therapist, or other counselor for a mental health or substance abuse problem; receiving a prescription for an antidepressant or other psychiatric medicine (see training notebook for list of psychiatric drugs); or residing in an inpatient or halfway house facility for mental health problems. This variable indicates whether the IPV Perpetrator or Victim was noted as ever having received professional treatment for a mental health problem, either at the time of death or in the past. If an IPV Perpetrator or Victim is in current treatment, by definition this variable (ever in treatment) should be endorsed. If a decedent died as the result of an overdose from multiple medications and it is not clear whether the medications were his or her own (as in an IPV Victim or Perpetrator swallowing everything in the family’s medicine cabinet), the existence of an antidepressant or other psychiatric medication in the IPV Victim’s or Perpetrator’s bloodstream is not sufficient evidence of mental health treatment. For IPV Perpetrators and Victims who die by other means than drug overdose (e.g., shooting, hanging), toxicology test results indicating the presence of a psychiatric medication is sufficient evidence of mental health treatment."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples\nCurrent treatment for mental illness\nYes\nA recently filled, unopened prescription belonging to the IPV Victim or Perpetrator for an antidepressant is found in the medicine cabinet.\nIn treatment for depression for the last 10 years.\nReleased from inpatient care for bipolar disorder a week ago.\nNo\nRecords indicate not in mental health treatment\nTaking St. John’s Wort (nonprescription herb) for depression because of a magazine article s/he had read.\nTaking over-the-counter sleeping pills for insomnia (but note that a diagnosed sleep disorder would qualify)."
+    },
+    {
+      "type": "list_item",
+      "content": "Ever treated for mental illness\nYes\nSeveral years ago the IPV Victim or Perpetrator was treated for bipolar disorder.\nThe IPV Victim or Perpetrator had begun seeing a psychiatrist recently, but had previously never been in treatment."
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.7 Alcohol problem: IPV_AlcoholProblemPerpetrator, IPV_AlcoholProblemVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.8 Other substance abuse problem: IPV_SusbstanceAbusePerpetrator, IPV_SusbstanceAbuseVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_AlcoholProblem: IPV Perpetrator/Victim had alcohol dependence or alcohol problem.\nIPV_SusbstanceAbuse: IPV Perpetrator/Victim had other illicit or prescription drug abuse problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code “Yes” if the IPV Perpetrator or Victim was perceived by self or others to have a problem with, or to be addicted to, alcohol or other drugs. An IPV Perpetrator or Victim who is noted as participating in a drug or alcohol rehabilitation program or treatment—including self-help groups and 12-step programs—should be coded as “Yes” even if the IPV Perpetrator or Victim was noted as being currently clean and sober. A problem from the past that has resolved and no longer appears to apply should not be coded. Can be endorsed if an IPV Perpetrator or Victim was noted as using illicit drugs (such as heroin or cocaine), abusing prescription medications (such as pain relievers or Valium), or regularly using inhalants (e.g., sniffing gas). If the IPV Perpetrator or Victim is mentioned as using illicit drugs—even if addiction or abuse is not specifically mentioned—code as “Yes.” The phrase “history of drug abuse” is sufficient to justify endorsing unless it is noted that the IPV Perpetrator or Victim is no longer a drug user. Previously attempting suicide via overdose is not sufficient justification for endorsing in the absence of other information."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples:\nAlcohol problem\nYes\nC/ME report indicates the IPV Victim or Perpetrator was in an alcohol rehabilitation program last year. Called AA sponsor the day before the incident.\nNoted in C/ME report that the IPV Perpetrator or Victim had been drinking a lot lately and family was concerned.\nNo\nC/ME report indicates that 20 years ago the IPV Perpetrator or Victim had trouble with drugs and alcohol as a teenager, but not since then."
+    },
+    {
+      "type": "list_item",
+      "content": "Other substance abuse problem\nYes\nC/ME report indicates that the perpetrator or victim abuses his/her own painkiller prescription. IPV Perpetrator or Victim made regular visits to a methadone clinic.\nIPV Perpetrator or Victim had track marks and drug paraphernalia at his/her apartment.\nIPV Victim or Perpetrator shot him/herself after a fight with spouse over drug use and mounting debts.\nNo\nIPV Perpetrator or Victim smoked marijuana occasionally.\nIPV Perpetrator or Victim attempted suicide via medication overdose on two previous occasions. No evidence of substance use or abuse."
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.9 Disclosed intent to die by suicide: IPV_SuicideDisclosedIntentPerp, IPV_SuicideDisclosedIntentVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: IPV Perpetrator/Victim disclosed to another person intentions to die by suicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the IPV Perpetrator or Victim had previously expressed suicidal feelings to another person, whether explicitly (e.g., “I’m considering killing myself”) or indirectly (e.g., “I think everyone would be better off without me” or “I know how to put a permanent end to this pain”). Do not code this variable as “Yes” if the IPV Perpetrator or Victim disclosed his/her intention to kill him/herself only at the moment of the suicide (i.e., when there was no opportunity to intervene to stop the suicide). Also, do not endorse this variable if the IPV Perpetrator or Victim had talked about suicide sometime in the distant past, but had not disclosed his/her current intent to die by suicide to anyone. When law enforcement or the coroner/medical examiner document whether the IPV Perpetrator or Victim stated his/her intent to die by suicide, they are doing so less for the purpose of documenting a missed opportunity for intervention and more for the purpose of indicating why the death is being treated as a suicide and not a potential homicide. Therefore, the records may be unclear about timing. For example, the record may state, “IPV Perpetrator or Victim has spoken of suicide in the past,” and it is not entirely clear whether the talk about suicide was only in the past or was related to the current incident. This will frequently be a gray area for coding. If the record indicates disclosure of intent in the past but affirmatively states that there was no disclosure for the current incident, code as “No.” If the record indicates disclosure of intent, but is unclear about the time frame, code as “Yes.” This will sometimes be incorrect; however, the specificity to allow precise coding is too often missing in the records to justify using a narrower interpretation."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples:\nYes\nThe IPV Perpetrator or Victim told a spouse that s/he was planning to end his/her suffering and was going to stop being a burden.\nThe IPV Perpetrator or Victim has mentioned on and off to friends that s/he was considering suicide; no one thought s/he would do it.\nNo\nThe IPV Perpetrator or Victim has spoken of suicide in the past, but not in the past few months when things seemed to be going better for him/her.\nUnknown\nHad previously threatened to kill his family. No further information available on mental health history."
+    },
+    {
+      "type": "subsection",
+      "content": "10.15.10 History of suicide attempts: IPV_HistorySuicideAttemptsPerp, IPV_HistorySuicideAttemptsVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_HistorySuicideAttemptsPerpetrator: Perpetrator had a history of attempting to die by suicide.\nIPV_HistorySuicideAttemptsVictim: Victim had a history of attempting to die by suicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code HistorySuicideAttempts as “Yes” if the IPV Perpetrator or Victim was known to have made previous suicide attempts, regardless of the severity of those attempts."
+    },
+    {
+      "type": "section",
+      "content": "11. School-Associated Violent Death Module"
+    },
+    {
+      "type": "subsection",
+      "content": "11.1 SAVD Inclusion Criteria"
+    },
+    {
+      "type": "subsection",
+      "content": "11.1.1 This is a School-Associated Violent Death/SAVD Case: SAVD_Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates whether the death is considered an SAVD based on the location and context of the death. Any death that happens on a public or private K-12 school property, at a K-12 school-sponsored event, or on K-12 school-sponsored transportation is considered an SAVD."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This checkbox appears on the “Injury and Death” tab beneath the “type of location where injured” variable. For the purposes of NVDRS, SAVD includes any homicide, suicide, legal intervention death, unintentional firearm death, or death of undetermined intent that occurs:\n1) on the campus of a functioning primary or secondary school (K-12) in the U.S.;\n2) at a school-sponsored event associated with a primary or secondary school; or\n3) on K-12 school-sponsored transportation. An SAVD death can involve any person (e.g., student, staff, faculty member, community member, person unknown to the campus) regardless of affiliation to the school. SAVD incidents only capture events related to K-12 campuses and school events."
+    },
+    {
+      "type": "paragraph",
+      "content": "Please note the following should not be classified as SAVD:\nDeaths on college campuses are not considered SAVDs unless there is information indicating that a K-12 school operated on a college campus (e.g., laboratory or demonstration schools), and the death took place on the property of the K-12 school.\nDeaths taking place at dedicated preschools are not SAVDs unless the preschool is embedded within a K-12 campus (e.g., schools that begin at age three (K3) and age four (K4). Deaths that occur on the way to or from school are not considered SAVDs unless the death happened on school transportation (e.g., school bus).\nDeaths on the way to or from school using public transportation (e.g., city bus, subway, train) should not be captured as SAVDs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Please note the following for determining if an incident happened at a school-sponsored event:\nA school-sponsored event can occur on or off-campus and includes events that are outside of the typically scheduled school routine (e.g., field trips, sporting events, competitions, dances, ceremonies). On-campus before and after school activities such as academic enrichment, club meetings, and sports/dance/music practices are not considered school-sponsored events but part of a typical school schedule and are included.\nSchool-sponsored events are usually organized and hosted by the school and often include school-organized chaperones and/or presence of school administration, teachers, or other school personnel.\nAn event where many students are in attendance but that is not sanctioned or hosted by the school is not a school-sponsored event. For example, a gathering of students at a local restaurant after a sporting event is not a school-sponsored event unless it was organized and hosted by school personnel."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: The SAVD Module and corresponding variables were added in November 2020. Data collection for the SAVD Module applies to eligible deaths occurring on and after January 1, 2021."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2 SAVD Incident Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.1 Number of non-fatally injured persons: SAVD_NumberNonfatalIyinjured"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates the total number of people who were non-fatally injured in the event."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Number of nonfatally injured victims or one of the following:\n0 None\n9999 Nonfatally injured victims, number unknown or unspecified"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nRecord the total number of people who sustained a non-fatal injury during the course of the incident and survived. Although the NVDRS Variable “number non-fatally shot – 1.9” captures non-fatal firearm injuries, this variable captures non-fatal injuries including but not limited to firearms. For example, non-fatal injuries might include being trampled or injured in a large crowd, injuring a limb while trying to escape, or being injured by explosives.\nThis variable is intended to capture serious injuries. A description of the injury in the source documents typically is enough to consider the injury serious, unless the injury is explicitly described as minor or mild. If mild or minor injuries are enumerated, subtract those from the total number of non-fatal injuries mentioned.\nEnter “0” if there is no indication of non-fatal injuries.\nEnter “9999” if source documents indicate that the incident had nonfatally injured victims, but the number is unknown or unspecified."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.2 SAVD Location Type: SAVD_Location"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the incident occurred on campus or off campus."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 On campus\n2 Off campus\n99 Unknown, unspecified"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Any death occurring on K-12 campus property is considered an SAVD. Campus property includes but is not limited to classrooms, hallways, administrative offices, libraries, cafeterias, performance halls, etc."
+    }
+  ]
+}

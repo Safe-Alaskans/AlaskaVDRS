@@ -1,0 +1,125 @@
+Labs CONFIDENTIAL
+
+123 Sesame Street
+Phone: 123-456-7891 Fax: 123-456-7891 e-mail:
+
+labs@labs.com
+
+Toxicology Report
+Report Issued 02/32/2024 17:24
+
+To: 10261
+State Medical Examiners Office
+Attn: Juan Doe
+456 Highway, NY 12345
+
+Positive Findings:
+
+Patient Name
+Patient ID
+Chain
+DOB
+Sex
+Workorder
+Page 1 of 2
+
+DOE, JANE
+0000-00000
+AB0000
+1/1/1993
+Female
+00000
+
+None Detected
+
+See Detailed Findings section for additional information
+Testing Requested:
+Test Test Name
+8051TI
+Specimens
+Received:
+
+Postmortem, Basic, Tissue (Forensic)
+
+ID Tube/ContainerVolume/ Collection Matrix Source Mass Date/Time Labeled As
+001 Red Stopper Glass
+Tube
+
+0.2 mL 11/21/2023 Vitreous Fluid 2023-02555
+
+002 Red Stopper Glass
+Tube
+
+9 mL 11/21/2023 Urine 2023-02555
+003 Plastic Bag 77.9 g 11/21/2023 Liver Tissue 23-2555
+004 Homogenate
+Container
+
+Not Given 11/21/2023 Liver Tissue Not Applicable
+
+All sample volumes/weights are approximations. Specimens received on
+02/05/2024.
+
+v.27.0
+
+CONFIDENTIAL Workorder 00000
+Chain AB0000
+Patient ID 0000-0000
+Page 2 of 2
+
+Detailed Findings:
+Examination of the specimen(s) submitted did not reveal any positive findings of toxicological significance by
+procedures outlined in the accompanying Analysis Summary.
+Sample Comments:
+001 Physician/Pathologist Name: Juan Doe
+003 Tissue specimen required homogenization: 0000-003
+004 Labs generated homogenized Tissue sample: 0000-004
+Unless alternate arrangements are made by you, the remainder of the submitted specimens will be discarded two (2)
+years from the date of this report; and generated data will be discarded five (5) years from the date the analyses were
+performed.
+
+Workorder 0000 was electronically signed on
+1/32/2024 18:02 by:
+John Smith, Ph.D., F-ABFT
+Forensic Toxicologist
+
+Analysis Summary and Reporting Limits:
+All of the following tests were performed for this case. For each test, the compounds listed were included in the scope. The
+Reporting Limit listed for each compound represents the lowest concentration of the compound that will be reported as being
+positive. If the compound is listed as None Detected, it is not present above the Reporting Limit. Please refer to the Positive
+Findings section of the report for those compounds that were identified as being present.
+Test 8051TI - Postmortem, Basic, Tissue (Forensic) - Liver Tissue
+-Analysis by Enzyme-Linked Immunosorbent Assay (ELISA) for:
+Analyte Rpt. Limit Analyte Rpt. Limit
+Amphetamines 80 ng/g
+Barbiturates 0.16 mcg/g
+Benzodiazepines 400 ng/g Buprenorphine /
+Metabolite 2.0 ng/g Cannabinoids 40 ng/g
+Cocaine / Metabolites 80 ng/g
+-Analysis by Headspace Gas Chromatography (GC) for:
+
+Fentanyl / Acetyl Fentanyl
+Methadone / Metabolite
+Methamphetamine / MDMA
+Opiates
+Oxycodone / Oxymorphone
+Phencyclidine
+
+4.0 ng/g
+100 ng/g
+80 ng/g
+80 ng/g
+40 ng/g
+40 ng/g
+
+Analyte Rpt. Limit Analyte Rpt. Limit
+Acetone 20 mg/100 g
+Ethanol 80 mg/100 g
+
+Isopropanol
+Methanol
+
+20 mg/100 g
+40 mg/100 g
+Digital data review may have taken place remotely by qualified staff utilizing a secure VPN connection for some or all of the reported results. This is in accordance with and
+follows CLIA regulations.

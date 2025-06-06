@@ -1,0 +1,223 @@
+{
+  "summary": [
+    "This document outlines various circumstances related to family stressors, relationship problems, and the victim's known history with authorities that may contribute to deaths. It emphasizes the importance of distinguishing between family stressors and relationship problems, as well as the impact of abuse and neglect on victims. The guidelines provide specific coding options and examples to ensure accurate documentation of these factors."
+  ],
+  "keywords": [
+    "family stressors",
+    "relationship problems",
+    "abuse",
+    "neglect",
+    "victim history",
+    "coding guidelines",
+    "circumstances of death",
+    "intimate partner violence",
+    "local authorities",
+    "mental health"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "discussion",
+      "content": "Discussion:\nThis variable should be endorsed if at the time of the incident the victim was experiencing significant problems related to the family home environment that are not related to relationship problems and involve family members other than intimate partners. This is meant to differentiate outside stressors placed upon the family from problems between family members. The stressor is affecting the victim and family unit. Describe the nature of these problems in the narrative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Conflict or strife between family members who are also intimate partners (e.g., spouses) requires some additional consideration. If the victim is one of the intimate partners, code “Intimate partner problem,” but not “Family stressors.” If the victim is not one of the intimate partners (such as a child distraught over parental conflict), then this circumstance may be endorsed."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of family stressors include:\nA child (i.e., victim) takes their own life, and a suicide note indicates the child could no longer live in the house where their parents argued all of the time.\nA family member is serving jail time, and this is causing stress on the family unit.\nSubstance abuse of family member(s) is causing stress on the family unit.\nExperience of illness or disease of a family member is causing stress on the family. This variable applies to the whole family (including a caregiver) but is different from the new caregiver stress variable.\nParental depression due to parent(s) moving into a nursing home was causing stress among the children.\nA family member is moving back home under stressful circumstances (e.g., recently released from jail or rehab facility, illness, dropped out of college, loss of job), that are causing stress in the family.\nDrug addicted sibling disrupting household and is causing stress on the family."
+    },
+    {
+      "type": "paragraph",
+      "content": "Family stressors are NOT anything that would be considered “Family relationship problem”: Victim had relationship problems with a family member (other than an intimate partner) that appear to have contributed to the death. However, it is possible for both family stressor and family relationship problem to be endorsed for a single case, but they should not be referring to the same problem."
+    },
+    {
+      "type": "list_item",
+      "content": "For example:\nA man died by suicide after getting upset with his adult son for having to move home because of substance abuse issues (family relationship problem), AND his wife had dementia, which was putting stress on the family unit (family stressor)."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is important to note that “Family stressor” should be capturing outside stressors placed upon the family as opposed to “Family relationship problem,” which captures relationship problems between non-intimate partner family members."
+    },
+    {
+      "type": "note",
+      "content": "Note: In 2013, the variable, “Family stressor,” was replaced with “Family relationship problem,” and the coding guidance for this variable was also changed. This new family stressor variable does not replace “Family relationship problem,” and is therefore defined differently than the original “Family stressor” variable – it is intended to capture family problems that are not relationship-oriented in nature, providing more representation of family circumstances that may be relevant to deaths captured by NVDRS."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "chapter",
+      "content": "5.4.8 Other relationship problem: CME/LE_RelationshipProblemOth"
+    },
+    {
+      "type": "definition",
+      "content": "Definition:\nProblems with a friend or associate (other than an intimate partner or family member) appear to have contributed to the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "discussion",
+      "content": "Discussion:\nCode as “Yes” if at the time of the incident the victim was experiencing a relationship problem with someone other than an intimate partner or other family member (e.g., a friend or schoolmate), and this appears to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Suicide example: The victim was upset because she had a falling out with her childhood friend who would no longer talk to her.\nHomicide example: The victim was having a problem with one of his friends (i.e., the suspect) who kept stealing things from his house due to a drug problem. When the victim tried to take one of the items back from his house, the suspect shot him."
+    },
+    {
+      "type": "paragraph",
+      "content": "Do not code relationship problems for co-workers or supervisors (e.g., boss) with whom the victim is not friends or had a romantic relationship. Consider coding these as “job problems.”\nIf the report indicates that the victim was “having relationship problems,” these should be assumed to be intimate partner problems, and not problems with other friends or family or other relationship problems.\nNarrative should contain an explanation of the relationship problem and identify the person with whom the victim had a relationship problem."
+    },
+    {
+      "type": "note",
+      "content": "Note: Before August 2013, this included any relationship except intimate partners. After August 2013, this includes any relationship except intimate partner or family relationships."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "chapter",
+      "content": "5.4.9 Other relationship problem was crisis: CME/LE_CrisisRelationshipProblemOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include a close friend telling the victim the night before the suicide that he can no longer be friends with him, or the victim kicks a friend out of his house because he cannot pay rent and the friend comes back the next day and shoots him."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in July 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "chapter",
+      "content": "5.4.10 Household known to local authorities: CME/LE_HouseholdKnownAuthorities"
+    },
+    {
+      "type": "definition",
+      "content": "Definition:\nVictim’s household had contact with local authorities."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "discussion",
+      "content": "Discussion:\nRefers to the household’s history of contact with local authorities prior to the fatal incident. An arrest does not need to have been made to endorse this variable. This may include scenarios where LE was called, but no charges were filed. “Household” is defined as the residence where the victim lived the majority of the time when the fatal incident occurred. Household was chosen as the unit for this variable in an attempt to characterize the victim’s environment; therefore, contact does not necessarily have to involve the victim or the suspect. If the source document(s) state that the household had previous contact with local authorities, this variable should be endorsed even if no further specifics are provided."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples:\nA Child Protective Services (CPS) referral (also called intake) made on the household for alleged child abuse and/or neglect. A CPS referral also includes anyone calling to report suspected child abuse and/or neglect. Child is defined as a person younger than 18 years of age.\nA child victim (i.e., a person younger than 18 years of age) was previously in foster care or was in foster care at the time of the fatal event. Also, code “Victim known to local authorities” and “Prior Child Protective Services report on the child victim’s household.” If applicable, also code “Abuse/neglect led to death” and/or “History of abuse or neglect as a child.”\nThe victim’s uncle, who lived with the victim, was a known drug dealer and had contact with authorities."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable should be endorsed only if the source document(s) state that someone in the household, other than the victim, had previous contact with local authorities. Code “Victim known to local authorities” if the victim was known to authorities. Both variables can be endorsed in certain situations; they are not mutually exclusive. Please see variable “Victim known to authorities” for further examples of when it is appropriate to code both “Household known to local authorities” and “Victim known to local authorities.”"
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "chapter",
+      "content": "5.4.11 Victim known to authorities: CME/LE_VictimContact"
+    },
+    {
+      "type": "definition",
+      "content": "Definition:\nVictim had contact with or was otherwise known to authorities."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "discussion",
+      "content": "Discussion:\nThis variable refers to the victim’s history of contact with local, state, federal, or international authorities prior to the fatal incident. “Authorities” encompasses anyone who is in a position of authority (e.g., LE, EMS, child protective services, public safety officer, judge), who has the power or right to give orders, make decisions, and/or enforce obedience. Being “known” to authorities may or may not involve direct contact on the part of the victim. Victim was chosen as the unit for this variable because its intent is to identify warning signs, stressors, and/or opportunities for intervention associated with specific individual victims and not the victim’s household environment. If source document(s) state that the victim had previous contact with authorities this variable should be endorsed even if no further specifics are provided."
+    },
+    {
+      "type": "general_guidance",
+      "content": "General Guidance:\nCode “Yes” if the victim was known to authorities for previous incarcerations, substance misuse, arrests, prostitution, mental health problems, welfare checks, homelessness, etc.\nCode “Yes” if the victim had an arrest that was mentioned in source documents.\nCode “Yes” if a child victim (i.e., a person younger than 18 years of age) was previously in foster care or was in foster care at the time of the fatal event. Also, code “Household known to local authorities” and “Prior Child Protective Services report on the child victim’s household.” If applicable, also code “Abuse/neglect led to death” and/or “History of abuse or neglect as a child.”\nCode “Yes” if, per the source document(s), the victim was previously or currently (where applicable) on probation or parole, out on bail, on house arrest, wearing a GPS device or ankle monitor, a registered sex offender, under investigation for a crime, awaiting sentencing for a crime they had been convicted of, had a restraining or protective order against them that had been served, had filed a restraining or protective order against someone, or had a warrant out for their arrest at the time of the fatal injury. These abovementioned encounters with authorities mean that the victim was under ongoing “supervision” and was therefore known by authorities.\nCode “Yes” if, per the source document(s), the victim was previously or currently (where applicable) under court-ordered substance abuse treatment, anger management or parenting training, or under supervised visitation in order to visit with their child(ren) at the time of the fatal injury. These abovementioned encounters with local authorities mean that the victim was under an ongoing “supervised” mandate(s) and was therefore known by authorities.\nCode “No” if a person(s) in the household, other than the victim, was known by authorities. Because individuals may move in and out of different households, and we may not be able to infer that an individual in the household, other than the victim, being known to the authorities, impacted a particular victim.\nCode “No” if the only known contact the victim had with authorities was the contact they had at the time of the fatal incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when to Code “Yes” for this variable:\nEMS, LE, or public safety patrol officers (e.g., non-law enforcement officers who patrol areas for public health issues such as persons experiencing homelessness, prostitution) had responded to calls involving the victim once or on several occasions.\nLE had arrested the victim once or multiple times.\nSource documents indicate that LE had been called to the household by neighbors for a domestic disturbance involving the victim.\nThe victim had contact with first responders (e.g., EMS, LE, public safety officer) for one or more non-fatal drug overdoses, acute mental health crisis, person experiencing homelessness seeking assistance, etc.\nA Child Protective Services referral (also called intake) was made on the child victim for alleged child abuse and/or neglect by the hands of the perpetrator or another adult. Also code “Prior Child Protective Services report on the child victim’s household,” and because children are dependents and therefore are a part of a household, code “Household known to local authorities.” If applicable, also code “Abuse/neglect led to death” and/or “History of abuse or neglect as a child.”\nOn the morning of the fatal incident, the victim told his mother that he would fail his court mandated drug test later in the day and was faced with jail time if he failed. He later died by suicide.\nThe victim was known to LE and EMS as having untreated bipolar disorder, and they had been to his residence several times for previous suicide attempts as well as altered mental state transports.\nThe victim was known to authorities as someone with an alcohol abuse problem or was taken into protective custody for public drunkenness.\nLE were called to the victim’s residence for a domestic disturbance one month prior to victim’s death. At this time, the suspect (ex-boyfriend) was arrested, but the victim chose not to file a restraining order against the ex-boyfriend. The victim was killed a month later by the ex-boyfriend.\nVictim was killed by her husband. Officers on scene knew the victim and suspect because they had responded to the residence earlier that day for a domestic disturbance.\nLE were attempting to serve a restraining order on the victim for kidnapping and assault, and when they arrived at the victim’s home, the victim shot himself, dying by suicide.\nVictim was arrested the night prior for operating a vehicle while under the influence after a minor traffic accident. The victim died by suicide a week later."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when to Code “No” for this variable:\nThe victim’s uncle, who lived with the victim, was a known drug dealer and had contact with authorities. While the victim’s uncle was a known drug dealer, it was unclear whether the victim had contact with authorities. Code “Household known to local authorities” Instead.\nLE had been called to the household by neighbors for a domestic disturbance where the husband attacked his wife. The husband later divorced the wife, moved his girlfriend in the home, and killed the new girlfriend within one month of moving her in. Because the girlfriend (i.e., the victim in the fatal incident), was not a part of the household during this initial domestic disturbance call and per the source documents, had no contact with authorities prior to the fatal event, code “No” for this variable. Code “Household known to authorities” (and “Suspect had been in contact with law enforcement”) instead.\nA Child Protective Services referral (also called intake) was made on the household for alleged child abuse and/or neglect, but nothing indicates that it specifically involved the child victim, code “Household known to local authorities” and “Prior Child Protective Services report on the child victim’s household.” If applicable, also code “Abuse/neglect led to death” and/or “History of abuse or neglect as a child.”\nVictim was known to LE solely because they were a current or former LE officer or family member of a current or former LE officer.\nThe victim was known to police because he had been reported missing and there had been several search parties looking for him over the past few days. If the victim’s missing person report was the first “encounter” the victim had with police, then it can be assumed that their disappearance was part of their fatal injury."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable should be endorsed only if the victim had contact with authorities. Code “Household known to local authorities” variable if persons in the household, other than the victim, were known to local authorities. Both variables can be endorsed in certain situations; they are not mutually exclusive."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when to Code “Yes” for both “Victim known to authorities” and “Household known to local authorities”:\nLE had been called to the household by neighbors for a domestic disturbance where the husband was identified as the aggressor, and the wife, who is the victim in the fatal incident, was also identified as a victim in the prior domestic disturbance. In this example, both the household and the victim were known by authorities.\nEMS and/or LE had been called to the household for one or more non-fatal drug overdoses for multiple persons in the household, including the victim, and administered a fast-acting remedy (e.g., Narcan) for an opioid overdose for the victim and others in the household. In a later incident, the victim died from a fatal drug overdose at the household. In this example, since Narcan was administered on the victim and others in the household, and the victim died of a drug overdose in a later incident, both the victim and the household were known by authorities.\nA child victim (i.e., a person younger than 18 years of age) was previously in foster care or was in foster care at the time of the fatal event. Because children are dependents and therefore are a part of a household, code “Household known to local authorities” and “Prior Child Protective Services report on the child victim’s household.” If applicable, also code “Abuse/neglect led to death” and/or “History of abuse or neglect as a child.”\nA Child Protective Services referral (also called intake) was made on the child victim for alleged child abuse and/or neglect by the hands of the perpetrator or another adult. Because children are dependents and therefore are a part of a household, code “Household known to local authorities” and “Prior Child Protective Services report on the child victim’s household.” If applicable, also code “Abuse/neglect led to death” and/or “History of abuse or neglect as a child.”\nEMS and/or LE had been called to the household when a couple’s adult son, who was experiencing an acute mental health crisis, attacked his mother. The adult son later killed his mother, and his behavior in the fatal event towards his mother was believed to be a direct result of a mental illness. In this example, both the household and the victim were known authorities."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2021."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "chapter",
+      "content": "5.4.12 Abuse/neglect led to death: CME/LE_DeathAbuse"
+    },
+    {
+      "type": "definition",
+      "content": "Definition:\nThe victim experienced abuse± (physical, sexual, or psychological) or neglect (physical, including medical/dental, emotional, or educational neglect; or exposure to violent environments; or inadequate supervision) by a caregiver that resulted in death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "discussion",
+      "content": "Discussion:\nThis variable identifies homicides where the victim died as a result of injuries sustained due to abuse or neglect and suicides related to ongoing or past experiences of abuse or neglect. This includes all sources of abuse/neglect, including child abuse, elder abuse, and other abuse by a caretaker. Indicate the nature of the abuse in the incident narrative."
+    },
+    {
+      "type": "list_item",
+      "content": "Abuse can be physical, psychological, sexual, or another type, as long as the source document refers to “abuse.”\nIntimate partner violence or intimate partner problems should NOT be coded when using this code; these should be coded as “Intimate partner violence.”"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicides:\nCode “Yes” if the victim died as a result of injuries from a single or multiple episode of abuse or because of ongoing abuse by a caregiver.\nCode “Yes” if the suspect was a caregiver for the victim."
+    },
+    {
+      "type": "list_item",
+      "content": "Suicides:\nCode “Yes” if a single incident or ongoing or past abuse by a caregiver was seen as a precipitating factor for the suicide (e.g., victim despondent over being abused by his grandfather the week before the suicide).\nIf there is evidence of abuse (e.g., victim was abused by father as a child), but no clear indication that this abuse led to the death, then do NOT code “DeathAbuse.” Instead, you should code “History of abuse/neglect as a child.”"
+    },
+    {
+      "type": "list_item",
+      "content": "Examples that should be coded “Yes”:\nThe victim was an elderly man who died of multiple wounds received as a result of physical abuse by his paid caregiver.\nThe day before the suicide the victim was despondent and depressed about confronting her parents about past abuse.\nA child victim was shot and killed by a caregiver (e.g., father, mother). Although there were no signs of ongoing abuse/neglect, and the fatal event may have been the first noted incident of abuse/neglect, the death of the child was a severe abusive act that led to their death."
+    },
+    {
+      "type": "list_item",
+      "content": "Also code: Code History of abuse/neglect as a child, if applicable."
+    }
+  ]
+}

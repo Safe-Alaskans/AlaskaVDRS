@@ -1,0 +1,275 @@
+{
+  "summary": [
+    "This document outlines various circumstances surrounding violent deaths, including transitions to assisted living, the impact of criminal activity, and specific crime-related variables. It provides definitions, response options, and examples for categorizing incidents involving stalking, prostitution, terrorist attacks, and gang-related activities. The document emphasizes the importance of accurately identifying the nature of these incidents for effective data collection and analysis."
+  ],
+  "keywords": [
+    "Circumstances",
+    "violent deaths",
+    "assisted living",
+    "criminal activity",
+    "stalking",
+    "prostitution",
+    "terrorist attack",
+    "gang-related",
+    "definitions",
+    "response options"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable should be endorsed if source documents indicate that the victim recently transitioned into an assisted living environment (e.g., nursing home, group home, congregate home, or assisted living facility) compared to their typical or previous living environment. This can be endorsed regardless of whether the transition was voluntary."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of living transition/loss independent living include:\nThe victim recently left an independent or family living environment and transitioned into a group home, nursing home, or assisted living facility.\nThe victim recently left an independent living environment (e.g., living on one’s own) and transitioned into living with a family member due to health concerns or to meet other needs for care.\nThe use of home health care (e.g., home health aide services, long-term nursing care) was imminent or had recently begun due to illness, injury, or disability.\nThe victim was subject to conservatorship or guardianship due to aging, illness, injury, or disability status."
+    },
+    {
+      "type": "list_item",
+      "content": "The following should not be endorsed as a living transition/loss of independent living:\nThe victim recently moved from one assisted living environment to a different but similar one (from one nursing home to another, one group home to another).\nThe victim recently moved in with a family member or friend, or into a homeless shelter out of necessity or due to crisis. This should be coded as “Housing Instability.”"
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "chapter",
+      "content": "5.5 Crime and Criminal Activity"
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.1 Precipitated by another crime: CME/LE_PrecipitatedByOtherCrime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The death was precipitated by another serious crime (e.g., drug dealing, robbery)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable identifies the proportion of violent deaths that are related to other criminal activity, specifically felonies (e.g., robbery or drug-trafficking). It uses a somewhat broader definition than that used by the SHR system, which only counts felony-related deaths as those that occur while another felony is in progress. Code as “Yes” if the incident occurred as the result of another serious crime. Note that the crime must have occurred prior to the violent injury and not after it."
+    },
+    {
+      "type": "list_item",
+      "content": "Code “Yes”:\nSerious crimes (such as drug trafficking, robbery, burglary, motor vehicle theft, arson, resisting arrest, and witness intimidation/elimination) are felonies. These are crimes that carry a sentence of one or more years in prison.\nA bystander inadvertently killed during the commission of another crime should be coded.\nA homicide committed in retaliation for the victim cooperating with authorities in identifying the suspect as a suspect in another case is properly coded as “Precipitated by another crime.” Also endorse “Witness intimidation/elimination” as the nature of the other precipitating crime.\nIf the victim died by suicide after committing a homicide, endorse “Precipitated by another crime.”\n“PrecipitatedByOtherCrime” must be checked for all incidents involving “Legal Intervention” as the abstractor-assigned manner of death."
+    },
+    {
+      "type": "list_item",
+      "content": "Code “No”:\nCriminal activity that was part of the violence that led to the fatal injury, not a separate, precipitating crime (e.g., the suspect was assaulting the victim, which led to the victim’s death) is not another precipitating crime.\nMisdemeanors such as traffic infractions, shoplifting, petty larceny (e.g., stealing someone’s jacket), public drunkenness, and minor assaults (no injury or deadly weapon involved) are not considered serious crimes.\nThe simple existence of an additional crime other than the homicide in an incident is not sufficient grounds for endorsing “PrecipitatedByOtherCrime,” as homicide suspects are frequently charged with more than one crime (e.g., carrying a gun without a permit, destroying evidence). The other crime must be a precipitating factor for “PrecipitatedByOtherCrime” to be endorsed."
+    },
+    {
+      "type": "note",
+      "content": "Note: When endorsing “PrecipitatedByOtherCrime,” you must indicate the “Nature of other precipitating crime” and if it was “in progress” at the time of the violent injury."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.2 Nature of Other Precipitating Crime Variables"
+    },
+    {
+      "type": "list_item",
+      "content": "5.5.2.1 Nature of first other crime: CME/LE_NatureOtherCrime1\n5.5.2.2 Nature of second other crime: CME/LE_NatureOtherCrime2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nNature of first other crime: Nature of the first crime that precipitated the incident (Applies only to crime-related deaths.)\nNature of second other crime: Nature of the second crime that precipitated the incident (Applies only to crime-related deaths with more than one precipitating crime.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1 Drug trade\n2 Robbery\n3 Burglary\n5 Motor vehicle theft\n6 Arson\n7 Rape, sexual assault\n9 Gambling\n10 Assault, homicide\n11 Witness intimidation/elimination\n66 Other (specify in narrative)\n88 Not applicable\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: For cases in which the incident was precipitated by another serious crime, these two variables identify the specific type of crime involved. The information is used to better characterize the types of criminal violence that lead to violent death. When multiple crimes are committed, please list crimes in progress first and then other crimes. For instance, the victim robs a store earlier in the day and police come to arrest him later that day on a tip. The victim shoots at the police and is killed. This should be coded “Nature of first crime: Assault, homicide” (i.e., shooting at police) and “Nature of second crime: Robbery” (i.e., robbing a store earlier in the day)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response definitions:\nDrug trade – The buying, selling, or passing of drugs from one person to another in exchange for goods or money.\nRobbery – Taking, or attempting to take, anything of value from another person or persons by force or threat of force or violence. If money or goods are stolen without force or threat of force (e.g., thieves stealing equipment from a loading dock), the theft is not a robbery, but larceny, and should be coded as “Other.” Note that carjacking is a form of robbery rather than motor vehicle theft, as it involves taking by force.\nRemember, shoplifting and petty larceny (e.g., stealing someone’s jacket) should NOT be coded because these are not felonies.\nBurglary – The unlawful entry into a building or other structure without the owner’s consent and with the intent to commit a felony or a theft.\nMotor vehicle theft – The theft or attempted theft of a motor vehicle includes the stealing of automobiles, trucks, buses, motorcycles, motor-scooters, snowmobiles, etc. Does not include taking a motor vehicle for temporary use by those persons having lawful access, nor does it include stealing motor vehicle parts. Stealing motor vehicle parts without force or the threat of force is larceny and should be coded as “Other.” Note that carjacking is a form of robbery rather than motor vehicle theft, as it involves taking by force.\nArson – To unlawfully and intentionally damage, or attempt to damage, any building, real estate, or personal property by fire or incendiary device. An arsonist or building owner burns down a building for economic advantage and someone dies in the fire. Victims are considered victims of a criminal homicide even if their deaths were not intended.\nDo not code arson when it is used to cover up a homicide (because the arson was not a precipitating event).\nRape, sexual assault (i.e., sexual violence±) – Sexual violence is defined as a sexual act that is committed or attempted by another person without freely given consent of the victim or against someone who is unable to consent or refuse. It includes: forced or alcohol/drug-facilitated penetration of a victim; forced or alcohol/drug-facilitated incidents in which the victim was made to penetrate a perpetrator or someone else; non-physically pressured unwanted penetration; intentional sexual touching; or non-contact acts of a sexual nature. Sexual violence can also occur when a perpetrator forces or coerces a victim to engage in sexual acts with a third party.\nGambling – To illegally play games of chance for money or other stakes with the hope of gaining something beyond the amount played. This includes dealing, operating, or maintaining any game.\nAssault/homicide – An unlawful fatal or nonfatal attack by one person upon another. To qualify as a serious crime, the assault should be an aggravated assault (one that involves bodily injury or threat with a deadly weapon).\nWitness intimidation/elimination – To prevent a witness from providing information to the authorities about a crime either by killing, harming, or removing the witness, or by intentionally saying or doing something that would cause the witness to be fearful of providing information."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "note",
+      "content": "± This definition is based on the CDC/National Center for Injury Prevention and Control standard definition of Sexual Violence. Source: http://www.cdc.gov/violenceprevention/pdf/sv_surveillance_definitions.pdf"
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.3 First crime in progress: CME/LE_OtherCrimeInProgress"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The precipitating crime was in progress at the time of the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: An “in-progress crime” is a serious or felony-related crime, as discussed under “Precipitated by another crime,” that is being committed or attempted at the time of the incident.\nFor deaths that are precipitated by felony criminal activity (as discussed under “Precipitated by another crime”), this variable identifies whether the crime listed for “first other crime in progress” was in progress when the victim died.\nThe SHR system defines felony-related only in terms of in-progress felonies. Because NVDRS uses a broader definition for felony crime-related, this variable can be used to distinguish violent deaths where the precipitating felony was in progress (i.e., the SHR definition) or violent deaths that occurred after the precipitating felony crime was committed."
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide examples:\nA law enforcement officer responded to a robbery and shot the victim when he shot at the officer (Note: the precipitating crimes are robbery and assault of the officer and both were in progress). “Precipitated by another crime” should be checked for all legal interventions unless the shooting was accidental.\nThe victim during a robbery is shot by a bystander.\nAn argument breaks out over a drug deal involving five people. Two are killed and one other is shot."
+    },
+    {
+      "type": "list_item",
+      "content": "Suicide example:\nThe victim assaults a store owner and is pursued by law enforcement. When law enforcement corners him in a building, the victim dies by suicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: Code “Criminal legal problem.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.4 Stalking: CME/LE_Stalking"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Stalking behaviors precipitated the violent incident. Stalking involves a pattern of harassing or threatening tactics used by a perpetrator that is both unwanted and causes fear or safety concerns in the victim. A person may be considered a stalking victim if they experienced multiple stalking tactics or a single stalking tactic multiple times by the same perpetrator±."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of stalking tactics include:\nUnwanted phone calls, voice or text messages, hang-ups\nUnwanted emails, instant messages, messages through social media\nUnwanted cards, letters, flowers, or presents\nWatching or following from a distance, spying with a listening device, camera, or global positioning system (GPS)\nApproaching or showing up in places such as the victim’s home, workplace, or school when it was unwanted\nLeaving strange or potentially threatening items for the victim to find\nSneaking into victims’ home or car and doing things to scare the victim or let the victim know the perpetrator had been there"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable identifies the proportion of violent deaths that are related to stalking or in which stalking precipitated a suspect committing violence against a victim. Stalking is not limited to intimate partners and can involve strangers, friends, or co-workers.\nCode “Stalking” as “Yes” if there is indication that stalking precipitated the incident. This can occur in situations that involved intimate partner violence (e.g., victim had taken out a restraining order, because the suspect was stalking her), sexual violence (e.g., suspect had stalked the victim before raping and killing her), a serial killing (e.g., suspect stalked victim prior to attack) or bullying.\nCode “Stalking” as “Yes” if the victim was the stalker (e.g., law enforcement killed the stalker during a shootout)."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.5 Stalking was crisis: CME/LE_CrisisStalking"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim confronting the stalker the night before being killed or the victim filing a restraining order on the stalker the week before being killed."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.6 Prostitution: CME/LE_Prostitution"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Prostitution or prostitution-related activities played a precipitating role in the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Prostitution includes the prostitutes, pimps, clients, and other persons who are involved in such activity (e.g., prostitution ring, sex trafficking).\nCode “Prostitution” as “Yes” if the police or C/ME report indicates that the death resulted, or is suspected to have resulted, from prostitution-related activity.\nThis code also applies in incidents where victim(s) appear to have been targeted because they engage in prostitution.\nDo not endorse “Prostitution” if the victim or suspect is a sex worker or pimp, but the death did not appear to be related to prostitution activity."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.7 Prostitution was crisis: CME/LE_CrisisProstitution"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim, a prostitute, having a fight with a pimp and threatening to leave the day before being killed."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.8 Terrorist attack: CME/LE_TerroristAttack"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The death resulted from a terrorist attack."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The victim was injured in a terrorist attack, whether with conventional, chemical, biological, or other weapons.\nThe NVDRS uses the FBI definition of terrorism: “Injuries resulting from the unlawful use of force or violence against persons or property to intimidate or coerce a government, the civilian population, or any segment thereof, in furtherance of political or social objectives.”\nTerrorism is not limited to terrorism by foreign nationals but includes domestic terrorism as well (e.g., abortion clinic bombing, anti-war bombing).\nThis code includes those who died while assisting in rescue operations from the attack.\nCode suicides as “Yes” if the person or people committing the terrorist act died by suicide during or immediately after the attack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.5.9 Gang-related: CME/LE_GangRelated"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Definitions for gang-related homicide can vary by law enforcement agency or CME and tend to capture deaths that are classified as gang motivated (i.e., motive of the incident was gang-related) or had suspected involvement of a gang member (i.e., a gang member was a suspect or victim in the incident). This variable captures both types of gang-related deaths reported by agencies."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not available, Unknown\n1 Yes, gang motivated\n2 Yes, suspected gang member involvement\n3 Yes, gang-related not otherwise specified\n4 Organized crime including motorcycle gangs, mafia, and drug cartels"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable identifies the proportion of violent deaths that are gang-related. A drop-down menu is provided to describe the type of gang activity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition of Gang-related: Although the definition of gangs varies across agencies, most definitions identify gangs as having a street presence that perpetrate violent street crime such as rape, robbery, aggravated assault, gun crimes, and murder. According to the National Gang Center, the following criteria are widely accepted among researchers for classifying groups as gangs:\nThe group has three or more members, generally persons 12–24 years of age.\nMembers share an identity, typically linked to a name, and often other symbols. Members view themselves as a gang, and they are recognized by others as a gang. The group has some permanence and a degree of organization.\nThe group is involved in an elevated level of criminal activity."
+    },
+    {
+      "type": "list_item",
+      "content": "Tips on abstracting gang-related deaths:\nDefinitions for gang-related homicide can vary by law enforcement agency. It may be necessary to ask agencies for clarification on how they define gang-related homicides. Also, some law enforcement agencies, especially those with specialized gang units, have databases of individual gang members that can be cross-referenced to provide these data. If a homicide is reported as “gang-related” and the definition used to make this distinction is unknown and not clear from the narrative, please classify as “3” or “gang-related not otherwise specified.”\nGangs predominantly include persons 12 to 24 years of age but may have members that are older or younger and deaths involving members outside the 12 to 24 year age range should be coded gang-related. If no information on gang type is provided, assume it is a youth gang.\nViolent deaths involving adult criminal organizations (i.e., members are predominantly adults) or associations such as organized crime, adult motorcycle gangs, or hate or ideology groups should not be coded as gang-related because the risk factors and organizations of these groups are distinct from street gangs."
+    },
+    {
+      "type": "list_item",
+      "content": "Process for categorizing a gang-related death:\nStep 1: Identify if the motive of the incident is gang-related (e.g., the death serves to further the goals or functions of a gang). These deaths include those occurring from gang rivalry, territoriality, or activity.\nExample incident: The victim (V) was standing on the street when a male suspect (S) approached and began questioning the V about his gang affiliation. S then shot V and ran from the location. This incident involves gang territoriality and rivalry as a motive.\nStep 2: If the incident is not gang-related or it is unknown if it is gang-related, then identify whether the incident involved a suspected gang member as either the victim or the suspect. In the narrative, describe whether the victim or the suspect was the gang member.\nExample incident: The victim had gang-related tattoos. If this is reported, then the victim is suspected to be a gang member.\nStep 3: Code gang-related not otherwise specified when the incident is described as gang-related, but the narrative does not provide any detail on what this means. Use this response option when the SHR code “juvenile gang killing” is used."
+    }
+  ]
+}

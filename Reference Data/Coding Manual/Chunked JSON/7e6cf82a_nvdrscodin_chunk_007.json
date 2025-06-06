@@ -1,0 +1,559 @@
+{
+  "summary": [
+    "This document outlines the classification and documentation of injury and death variables, focusing on the manner of death as determined by coroners and medical examiners. It emphasizes the importance of accurate recording and the need for abstractors to align their assessments with multiple data sources while providing guidance on handling discrepancies. Additionally, it discusses the collection of injury and death variables from various sources and the definitions of injury location and time variables."
+  ],
+  "keywords": [
+    "Injury",
+    "Death",
+    "Manner of Death",
+    "Coroner",
+    "Medical Examiner",
+    "Abstractor",
+    "NVDRS",
+    "Injury Location",
+    "Data Collection",
+    "Vital Statistics"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 4. Injury and Death Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death on C/ME, DC, and LE"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of death is a broad classification of the cause of death as natural, accidental, suicide, homicide, pending investigation, or undetermined intent. Manner is determined by the coroner or medical examiner and, when considered in conjunction with the narrative cause of death statements on the DC, is the basis for how the official underlying cause of death is coded in vital statistics data. Data describing the manner of death are useful for public health surveillance, health care planning and administration, clinical and health services, and epidemiologic research. Documenting manner by source is useful because the C/ME’s manner of death sometimes differs from the manner implied by the death certificate’s underlying cause of death code or from the law enforcement designation of the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, abstractors must:"
+    },
+    {
+      "type": "list_item",
+      "content": "Record the manner of death exactly as it appears on the DC and C/ME report."
+    },
+    {
+      "type": "list_item",
+      "content": "If a manner is noted as “Pending investigation,” check back on the case later to update the manner. “Pending” is considered a temporary designation."
+    },
+    {
+      "type": "list_item",
+      "content": "Code “Legal intervention” only if it is presented on the DC because states’ death certificates may have added their own code to indicate it as the manner of death. (The abstractor-assigned type of death variable can capture legal intervention deaths that are not coded on the DC in that fashion)."
+    },
+    {
+      "type": "list_item",
+      "content": "Record the manner from the C/ME report. Do NOT use the DC manner for the C/ME manner field even if the DC is found in the C/ME report."
+    },
+    {
+      "type": "paragraph",
+      "content": "Assigning Abstractor Manner of Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "The abstractor assigns this manner of death based on reading the DC, and C/ME and LE reports about the death and applying the NVDRS case definitions. In general, the data sources will agree on the manner of the death (e.g., C/ME, LE, and DC indicate homicide) and the abstractor manner should match or be consistent with the three reports. When the case is initiated, often with the DC, the abstractor should immediately enter an abstractor manner consistent with the available data source, and then update the manner as more information becomes available. Do NOT wait to receive all three data sources before completing the abstractor manner."
+    },
+    {
+      "type": "paragraph",
+      "content": "In some cases, the manner of death may vary across the data sources (e.g., LE reports homicide and C/ME reports suicide), or the manner assigned to the death may be different than the manner indicated by the NVDRS case definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "The following provides guidance about how to handle these types of situations:"
+    },
+    {
+      "type": "list_item",
+      "content": "If an abstractor assigns a manner of death that does not coincide with the C/ME’s, it must be consistent with a manner of death on at least one other document."
+    },
+    {
+      "type": "list_item",
+      "content": "Incidents where the manner used by the C/ME does not exactly match the NVDRS case definitions may occur. The protocol for defining NVDRS Death Type is included in the Definition section of the manual. Please read it."
+    },
+    {
+      "type": "quote",
+      "content": "If the facts of the case are clear and not in dispute, apply the NVDRS definitions in assigning Death Type. For instance, a clear unintentional shooting of one child by another, for example, may be categorized as an “Accident” by one medical examiner and a “Homicide” by another. In both these cases, the abstractor manner for the victim should be “Unintentional firearm – inflicted by another person.”"
+    },
+    {
+      "type": "quote",
+      "content": "If the facts of the case are unclear or in dispute, default to the C/ME’s determination of manner. For example, the C/ME manner is “Homicide” and the C/ME report states, “A 13-year-old teenager shot another 13-year-old; conflicting reports exist as to whether the shooting was intentional.” In this instance, the abstractor should use C/ME’s classification of manner of death (e.g., Homicide) because the C/ME intentionally selected “Homicide” over an “Unintentional” death explanation."
+    },
+    {
+      "type": "list_item",
+      "content": "There may be cases whereby the ICD-10 code listed in the DC indicates a death was “Natural” or “Unintentional” even though the C/ME and LE report indicate the death was a “Homicide” or “Suicide.” This can occur for various reasons, including the ICD code could have recorded the intent without the manner or an investigation which led to updated findings about the death. In these cases, the abstractor should use the manner recorded by the C/ME and LE report instead of the DC."
+    },
+    {
+      "type": "list_item",
+      "content": "Some states define all “Legal intervention” deaths (e.g., the victim was killed by law enforcement acting in the line of duty) as homicides. In contrast, NVDRS distinguishes between legal intervention deaths and homicides. Consequently, if after reviewing the C/ME and LE reports an abstractor can determine that a homicide was due to legal intervention, the abstractor assigned manner should be coded as ”Legal intervention.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes the manner of death is listed in a given source document for legal purposes such as seeking a prosecution; however, the facts of the case should be considered in their entirety when applying abstractor manner. Two examples of this are as follows:"
+    },
+    {
+      "type": "list_item",
+      "content": "There may be cases where the manner of death is listed as “Homicide” on the C/ME or LE report, and/or the DC may exist solely for prosecuting drug-related offenses (e.g., drug dealers or other persons who assisted the victim in obtaining or using substances that led to the victim’s fatal overdose). In this scenario, if the case shows that the victim died of an unintentional substance overdose, this is considered a SUDORS case. SUDORS abstractors may assign the abstractor manner of death as “Unintentional” (see SUDORS case inclusion/exclusion matrix in the SUDORS Coding Manual for more details)."
+    },
+    {
+      "type": "list_item",
+      "content": "Likewise, a manner of death of “Homicide” may be listed on the C/ME or LE report, and/or the DC for an incident involving the death of an infant due to maternal substance misuse for legal prosecution. If ICD-10 codes P04.4, or X40-X44 are assigned, and the case facts corroborate that the infant’s death was an unintentional poisoning death, this is considered a SUDORS case. Please refer to SUDORS case inclusion/exclusion matrix in the SUDORS Coding Manual for more details. Email ODsurveillance@cdc.gov for a copy of the manual."
+    },
+    {
+      "type": "paragraph",
+      "content": "In conclusion, the purpose of the abstractor manner is not to second-guess the C/ME or to enable an abstractor to come to his or her own conclusion about the case. Rather the purpose is to characterize the official death investigation about the intent type of the incident in a standardized manner that is consistent with the C/ME report, DC, and/or LE report AND with the NVDRS case definitions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Expanded guidance regarding cases where the manner of death is listed as “Homicide” on the C/ME or LE report, and/or the DC solely for purposes of prosecuting drug-related offenses (e.g., drug dealers or other persons who assisted the victim in obtaining or using substances that led to the victim’s fatal overdose) was added in August 2021."
+    },
+    {
+      "type": "subsection",
+      "content": "4.2 Change in Collection of Injury and Death Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "The remaining injury and death variables have traditionally been obtained from DCs. Beginning in 2013, these variables may be abstracted from any source when appropriate. While DCs can continue to be used to collect these variables, the best sources for each variable may vary across states."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3 Injury Locations, Time, and Events"
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.1 Injury Address Variables"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.1.1 State or territory where injury occurred: InjuryState"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.1.2 County where injury occurred: InjuryCounty"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.1.3 City where injury occurred: InjuryCity"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.1.4 ZIP code where injury occurred: InjuryZip"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.1.5 US Census tract where injury occurred: CensusTract"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.1.6 US Census block group where injury occurred: CensusBlock"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryState: State in which injury was inflicted"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryCounty: County (or county equivalent) in which injury was inflicted"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryCity: City/town in which injury was inflicted"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryZip: Postal ZIP code in which injury was inflicted"
+    },
+    {
+      "type": "list_item",
+      "content": "CensusTract: Census tract in which injury was inflicted"
+    },
+    {
+      "type": "list_item",
+      "content": "CensusBlock: Census block group in which injury was inflicted"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryState Start typing the name of the state or INCITS 38-2009 (formerly FIPS code)† 88 Not applicable 99 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryCounty Start typing the name of the county or INCITS 31-2009 (formerly FIPS code)†† 888 Not applicable 999 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryCity Start typing the name of the city or FIPS 55-3 or Census Code††† 88888 Not applicable 99999 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryZip 5-digit zip code of injury 88888 Not applicable 99999 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CensusTract 4- to 6-digit census tract†††† 9999.99 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CensusBlock 1-digit description of block group††††"
+    },
+    {
+      "type": "paragraph",
+      "content": "Leave blank if Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "† State codes are unchanged between FIPS and INCITS 38:2009."
+    },
+    {
+      "type": "paragraph",
+      "content": "†† County codes from FIPS have been carried over into INCITS 31:2009. Search for missing codes at this website http://www.census.gov/geo/reference/ansi.html."
+    },
+    {
+      "type": "paragraph",
+      "content": "Codes are provided for U.S. county and “county equivalent” areas (i.e., parishes, boroughs, the District of Columbia, independent cities."
+    },
+    {
+      "type": "paragraph",
+      "content": "††† Though the U.S. Geological Survey officially replaced FIPS 55-3 with INCITS 446-2008 http://www.itl.nist.gov/fipspubs/55new/nav-top-fr.htm, NVDRS will continue using the standard FIPS 553 to facilitate data import and to maintain consistency and familiarity."
+    },
+    {
+      "type": "paragraph",
+      "content": "†††† Census tract and census block group information may be obtained from the following website: http://factfinder2.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none. From the toolbar on the left side of the screen (options), select “Geographies.” Then click on the \"Address\" tab and type in the street address from the DC. This will elicit Census Tract and Block Group data directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    },
+    {
+      "type": "list_item",
+      "content": "If the address of injury covers more than one address, code the address where the first injury was inflicted."
+    },
+    {
+      "type": "list_item",
+      "content": "If there is no explicit address for the injury incident (e.g., in a park or on the beach), record the injury location variables using the nearest address or cross streets. If the nearest street address or intersection is not available from the records, enter the injury location information for the smallest geography that the name (e.g., park or on the beach) falls within. For example, if a city park falls entirely within a zip code, enter that zip code but enter “Unknown” for smaller geographies such as census tract."
+    },
+    {
+      "type": "list_item",
+      "content": "Reporting sites that geocode their data at the local level using address information (note: specific address information should never be entered into the web-based system) can generate the census block group and tract where the incident occurred from a geocoding program. In some states, the vital statistics registry or law enforcement department will have already geocoded the address and will have census tract and block group information available."
+    },
+    {
+      "type": "list_item",
+      "content": "The county and city/town are coded using standard FIPS codes. These codes are provided in dropdown menus in the NVDRS software."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Vital statistics data use two coding systems for states: FIPS and their own system. Please use the FIPS version here."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.2 Date and Time of Injury Variables"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.2.1 Date of injury: InjuryDate"
+    },
+    {
+      "type": "list_item",
+      "content": "4.3.2.2 Time of injury: InjuryTime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryDate: Date of injury leading to death"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryTime: Time of Injury leading to death"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option:"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryDate Date (format: MM\\DD\\YYYY) You must enter “MM” and “DD” as two-digit numbers (e.g., “06” for June, not “6”). If month or day is missing, enter “99.” If year of injury is missing, enter “9999.”"
+    },
+    {
+      "type": "list_item",
+      "content": "06/99/2007 for June 2007 with the day unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "99/99/2007 for 2007 with the month and day unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "99/99/9999 for the year, month, and day unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "InjuryTime Code using a 24-hour format or military time, with midnight as “0000,” noon as “1200,” and 2 PM as “1400.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nDate of injury can be used to examine trends over time in violent deaths, detect epidemics, and to test for seasonal effects on violent death. Time of injury can be used to identify the times of day in which incidents may be more likely to occur. Date and time of injury can also be used to interpret toxicology test results. Exact date and time of injury are sometimes unknown, as in an unwitnessed suicide or homicide."
+    },
+    {
+      "type": "list_item",
+      "content": "Do not enter the date that the victim was last seen if actual date of injury is unknown. The software allows for partially known date information to be entered. Enter “99” if the month or day is unknown and “9999” if the year is unknown:"
+    },
+    {
+      "type": "list_item",
+      "content": "For instance, if month and day of injury are unknown, but the year is known, code the date as 99/99/2003. If no information is known about when the incident occurred (as in when skeletal remains are found), it is acceptable to code date of injury as 99/99/9999."
+    },
+    {
+      "type": "list_item",
+      "content": "Sometimes the injury will be described as occurring within a time range (e.g., between 1 PM and 2 PM):"
+    },
+    {
+      "type": "list_item",
+      "content": "If a range of less than an hour is given (e.g., “around 9:30 AM” or “between 9:30 and 10:30”), code that as the lowest time in the range (0930 in both cases)."
+    },
+    {
+      "type": "list_item",
+      "content": "If a range of greater than one hour is noted for the time of injury (e.g., “sometime between 9:30 AM and noon”), treat time as unknown."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.3 Type of location where injury occurred: InjuryLocationType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures the type of place at which the injury occurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item",
+      "content": "1 House, apartment, rooming house, including driveway, porch, yard, garage"
+    },
+    {
+      "type": "list_item",
+      "content": "2 Street/road, sidewalk, alley"
+    },
+    {
+      "type": "list_item",
+      "content": "3 Highway, freeway"
+    },
+    {
+      "type": "list_item",
+      "content": "4 Motor vehicle, regardless of where motor vehicle is located (excluding school bus [15], and public transportation [21]); includes motor homes"
+    },
+    {
+      "type": "list_item",
+      "content": "5 Bar, nightclub"
+    },
+    {
+      "type": "list_item",
+      "content": "6 Service station"
+    },
+    {
+      "type": "list_item",
+      "content": "7 Bank, credit union, ATM location"
+    },
+    {
+      "type": "list_item",
+      "content": "8 Liquor store"
+    },
+    {
+      "type": "list_item",
+      "content": "9 Other commercial establishment (e.g., grocery store, restaurants, retail outlet, laundromat), including parking lot1 (see footnote for additional information about commercial establishments)"
+    },
+    {
+      "type": "list_item",
+      "content": "10 Industrial or construction areas (e.g., factory, warehouse)"
+    },
+    {
+      "type": "list_item",
+      "content": "11 Office building"
+    },
+    {
+      "type": "list_item",
+      "content": "12 Parking lot/public parking garage (e.g., public parking lot in a downtown area, parking lot shared by four or more households)"
+    },
+    {
+      "type": "list_item",
+      "content": "13 Abandoned house, building, or warehouse"
+    },
+    {
+      "type": "list_item",
+      "content": "14 Sports or athletic area (e.g., stadium, baseball field, gymnasium, recreation center)"
+    },
+    {
+      "type": "list_item",
+      "content": "15 School bus"
+    },
+    {
+      "type": "list_item",
+      "content": "16 Child care center, daycare, preschool"
+    },
+    {
+      "type": "list_item",
+      "content": "17 Elementary school, middle school (i.e., K-8) including school dormitory, residential school"
+    },
+    {
+      "type": "list_item",
+      "content": "18 High school, including school dormitory, residential school"
+    },
+    {
+      "type": "list_item",
+      "content": "19 College/University, including dormitory, fraternity/sorority"
+    },
+    {
+      "type": "list_item",
+      "content": "20 Unspecified school"
+    },
+    {
+      "type": "list_item",
+      "content": "21 Public transportation or station (e.g., bus, train, plane, airport, depot, taxi)"
+    },
+    {
+      "type": "list_item",
+      "content": "22 Synagogue, church, temple, mosque, shrine, tabernacle, cathedral"
+    },
+    {
+      "type": "list_item",
+      "content": "23 Hospital or medical facility"
+    },
+    {
+      "type": "list_item",
+      "content": "24 Supervised residential facility (e.g., shelter, halfway house, group home)"
+    },
+    {
+      "type": "list_item",
+      "content": "25 Farm"
+    },
+    {
+      "type": "list_item",
+      "content": "26 Jail, prison, detention facility"
+    },
+    {
+      "type": "list_item",
+      "content": "27 Park, playground, public use area"
+    },
+    {
+      "type": "list_item",
+      "content": "28 Natural area (e.g., field, river, beaches, woods)"
+    },
+    {
+      "type": "list_item",
+      "content": "29 Hotel/motel"
+    },
+    {
+      "type": "list_item",
+      "content": "30 Railroad tracks (other than on public transportation [21] or within station)"
+    },
+    {
+      "type": "list_item",
+      "content": "31 Bridge"
+    },
+    {
+      "type": "list_item",
+      "content": "32 Cemetery, graveyard, or other burial ground"
+    },
+    {
+      "type": "list_item",
+      "content": "66 Other"
+    },
+    {
+      "type": "list_item",
+      "content": "99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Data on the type of place at which an injury occurred help to describe the injury-producing event and are valuable for planning and evaluating prevention programs:"
+    },
+    {
+      "type": "list_item",
+      "content": "If a victim was injured in various locations (e.g., the victim was stabbed on a bus and was pursued by the attacker off the bus and into a store and stabbed a second time), code the location at which the victim was first injured."
+    },
+    {
+      "type": "list_item",
+      "content": "Designations of specific buildings (such as “House, apartment…” or “Bar, nightclub”) include both the building itself and the area directly outside, such as a driveway, porch, front walk, or garage."
+    },
+    {
+      "type": "list_item",
+      "content": "Events that occur on public sidewalks should be coded as “2 – Street,” with the exception of those occurring on sidewalks that are the private property of an adjacent building. Those should be coded as the adjacent building."
+    },
+    {
+      "type": "list_item",
+      "content": "If an incident occurs while the victim is in a motor vehicle (e.g., died in a motor vehicle at home), please code “4 – Motor vehicle” rather than the location of the motor vehicle. Injury “site,” injury “location,” and injury “scene” can all be used as synonyms."
+    },
+    {
+      "type": "list_item",
+      "content": "If a victim was fatally injured falling from a bridge, code the injury location as “31 – Bridge” and not the location of impact."
+    },
+    {
+      "type": "list_item",
+      "content": "If a victim was fatally injured in a nursing home or assisted living, code the injury location as “24 – Supervised residential facility.”"
+    },
+    {
+      "type": "list_item",
+      "content": "If a victim was fatally injured in a park, playground, ball field, or on school property, etc., code “17 – Elementary or middle school” or “18 – High school,” as appropriate. Endorse this injury as school-associated violent death and complete the information on the SAVD tab and extended suspect information for SAVD cases on the Suspect tab."
+    },
+    {
+      "type": "list_item",
+      "content": "If the victim was fatally injured on a K-12 school campus (code “17 – Elementary school or middle school; “18 – High school,” and “20 – Unspecified school”) or on school-sponsored transportation (e.g., school bus), endorse this injury as school-associated violent death and complete the information on the SAVD tab and extended suspect information for SAVD cases on the Suspect tab."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: The category “31 – Bridge” was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "1 “The term commercial establishment: (A) means an establishment used for commercial purposes, such as a bar, restaurant, private office, fitness club, oil rig, retail store, bank or other financial institution, supermarket, automobile or boat dealership, or any other establishment with a common business area; and (B) does not include a multi-unit permanent or temporary dwelling where private home viewing occurs, such as a hotel, dormitory, hospital, apartment, condominium, or prison.” See https://www.law.cornell.edu/uscode/text/17/119#d_12."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.4 Injured at work: InjuredAtWork"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Injury occurred at work or while the person was working."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item",
+      "content": "0 No, injury did not occur at work or while the victim was working"
+    },
+    {
+      "type": "list_item",
+      "content": "1 Yes, injury occurred at work or while the victim was working"
+    },
+    {
+      "type": "list_item",
+      "content": "8 Not applicable (e.g., child, unemployed, retiree)"
+    },
+    {
+      "type": "list_item",
+      "content": "9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: “InjuredAtWork” includes those incidents that occur while the victim is at work or on official work business regardless of whether they are working at the time the injury occurs. These injuries could occur at the victim’s place of work or offsite during the course of work-related activities. The InjuredAtWork definition applies only to current jobs."
+    },
+    {
+      "type": "paragraph",
+      "content": "The “Injured at work” item on the DC should be filled out for all injury victims with the exception of those 14 years and younger (unless warranted for a younger child injured at work). “Not applicable” can therefore be coded for victims ages 13 years and younger."
+    },
+    {
+      "type": "list_item",
+      "content": "If the victim is injured while they are working as a volunteer fireman or police officer, the death should be coded as occurring at work."
+    }
+  ]
+}

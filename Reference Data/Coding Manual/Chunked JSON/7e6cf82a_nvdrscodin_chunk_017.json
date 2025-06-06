@@ -1,0 +1,479 @@
+{
+  "summary": [
+    "This document outlines various circumstances related to physical health problems, job issues, financial difficulties, and the impact of traumatic events on suicides and undetermined deaths. It provides definitions, response options, and discussions for each variable, emphasizing the importance of context and the victim's perspective in coding these incidents. The document also includes specific examples and notes regarding the addition of variables over time."
+  ],
+  "keywords": [
+    "suicide",
+    "health problems",
+    "job issues",
+    "financial difficulties",
+    "traumatic events",
+    "coding variables",
+    "victim perspective",
+    "unintentional firearm deaths",
+    "crisis situations",
+    "contributing factors"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "The victim was experiencing physical health problems (e.g., terminal disease, debilitating condition, chronic pain) that were relevant to the event."
+    },
+    {
+      "type": "list_item",
+      "content": "Endorse this variable only if a health problem is noted as contributing to the death (e.g., despondent over recent diagnosis of cancer or complained that he could not live with the pain associated with a condition).\nThe simple mention of a health problem should not trigger coding the death as health-related. C/ME reports generally include the decedent’s existing medical problems (e.g., diabetes, asthma, cancer). Do not endorse this variable based only on a list of conditions.\n“Debilitating” conditions would leave the victim confined to bed, oxygen dependent, or requiring basic daily care from a third party.\nHealth conditions are coded from the perspective of the victim. If the victim believed him- or herself to be suffering from a physical health problem, and this belief was contributory to the death, it does not matter if any particular health problem was ever treated, diagnosed, or even existed. For instance, code “Yes” if the victim only suspected he might have AIDS and died by suicide before he received his test results."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.12 Contributing physical health problem was crisis: CME/LE_CrisisPhysicalHealth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim being despondent over being diagnosed with cancer two days before the suicide, a victim finding out the day before the suicide that their condition got significantly worse, or a victim just went bankrupt due to treatment for a chronic mental illness the day before the suicide."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.13 Type of physical health problem: CME/LE_TypePhysicalHealthProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Type(s) of physical health problem(s) contributing to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options: Available as checkboxes (select all that apply).\n0 No, Not available, Unknown\n1 Yes\n[ ] Terminal illness or condition\n[ ] Other illness or condition\n[ ] Unknown type of illness or condition\n[ ] Chronic pain\n[ ] Acute pain\n[ ] Pain of unknown duration"
+    },
+    {
+      "type": "paragraph",
+      "content": "Type of illness, condition, or pain: (free text)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is intended to capture the type(s) of physical health problem(s) the victim was experiencing that contributed to the death. This variable is to be endorsed if “Contributing physical health problem” is “Yes.” Only code for the health problem(s) that is noted as contributing to the death. C/ME reports generally include the decedent’s existing medical conditions regardless of whether or not the condition(s) contributed to the death. Thus, do not endorse this variable based simply on a list of conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion regarding illness or condition checkboxes:\nTerminal illness or condition: Terminal illness is defined as an active and progressive illness for which there is no cure and the prognosis is fatal. The mere presence of an illness or condition that can be terminal (e.g., cancer, AIDS) does not mean this variable should automatically be coded unless there is evidence that the illness or condition was terminal for the decedent. If the illness or condition is unknown/not specified in the source documents, but there is language suggesting that it was terminal (e.g., “decedent was dying from an illness”), code this variable.\nOther illness or condition: If the name or cause of the illness or condition is known and it is not terminal, code this variable. For example, if the decedent was suffering from the effects of a recent stroke that contributed to his decision to die by suicide, code this variable. Physical health problems that may not intrinsically be thought of as illnesses or conditions, such as amputations and physical disability, can be coded here. Mental illness or mental disability should not be captured here. They should be captured elsewhere, under “Current diagnosed mental health problem” and “Mental Health Diagnosis” variables.\nUnknown type of illness or condition should be coded when the name or cause of the illness or condition is not known or described in investigative reports (e.g., decedent “had been ill” or “suffering from an unspecified illness.”)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion regarding pain checkboxes:\nChronic pain is defined as pain lasting more than 3 months.\nAcute pain is defined as pain lasting 3 or fewer months. If the decedent is reported as “recently” experiencing pain or was “just injured and treated for pain,” code as “Acute pain.”\nPain of unknown duration should be coded if the duration of the pain is unclear.\nThere may be instances in which a decedent with chronic pain had been living with a relatively stable and adequately controlled level of baseline pain but experienced a recent, transitory increase in pain (which may be referred to as flare-up pain or break-through pain). This increase in pain could have been caused by changes in an underlying disease, including treatment, or changes in activity level. Code these cases as “Chronic pain.” For example, if a decedent had been living with chronic pain from colon cancer and had recently experienced an increase in pain as a result of metastases (or spread of cancer) to his bones, code “Chronic pain.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "General discussion:\nThe simple mention of a health problem should not trigger coding these variables. For example, a C/ME report may indicate that the decedent had diabetes, asthma, and pancreatic cancer. If the pancreatic cancer was noted to be terminal and had been causing pain and distress for the decedent in the month before his death, endorse “Terminal illness” and “Acute pain.”\nA decedent may have been experiencing multiple illnesses and pain conditions at the same time; thus, all should be endorsed. For example, if a decedent had been experiencing pain for more than 3 months as a result of terminal colon cancer and had broken his hip from a fall 2 weeks prior, resulting in hip pain, and all contributed to his decision to die by suicide, select “Terminal illness” (for terminal colon cancer), “Other illness or condition” (for hip fracture), “Chronic pain” (for colon cancer pain lasting more than 3 months), and “Acute pain” (for pain from hip fracture lasting 2 weeks).\nType of illness, condition, or pain: Type the name of the illness or type of pain condition in the free text field. If the decedent had more than one illness or pain condition, list each illness/condition followed by the type of illness or pain that was marked in parentheses. Using the same example as the bullet point above, if a decedent had been experiencing pain for more than 3 months as a result of terminal colon cancer and had broken his hip from a fall 2 weeks prior, resulting in hip pain, type: “colon cancer (terminal illness, chronic pain), hip fracture (other illness or condition, acute pain).”\nHealth conditions can also be coded from the perspective of the victim. If the victim believed him- or herself to be suffering from a physical health problem, and this belief was contributory to the death, it does not matter if any particular health problem was ever treated, diagnosed, or even existed. For instance, code this variable if the victim only suspected he was HIV positive and died by suicide before he received his test results (in this example, code “Other illness or condition”)."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2021."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.14 Job problem: CME/LE_JobProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Job problem(s) appear to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code “Job problem” as “Yes” if at the time of the incident the victim was either experiencing a problem at work (such as tensions with a co-worker, poor performance reviews, increased pressure, feared layoff) or was having a problem with joblessness (e.g., recently laid off, having difficulty finding a job), and this appears to have contributed to the death.\nSimply being unemployed is not sufficient—there must be an indication that the victim was experiencing difficulty finding or keeping a job.\nCode “Yes” if the victim experienced a recent major job problem such as being fired from their job, being demoted, or having a serious conflict with his/her boss.\nCode “No” if a person left his or her job as part of a suicide plan (e.g., “Victim left work four days ago and checked into a hotel; the body was found after co-workers contacted the victim’s family to try to locate him”)."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.15 Job problem was crisis: CME/LE_CrisisJob"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim being fired from work two days before the suicide, being upset about being scheduled to lose unemployment benefits the day after the suicide, and being turned down for a job the day before the suicide."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in July 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.16 Financial problem: CME/LE_FinancialProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Financial problems appear to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if at the time of the incident the victim was experiencing a problem such as bankruptcy, overwhelming debts, or foreclosure of a home or business, and this appears to have contributed to the death. Inclusion in the investigative reports is sufficient to code “Yes.” Also code: “Eviction or loss of housing,” if applicable."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.17 Financial problem was crisis: CME/LE_CrisisFinancial"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim had a bankruptcy hearing a week after the date of their death, the victim had their car re-possessed the day before the suicide, and the victim was to be evicted from their house on the day of their death due to their inability to pay the mortgage (Note: Also, should code “Eviction/foreclosure”)."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.18 School problem: CME/LE_SchoolProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Problems at or related to school appear to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCode “Yes” if at the time of the incident the victim was experiencing a problem such as poor grades, difficulty with a teacher, bullying, social exclusion at school, school detention/suspension, or performance pressures, and this appears to have contributed to the death.\nCode “No” if the victim was only noted as having low grades, but no specific problem was cited (e.g., received a failing grade recently) or victim was not described as being upset about the low grades."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.19 School problem was crisis: CME/LE_CrisisSchool"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim failing a test the day before the suicide, the victim having a suspension hearing scheduled the day after the suicide, and the victim was beat-up the week before and was afraid to go to school."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.20 Eviction or loss of housing: CME/LE_EvictionOrLossOfHome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: A recent eviction or other loss of the victim’s housing, or the threat of it, appears to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if at the time of the incident the victim had recently been, was in the process of being evicted or foreclosed on, or was confronted with an eviction, foreclosure, or other loss of housing (e.g., kicked out of house by a relative), and this appears to have contributed to the death. Inclusion in the investigative reports is sufficient to code “Yes.” Also code: If the victim’s home was lost due to Disaster, consider coding “DisasterExposure.”"
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in 2009."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.21 Eviction or loss of home was crisis: CME/LE_CrisisEviction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim was to be evicted from their apartment the day after the suicide, a mother kicked her son out of the house due to his drug problem the day before the suicide, and the victim received a final foreclosure notice two days before the suicide."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in July 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.22 Suicide of friend or family contributed to death: CME/LE_RecentSuicideFriendFamily"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suicide of a family member or friend appears to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: There is no time limit for when the suicide of the family or friend occurred, except that it occurred during the victim’s lifetime and that it is noted to have contributed to the victim’s death. In the narrative, note the source of this information, the relationship to the family member or friend, and the time frame (e.g., last month).\nCode “Yes” if at the time of the incident the victim was distraught over or reacting to a suicide of a friend or family member.\nCode “Yes” if the victim was distraught over an anniversary of the suicide. Also code: Consider coding “Anniversary of traumatic event” if applicable."
+    },
+    {
+      "type": "note",
+      "content": "Note: Before August 2013, abstractors only coded a suicide of friend or family member that occurred within five years of the decedent’s death. Beginning in August 2013, abstractors could code cases where the death occurred more than five years before the victim’s suicide as long as the deaths were perceived as contributing to the suicide."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.23 Suicide of friend or family was crisis: CME/LE_CrisisRecSuicideFriendFamily"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim being upset or distraught over a suicide of the friend or family member occurring within two weeks of his or her death."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.24 Other death of friend or family: CME/LE_DeathFriendOrFamilyOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Death of a family member or friend due to something other than suicide appears to have contributed to the death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code “Yes” if at the time of the incident the victim was distraught over or reacting to a death of a friend or family member. The death could have been recent or many years ago.\nIf a source document indicates that the victim’s suicide took place on the anniversary of the death of a friend or family member, code this variable “Yes.”\nIf the death happened long before the incident, only endorse if the victim was very upset about the incident because of an anniversary or some other factor that made their feelings about the death stronger. Also code: Code “Anniversary of traumatic event,” if applicable."
+    },
+    {
+      "type": "note",
+      "content": "Note: Before August 2013, abstractors only coded a suicide of friend or family member that occurred within five years of the decedent’s death. Beginning in August 2013, abstractors could code cases where the death occurred more than five years before the victim’s suicide as long as the deaths were perceived as contributing to the suicide."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.25 Other death of friend or family was crisis: CME/LE_CrisisDeathFriendOrFamilyOth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Examples include the victim being upset over the death of a parent who died four days before the suicide or the victim being distraught on the year anniversary of the death of their spouse (Note: Also code “Anniversary of traumatic event”)."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.7.26 Anniversary of a traumatic event: CME/LE_TraumaticAnniversary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Incident occurred on or near the anniversary of a traumatic event in the victim’s life and was perceived as a contributing factor."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable identifies deaths that may be related to the anniversary of a traumatic experience in the victim’s life, such as the death of a relative or friend. Other traumatic experiences include: sexual or physical victimization, community violence, mass shooting/killings, natural disasters, etc.\nCode as “Yes” if the incident occurred on or near the date of a traumatic event in the victim’s life, regardless of how far in the past the event was, as long as the incident was perceived as a contributing factor to the death. Indicate the nature of the event in the incident narrative."
+    },
+    {
+      "type": "note",
+      "content": "Note: This variable was added in 2009."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8 Manner Specific Circumstances for Unintentional Firearm Deaths"
+    },
+    {
+      "type": "paragraph",
+      "content": "This section relates to deaths resulting from a penetrating injury or gunshot wound from a weapon that uses a powder charge to fire a projectile when there was a preponderance of evidence that the shooting was not intentionally directed at the victim. Other types of unintentional deaths (e.g., accidental drug overdose) are not collected by NVDRS core modules."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.1 Hunting: CME/LE_Hunting"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooter or victim was hunting or on a hunting trip."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nInclude any incident that occurs after leaving home and before returning home from hunting.\nThe shooting itself need not have been during an active hunt to be considered hunting-related. For example, a hunter who has finished hunting and accidentally shoots himself while loading his rifle in the truck for the return trip home is considered a hunting accident.\nIf an injury occurs before or after the hunting trip (e.g., while cleaning a gun in preparation for a hunting trip), the incident should not be coded as hunting-related."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.2 Target Shooting: CME/LE_TargetShooting"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooter was aiming for a target and unintentionally hit a person."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Target shooting can occur either in the setting of a formal shooting range or in an informal “backyard” setting (e.g., teenagers shooting at signposts on a fence accidentally hits a person)."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.3 Self-defensive shooting: CME/LE_SelfDefense"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was attempting to defend him or herself with a gun and inadvertently shot him or herself."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse only if the shooting was self-inflicted. If the victim is shooting at law enforcement officers who are trying to arrest him/her when they accidentally shoot himself/herself, this circumstance should be coded “No.” Please put this information in the narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.4 Celebratory firing: CME/LE_CelebratoryFiring"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooter was firing the gun in a celebratory manner with no intention of threatening or endangering others (e.g., revelers on New Year’s Eve shooting their guns in the air at midnight)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Firing warning shots in the air (e.g., to break up a fight) should not be coded as celebratory if the shot unintentionally strikes a bystander but should be coded as homicide for manner of death (since the gun was used in a threatening manner to control others)."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.5 Loading or unloading gun: CME/LE_GunFiredLoadingUnloading"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Shooter was loading or unloading ammunition from the gun when it discharged."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.6 Cleaning gun, repair, and assembling: CME/LE_GunCleaning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The shooter pulled the trigger or the gun otherwise discharged (e.g., bumped gun while cleaning) while cleaning, repairing, or assembling/disassembling the gun."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "note",
+      "content": "Note: Before August 2013, this variable was only coded for deaths that occurred when the victim was cleaning the gun. After August 2013, the variable was expanded to include unintentional firearm deaths that occurred while the victim was also repairing or assembling/disassembling the gun."
+    },
+    {
+      "type": "subsection",
+      "content": "Manner of Death: Unintentional firearm."
+    },
+    {
+      "type": "chapter",
+      "content": "5.8.7 Showing gun to others: CME/LE_GunShowing"
+    }
+  ]
+}

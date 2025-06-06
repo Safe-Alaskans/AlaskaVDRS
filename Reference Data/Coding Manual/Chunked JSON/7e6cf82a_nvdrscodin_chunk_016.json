@@ -1,0 +1,267 @@
+{
+  "summary": [
+    "This document outlines various circumstances related to drug involvement, caregiver corporal punishment, and suicide, detailing how these factors contribute to the manner of death. It provides definitions, response options, and discussions for each category, emphasizing the importance of context in coding incidents. The document also highlights the legal implications and distinctions between different types of legal problems and their relevance to the victims' deaths."
+  ],
+  "keywords": [
+    "drug involvement",
+    "corporal punishment",
+    "suicide",
+    "manner of death",
+    "caregiver",
+    "legal problems",
+    "self-harm",
+    "history of suicide attempts",
+    "physical health problems",
+    "child discipline"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code “Drug involvement” as “Yes” if the death was related to illegally trafficking a controlled substance (e.g., drug deal gone bad, drug market turf battle, theft of drugs or money from a dealer during a drug deal, etc.) or a drug habit (e.g., addict committing robbery to obtain money for drugs, arguments over drugs)."
+    },
+    {
+      "type": "list_item",
+      "content": "This variable can be coded based on suspicion of drug-relatedness (e.g., law enforcement suspected drugs were involved).\nCode “Drug involvement” as “Yes” if there is evidence of drug involvement (e.g., Victim’s body was found in a crack house, the victim had a substantial amount of illicit drugs on his or her person at the time of death), and there is not any other indication of the incident not being related to drugs.\nDrugs or drug paraphernalia found on the victim’s body should not be used to automatically code this variable unless other information suggests the victim was dealing drugs or had just bought drugs.\nIllicit drugs found elsewhere in the victim’s home should NOT trigger coding this circumstance (e.g., victim was shot on porch in drive-by shooting and small amounts of illicit drugs were found in bedroom) unless the source documents indicate that the illicit drugs were involved in the death (e.g., attempted theft of drugs, argument over drugs, or victim or suspect selling drugs)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "chapter",
+      "content": "5.6.15 Caregiver use of corporal punishment contributed to the death of the child victim: CME/LE_CorporalPunishment"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Corporal punishment, which is also known as physical punishment, contributed to the death of the child victim. Corporal punishment is used to describe acts of physical punishment (e.g., spanking, slapping, pinching, hitting), with or without an implement (e.g., belt, broom, stick), that are intended to punish or discipline a child and cause some degree of pain or discomfort. A child is defined as a person younger than 18 years of age. Most instances where a child is injured while being physically punished are due to the punishment escalating to physical abuse or in some instances, death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Corporal punishment refers specifically to a form of child discipline, used by a caregiver, with the intent to punish perceived child misbehavior. The term “caregiver” refers to anyone serving in a caregiving role and who is responsible for the care and rearing of children or who is temporarily supervising or helping to supervise the child victim (e.g., parent, mother’s boyfriend, babysitter, older sibling, or cousin acting as babysitter/helper)."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThe suspect may be a caregiver of any age, including a minor (i.e., person younger than 18 years of age, but is legally able to serve as a caregiver per state statute or current guidance within the state). The legal age at which a person can serve as a caregiver/babysitter for a minor child varies by state. For example, in Illinois, a person must be at least 14 years of age to be left alone to serve as a caregiver/babysitter of a minor, while in Texas, there is no legal minimum age for babysitting. Data abstractors should refer to their state statutes or current guidance within their state to determine if the suspect was legally able to serve as a caregiver/babysitter during the time of the fatal incident.\nDo not code “Yes” if victim is 18 years of age or older at the time of the fatal incident.\nCode “Yes” if the caregiver or other person temporarily supervising the child victim used corporal punishment (with the intent to correct perceived or actual disobedience or misbehavior), with or without an implement in a way that initiated the chain of events leading to the child’s death.\nCode “Yes” if implement (e.g., belt, broom, stick) was used in the fatal event, AND the source documents indicate that the suspect intended to discipline the child victim. This code does not apply to instances in which the implement was the weapon in an incident that clearly started with homicidal intent rather than corporal punishment.\nDo not code “Yes” if the victim died as a result of shaken baby syndrome but had no known evidence of corporal punishment precipitating their death, as indicated in the source documents. Caregiver use of corporal punishment is considered legal in all 50 states, the District of Columbia, and Puerto Rico in the U.S. However, shaken baby syndrome, which may also be known as abusive head trauma, is considered as a form of child physical abuse, which is illegal in the U.S., because it violates laws and policies designed to protect children. Shaken baby syndrome is largely triggered by developmentally normative crying in infants, although victims can be older. Although crying can be the perceived child misbehavior for which a child is physically punished for, and a caregiver may use shaking as a form of discipline, this variable is designed to be distinct from the existing shaken baby syndrome “15 – Weapon type (Shaking [i.e., shaken baby syndrome]).\nCode “No” if source documents indicate the suspect used corporal punishment with homicidal intent. If the intent was to commit homicide, then this would NOT be considered corporal punishment, but it would be considered child physical abuse. When this variable is endorsed, the narrative should include information indicating that the suspect intended to discipline the child for perceived or actual child “misbehavior.” Further, when available, the narrative should include information on the reason the child was being disciplined (e.g., child was physically punished for throwing a temper tantrum, soiling clothes, having a potty training-related accident, etc.)."
+    },
+    {
+      "type": "list_item",
+      "content": "Also Code:\nCode “Abuse/neglect led to death” if “CorporalPunishment” is endorsed as “Yes.”\nCode “History of abuse or neglect as a child” if the victim had a history of maltreatment by the suspect or other(s).\nCode “History of abuse of victim by this suspect: AbuseHistory” if the suspect in this incident had previously abused the child victim.\nCode “This suspect was caregiver for the victim: CareGiver” since the suspect was a caregiver for the victim."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in November 2020.\nManner of Death: Homicide."
+    },
+    {
+      "type": "section",
+      "content": "5.7 Manner Specific Circumstances for Suicide"
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.1 History of suicidal thoughts or plans: CME/LE_SuicideThoughtHistory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim had a history of suicidal thoughts or plans. Disclosure of suicidal thoughts or plan can be verbal, written or electronic."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Use this code for victims who have at any time in their life expressed suicidal thoughts or plans. The victim may or may not have disclosed suicidal thoughts and/or plans close to the time of the suicide.\nSuicidal ideation can be expressed directly (e.g., “I am thinking of killing myself”) or indirectly (e.g., “I don’t know if I want to go on living”).\nWhen the timing is unclear (e.g., timing not mentioned) or if the suicidal thoughts were described as occurring in the “past,” “a few years ago,” or “just,” history of suicidal thoughts should be “Yes.”\nAlso code “Recently disclosed suicidal thoughts/plans” in addition to this item, if the victim disclosed suicidal thoughts and/or plans close to the time (within one month) of the suicide.\nCode “No” for previous suicide attempts if the victim did not disclose suicidal thoughts or plans. Previous suicide attempts should be coded as “History of Suicide Attempts.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013.\nManner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.2 History of non-suicidal self-injury/self-harm: CME/LE_HistorySelfHarm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim had a history of intentionally inflicting pain or injuring one’s own body without the conscious intent of dying by suicide."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nUse this code for victims who have had a history of engaging in deliberate self-harm/self-mutilative behaviors without intent to die by suicide.\nExamples of self-injurious behaviors include: cutting, carving, biting, or severely scratching skin; burning or scalding oneself; hitting or banging head; punching things or throwing body against walls and hard object; inserting objects into skin or body openings; purposely breaking bones; intentionally preventing wounds from healing; and swallowing poisonous substances (e.g. bleach or detergent) or inappropriate objects. Although these self-injurious behaviors differ in their potential lethality, intent (suicidal vs. non-suicidal, as best can be determined from the V’s records) is the best determinant of whether past behaviors meet criteria for this variable vs. history of suicide attempts.\nDo not code self-injurious behaviors that include behaviors such as driving recklessly, substance use (e.g. binge drinking, taking too many drugs), having unsafe sex, behaviors associated with an eating disorder, tattooing, or body piercings with jewelry.\nDo not code if there is an indication that the self-injurious behavior was related to a suicide attempt (in which case, code as history of suicide attempt).\nThere may be cases in which it is difficult to determine if self-injurious wounds were related to a previous suicide attempt or if it was an instance of a non-suicidal self-injurious behavior (e.g., autopsy report may indicate several, healed cutting wounds on decedent’s arms). In these cases where the victim’s intent to die is unclear or ambiguous, we recommend endorsing this variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in November 2020.\nManner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.3 History of suicide attempts: CME/LE_SuicideAttemptHistory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim has a history of attempting suicide before the fatal incident."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the victim was known to have made previous suicide attempts before the fatal incident, regardless of the severity of those attempts or whether any attempts resulted in injury. Per the CDC uniform definition of suicide attempt (A non-fatal, self-directed, potentially injurious behavior with any intent to die as a result of the behavior; which may or may not result in injury), the victim must engage in a potentially injurious behavior. A potentially injurious behavior is one which in and of itself has the ability to cause injury and/or death.\nRussian roulette: pulling the trigger on a firearm is considered potentially injurious, regardless of whether the weapon fires when the victim pulled the trigger. Code as “Yes.”\nSwallowing a lethal dose of pills then calling 911 is considered potentially injurious. Code as “Yes.”\nIf the victim made a suicidal gesture (placed ligature around their neck, stood on a bridge preparing to jump, held a gun to his head) but was stopped before taking action (e.g., did not pull the trigger after talking to family or pulled from bridge by law enforcement before jumping), consider this potentially injurious behavior a suicide attempt. Code as “Yes.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Evidence of a history of suicide attempts includes self-report and report or documentation from others including family, friends, and health professionals.\nReference: Crosby AE, Ortega L, Melanson C. Self-directed Violence Surveillance: Uniform Definitions and Recommended Data Elements, Version 1.0. Atlanta (GA): Centers for Disease Control and Prevention, National Center for Injury Prevention and Control; 2011.\nManner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.4 Recent Disclosed Suicidal Thoughts or Intent to Die by Suicide: CME/LE_SuicideIntentDisclosed"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim disclosed to another person their thoughts and/or plans to die by suicide within the last month. Disclosure of suicidal thoughts or plan can be verbal, written or electronic."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable helps identify suicides for which opportunities to intervene and prevent the death may have been present near the time of the suicide. It is also useful for exploring the association between stated intent and actual death.\nCode as “Yes” if the victim had disclosed suicidal thoughts or plans to another person recently or within the last month, whether explicitly (e.g., “I have been thinking about suicide lately” or “I plan to go to my cabin with my gun and never come back”) or indirectly (e.g., “I know how to put a permanent end to this pain”). Include in the narrative any available details about whom the intent was disclosed to, how long before the death the intent was disclosed, and what was said during the disclosure.\nCode as “Yes” if there was opportunity to intervene between the time the person disclosed intent and the injury event.\nDo not code this variable if the victim disclosed the intention to kill him or herself only at the moment of the suicide (i.e., when there was no opportunity to intervene to stop the suicide). For instance, sending an email or text message right before the victim shot herself. This would be considered a suicide note.\nDo not endorse this variable if the victim had talked about suicide sometime in the distant past but had not recently disclosed a current intent to die by suicide to anyone. This would be coded as “History of disclosed suicidal thoughts/plans”.\nA separate suicide attempt by the victim within a month of the suicide should be coded as “Yes.” In this case, “History of suicide attempts” should also be coded, “Yes.”\nThe timing of when the victim disclosed the suicidal intent may be unclear (e.g., recently or some time ago) or not mentioned. Please use the following rules to code these cases:\nCode “Yes” if the narrative states the victim “just” or “recently” told someone about his suicidal intent.\nIf the record indicates disclosure of intent, but is unclear about the timeframe (i.e., does not mention it all), code as “Yes.”\nLE or C/ME reports may be unclear about timing of the disclosure. If the record indicates disclosure of intent in the past, but states that there was no disclosure for the current incident, do not code, instead use the “History of suicidal thoughts/plan/attempts.”\nIf the victim disclosed suicidal intent “a long time ago,” “more than a month ago,” or in the “past,” code as “No” and code “History of disclosed suicidal thought/plans/actions.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.5 Disclosed to whom: CME/LE_DisclosedIntentToWhom"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Person to whom victim recently disclosed suicidal thoughts and/or plans to die by suicide (i.e., coded “Recent Disclosed Suicidal Thought and/or Plan.”"
+    },
+    {
+      "type": "section",
+      "content": "Response Options: Available as checkboxes (select all that apply).\n0 No, Not available, Unknown\n1 Yes\n[ ] Previous or current intimate partner\n[ ] Other family member\n[ ] Health care worker\n[ ] Friend/colleague\n[ ] Neighbor\n[ ] Other disclosure to person(s) via social media or other electronic means\n[ ] Other (If other, specify in textbox.)\n[ ] Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is intended to capture the one or multiple persons to whom the victim recently disclosed suicidal thoughts and/or plans to die by suicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013. It was modified in November 2020 to add “Other disclosure to person(s) via social media or other electronic means.” It was later modified in August 2021 to include checkbox response options to allow abstractors to select multiple response options for this variable.\nManner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.6 Left a suicide note: CME/LE_SuicideNote"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim left a suicide note (or other recorded communication). Note can be written or electronic."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nA will or folder of financial papers near the victim does not constitute a suicide note.\nIf the record states the person left a note, you can infer it was a suicide note in the absence of information indicating that the note had some other purpose.\nA suicide note can be any essentially durable message; it does not have to be on a piece of paper. Emails, text messages, voice mail, or writing on any object (such as a wall or table) all qualify. Phone calls do not qualify, as they are not considered durable (even 911 calls, because the decedent may or may not have known they were being recorded).\nA suicide note does not have to communicate that the person wants or intends to die. Notes that are written to warn others at the scene of the fatal injury that conditions may be hazardous or disturbing may be included (e.g., “Call 911, do not enter garage” or “Carbon monoxide – do not enter”).\nA text or electronic message sent right before the suicide occurred should be labeled a suicide note if there was no time between the sending/receipt of the message and the suicide. If there was time to intervene, this should be coded as “disclosed suicidal thought or intent.” If the contents of the suicide note are included or described in your source documents, summarizing this information in the narrative is helpful to provide further context for the incident. If you choose to do so, do not include verbatim text and do not include identifying information, but a summary of what was said. This information may be helpful in noting themes related to the suicide that go beyond standard NVDRS circumstances and are one of the only means of accessing the decedent’s thoughts about their suicide more directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.7 Contributing criminal legal problem: CME/LE_RecentCriminalLegalProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Criminal legal problem(s) appear to have contributed to the death."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if at the time of the incident the victim was facing criminal legal problems (recent or impending arrest, law enforcement pursuit, impending criminal court date, etc.), and this appears to have contributed to the death. Code military crimes, such as Absent Without Leave, as “Yes.”\nCriminal legal problems, as opposed to civil legal problems, are those resulting from conduct considered as harmful to society as a whole that it is prohibited by statute and prosecuted by the government. Driving while intoxicated offenses should be considered a criminal offense.\nCommitting a crime alone is not sufficient basis for endorsing this variable; there must be evidence of negative legal or law enforcement consequences (e.g., about to enter jail, facing a court date, on the run from law enforcement) that appear to be associated with the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.8 Contributing criminal legal problem was crisis: CME/LE_CrisisCriminal"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim being upset about having to start a prison term for robbery in a week, a victim despondent over a Driving While Intoxicated court date scheduled for a day after the suicide, or a criminal who dies by suicide when law enforcement appears at their house to arrest them for an assault."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013.\nManner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.9 Civil legal problems: CME/LE_LegalProblemOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Civil legal (non-criminal) problem(s) appear to have contributed to the death."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes,” if at the time of the incident the victim was facing civil legal problems, such as a divorce, custody dispute, civil lawsuit, or legal problems that were unspecified as either criminal or civil, and these problems appear to have contributed to the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.10 Civil legal problems were crisis: CME/LE_CrisisCivilLegal"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim being upset because they lost custody of their child the day before the suicide or the victim losing a civil lawsuit the week before the suicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013.\nManner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.7.11 Contributing physical health problem: CME/LE_PhysicalHealthProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim’s physical health problem(s) appear to have contributed to the death."
+    },
+    {
+      "type": "section",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "summary": [
+    "This document outlines the Intimate Partner Violence (IPV) Optional Module, which enables states to gather detailed information on homicide incidents classified as IPV. It defines key terms, categorizes incident types, and specifies data sources and coding guidelines for various aspects of IPV-related cases. The module aims to enhance understanding and reporting of IPV incidents and their contexts."
+  ],
+  "keywords": [
+    "Intimate Partner Violence",
+    "IPV",
+    "homicide",
+    "data sources",
+    "definitions",
+    "incident types",
+    "victim",
+    "perpetrator",
+    "cohabitation",
+    "relationship length"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "SECTION 10: INTIMATE PARTNER VIOLENCE OPTIONAL MODULE"
+    },
+    {
+      "type": "paragraph",
+      "content": "This module allows states to capture additional information on homicide incidents classified as intimate partner violence (IPV) incidents. IPV incidents are defined as incidents in which violence or the threat of violence by a person against his or her current or former intimate partner (IP) results in the violent death of one or more people. This may involve cases in which there is a death of a third party that is directly linked to the IP relationship (e.g., the child of the IP, friend of the victim, a bystander)."
+    },
+    {
+      "type": "subsection",
+      "content": "10.1 Definition of Intimate Partner"
+    },
+    {
+      "type": "paragraph",
+      "content": "For all intimate partner-related variables, intimate partner is defined as a current or former girlfriend/boyfriend, dating partner, ongoing sexual partner, or spouse. It DOES NOT include instances of sex/intimacy in exchange for money/goods. There must be evidence of an intimate relationship (this does not apply to instances where there is simply attraction/infatuation between two individuals or in cases where one person is romantically interested in the other, but the feelings are not returned). The definition of intimate partner does not require sexual intimacy. This definition includes same-sex partners. This definition is based on the CDC/National Center for Injury Prevention and Control standard definition of Intimate Partner Violence."
+    },
+    {
+      "type": "quote",
+      "content": "Source: http://www.cdc.gov/violenceprevention/pdf/ipv_surveillance_definitions.pdf"
+    },
+    {
+      "type": "subsection",
+      "content": "10.1.1 IPV Incident Type: IPV_IncidentType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Type of IPV homicide incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Type 1: IPV\n2. Type 2: IPV-Related\n3. Type 3: IP-Associated\n4. Other (specify)\n99. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The Incident Type IPV should be determined using LE reports or other available information on the relationship history of the IPs. The IPV module is designed to collect information on IPs and the circumstances that contributed to the violent death. The following categories should be used for coding the incident type:"
+    },
+    {
+      "type": "list_item",
+      "content": "Type 1: Incidents in which an individual is killed by a current or former intimate partner. (Other persons may also be involved in the NVDRS incident, as either victims or suspects. The IPV Module should only be completed for the actual IPs.)"
+    },
+    {
+      "type": "subsection",
+      "content": "Type 1 Case Examples"
+    },
+    {
+      "type": "list_item",
+      "content": "A woman’s ex-boyfriend walks up to the woman and shoots her on the street.\nA man and woman are out on their first date. They go back to her apartment after the date. The man tries to force the woman into bed and strangles her to death.\nA woman and her lawyer are getting into a car; the woman’s ex-boyfriend walks up to the woman and shoots her and the lawyer (the lawyer is an NVDRS victim but would not have the IPV module completed)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Type 2 and Type 3 incidents do not involve a person killing a current or former IP but do include a homicide that is directly related to a current or former intimate relationship. That is, the homicide would not have occurred in the absence of the IP relationship."
+    },
+    {
+      "type": "list_item",
+      "content": "Type 2: IPV-Related: Incidents that do not meet the definition of Type 1, but where the homicide is directly related to violence in the intimate relationship. For Type 2 incidents, the IPV module should be completed for the IPs, not the third party."
+    },
+    {
+      "type": "subsection",
+      "content": "Type 2 Case Examples"
+    },
+    {
+      "type": "list_item",
+      "content": "A woman kills her ex-husband's new wife. The suspect has a history of previously threatening her ex-husband.\nA man confronted, and then killed, another man he believed was having an affair with his girlfriend. The suspect had a history of physically assaulting his girlfriend and had told her on multiple occasions that he would kill her if she was ever with anybody else.\nA husband shoots and kills his child while attempting to attack his wife during an argument."
+    },
+    {
+      "type": "list_item",
+      "content": "Type 3: IP-Associated: Incidents that do not meet the definition of Type 1, but where the homicide is directly related to an intimate partner relationship, and there is no evidence of violence in the IP relationship itself. The homicide can be committed by or against any of the third parties involved but must involve at least one of the IPs as the victim or the suspect. For Type 3 incidents, the IPV module should be completed for the IPs, not the third party."
+    },
+    {
+      "type": "subsection",
+      "content": "Type 3 Case Examples"
+    },
+    {
+      "type": "list_item",
+      "content": "A man sees another man flirting with his wife in a bar; the two men argue and one stabs the other to death. No evidence of previous violence or threats between the man and wife.\nA grandmother is murdered by her teenage granddaughter and her granddaughter’s lover because the grandmother was trying to keep the two young women apart.\nA man shot his landlord to death. In his confession, the suspect stated that the landlord habitually touched or made sexual comments about his (the suspect’s) wife and that he got tired of it."
+    },
+    {
+      "type": "subsection",
+      "content": "10.1.2 IPV Victim: IPV_Victim"
+    },
+    {
+      "type": "subsection",
+      "content": "10.1.3 IPV Perpetrator: IPV_Perpetrator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_IPV Victim: Identification of whether the IPV Victim is the NVDRS Suspect, Victim, or neither.\nIPV_IPV Perpetrator: Identification of whether the IPV Perpetrator is the NVDRS Suspect, Victim, or neither."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. NVDRS Suspect\n2. NVDRS Victim\n3. Both NVDRS Suspect and Victim\n4. Neither NVDRS Suspect nor Victim\n99. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: For this module, the terms IPV Victim and IPV Perpetrator are used to identify persons on whom information is collected as opposed to victim and suspect as are used in the general NVDRS. These elements identify the role that the IPV Victim and IPV Perpetrator had in the homicide incident. The definitions for IPV Victim and IPV Perpetrator terms are as follows: The IPV Victim is the partner in the intimate relationship who is the target of violence perpetrated by his/her IP. This person may be the victim, suspect, or neither in the NVDRS. In cases of mutually combative violence where the target of the violence cannot be determined, the IPV Victim should be listed as the partner who was killed. Coders should list the NVDRS identification number for the individual listed as the IPV Victim. The IPV Perpetrator is the partner in the intimate relationship who has committed violence against his/her IP. This person may be the victim, suspect, or neither in the NVDRS. Coders should list the NVDRS person identification number for the individual listed as the IPV Perpetrator."
+    },
+    {
+      "type": "subsection",
+      "content": "10.2 Data Sources Used to Complete Module"
+    },
+    {
+      "type": "list_item",
+      "content": "10.1 Death Certificate: IPV_SourceDeathCertificate\n10.2 CME Report: IPV_SourceCME\n10.3 Law enforcement report: IPV_SourcePoliceReport\n10.4 SHR or NIBRS Data: IPV_SourceSHRorNIBRS\n10.5 Crime Lab Report: IPV_SourceLab\n10.6 Gun Trace Report: IPV_SourceGunTrace\n10.7 Hospital/ED Report: IPV_SourceHospitalEmergencyRoom\n10.8 Court or Prosecutor Records: IPV_SourceDistrictAttorney\n10.9 Restraining Order Records: IPV_SourceRestrainingOrder\n10.10 Criminal History Database: IPV_SourceCriminalHistory\n10.11 DVFRT Report: IPV_SourceDomestViolFatalRevTeam\n10.12 Newspaper Reports: IPV_SourceNews\n10.13 Other Data Sources: IPV_SourceOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Indicator of whether each of the above record types was used as a data source to complete the module."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. Data source not used\n1. Data source used"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Select all of the data sources used by the coder to complete the IPV data module. The following should be coded as “data source used” if the sources were used to complete the module:\nIPV_SourceDeathCertificate (death certificate); IPV_SourceCME (medical examiner, coroner report, or toxicology report); IPV_SourcePoliceReport (law enforcement report); IPV_SourceSHRorNIBRS (data from the FBI’s Supplementary Homicide Reports or National Incident Based Reporting Reports); IPV_SourceLab (crime laboratory reports); IPV_SourceGunTrace (gun trace data); IPV_SourceHospitalEmergencyRoom (Hospital records including hospital discharge and emergency department records); IPV_SourceDistrictAttorney (prosecution or court records); IPV_SourceRestrainingOrder (national or state restraining order databases); IPV_SourceCriminalHistory (national or state criminal history databases); IPV_SourceDomestViolFatalRevTeam (Domestic Violence Fatality Review Team report); IPV_SourceNews (newspaper article or other print media source); and IPV_SourceOther (specify any other sources used)."
+    },
+    {
+      "type": "subsection",
+      "content": "10.3 Evidence of Premeditation: IPV_Premeditated"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Homicide appears to have involved premeditation or advance planning."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Evidence of premeditation includes signs such as the suspect’s lying in wait for the victim(s) or taking precautions before the incident to avoid discovery. Most state laws differentiate levels of homicide, with homicide in the first degree involving premeditation or malice aforethought, and other homicide charges (homicide in the second degree, country manslaughter) showing no evidence of premeditation."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples\nYes\nSuspect arrived at the victim’s house with two handguns and extra clips.\nSuspect was waiting outside the victim’s workplace; when she arrived, he shot her.\nSuspect was aware of when her husband was meeting with his lawyer; she arrived at the office and shot both.\nSuspect was charged with first degree murder."
+    },
+    {
+      "type": "subsection",
+      "content": "10.4 Homicide during argument: IPV_HomicideDuringArgument"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Homicide occurred in the midst of an argument or altercation."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: It is difficult to ascertain whether a homicide was impulsive; this variable instead captures objective information about whether a verbal altercation of some sort immediately preceded the homicide. Although some of these cases may also involve advance planning (e.g., suspect lies in wait for the victim armed with a weapon and intending to kill him; upon seeing him, they argue, she produces the weapon and shoots him), the variable is likely to serve as a rough proxy for more impulsive homicides (see also “Premeditation” on the previous page). This information will frequently be unknown. Legally, differentiating homicides involving premeditation versus those occurring in the “heat of passion” is a major point as this distinction, in part, informs whether the suspect is charged with homicide in the first degree, homicide in the second degree, or manslaughter."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples\nYes\nHusband and wife had been drinking during a party; after the guests left, they began arguing and wife stabbed husband.\nVictim told suspect that she wanted him out of the apartment; he became angry and beat her to death.\nNo\nVictim and sister were sitting in the moving van when victim’s husband pulled alongside the vehicle and shot her.\nSuspect shot the victim while she was sleeping and then shot himself."
+    },
+    {
+      "type": "subsection",
+      "content": "10.5 During child drop-off/pick-up: IPV_ChildrenDropoffPickup"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Homicide occurred during drop-off or pick-up of children."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable refers to those periods of overlap when one partner in a couple sharing custody of children is picking up or dropping off children to or from the other partner or a court-supervised visit."
+    },
+    {
+      "type": "subsection",
+      "content": "10.6 Suspect Legal Actions"
+    },
+    {
+      "type": "list_item",
+      "content": "10.6.1 Warrant issued for suspect: IPV_SuspectWarrant\n10.6.2 Suspect arrested in this incident: IPV_SuspectedArrested\n10.6.3 Suspect arrested but fled: IPV_SuspectFled\n10.6.4 Suspect charged as perpetrator: IPV_SuspectCharged\n10.6.5 Suspect convicted: IPV_SuspectConvicted\n10.6.6 Suspect convicted of original charge: IPV_SuspectConvictedOrigCharge\n10.6.7 Suspect died following incident: IPV_SuspectDied"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_SuspectWarrant: Warrant issued for the suspect in this incident.\nIPV_SuspectedArrested: Suspect arrested in this incident.\nIPV_SuspectFled: Suspect arrested but fled while on bond or escaped custody.\nIPV_SuspectCharged: Suspect charged in this incident.\nIPV_SuspectConvicted: Suspect convicted in this incident.\nIPV_SuspectConvictedOrigCharge: Suspect convicted of the original charge.\nIPV_SuspectDied: Suspect died following the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nIPV_SuspectWarrant\nIPV_SuspectedArrested\nIPV_SuspectFled\n0. No\n1. Yes\n7. Not collected in data sources\n8. Not applicable\n9. Unknown\nIPV_SuspectCharged\nIPV_SuspectConvicted\nIPV_SuspectConvictedOrigCharge\n0. No\n1. Yes\n3. Pending/In progress\n7. Not collected in data sources\n8. Not applicable\n9. Unknown\nIPV_SuspectDied\n0. No\n1. Yes\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code variables with reference to the intimate partner who was arrested, charged, prosecuted, etc. as a suspect for the death. Arrests or prosecution on lesser charges only, such as possession of a firearm without a license or other unrelated charges, should not trigger endorsing these variables. If the individual died following the incident then the other information does not have to be completed. IPV_SuspectWarrant indicates that a warrant was issued for the arrest of the suspect in the incident. Code as “Yes” if a warrant for the suspect’s arrest has been issued. IPV_SuspectedArrested indicates that the suspect was arrested by law enforcement. If a suspect is arrested, the arrest record will indicate the criminal statutes the person is suspected of having violated (e.g., first-degree homicide, second-degree homicide, etc.). If the suspect has not been arrested, or if the arrest charges do not include perpetration of the victim’s death, code as “No.” Also code as “No” if a warrant for the suspect’s arrest has been issued but the arrest has not yet been made. IPV_SuspectFled indicates that the suspect was arrested by law enforcement as a suspected perpetrator in the victim’s death; however, the suspect fled while on bond or escaped from custody prior to any closure to the case. IPV_SuspectCharged indicates that a prosecutor such as the district attorney or federal prosecutor issued charges against the suspect. These charges are not to be confused with the initial charges on which law enforcement arrested a suspect. Rather, they refer to the charges filed by the prosecutor that initiated the prosecution process. If the records reflect that the suspect is being prosecuted, code as “Yes.” Reasons to endorse “No” include that the case was never presented to prosecutors, the suspect was administratively released by law enforcement prior to charging (which means that the law enforcement no longer consider the person a suspect and s/he can be dropped as a suspect from the incident), or the prosecutor did not issue charges (because of lack of evidence, witness difficulties, defendant granted immunity, jurisdictional problem, constitutional defects, or physical evidence difficulty). IPV_SuspectConvicted: If prosecution is complete, this indicates whether the IPV Victim or Perpetrator suspect was convicted as a perpetrator in the victim’s death. Code “No” if the IPV Perpetrator or Victim was acquitted or the case was dismissed. Also code “No” if the IPV Perpetrator or Victim was convicted only of lesser charges (e.g., a weapons charge) but not as a perpetrator in the victim’s death (e.g., convicted of homicide, murder, or manslaughter). Assume the IPV Perpetrator or Victim has been convicted if she/he has been sentenced or is awaiting sentencing. IPV_SuspectConvictedOrigCharge: If the IPV Victim or Perpetrator/suspect was convicted of a lesser charge and not the original charge (e.g., charged with first degree murder but convicted of second degree), code as “No.” IPV_SuspectDied: If the IPV Victim or Perpetrator/suspect died at any time during the legal proceedings."
+    },
+    {
+      "type": "subsection",
+      "content": "10.7 Cohabitation Status: IPV_CohabitationStatus"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Cohabitation status of the IPV Perpetrator and IPV Victim at the time of the incident, i.e., living together in the same household, irrespective of marital status."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: If indication is provided through LE reports or other data sources that the IPV Perpetrator and IPV Victim shared a primary residence at the time of the incident, then “CohabitationStatus” should be coded as “Yes.” If the IPV Perpetrator and IPV Victim are listed as having the same address and there is no information contrary about their having separated, code as “Yes” even in the absence of an affirmative statement about cohabitation status. If the IPV Perpetrator and IPV Victim lived together fairly consistently, but there had been a recent change of status (e.g., less than 1 week of living in separate households) or they have separate addresses, then “CohabitationStatus” should still be coded as “Yes.” For example, if it was reported that an IPV Victim had been staying with her parents for a few days or the IPV Victim had a separate mailing address, but primarily resided with the IPV Perpetrator, they should be coded as cohabitating."
+    },
+    {
+      "type": "subsection",
+      "content": "10.8 Relationship length number of units: IPV_RelationshipLength"
+    },
+    {
+      "type": "subsection",
+      "content": "10.9 Unit of time used in relationship length: IPV_RelationshipLengthUOM"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nIPV_RelationshipLength: Length of time the IPV Perpetrator and IPV Victim were involved in a romantic relationship.\nIPV_RelationshipLengthUOM: Unit of time for IPV Perpetrator and IPV Victim involvement in a romantic relationship."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nIPV_RelationshipLength\n888. Not applicable\n999. Unknown\nIPV_RelationshipLengthUOM\n1. Years\n2. Months\n3. Days\n4. Hours\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable provides information on the length of time the IPV Perpetrator and IPV Victim were involved in a romantic relationship. This time period should be estimated from information drawn from C/ME or LE reports. It should reflect the total time the couple have been in a relationship and not just, in the case of married couples, the length of the marriage. It is coded using a numerical indication of the number of years, months, weeks, and days the relationship lasted. First the coder should provide information on the unit that best describes the amount of time of the IPV Perpetrator and IPV Victim relationship in terms of years, months, or less than one month. Indicate the length of the romantic relationship in IPV_RelationshipLength and the units of measurement for the interval (e.g., hours, days, weeks) in IPV_RelationshipLengthUOM. For any length that is 47 hours or less, use hours; for 48 hours and to 29 days, use days. For 30 or more days, the abstractor should use months. For 12 or more months, use years. Round to the nearest unit (e.g., 1 hour and 35 minutes would be recorded as 2 hours). If relationship length was noted as a range, use the high end of the range (e.g., 15–29 days, use 29). If relationship length is not precisely noted, indicate “999” in “RelationshipLength” and the applicable unit in “IPV_RelationshipLengthUOM” (e.g., “couple dated for a few days” would be “999” in “IPV_RelationshipLength” and “3” in “IPV_RelationshipLengthUOM”)."
+    }
+  ]
+}

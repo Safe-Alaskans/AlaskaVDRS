@@ -1,0 +1,431 @@
+{
+  "summary": [
+    "This document outlines the variables and definitions related to school-associated violent deaths and public safety officer suicides. It includes detailed descriptions of abuse experiences, agency roles, and work-related stressors that may contribute to these incidents. The information is structured to facilitate data collection and analysis for understanding the factors surrounding these tragic events."
+  ],
+  "keywords": [
+    "school-associated violent deaths",
+    "public safety officer suicide",
+    "abuse experiences",
+    "intimate partner violence",
+    "work-related stressors",
+    "data collection",
+    "victimization",
+    "mental health services",
+    "agency roles",
+    "definitions"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "11. School-Associated Violent Death Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "This variable indicates if the suspect was physically assaulted or threatened by peers in the 12 months prior to the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Peers referenced in this variable did not have to attend the same school where the incident took place."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.23-11.4.28 Suspect Abuse Experiences/Did the suspect experience any of the following?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate if the suspect experienced ongoing or past experiences of abuse, neglect, or other forms of victimization."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Abuse or neglect experienced by the suspect does not have to be related to the incident in order to be endorsed. This variable expands the NVDRS variable “History of abuse or neglect as a child – 5.4.13” by allowing the type of abuse/neglect to be specified and allowing forms of victimization that can occur but are not necessarily related to the incident (i.e., intimate partner violence, sexual violence)."
+    },
+    {
+      "type": "list_item",
+      "content": "Endorse abuse and neglect variables if the suspect experienced child abuse/neglect at any point in the past even if the victim is currently an adult.\nEndorse if evidence of ongoing abuse is suspected, but not confirmed. Endorse if autopsy evidence from official records (i.e., C/ME, hospital examination report) describes anatomical evidence of old or healing injuries as an indication of previous abuse.\nAbuse can be physical, psychological, sexual or others if the source document refers to “abuse.” If the abuse is unspecified and happened in childhood endorse “History of abuse and neglect as a child – 5.4.13.” If “abuse” is mentioned in source documents but the type of abuse and timing (i.e., childhood versus adulthood) is not specified, do not endorse these variables. Instead, indicate in the narrative that abuse was mentioned in the source documents.\nNeglect may be physical, emotional, medical, or educational.\nIndicate the nature of the abuse or neglect in the incident narrative.\nAbuse or neglect could have been perpetrated by a parent, guardian, or other individual in a caretaking role (e.g., person who was primarily responsible for caring for the victim when the abuse occurred, such as babysitter, older sibling sexually molesting victim).\nThis variable and “History of abuse and neglect as a child – 5.4.13” can be endorsed together if applicable.\nIntimate partner is defined as a current or former girlfriend/boyfriend, dating partner, ongoing sexual partner, or spouse. It does not include instances of sex/intimacy in exchange for money/goods. There must be evidence of an intimate relationship (this does not apply to instances where there is simply attraction/infatuation between two individuals or in cases where one person is romantically interested in the other, but the feelings are not returned). The definition of intimate partner does not require sexual intimacy. This definition includes same-sex partners. IPV can include physical violence, sexual violence, stalking, and psychological aggression inflicted by an intimate partner.\nSexual violence refers to sexual activity when consent is not obtained or not given freely (e.g., rape, sexual assault)."
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.23 SAVDSuspectAbuseExperiences_PhysicalChildAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced ongoing or past experiences of physical abuse in childhood."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.24 SAVDSuspectAbuseExperiences_SexualChildAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced ongoing or past experiences of sexual abuse in childhood."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.25 SAVDSuspectAbuseExperiences_EmotionalChildAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced ongoing or past emotional (verbal or psychological) abuse in childhood."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.26 SAVDSuspectAbuseExperiences_ChildNeglect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced ongoing or past neglect (physical, emotional, medical, or educational neglect) in childhood."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.27 SAVDSuspectAbuseExperiences_IntimatePartnerViolence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced ongoing or past intimate partner violence or teen dating violence."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.4.28 SAVDSuspectAbuseExperiences_SexualViolence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the suspect experienced ongoing or past sexual violence as an adult (e.g., rape, sexual assault)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "section",
+      "content": "12. Public Safety Officer Suicide Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "Public safety officers (PSOs) may be at increased risk of suicide because of the stresses associated with their position. This module allows states to capture additional information on suicides classified as public safety officer suicide (PSOS) incidents. PSOS incidents are defined as incidents in which a PSO dies by suicide. The suicide may have happened on or off duty and with or without the use of a work-issued weapon. PSOs are considered for inclusion if the person served in a public service agency in an official capacity, including a paid or volunteer position. Additionally, individuals who have retired from a PSO occupation are included."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: The PSOS Module and corresponding variables were added in January 2022. Data collection for the PSOS Module applies to eligible deaths occurring on and after January 1, 2022."
+    },
+    {
+      "type": "subsection",
+      "content": "12.1 Definition of Public Safety Officer"
+    },
+    {
+      "type": "paragraph",
+      "content": "A PSO is defined as: All local, state, federal, military, and tribal law enforcement, corrections officers, parole/probation officers, officers of the court, firefighters, emergency medical service clinicians (emergency medical technicians [EMTs], paramedics, advanced emergency medical technicians [AEMTs], emergency medical responders [EMRs], etc.), and public safety telecommunicators (e.g., 911 operators and dispatchers)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The following are examples of North American Industrial Classification System (NAICS) codes that identify PSO occupations, excluding 911 telecommunicators:"
+    },
+    {
+      "type": "list_item",
+      "content": "Police Protection (NAICS = 92212)\nCorrectional Institutions (NAICS = 92214)\nFire Protection (NAICS = 92216)\nAmbulance Services (NAICS = 62191)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Military NAICS codes are not available for military-based Public Safety Officers because there are more general NAICS codes that capture military personnel by branch of service. Standardized Occupational Classification (SOC) codes are often used to identify specific workers (or specific occupations) including 911 telecommunicators. The SOC code for 911 telecommunicators is 43-5031. Also use SOC as indicated in Section 3.2.1 Usual Occupation Variables in the coding manual guidance for industry and occupation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: It is not required for there to be a corresponding NAICS or SOC code for every victim. Additionally, there will often be cases in which the SOC or NAICS codes are not provided; however, the victim would still be considered to be a PSO based on the text description of their current and/or usual occupation or industry from the DC or their current occupation as described in other source documents. The codes, if available, may be used in conjunction with other information from the source documents to determine if a victim should be classified as a PSO. These codes are also useful for purposes of defining cases in later analyses using NVDRS data."
+    },
+    {
+      "type": "paragraph",
+      "content": "In cases where the occupation of the PSO does not fit into one of the above categories, including individuals who were in a volunteer position or retired, provide this information as part of the C/ME or LE narrative. PSOs in volunteer roles and/or who were retired at the time of their death are included in the case definition and their information should be captured."
+    },
+    {
+      "type": "subsection",
+      "content": "12.2 PSOS Inclusion Criteria"
+    },
+    {
+      "type": "subsection",
+      "content": "12.2.1 This is a Public Safety Officer Suicide/PSOS Case: PSOS_Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates whether the death is considered a PSOS."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Checkbox"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3 Agency, Role, and Status"
+    },
+    {
+      "type": "paragraph",
+      "content": "Type of agency"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.1 Type of agency (Agency 1): PSOS_Agency1"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.2 Subtype of agency (Agency 1): PSOS_Agency1_Sub"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.3 Type of agency if other (Agency 1): PSOS_Agency1_Other"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.4 Type of agency (Agency 2): PSOS_Agency2"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.5 Subtype of agency (Agency 2): PSOS_Agency2Sub"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.6 Type of agency if other (Agency 2): PSOS_Agency2_Other"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture the type of agency where the PSO was working or volunteering for at the time of their death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nLaw enforcement\nState law enforcement\nCampus police\nCity/county/town law enforcement\nTribal law enforcement\nFederal law enforcement\nPrivate law enforcement (non-governmental)\nUnspecified\nFire department\nCity/county/town fire department\nFederal fire agency\nState fire department\nUnspecified\nEmergency Medical Services\nPrivate EMS agency (non-governmental)\nCity/county/town EMS agency\nFederal EMS agency\nTribal EMS agency\nCampus EMS agency\nState EMS agency\nAir Medical Agency (e.g., air ambulance service)\nUrban Search and Rescue\nUnspecified\nMilitary\nAir Force\nAir National Guard\nArmy\nCoast Guard\nMarine Corps\nNational Guard\nNavy\nSpace Force\nJail/Corrections facility\nCourt\nFederal court\nState court\nLocal jurisdiction court\nUnspecified\n911/Telecommunications Agency\nState 911 agency\nCity/county/town 911 agency\nTribal 911 agency\nFederal 911 agency\nUnspecified\nOther (free text)\nUnknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Use the dropdown list to select the type of agency. For LE, fire department, EMS, court, and 911/telecommunications agencies, a second dropdown will allow you to further specify the type of agency within that category. Be sure to report the most recent agency where the victim worked, which can be in a paid or unpaid role. There is an additional “Type of agency” variable to account for victims who work in more than one agency simultaneously (e.g., a paramedic who works in one department and volunteers as a paramedic supervisor in another). In the event that the victim worked and/or volunteered in more than one agency, list the primary agency as the one where they worked the majority of hours. If a victim was working in multiple agencies and it is unclear how many hours the victim worked in each agency, select “Other.”"
+    },
+    {
+      "type": "subsection",
+      "content": "Public Safety Officer Role"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.7 Type of role 1: PSOS_Role1"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.8 Subtype of role 1: PSOS_Role1_Sub"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.9 Type of role 1 if other: PSOS_Role1_Other"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.10 Type of role 2: PSOS_Role2"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.11 Subtype of role 2: PSOS_Role2Sub"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.12 Type of role 2 if other: PSOS_Role2_Other"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture the specific role or position in which the victim served as a PSO. This variable is in addition to the occupation variables on the DC and in the general demographics tab of NVDRS."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nLaw enforcement role\nLE Officer Role (e.g., police, corrections, probation, parole, and judicial officer)\nLE, Supervisor Role (e.g., Sergeant, Lieutenant, Captain, Commissioner)\nLE, Unspecified Role\nFirefighting role\nFirefighter Role (e.g., Firefighter, Wildland Firefighter)\nFirefighter, Supervisor Role (e.g., Fire chief, Lieutenant, Commissioner, Captain)\nFirefighter, Unspecified Role\nEmergency Medical Services role\nEmergency Medical Service Clinician (e.g., paramedic, A-EMT, EMT, EMR)\nEmergency Medical Service, Supervisor Role (Chief, Captain, Preceptor, etc.)\nOther Emergency Medical Service Clinician (e.g., Flight nurse, doctor)\nEmergency Medical Service Role, Unspecified Role\nPublic Safety Telecommunications role\nPublic Safety Telecommunicators (e.g., 911 Telecommunicator, Dispatchers, Tactical dispatch)\nPublic Safety Telecommunicators, Supervisor Role\nPublic Safety Telecommunicators, Unspecified Role\nOther (free text)\nUnknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Use the dropdown list to select the type of role. For LE, fire department, EMS, court, and 911/telecommunications roles, a second dropdown will allow you to further specify the type of role within that grouping. Be sure to report the most recent role in which the victim worked, which can be in a paid or unpaid. There is an additional “Public Safety Officer Role” variable to account for victims who work in more than one PSO role simultaneously (e.g., this would capture an instance where the victim was a paid paramedic and a volunteer paramedic supervisor). In the event that the victim worked and/or volunteered in more than one role, list the primary role as the one where they worked the majority of hours. If a victim was working in multiple roles and it is unclear how many hours the victim worked in each role, select “Other.” Be sure to report the most recently listed position of the victim per the source documents even if the DC states a different occupation. In the case of military or court PSO, specify the type of role the victim was performing. For instance, a military police officer would be classified as an LE officer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Other Emergency Service Clinician is meant to capture doctors, nurses, or other clinicians who were serving in a pre-hospital emergency function (e.g., flight nurse, flight doctor). Clinicians working in non-emergency responder functions should not be coded here (e.g., an Emergency Medicine doctor working their regular shift in the emergency room)."
+    },
+    {
+      "type": "subsection",
+      "content": "Pay Status"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.13 PSOS_PayStatus_FT"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.14 PSOS_PayStatus_PT"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.15 PSOS_PayStatus_Oncall"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.16 PSOS_PayStatus_Volunteer"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.17 PSOS_PayStatus_N/A"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.18 PSOS_PayStatus_Other"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.19 PSOS_PayStatus_Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.20 PSOS_PayStatus_Other_Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures the PSO’s pay status at the time of death with regards to their PSO role."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options (Check all that apply):\nPaid, full-time\nPaid, part-time\nPaid, on call\nVolunteer\nN/A (e.g., retired)\nUnknown\nOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: There will be instances where the victim was serving in multiple roles and may have different pay statuses for those roles. In those instances, be sure to check all that apply. For example, a victim may be working as a full-time firefighter in one agency and volunteering as a firefighter in another agency. Additionally, there are PSOs who will complete additional paid shifts in other agencies to earn extra money. It is important to capture any roles or positions in which a PSO was serving at the time of their death."
+    },
+    {
+      "type": "subsection",
+      "content": "12.3.21 Active versus Retired: PSOS_ActiveRetired"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture the employment status of the PSO at the time of their death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1 Active\n2 Retired\n66 Other\n88 N/A (e.g., volunteer)\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse this variable if the victim is documented as being active or retired from their profession or in an unspecified or “Other” status. This variable applies to both volunteer and paid PSOs. Active refers to any PSO actively working and employed by an agency in any capacity, including full-time, part-time, or a volunteer. Retired is defined as someone who has permanently left their position with no intention of returning. “66 – Other” may be selected in instances where the decedent was on a leave of absence (e.g., medical leave, disciplinary suspension, absent without leave [AWOL])."
+    },
+    {
+      "type": "subsection",
+      "content": "12.4 PSOS Work Environment Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.1 History of chronic or acute traumatic work-related event: PSOS_ChronicAcuteInjury_History"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture whether source documents noted that the PSO was involved in, assisted with, or responded to any traumatic work-related event(s)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable considers chronic or acute work-related event(s) broadly. The event(s) may cause periods of anxiety, distress, psychological and/or physical stress, emotional turmoil, or performance change within the victim. Examples of acute or chronic traumatic work-related events include moments where one faces a threat of serious injury, harm, or death toward the self or others. The event may have directly affected or been witnessed by the victim. If the source documents mention exposure, that is enough to endorse this variable."
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.2 Timing of most recent chronic or acute traumatic work-related event: PSOS_ChronicAcuteInjury_Timing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture the timing and/or onset of the most recent traumatic event."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1 Last 7 days\n2 8 days to 30 days\n3 31 days to 12 months\n4 Longer than 12 months\n66 Other\n99 Timing unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is meant to capture the most recent traumatic work-related event. If the trauma was chronic and there is no specific timing associated with it, select “99 – Timing unknown.” Only complete if you endorsed “Yes” for the variable “History of chronic or acute traumatic work-related event.” If the source documents report that the event was recent, without more specific timing details, endorse “66 – Other.” We think of this as different than timing “Unknown” because there was some description of timing is just nonspecific."
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.3 Type of chronic or acute traumatic work-related event: PSOS_ChronicAcuteInjury_Type"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture the specific type of chronic or acute traumatic work-related event(s) the PSO was involved in, assisted with, or responded to. This variable is to be completed if “History of chronic or acute traumatic work-related event” is “Yes.”"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Complete this variable if the source documents indicated that the victim was involved in, assisted with, or responded to any event such as a mass casualty event, natural or man-made disaster (e.g., bombing, hurricane, pandemic, or other infectious disease epidemic or outbreak), domestic violence call, active shooter situation, fatal motor vehicle accident, other events involving loss of human life, observing child death in the line of duty, response to calls for service for suicide, collapsing structure, explosion, and high-profile media coverage of these events (e.g., 9/11, COVID-19). Additionally, use this variable to capture chronic traumatic events like repeated exposure to life-threatening situations or extreme levels of stress. The traumatic event(s) may have caused periods of anxiety, distress, psychological and/or physical stress, and emotional turmoil for the victim."
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.4 Referred to Employee Assistance Program (EAP) or mental health services: PSOS_EAP"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture if the PSO was ever encouraged to reach out to, was referred to, or connected with their EAP, wellness systems, or any other mental health support/resources."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse if the decedent was referred to or involved in EAP or mental health services such as Officer Safety and Wellness, EAP, work-related mental health supports/resources, Share the Load Support Program (for firefighters), Law Enforcement Mental Health and Wellness Act Program, wellness/fitness Initiatives, Peer Support Teams, and Critical Incident Stress Management Teams."
+    },
+    {
+      "type": "subsection",
+      "content": "Work-related stressors"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.5 PSOS_WorkRelatedStressors_homicide"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.6 PSOS_WorkRelatedStressors_suicide"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.7 PSOS_WorkRelatedStressors_seriousinjurycoworker"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.8 PSOS_WorkRelatedStressors_coworkerconflict"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.9 PSOS_WorkRelatedStressors_psychological"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.10 PSOS_WorkRelatedStressors_burnout"
+    }
+  ]
+}

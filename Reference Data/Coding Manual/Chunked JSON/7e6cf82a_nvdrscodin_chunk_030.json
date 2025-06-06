@@ -1,0 +1,303 @@
+{
+  "summary": [
+    "This document outlines the Public Safety Officer Suicide Module, detailing various work-related stressors, injury details, and weapon variables associated with PSOs. It also includes appendices that provide guidance on data collection for the National Violent Death Reporting System (NVDRS) and the State Unintentional Drug Overdose Reporting System (SUDORS). The information is crucial for understanding the factors contributing to PSO suicides and improving data reporting practices."
+  ],
+  "keywords": [
+    "Public Safety Officer",
+    "suicide",
+    "work-related stressors",
+    "injury details",
+    "NVDRS",
+    "SUDORS",
+    "data collection",
+    "mental health",
+    "firearm",
+    "burnout"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "12. Public Safety Officer Suicide Module"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.11 PSOS_WorkRelatedStressors_shiftwork"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.12 PSOS_WorkRelatedStressors_HR"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.13 PSOS_WorkRelatedStressors_retirement"
+    },
+    {
+      "type": "subsection",
+      "content": "12.4.14 PSOS_WorkRelatedStressors_otherfreetext"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: PSOs are exposed to a myriad of work-related stressors that may be chronic and/or acute. The intent of this variable is to capture these stressors. The list of stressors included in the response options is not meant to be exhaustive but rather meant to capture work-related stressors more commonly experienced by PSOs. If there is a stressor that is different from the ones listed, please include it in the “Other” category and specify."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options (Check all that apply):\nHomicide of colleague\nSuicide of colleague\nWitness to serious injury of a colleague\nInterpersonal conflict with partner, crew, or other co-worker\nPsychological stress of work\nSigns or feelings of burnout\nShift-work related stress\nPersonnel/Human resources issues\nRecent/Upcoming retirement\nOther (free text)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse this variable if, per the source documents, you have evidence that the victim was experiencing a work-related stressor. Work-related stress can come in many forms. Below is a list of definitions for response options that fall under “Work-related stressors.”"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide of colleague: Victim experienced the homicide of a work partner/colleague. This response option should be selected regardless of whether the death occurred in the line of duty. The victim is not required to have been a witness to the event.\n\nSuicide of colleague: Victim experienced the suicide of a work partner/colleague. This response option should be selected regardless of whether the death occurred in the line of duty. The victim is not required to have been a witness to the event.\n\nWitness to serious injury of a colleague: Victim witnessed the serious injury to a partner/colleague. This response option should be selected regardless of whether the serious injury occurred in the line of duty.\n\nInterpersonal conflict with partner, crew, or other co-worker: Victim was reported to have experienced stress related to interpersonal conflict with a colleague regardless of whether the conflict occurred on or off duty.\n\nPsychological stress of work: Victim was reported to have psychological stress related to work. Examples include, but are not limited to, traumatic work exposure (e.g., witness to mass casualty event), response to call for a suicide, violence experienced against victim or coworkers, response to a call for a suicidal person, violence toward self or coworkers, responding to a pediatric emergency (fatal and non-fatal), death of a patient or person in custody during or after responding to the scene, or the psychological stress of repeated/constant exposure to trauma.\n\nSigns or feelings of burnout: Victim was reported to have shown signs of or expressed feelings of burnout. Burnout is defined as a syndrome conceptualized as resulting from chronic work-related stress that is usually characterized by three dimensions: feelings of energy depletion or exhaustion, increased mental distance from one's job, or feelings of negativism or cynicism related to one's job, or reduced professional efficiency.\n\nShift-work related stress: Victim was reported to have experienced stress related to shift work. Examples include, but are not limited to, interrupted sleep, circadian rhythm-related stress, mandatory overtime or holdovers, and shiftwork generally.\n\nPersonnel/Human resources issues: Victim was reported to have experienced stress related to personnel/human resources. Examples include, but are not limited to, work-related racism, discrimination, or harassment, poor performance evaluation, being denied or passed over for a promotion, Internal Affairs investigation, or history of disciplinary action at work.\n\nRecent/Upcoming retirement: Victim was reported to have experienced stress related to a recent or upcoming retirement.\n\nOther: Endorse if the victim was reported to have any other work-related stressor that is thought to have contributed to their death. Please fill in the details in the free text box."
+    },
+    {
+      "type": "subsection",
+      "content": "12.5 PSOS Injury Detail Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.1 Duty status at time of injury: PSOS_DutyStatus"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture the duty status of the PSO when the fatal injury occurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1. On duty\n2. Off duty\n66. Other\n99. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse “1 – On duty” if the injury occurred while the PSO was working their scheduled shift, overtime, or was called in to work unexpectedly. Endorse “2 – Off duty” if the injury occurred any time outside of the PSO’s scheduled work hours. Endorse “66 – Other” if the PSO was in an on-call status or retired. Examples of “On duty” include any time period where the PSO is dedicating a set number of hours at their workplace. A PSO can be working their shift at any location necessitated by their duties, including dispatch locations and places encountered en route while performing work-related duties."
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.2 Decedent affected by chronic or acute work-related injury/disability: PSOS_ChronicAcuteInjuryDisability"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture whether the PSO had suffered any work-related injury(ies) or disability(ies)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse this variable if the decedent suffered and/or was diagnosed with any acute, chronic, or long-term injury or disability while working in the PSO role or due to the work environment. The incidents include, but are not limited to, chronic and acute physical, mental, or neurological injuries or disabilities. For injuries that may have occurred before the PSO’s suicide, only endorse if the injury was thought to have contributed to the suicide. Examples include work-related illnesses or conditions such as: respiratory ailments associated with smoke, burns or corrosion, gunshot wounds, puncture wounds, amputation, concussion, chronic obstructive pulmonary disease, emphysema, traumatic brain injury, back injury, post-traumatic stress disorder, anxiety or depressive disorder, traumatic injury to body (e.g., nerves, spinal cord, muscles, bones, ligaments, etc.), and/or other injury/disability."
+    },
+    {
+      "type": "subsection",
+      "content": "Detail about where fatal injury occurred"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.3 PSOS_InjuryLocation_Workvehicle"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.4 PSOS_InjuryLocation_Worksite"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.5 PSOS_InjuryLocation_Trainingsite"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.6 PSOS_InjuryLocation_Militarypost"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.7 PSOS_InjuryLocation_Dispatchlocation"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.8 PSOS_InjuryLocation_Field"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.9 PSOS_InjuryLocation_ShootingRange"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.10 PSOS_InjuryLocation_Courthouse"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.11 PSOS_InjuryLocation_CorrectionalFacility"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.12 PSOS_InjuryLocation_Other"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.13 PSOS_InjuryLocation_Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "12.5.14 PSOS_InjuryLocation_NA"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures additional details about where the suicide of a PSO occurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options (Check all that apply):\nWork/Service vehicle\nWork site (e.g., firehouse, police department)\nTraining site (police academy, fire academy)\nMilitary installation/post\nDispatch location (responding to a call)\nIn the field (includes both dispatched & non-dispatched)\nShooting range\nCourthouse\nJail/Corrections facility\nUnknown\nOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is meant to capture additional information on where the fatal injury occurred that is unique to PSOs and distinct from the variable, “Type of location where injury occurred” in NVDRS. N/A should be used when all relevant injury location information is already captured in the “Type of location where injury occurred” variable on the Injury and Death tab."
+    },
+    {
+      "type": "subsection",
+      "content": "12.6 PSOS Weapon Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "12.6.1 Injury weapon was a work-issued firearm: PSOS_Firearm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is meant to capture whether the firearm used in the PSO’s death was a service weapon or work-issued weapon."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Endorse if source documents note that the firearm used to inflict the fatal injury was work-issued. The variable is not restricted to only law enforcement officers. If information is not available regarding whether the firearm was work-issued, do not assume the firearm was work-issued and do not endorse."
+    },
+    {
+      "type": "section",
+      "content": "13. Appendices"
+    },
+    {
+      "type": "paragraph",
+      "content": "Appendix A is a decision-tree intended to assist states in determining which state enters an incident in the NVDRS web-based system when the incident crosses state lines or a resident was fatally injured in another state. The decision-tree can be used by states collecting statewide data and states with pilot years."
+    },
+    {
+      "type": "paragraph",
+      "content": "Appendix B includes an overview of the National Violent Death Reporting System (NVDRS) and the State Unintentional Drug Overdose Reporting System (SUDORS). NVDRS uses information from death certificates (DC), coroner/medical examiner (C/ME) reports, and law enforcement (LE) reports to provide a complete picture of violent deaths. The case definition for NVDRS includes homicides, suicides, unintentional firearm deaths, deaths of undetermined intent (including opioid overdose deaths of undetermined intent), deaths due to legal intervention (excluding executions), and deaths due to terrorism. Information from NVDRS can be used to characterize violent deaths and inform, develop, and guide violence prevention programs. SUDORS uses information from DCs and C/ME reports for unintentional drug overdose deaths, and from DCs, C/ME reports, and LE reports for drug overdose deaths of undetermined intent (LE data for drug overdose deaths of undetermined intent are required for NVDRS but not for SUDORS and therefore do not have to be entered by the 8-month SUDORS data entry deadline; see details in table below). The case definition for SUDORS includes drug overdose deaths that are either unintentional or of undetermined intent. Information from SUDORS can be used to characterize drug overdose deaths and inform, develop, and guide overdose prevention programs. Both NVDRS and SUDORS data collection take place using the NVDRS web-based system. SUDORS and NVDRS collect information for different cases, with one exception: drug overdose deaths of undetermined intent. These cases should only be entered once in the web-based system, but within the scope of both SUDORS and NVDRS, and should be coded using abstractor manner of death “9-undetermined intent” and incident type “1-NVDRS” (incident category values of “5-single death of undetermined intent” or “10-multiple deaths of undetermined intent” will be used to identify deaths of undetermined intent from the broader NVDRS incident type) in the web-based system. The content in this document (e.g., data closeout dates, etc.) is for informational purposes only and should not be used as a substitute for the Notice of Funding Opportunity Announcement for either program – SUDORS and NVDRS."
+    },
+    {
+      "type": "subsection",
+      "content": "Appendix A"
+    },
+    {
+      "type": "subsection",
+      "content": "Appendix B"
+    },
+    {
+      "type": "table",
+      "content": "Deaths collected by SUDORS, by NVDRS, and by both SUDORS and NVDRS"
+    },
+    {
+      "type": "table",
+      "content": "DEATH  MANNER/TYPE  DEATH MANNER/TYPE FOR DEATHS INCLUDED IN SUDORS, NVDRS, OR BOTH\nSUDORS-only cases  Unintentional drug overdose deaths\nSUDORS and NVDRS cases*  Drug overdose deaths of undetermined intent\nNVDRS-only cases  Suicides\nHomicides\nLegal intervention deaths\nUnintentional firearm deaths\nDeaths of undetermined intent other than drug overdose deaths"
+    },
+    {
+      "type": "table",
+      "content": "Abstractor Manner of Death\n- 11 Unintentional poisoning\n- 9 Undetermined intent\n- 1 Suicide or intentional self-harm\n- 2 Homicide\n- 3 Unintentional firearm - self-inflicted\n- 4 Unintentional firearm - inflicted by other person\n- 5 Unintentional firearm - unknown who inflicted\n- 6 Legal intervention (by police or other authority)\n- 7 Terrorism homicide\n- 8 Terrorism suicide\n- 9 Undetermined intent"
+    },
+    {
+      "type": "table",
+      "content": "Incident type\n- 3 SUDORS\n- 1 NVDRS (with Incident Category 5-single death of undetermined intent or 10-multiple deaths of undetermined intent)\n- 1 NVDRS\n- 2 NVDRS Non-Targeted Area\n- 3 SUDORS\n- 9 Other (State-Defined)"
+    },
+    {
+      "type": "paragraph",
+      "content": "*Only entered once in the web-based system, but within scope of both SUDORS and NVDRS"
+    },
+    {
+      "type": "paragraph",
+      "content": "Of NOTE: For OPTIONAL Data Collection Grantees can enter data into the web-based system for other types of deaths that are not part of the SUDORS or NVDRS case definitions (e.g., motor vehicle crashes without intent to injure). For these deaths, the following must be used:\nAbstractor Manner of Death = “10 Other unintentional death (outside NVDRS case definition)”\nIncident Type = “9 Other (State-Defined)”"
+    },
+    {
+      "type": "paragraph",
+      "content": "If grantees want to enter data for drug-related deaths other than drug overdose deaths (e.g., drowning while intoxicated), the following must be used:\nAbstractor Manner of Death = “11 Unintentional poisoning”\nIncident Type = “9 Other (State-Defined)”"
+    },
+    {
+      "type": "list_item",
+      "content": "1. Required data fields in web-based system\na. NVDRS cases\ni. All data fields are required on all tabs except the Intimate Partner Violence (IPV), Child Fatality Review (CFR), and Overdose (OD) tabs, which are optional.\nb. SUDORS cases\ni. For unintentional drug overdose deaths:\n1. Certain data fields are optional on the Demographics, Injury and Death, and Circumstances tabs.\n2. All data fields on the Weapons and Toxicology tabs are required.\n3. All but 3 specific data fields on the OD tab are required.\n4. Data fields on the Suspects, IPV, and CFR tabs are optional.\nii. For drug overdose deaths of undetermined intent:\n1. All data fields are required on the Demographics, Injury and Death, Circumstances, Toxicology, and OD tabs (except 3 specific fields on the OD tab).\n2. Data fields on the IPV and CFR tabs are optional."
+    },
+    {
+      "type": "paragraph",
+      "content": "c. Required fields and Narrative guidance for NVDRS and SUDORS cases are detailed below:"
+    },
+    {
+      "type": "table",
+      "content": "TAB  REQUIRED FIELDS\nSUDORS-only cases  Unintentional drug overdose deaths\nSUDORS and NVDRS cases*  Drug overdose deaths of undetermined intent\nNVDRS-only cases  Suicides\nHomicides\nLegal intervention deaths\nUnintentional firearm deaths\nDeaths of undetermined intent other than drug overdose deaths"
+    },
+    {
+      "type": "table",
+      "content": "Demographics\n- All required except (and it is strongly encouraged to include the following if available):\n- Day of birth\n- First initial of last name\n- Last 4 of C/ME number\n- Last 4 of DC number\n- US Census Tract and Block Group of Residence"
+    },
+    {
+      "type": "table",
+      "content": "Injury and death\n- All required except (and it is strongly encouraged to include the following if available and relevant):\n- Manner of death per LE\n- US Census Tract and Block Group of Where Injury Occurred\n- Hospital ICD-9-CM and ICD-10-CM codes\n- Number and location of wounds"
+    },
+    {
+      "type": "table",
+      "content": "Circumstances\n- All C/ME fields required in “Mental Health, Substance Abuse, and other Addictions” section\n- All C/ME fields required in the “Suicide/Undetermined Specific Circumstances” portion of the “Manner Specific Circumstances for Homicide and Suicide Deaths,” except the “Life Stressors” fields\n- All other fields optional"
+    },
+    {
+      "type": "table",
+      "content": "Weapons\n- Required to enter “poisoning” as weapon"
+    },
+    {
+      "type": "table",
+      "content": "Suspects\n- None"
+    },
+    {
+      "type": "table",
+      "content": "Toxicology\n- All required, required to enter all detected drugs, (i.e., positive result), including metabolites"
+    },
+    {
+      "type": "table",
+      "content": "OD\n- All required except:\n- Number of opioid prescriptions in 30 days preceding injury\n- Number of pharmacies dispensing opioids to decedent in 180 days preceding injury\n- Number of doctors writing opioid prescriptions to decedent in 180 days preceding injury"
+    },
+    {
+      "type": "table",
+      "content": "IPV\n- None"
+    },
+    {
+      "type": "table",
+      "content": "CFR\n- None"
+    },
+    {
+      "type": "paragraph",
+      "content": "NARRATIVES GUIDANCE\nC/ME narrative\nPer the NVDRS coding manual guidance, with the following exceptions:\nAlternative wording can be used to describe the decedent (i.e., “decedent,” “D”) in addition to “Victim,” “V”\nDates related to the injury, death, and last seen alive can be included in narrative to help verify dates of injury/death/last seen alive\nIf LE information is available, it should be included in the C/ME narrative"
+    },
+    {
+      "type": "paragraph",
+      "content": "LE narrative\nNot required and should be left blank; if LE report is available, information should be captured in the C/ME narrative (i.e., only write one narrative)"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Timelines for data entry (Please consult your respective Funding Opportunity Announcement for specific dates)"
+    },
+    {
+      "type": "list_item",
+      "content": "SUDORS-only cases Unintentional drug overdose deaths\nSUDORS and NVDRS cases* Drug overdose deaths of undetermined intent\nNVDRS-only cases Suicides\nHomicides\nLegal intervention deaths\nUnintentional firearm deaths\nDeaths of undetermined intent other than drug overdose deaths"
+    },
+    {
+      "type": "table",
+      "content": "Case initiation\n- At minimum, within 6 months of the end of the reporting period†\n- Within 4 months of the date of death (corresponding to NVDRS’ earlier case initiation)\n- Within 4 months of the date of death"
+    },
+    {
+      "type": "table",
+      "content": "Data entry completion\n- At minimum, within 8 months of the end of the reporting period†\n- SUDORS-required fields only: At minimum, within 8 months of the end of the reporting period for fields required by SUDORS†\n- NVDRS-required fields (including LE fields): Within 16 months of the calendar year of death for fields required only by NVDRS\n- Within 16 months from the calendar year of death"
+    },
+    {
+      "type": "paragraph",
+      "content": "*Only entered once in the web-based system, but within scope of both SUDORS and NVDRS"
+    },
+    {
+      "type": "paragraph",
+      "content": "†SUDORS reporting periods are 6 months long, representing the first half (January–June) and second half (July–December) of each funded year. Some grantees committed to faster initiation and completion timelines; but the minimum requirements are listed here."
+    }
+  ]
+}

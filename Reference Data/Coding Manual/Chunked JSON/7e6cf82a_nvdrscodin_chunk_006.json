@@ -1,0 +1,195 @@
+{
+  "summary": [
+    "This document outlines demographic variables for victims, including methods for collecting address information, coding for birthplaces, and determining housing status. It emphasizes the importance of accurate data collection and coding practices for various demographic factors, including education and occupation. Additionally, it provides guidelines for assessing homelessness and housing instability in relation to victims' circumstances."
+  ],
+  "keywords": [
+    "demographic variables",
+    "victims",
+    "data collection",
+    "housing status",
+    "education",
+    "occupation",
+    "homelessness",
+    "coding practices",
+    "birthplaces",
+    "socioeconomic status"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 3: Demographic Variables for Victims"
+    },
+    {
+      "type": "paragraph",
+      "content": "Census tract and block group information can also be obtained for multiple addresses at one time. Click on the following link: http://geocoding.geo.census.gov/geocoder/geographies/addressbatch?form. To perform the batch processing of addresses, create a Comma-Separated Values (CSV) file and upload it in the “select address file” field. An example of what the CSV file should contain is listed at the following link: http://geocoding.geo.census.gov/geocoder/Addresses.csv."
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nUse place of residence from the DC. This should include tourists, itinerants, part-time residents, etc.:"
+    },
+    {
+      "type": "list_item",
+      "content": "The address information should be collected at the local level in a format that meets the local standards for geocoding.\nThe program will automatically enter “88” for “Not applicable” if the person is not a resident of a U.S. state or territory.\nAn American Indian reservation should be coded as the state in which it is located. If the reservation spans multiple states, code based on state borders.\nThis website http://www.census.gov/geo/reference/ansi.html supplies FIPS place and county codes for out-of-state addresses: http://www.census.gov/geo/reference/ansi.html\nNotes on persons under institutional care:\nIf a person is currently residing in a short-term facility (expected to return to his or her residence after a stay of generally no more than 3 months) such as a rehabilitation hospital, drug treatment program, jail, etc., use his or her home address as the residential address. Only use the address of the facility if no home address is noted.\nIf a person is residing in a long-term facility such as a college dormitory, prison, or residential nursing home, use the facility’s address."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.2 Birth place: BirthPlace"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Birth state, territory, or country"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Start typing U.S. state abbreviation (e.g., GA for Georgia), full state name (e.g., Georgia), or a listed country name (e.g., Canada, Cuba, or Mexico), or a U.S. territory. The full list of categories is provided below:"
+    },
+    {
+      "type": "list_item",
+      "content": "1. Alabama\n2. Alaska\n3. Arizona\n4. Arkansas\n5. California\n6. Colorado\n7. Connecticut\n8. Delaware\n9. District of Columbia\n10. Florida\n11. Georgia\n12. Hawaii\n13. Idaho\n14. Illinois\n15. Indiana\n16. Iowa\n17. Kansas\n18. Kentucky\n19. Louisiana\n20. Maine\n21. Maryland\n22. Massachusetts\n23. Michigan\n24. Minnesota\n25. Mississippi\n26. Missouri\n27. Montana\n28. Nebraska\n29. Nevada\n30. New Hampshire\n31. New Jersey\n32. New Mexico\n33. New York\n34. North Carolina\n35. North Dakota\n36. Ohio\n37. Oklahoma\n38. Oregon\n39. Pennsylvania\n40. Rhode Island\n41. South Carolina\n42. South Dakota\n43. Tennessee\n44. Texas\n45. Utah\n46. Vermont\n47. Virginia\n48. Washington\n49. West Virginia\n50. Wisconsin\n51. Wyoming\n52. Puerto Rico\n53. Virgin Islands\n54. Guam\n55. Canada\n56. Cuba\n57. Mexico\n59. Remainder of the world (specify in birthplace text)\n61. American Samoa\n62. Northern Marianas\n99. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The place of birth is indicated on the DC. If the victim was not born in the United States or one of the listed countries, enter “59 – Remainder of the world” and specify the victim’s country of birth in the field, “Country of birth,” if not listed. Note: The code list used for place of birth is not an FIPS code list; it is a National Center for Health Statistics code list."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.3 Birth country, if other: BirthCountryOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates the victim’s country of birth if not the United States and not on the list of other countries in the variable “Birth place.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Please enter the country of birth in this field for victims not born in the United States or in one of the countries listed in the code list for “Birth place” (i.e., coded “59 – Remainder of world”)."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.4 Usual Occupation Variables"
+    },
+    {
+      "type": "list_item",
+      "content": "3.2.4.1 Kind of business/industry code: Industry\n3.2.4.2 Usual industry text: IndustryText\n3.2.4.3 Usual occupation code: UsualOccupation\n3.2.4.4 Usual occupation text: OccupationText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions: “Usual industry” is the kind of business or industry to which the victim’s occupation is related, such as insurance, farming, or government.\nIndustry: Victim’s usual business/industry code as recorded on the DC\nIndustryText: Victim’s usual business/industry text as recorded on the DC\nUsualOccupation: Usual occupation of the victim as recorded on the DC\nOccupationText: Usual occupation text of the victim as recorded on the DC"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Provide the usual industry and occupation codes of the person as recorded on the DC.\n080 If text only: indicates the actual code is not available.\n090 Unknown, N/A, or blank"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Most states’ registry of vital records encodes the decedent’s usual occupation and industry on the DC. Usual occupation/industry is not necessarily the victim’s current occupation/industry. Provide information exactly as it appears in the DC data. Sites should NOT code the information themselves, as industry and occupation coding requires special training:\nThe codes “999” for occupation and “090” for industry are assigned by the Occupation and Industry coder to indicate “blank,” “Unknown,” or “Not applicable.” These codes should only be used if they appear in the DC data.\nIf the text descriptor is recorded on the DC and a numeric code is not provided, report only the text information and use the code “080” to indicate that the actual code is not available.\nIf the DC is blank (e.g., both code and text information is blank or missing), use the code “080” to indicate “Unavailable” and use the text field to indicate blank, “Unknown,” or “Not available.”"
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.5 Current occupation: OccupationCurrentText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Occupation is an indicator of socioeconomic status. Certain occupations may also be associated with the occurrence of suicide or homicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Enter victim’s current occupation in free text OR enter:\nEmployed, specific occupation unknown\nUnemployed\nHomemaker\nRetired\nStudent\nDisabled\nSelf-employed\nN/A (under age 14)\nUnknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Report the current occupation in a text field exactly as it appears in one of the required data sources. The information can later be coded at the national level using Standard Occupational Classifications. Note that “Current occupation” is different from “Usual occupation” recorded on the DC. If the victim is unemployed, enter one of the standard text options listed above. These are not currently available on a drop-down menu so please be careful to enter them exactly as they appear under “Response Options” and not in an abbreviated version.\nPeople who work 17.5 hours or more per week are considered employed; people who work less than that are not.\nThe current occupation for victims under the age of 14 should be listed as “N/A” unless the C/ME report lists an occupation."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.6 Homeless: Homeless"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable is an indicator of the victim’s homeless status. Persons experiencing homelessness are those who reside in one of the following: 1) places not designed for or ordinarily used as a regular sleeping accommodation for human beings, including a car or other private vehicle, park, on the street or other outdoor place, abandoned building (i.e., squatting), bus or train station, airport, or camping ground; or 2) a supervised publicly or privately operated shelter or drop-in center designated to provide temporary living arrangements, congregate shelters, or temporary accommodations provided by a homeless shelter (e.g., a motel room provided because the shelter was full)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Marking this variable “Yes” means that there was clear evidence in a document that the victim was experiencing homelessness, such as living in a car. Examples of coding Homeless “Yes”:\nVictim had been living in his car since his wife discovered he had relapsed on meth and kicked him out of the family home.\nVictim had been staying at a local shelter for persons experiencing homelessness for the past 3 months.\nVictim lived in an abandoned house or building along with several other persons experiencing homelessness.\nVictim was residing in a tent on a local campground.\n\nIf you code Homeless as “Yes,” you must code “Injured at victim’s home” as “No.” A person cannot be experiencing homelessness if they were injured at home. Being injured at a shelter, on the street, in their car, or makeshift quarters in an outdoor setting is not considered being injured at home. Victims who have no homes of their own, but are staying indefinitely with friends or family, live in a hotel, or have a residential address that is not a shelter are not considered to be experiencing homelessness. Examples of coding Homeless “No”:\nVictim had been staying at a motel after being evicted 2 weeks ago.\nVictim had recently retired and had been residing and traveling in a motor home (i.e., RV) that she owns.\nVictim was a long-distance trucker and lived in a cabin in his truck when not driving.\nVictim and her husband had recently been evicted and were staying with a friend until they could find housing.\nVictim had recently sold her house and was staying at a hotel until a new house she had recently purchased was ready.\nVictim was due to be evicted from his apartment in 3 days and did not have any place to stay once evicted.\n\nCode Homeless as “Unknown” when the residential address is stated as “Unknown” and homeless status is not otherwise known. Otherwise, mark this variable “No.” Note: Homeless and Housing Instability are mutually exclusive and should NOT be coded together as “Yes” to indicate a victim’s current housing status. Coding Homeless as (1) “Yes” automatically means Housing instability should be coded as (0) “No.” The Homeless variable is intended to represent victims who have no fixed address AND have no place to live."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.7 Housing instability: HousingInstability"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Acute or chronic instability in the victim’s housing situation appears to have contributed to the victim’s death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This code is intended to represent victims who are not experiencing homelessness, but who lack the resources or support networks to obtain or retain permanent housing. Housing instability has no standard definition, but includes numerous interrelated challenges such as trouble paying rent, overcrowding, moving frequently, or staying with relatives. It may be evidenced by:\nFrequent moves because of economic reasons\nLiving temporarily in the home of another because of economic or interpersonal hardship\nA series of short stays with different friends or family members (a.k.a., “couch surfing”) with no other more permanent residence\nLiving in transitional housing, including correctional half-way housing\nTemporarily living in housing provided by nonprofit organizations such as that provided by voucher programs\nLiving in a structure that is not traditionally residential (e.g., an office building, cab of truck, or a house under renovation or construction)\nLiving in a hotel or motel\nHaving been recently asked to move out by a family member or friend with whom the victim was temporarily living\nNot having a permanent place to stay following an eviction or other loss of housing. Note that the eviction/loss of housing itself is not enough to endorse this code—an inability to obtain long-term housing in the aftermath or anticipated aftermath of the eviction/loss of housing must have been stated.\n\nExamples of persons experiencing housing instability include the following scenarios:\nVictim was kicked out of her home by her parents after stealing money to support her drug addiction and was living in a friend’s basement.\nVictim and her children had moved three times in the previous year due to being evicted twice and their apartment building closing because it was deemed unsafe by inspectors.\nVictim had lost his eligibility for public housing when he went to prison and was unable to find a place to stay long-term when he was released. He had been residing with a series of family members and friends but had no place to stay starting the following week.\nVictim had recently experienced homelessness, but was allowed to stay in an unoccupied house for 1 week.\nVictim checked into a motel 1 day after discharge from a hospital and died that day. In the hospital, he told staff he did not have a permanent place to live and had been living in motels.\nVictim was sleeping on a friend’s couch after being kicked out of his home by his wife who was fed up with his drinking and said she was going to file for divorce.\nVictim was evicted 2 weeks prior to dying by suicide and was living in a motel.\nVictim was noted to have lived in various hotels for days at a time, with nothing further noted regarding their living situation or a more permanent address.\nVictim lived part-time at his girlfriend's home and part-time in motels.\nVictim lived in an apartment provided by a nonprofit organization serving persons experiencing homelessness.\nVictim lived in an office building with permission from the building owner.\nVictim had recently been kicked out of his home by his roommates and was experiencing homelessness. Several days prior, victim’s roommates allowed him to move back in until his upcoming deportation.\n\nCode “No” if it is unclear in the source documents that the victim was experiencing housing instability and their housing situation appears to have contributed to their death. Code “No” if homeless was endorsed as “Yes.” Homeless and housing instability are mutually exclusive and should NOT be coded together as “Yes” to indicate a victim’s current housing status. Code “Unknown” if source documents do not include a narrative that could provide evidence that the victim was experiencing housing instability and their housing situation appears to have contributed to their death. Also, code “Unknown” if, based on the limited information provided in the source documents, it is unknown if the victim was experiencing housing instability.\n\nThe following housing situations do not meet criteria for “Housing instability” because they would be considered stable housing:\nOwn Single Room Occupancy (SRO) room (no services)\nSupportive SRO (services on site)\nDetox facility\nIntermediate care facility\nOwn apartment or house\nParent/guardian’s apartment or house (long-term)\nOther family member’s apartment or house (long-term)\nSomeone else’s apartment or house (long-term)\nBoarding house or board-and-care\nGroup home\nTreatment or recovery program (drug/alcohol rehabilitation)\nLong-term alcohol/drug-free facility\nLong-term hospitalization (medical or psychiatric)\nNursing home\nJail or prison\n\nNote: Housing instability and Homeless are mutually exclusive and should NOT be coded together as “Yes” to indicate a victim’s current housing status. Coding Housing instability as (1) “Yes” automatically means Homeless should be coded as (0) “No.” The Housing instability variable is intended to represent victims who are not experiencing homelessness but who lack the resources or support networks to obtain or retain permanent or stable housing."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.8 Education by degree: EducationLevel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Represents victim’s educational level as measured by the highest degree attained."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 8th grade or less\n1 9th to 12th grade, no diploma\n2 High school graduate or GED completed\n3 Some college credit, but no degree\n4 Associate’s degree (e.g., AA, AS)\n5 Bachelor’s degree (e.g., BA, AB, BS)\n6 Master’s degree (e.g., MA, MS, MEd, MSW, MBA, MPH)\n7 Doctorate (e.g., PhD, EdD) or professional degree (e.g., MD, DDS, DVM, JD)\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The options for the “Education” variables are on the 2003 DC. The pre-2003 education format is provided in the “Number years education” variable because not all states may have moved to the new format. Only one of the two (either EducationLevel OR EducationYears) has to be completed:\nVocational and trade school should be coded as “High school graduate or GED completed.”\nCode “0” or “8th grade or less” for very young children who are not in school."
+    },
+    {
+      "type": "subsection",
+      "content": "3.2.9 Education by number years: EducationYears"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable represents victim’s educational level as measured by years of formal education completed beyond kindergarten (e.g., completing 8th grade would be recorded as 8 years of education)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nNumeric 0 to 17 Years\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Select the number of years of education completed by the victim beginning with the 1st grade. Do not count pre-kindergarten or kindergarten. The options for the “Education” variables are those on the 2003 DC. The pre-2003 education format is provided in this variable because not all states may have moved to the new format. Only one of the two variables (either “EducationLevel” or “EducationYears”) has to be completed. Note: Use code “0” for very young children who are not in school."
+    },
+    {
+      "type": "section",
+      "content": "Section 4. Injury and Death Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.1 Manner of Death Variables"
+    },
+    {
+      "type": "list_item",
+      "content": "4.1.1 Manner of death on DC: DeathMannerDC\n4.1.2 Manner of death per LE: DeathMannerLE\n4.1.3 Manner of death per C/ME: DeathMannerCME\n4.1.4 Manner of death per abstractor: DeathMannerAbstractor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nDeathMannerDC: Manner of death on DC\nDeathMannerLE: Manner of death recorded in LE report\nDeathMannerC/ME: Manner of death recorded in C/ME report\nDeathMannerAbstractor: Manner of death based on abstractor review of all available data"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nDeathMannerDC\nDeathMannerLE\nDeathMannerC/ME\n1 Natural\n2 Accident\n3 Suicide\n4 Homicide\n5 Pending investigation\n6 Could not be determined\n7 Legal intervention\n9 Record not available or blank\nDeathMannerAbstractor\n1 Suicide or intentional self-harm\n2 Homicide\n3 Unintentional firearm - self-inflicted\n4 Unintentional firearm - inflicted by other person\n5 Unintentional firearm - unknown who inflicted\n6 Legal intervention (by police or other authority)\n7 Terrorism homicide\n8 Terrorism suicide\n9 Undetermined intent\n10 Other unintentional death (outside NVDRS case definition)\n11 Unintentional poisoning\n99 Missing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: When completing the manner of death, abstractors must record the Manner of Death exactly as it is reported on the DC, and C/ME and LE reports. They must also select an NVDRS manner of death, referred to as abstractor manner that must be consistent with the manner of death reported in at least one of the three required data sources: DC, and C/ME and LE reports."
+    }
+  ]
+}

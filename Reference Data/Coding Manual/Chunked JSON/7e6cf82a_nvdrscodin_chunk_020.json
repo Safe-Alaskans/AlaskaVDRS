@@ -1,0 +1,351 @@
+{
+  "summary": [
+    "This document outlines the variables related to suspects in violent incidents, including their relationships to victims, history of abuse, mental health status, and substance use. It provides definitions, response options, and detailed discussions for each variable to ensure accurate data collection and coding. Additionally, it includes instructions for entering toxicology information related to substances involved in violent deaths."
+  ],
+  "keywords": [
+    "suspect variables",
+    "victim relationship",
+    "history of abuse",
+    "mental illness",
+    "substance use",
+    "toxicology",
+    "data collection",
+    "coding instructions",
+    "violent deaths",
+    "response options"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "7. Suspect Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "3) rival gang member\n4) any other relationship\n5) strangers"
+    },
+    {
+      "type": "list_item",
+      "content": "Gay and lesbian relationships should be coded in the same way as heterosexual relationships (e.g., “girlfriend” or “boyfriend”). The nature of the relationship will be indicated by the sex of the victim and suspect.\nA “babysitter” includes childcare providers such as nannies or relatives of a child other than a parent or guardian.\nAn “acquaintance” is someone with or about whom the victim has had some prior interaction or knowledge.\nA “stranger” is someone with whom the victim has had no prior interaction before the event that culminated in the violent injury.\nWhere there is more than one offender working together in an incident (as in a drive-by shooter and his or her driver), code the victim’s relationship to each offender individually (e.g., the victim may have known one suspect, but not known two other suspects).\nIf it is unknown whether the victim and suspect were strangers or not, code as “99 – Unknown.”\nIf the victim and suspect knew each other, but the exact nature of their relationship is unclear, code as “44 – Other person known to victim.”\nIf all relevant information regarding the relationship is captured in “Victim to Suspect Relation 1,” then code “Victim to Suspect Relation 2” as “88 – All relevant information about relationship is already provided in Victim to Suspect Relation 1.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was modified in November 2020 to include victim/suspect relationship categories 37 and 38."
+    },
+    {
+      "type": "chapter",
+      "content": "7.5 History of abuse of victim by this suspect: AbuseHistory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: History of abuse of victim by this suspect.\nResponse Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: For each victim-suspect pair in which (1) the offender was a caregiver of the victim including children taking care of their parents or (2) the offender was a current or ex-intimate partner, indicate whether the data sources document a history (or suspected history) of abuse of this victim by the suspect."
+    },
+    {
+      "type": "list_item",
+      "content": "The evidence of ongoing abuse may be suspected but not confirmed.\nAbuse can be physical, psychological, sexual, or other as long as the source document refers to abuse."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: If the suspect was a caregiver and abuse/neglect is ongoing, consider coding “Abuse/neglect led to death.” If the abuse involved child maltreatment, consider coding “History of abuse or neglect as a child.”"
+    },
+    {
+      "type": "chapter",
+      "content": "7.6 This suspect was a caregiver for the victim: CareGiver"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspect was a caregiver for this victim\nResponse Options:\n0 No, Not Collected, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: After indicating the relationship for each victim-suspect pair, determine whether the offender was a caregiver for the victim. Caregiver includes children taking care of their parents."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: If applicable, code “Abuse/neglect led to death” if the abuse caused the victim’s death or “History of abuse or neglect as a child,” if the abuse involved child maltreatment."
+    },
+    {
+      "type": "chapter",
+      "content": "7.7 Suspect attempted suicide after incident: AttemptedSuicide"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspect attempted suicide (fatally or non-fatally) after the death of the victim.\nResponse Options:\n0 No, Not Collected, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is suspect specific."
+    },
+    {
+      "type": "list_item",
+      "content": "Code as “Yes” if a suspect attempted suicide after the death of the victim during the incident, whether the attempt was fatal or non-fatal.\nRefer to the Violent Death Incident section of this document for guidance on whether a suicide involving the suspect is to be considered as part of the same NVDRS incident as the homicide."
+    },
+    {
+      "type": "chapter",
+      "content": "7.8 Suspect is also a victim in the incident: SuspectAlsoVictim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This indicates that the suspect for this victim is also a victim of homicide, suicide, legal intervention, or death of undetermined intent in the incident (e.g., a suspect/victim).\nResponse Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: In incidents involving a victim/suspect, this variable can help link the suspect and victim information."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when a suspect is also a victim in the incident:\nA man kills his wife and then dies by suicide. He is a suspect because he killed someone else, and a suicide victim because he died by suicide; therefore, he is both suspect and victim.\nA person robs a store and kills the store clerk. While running from the store he is shot and killed by a law enforcement officer. The person is a suspect in the killing of the store clerk and is a legal intervention victim because he is killed by a law enforcement officer; therefore, he is both a suspect and a victim.\nA husband learns his wife is having an affair with a male friend. The husband kills the male friend in anger. The distraught wife kills her husband. The husband is a suspect because he killed the male friend, and a victim because he was then killed by his wife; therefore, he is both a suspect and a victim."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "chapter",
+      "content": "7.9 Suspect Mentally Ill: SuspectMentallyIll"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: The suspect’s attack on the victim is believed to be the direct result of a mental illness.\nResponse Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the suspect’s attack on the victim is believed to be the direct result of the suspect’s mental illness. A suspect that is undergoing psychiatric care or has been ordered to receive a psychological evaluation by a court may be considered “mentally ill” for purposes of this variable. This circumstance may only be endorsed for homicide victims. Victims of suicide do not have “suspects” in NVDRS, so this circumstance will never be endorsed for a suicide victim. Mental health problems, diagnoses, and treatment of suicide victims are captured by other variables."
+    },
+    {
+      "type": "chapter",
+      "content": "7.10 Suspect had developmental disability at time of incident: SuspectDevelopmentalDisability"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspect had a developmental disability at time of incident.\nResponse Options:\n0 No, Not available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Developmental disability (as expressed by terms that may be found in source documents, such as autism, intellectual impairments, “mentally challenged,” “mental retardation,” “special needs,” etc.) implies a chronic cognitive or developmental deficit that has a substantial, long-term effect on day-to-day function. The developmental disability can be perceived or diagnosed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2016."
+    },
+    {
+      "type": "chapter",
+      "content": "7.11 Suspected alcohol use by suspect: SuspectAlcoholUseSuspected"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspected alcohol use by the suspect in the hours preceding the incident.\nResponse Options:\n0 No, Not available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: “SuspectAlcoholUseSuspected” can be coded as “Yes” based on witness or investigator reports (e.g., Law enforcement noted that the suspect “had been drinking heavily”), or circumstantial evidence (e.g., empty six pack scattered around the suspect). This variable refers only to alcohol use and not drug use. The phrase “in the hours preceding the incident” can be interpreted relatively broadly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2016."
+    },
+    {
+      "type": "chapter",
+      "content": "7.12 Suspected substance use by the suspect: SuspectSubstanceUseSuspected"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspected substance use by the suspect in the hours preceding the incident.\nResponse Options:\n0 No, Not available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: “SuspectSubstanceUseSuspected” can be coded as “Yes” based on witness or investigator reports (e.g., Law enforcement noted that the suspect was “under the influence of drugs”), or circumstantial evidence (e.g., used syringes scattered around the suspect). This variable refers only to drug use and not alcohol use. The phrase “in the hours preceding the incident” can be interpreted relatively broadly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: As of August 2013, a person who takes methadone is no longer assumed to be in treatment for heroin addiction and should be coded as “No” unless other information is available (e.g., taking methadone as part of substance abuse treatment).\nNote: This variable was added in August 2016."
+    },
+    {
+      "type": "chapter",
+      "content": "7.13 Suspect recently released from an institution: SuspectRecentRelease"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspect injured victim within a month of being released from or admitted to an institutional setting.\nResponse Options:\n0 No evidence of recent release\n1 Jail, prison, or a detention facility\n2 Hospital\n3 Psychiatric hospital\n4 Other psychiatric institution\n5 Long term residential health facility (e.g., nursing home)\n6 Supervised residential facility related to alcohol or substance abuse treatment (e.g., residential treatment facility, sober house or group home)\n7 Supervised residential facilities not related to alcohol or substance abuse treatment (e.g., halfway houses or work-release homes)\n9 Other\n99 Unknown type of institution"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Without evidence of a release within the past month from an institutionalized setting in the data sources, this variable should be coded as “0.” In contrast, if there is evidence that the suspect was released from an institutionalized setting in the last month; the type of institution (e.g., jail, hospital, or psychiatric hospital) should be coded. The suspect is considered institutionalized if they spent one or more nights in the institution. For instance, if a suspect was released three days ago from an overnight institutional stay or a stay of over a year, the abstractor would record the type of institution from which they were released. If an individual was recently released from more than one facility/institution, code the one from which they were MOST RECENTLY released."
+    },
+    {
+      "type": "list_item",
+      "content": "Code both voluntary and involuntary commitments. The death should be coded as “0” if a suspect visits an institution for medical care (e.g., emergency department) and does not stay overnight or is arrested and not held overnight.\nIf the document(s) state that the suspect was “just” or “recently” released and provides no specific timing on the release, the abstractor should consider the suspect recently released and record the type of institution from which he or she was released.\nIf the suspect was hospitalized in a psychiatric ward of a non-psychiatric hospital, code type of institution as \"Psychiatric hospital.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "When this code is endorsed, the narrative should include information on the reason for being institutionalized (e.g., incarcerated for aggravated assault, hospitalized for a broken hip, or released from court mandated drug treatment), the type of institution (e.g., hospital or prison), the length the suspect was institutionalized, and problems related to the release, if applicable (e.g., unable to find a job after release or financial difficulties after release)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2016."
+    },
+    {
+      "type": "chapter",
+      "content": "7.14 Suspect recently in contact with law enforcement: SuspectContactWithPolice"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Suspect had contact with law enforcement in the past 12 months.\nResponse Options:\n0 No, Not available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable refers to whether the suspect had contact with law enforcement in the 12 months prior to the fatal incident. An arrest does not need to have been made to endorse this variable. This may include scenarios where police were called, but no charges were filed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2016."
+    },
+    {
+      "type": "chapter",
+      "content": "7.15 Suspect Race Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "7.15.1 Suspect White: RaceWhiteSuspect\n7.15.2 Suspect Black or African American: RaceBlackSuspect\n7.15.3 Suspect Asian: RaceAsianSuspect\n7.15.4 Suspect Native Hawaiian or other Pacific Islander: RacePacificIslanderSuspect\n7.15.5 Suspect American Indian or Alaska Native: RaceAmericanIndianSuspect\n7.15.6 Suspect Unspecified race: RaceUnspecifiedSuspect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions: Race±\nRaceWhiteSuspect: Person with origins among any of the original peoples of Europe, North Africa, or the Middle East.\nRaceBlackSuspect: Person with origins among any of the Black racial groups of Africa.\nRaceAsianSuspect: Person with origins among any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent.\nRacePacificIslanderSuspect: Person with origins among any of the original peoples of the Pacific Islands (includes Native Hawaiians).\nRaceAmericanIndianSuspect: Person with origins among any of the original peoples of North America and who maintains cultural identification through tribal affiliation or community recognition (includes Alaska Natives).\nRaceUnspecifiedSuspect: If a person’s ethnicity is provided in place of their race, e.g., race is given as “Hispanic,” and no other valid race value is given, mark their race as “unspecified.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: For multi-racial decedents, please check each race identified in source documents (e.g., if the decedent is identified as “white” and “Asian,” please check “white” and “Asian”). If “Asian/Pacific Islander” is indicated, check both “Asian” and “Pacific Islander.” These standards were used by the U.S. Census Bureau in the 2000 decennial census."
+    },
+    {
+      "type": "paragraph",
+      "content": "±NVDRS follows HHS and OMB standards for race/ethnicity categorization. HHS guidance on race/ethnicity is available from: http://aspe.hhs.gov/datacncl/standards/ACA/4302/index.shtml"
+    },
+    {
+      "type": "chapter",
+      "content": "7.16 Suspect Hispanic/Latino/Spanish: EthnicitySuspect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Ethnicity± of the suspect of Mexican, Puerto Rican, Cuban, Central or South American, or other Spanish culture or origin, regardless of race.\nResponse Options:\n0 Not Hispanic or Latino\n1 Hispanic or Latino\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "±NVDRS follows HHS and OMB standards for race/ethnicity categorization. HHS guidance on race/ethnicity is available from: http://aspe.hhs.gov/datacncl/standards/ACA/4302/index.shtml"
+    },
+    {
+      "type": "section",
+      "content": "8. Toxicology Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Toxicology information is important to collect in order to understand the role of alcohol, illicit drugs, and prescription drugs in violent deaths."
+    },
+    {
+      "type": "chapter",
+      "content": "8.1 Instructions for Entering Toxicology Information"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Toxicology Findings section:\nEnter all substances with positive toxicology findings. For each substance that tested positive, enter the matching substance name, that it was tested, and that the results were present. Also, enter whether or not the substance caused the death and the person the substance was prescribed for.\nEnter all substances that are listed as a contributing cause of death on the DC even if a toxicology test was not conducted or the results were not available.\n(Optional Step) Enter information for substances that were tested and had negative results.\nReview your entries and hit “Save.” This will auto-populate the Toxicology Summary section. If you edit the Toxicology Findings section after you first “Save,” it will no longer auto-populate and you will need to manually verify the changes to the Toxicology Summary."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Toxicology Summary section:\nEnter responses to tested and results fields for all of the summary categories (alcohol, carbon monoxide, amphetamines, anticonvulsants, antidepressants, antipsychotics, barbiturates, benzodiazepines, cocaine, marijuana, muscle relaxants, and opiates) that were not completed with the auto fill.\nEnter Blood Alcohol Content and Source of Carbon Monoxide, if applicable."
+    },
+    {
+      "type": "chapter",
+      "content": "8.2 No toxicology information: NoToxicologyAvailable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: A toxicology report was not available.\nResponse Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Checking this variable will prevent you from being able to enter any toxicology information. This variable is exported to the victim’s file and not the toxicology file."
+    },
+    {
+      "type": "chapter",
+      "content": "8.3 Date specimens were collected: SpecimensDate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Date that body specimens were collected.\nResponse Option: Date (format: MM/DD/YYYY)\n06/99/2007 for June 2007 with the day unknown\n99/99/2007 for 2007 with the month and day unknown\n88/88/8888 Not applicable (no specimens collected)\n99/99/9999 Unknown (Use “99” for unknown day/month and “9999” unknown year)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Date and time of collection of body specimens, in conjunction with date and time of death and injury, can be used to assess the validity of alcohol and drug testing results and the possible contribution of drugs or alcohol to the injury. For example, blood specimens drawn long after death will not accurately reflect intoxication level at the time of death. The date of the postmortem exam can be used as the date specimens were collected in the absence of other information."
+    },
+    {
+      "type": "chapter",
+      "content": "8.4 Time specimens were collected: SpecimensTime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Time that body specimens were collected.\nResponse Options:\n0000 to 2359 24-hour format (2:00 PM coded as 1400)\n7777 Not collected by reporting site\n8888 Not applicable\n9999 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Time is in the military time format HHMM and can be 0000 (midnight) to 2359 (11:59 PM). See “Date specimens were collected” for further discussion."
+    },
+    {
+      "type": "chapter",
+      "content": "8.5 No substance(s) given as cause of death: NoSubstanceGiven"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim died from poisoning or substance overdose but no specific substance(s) was given as cause of death.\nResponse Option: Checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The “Cause of Death” checkboxes associated with specific substances are disabled when box is checked. In order for this information to be abstracted into the system, this box must be unchecked if later information indicates that a specific substance or substance class caused death."
+    },
+    {
+      "type": "paragraph",
+      "content": "The purpose of this variable is to capture instances where a victim died from poisoning or substance overdose but no specific substance(s) was given as cause of death in the source document(s). The source document(s) may mention the victim’s cause of death was due to poisoning or a substance overdose but fail to list a specific substance or substance class (e.g., opioid), or the source document(s) may use generic terminology such as substance toxicity or polysubstance misuse when describing victim’s cause of death by poisoning."
+    },
+    {
+      "type": "paragraph",
+      "content": "The information for this variable would come primarily from the DC; however, it may also infrequently be included in the C/ME report. This variable is only applicable for the following: Incident Type 3 (SUDORS) cases, cases where the \"SUDORS Case\" box on the Overdose (OD) tab is checked, and NVDRS cases where the victim has a weapon type = 8 (poisoning)."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of when to endorse this variable:\nThe source document(s) indicates the victim died from polysubstance misuse or substance toxicity but does not list a specific substance or substance class (e.g., opioid) as cause of death.\nThe source document(s) indicates the victim died from poisoning or a substance overdose but does not list a specific substance or substance class (e.g., opioid) as cause of death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2021."
+    },
+    {
+      "type": "chapter",
+      "content": "8.6 Substance Name: SubstanceName"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Substance name in toxicology report.\nResponse Option: Look-up table"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Many labs report test results as both the specific substance that a person was tested for (e.g., Prozac) and the category (e.g., antidepressants) that the substance falls under. Some, however, report only the substance or only the category. The look up table will help identify the broad categories the substance falls under. The order of the substances is not important—there is no implication that “Substance Name 1” is more significant than “Substance Name 2,” for example. However, to simplify data entry, it is recommended to enter the substances in the same order they are mentioned in the source document."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each substance is entered as a row in the toxicology table and there is no limit on the number of substances that can be entered."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Questions about whether a chemical is a metabolite can be referred to CDC. If a substance cannot be found in the look-up table,\nCode “Other Poison, not otherwise specified” in the substance field,\nEnter results for the “Tested,” “Results,” “Cause of Death,” and “Person Prescribed For” fields as with any other substance,\nRecord the name of the substance in “Comments” field at the top of the Toxicology section, and\nContact CDC (NVDRS-Coding@cdc.gov) so the substance can be added to the toxicology drop."
+    }
+  ]
+}

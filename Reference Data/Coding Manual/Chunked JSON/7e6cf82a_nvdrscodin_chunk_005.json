@@ -1,0 +1,275 @@
+{
+  "summary": [
+    "This document outlines the demographic variables for victims, including definitions, response options, and discussions regarding age, height, weight, race, ethnicity, marital status, relationship status, sexual orientation, military status, and residence information. It provides detailed guidelines for data collection and coding practices to ensure accurate reporting. Additionally, it highlights the importance of these variables in understanding victim demographics and supporting public health interventions."
+  ],
+  "keywords": [
+    "demographic variables",
+    "victims",
+    "age",
+    "race",
+    "marital status",
+    "sexual orientation",
+    "military status",
+    "residence",
+    "data collection",
+    "public health"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 3: Demographic Variables for Victims"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "quote",
+      "content": "Badgett MVL, Goldberg N. Best practices for asking questions about sexual orientation on surveys. Los Angeles (CA): The Williams Institute; 2009."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.8 Age: Age"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.9 Age Unit: AgeUnit"
+    },
+    {
+      "type": "subsection",
+      "content": "Definitions:\nAge: Age of victim at death\nAgeUnit: Type of unit (e.g., years, hours) used to report age"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\nAge: Numeric\n999 Unknown\nAge Unit:\n1 Years\n2 Months\n3 Weeks\n4 Days\n5 Hours\n6 Minutes\n9 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nAge is reported using the same conventions that vital statistics data uses to facilitate more precise reporting of newborn and infant ages:\nIt is reported in two variables: “Age” identifies the number of years, months, or other units of the victim, and “AgeUnit” identifies the type of unit used. So, for example, a 3 month-old baby has an Age of 3 and an AgeUnit of 2 (months).\nAge should be reported in years for victims who are 1 year or older.\nFor victims, use the age at the time of death.\nIn some cases, the victim’s exact age will not be known. If so, please apply the rules below to code age:\n1. If age is provided within a 5-year range or less, choose the midpoint of the range and round to the lower year if the midpoint calculation results in a half year. For example, a suspect reported to be 20 to 25 years of age would be entered as 22.\n2. If an age range of >5 years is provided, enter the age as unknown.\n3. Do not calculate age from date of birth and date of incident.\n4. If age is not provided, code as “999” for “Unknown.”"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.10 Height feet: HeightFeet"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.11 Height inches: HeightInches"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.12 Weight: Weight"
+    },
+    {
+      "type": "section",
+      "content": "Definitions:\nHeightFeet & HeightInches: Victim’s height is reported in two variables and data are recorded separately for feet and inches.\nWeight: Victim’s weight in pounds (If conversion for weight is required, 2.2 pounds = 1 kilogram) at the time of death."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\nSelect number of feet and number of inches separately from drop down menus.\nHeightfeet: 0 to 9 Feet\n99 Unknown\nHeightinches: 0 to 11 Inches\n99 Unknown\nWeight: Enter number of pounds (range=000–998)\n999 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nPlease enter “99” for height and/or “99” for inches if the victim’s height is missing for feet or inches. Please enter “999” if a victim’s weight is missing.\n\nNote: These variables were added in August 2013."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13 Victim Race Variables"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13.1 White: RaceWhite"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13.2 Black or African American: RaceBlack"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13.3 Asian: RaceAsian"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13.4 Native Hawaiian or other Pacific Islander: RacePacificIslander"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13.5 American Indian or Alaska Native: RaceAmericanIndian"
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.13.6 Unspecified race: RaceUnspecified"
+    },
+    {
+      "type": "subsection",
+      "content": "Definitions:\nRace±\nRaceWhite: Person with origins among any of the original peoples of Europe, North Africa, or the Middle East\nRaceBlack: Person with origins among any of the Black racial groups of Africa\nRaceAsian: Person with origins among any of the original people of the Far East, Southeast Asia, or the Indian subcontinent\nRacePacificIslander: Person with origins among any of the original people of the Pacific Islands (includes Native Hawaiians)\nRaceAmericanIndian: Person with origins among any of the original people of North America and who maintains cultural identification through tribal affiliation or community recognition (includes Alaska Natives)\nRaceUnspecified: If a person’s ethnicity is provided in place of their race, e.g., race is given as “Hispanic,” and no other valid race value is given, mark race as “Unspecified.”"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Option:\nCheckbox"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nFor multiracial decedents, please check each race identified in source documents (e.g., if the decedent is identified as “white” and “Asian,” please check “white” and “Asian”). If “Asian/Pacific Islander” is indicated, check both “Asian” and “PacificIslander.” The U.S. Census Bureau used these standards in the 2000 decennial census.\n\nNote: “Other” race category was removed as a response choice in 2015.\n\n±NVDRS follows U.S. Department of Health and Human Services (HHS) and Office of Management and Budget (OMB) standards for race/ethnicity categorization. HHS guidance on race/ethnicity is available from http://aspe.hhs.gov/datacncl/standards/ACA/4302/index.shtml."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.14 Hispanic/Latino/Spanish: Ethnicity"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nEthnicity± is a concept used to differentiate population groups based on shared cultural characteristics or geographic origins. In NVDRS, victims with Mexican, Puerto Rican, Cuban, Central or South American, or other Spanish culture or origin should be considered Hispanic or Latino, regardless of race."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n0 Not Hispanic or Latino\n1 Hispanic or Latino\n9 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nNone\n\n±NVDRS follows HHS and OMB standards for race/ethnicity categorization. HHS guidance on race/ethnicity is available from http://aspe.hhs.gov/datacncl/standards/ACA/4302/index.shtml."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.15 Marital status: MaritalStatus"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nThis variable describes the victim’s marital status."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1 Married/Civil Union/Domestic Partnership\n2 Never Married\n3 Widowed\n4 Divorced\n5 Married/Civil Union/Domestic Partnership, but separated\n6 Single, not otherwise specified\n9 Unknown (Note: If marital status is not explicitly noted, code as “9,” “Unknown.”)"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nMarital status is regularly completed on the DC and often noted in LE or C/ME reports.\nMarital status should be completed for persons of all ages, including children.\nIf a source document describes a person as being in a common-law marriage or civil union according to the laws of that state, code as “Married/Civil Union/Domestic Partnership.”\nIf a source document describes a person being in a committed relationship with someone of the same sex, code as “Married/Civil Union/Domestic Partnership.” Domestic partnership is defined as a committed intimate relationship between two adults of either the same or opposite sex, in which the partners are each other’s sole partner, intend to remain so indefinitely, maintain a common residence, and intend to continue to do so. They are not married or joined in a civil union or are a domestic partner to anyone else, and are not related in a way that would prohibit legal marriage in the U.S. jurisdiction in which the partnership was formed.±\nUse the “Single, not otherwise specified” option when this term is used in C/ME reports and it is unclear whether the person was never married, widowed, divorced, or separated.\nIf a person kills his or her spouse or partner, marital status should be coded as “Married/Civil Union/Domestic Partnership,” not “Widowed.” Use “Widowed” for a person of either sex whose spouse has died before the violent death.\n\nNote: “Domestic Partnership” was added to this variable in March 2015.\n\n±This is based in part on the U.S. Office of Personnel Management (OPM) definition of Domestic Partnership. Source: http://www.opm.gov/faqs/QA.aspx?fid=3f64bd3d-1107-44e7-9962c8b652848f14&pid=a9bc0ec4-5116-45e4-aff3-baab937208c7."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.16 Relationship Status: RelationshipStatus"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nVictim’s relationship status at the time of incident"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1 Currently in a relationship\n2 Not currently in a relationship\n9 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nThe victim’s relationship with another person(s) is described as a relationship beyond the level of friendship that may be serious, casual, short-, or long-term. The relationship also involves some level of intimacy that may or may not be sexual in nature. Relationship status should only be inferred from marital status information on the DC or other source documents if the victim is married at the time of the incident; otherwise, this information must be noted in either the C/ME or LE report. Code “Unknown” if information about the victim being in a relationship is not explicitly stated in either report.\nIf victim’s marital status is “Married/Civil Union/Domestic Partnership,” you can infer that the victim was in a relationship at the time of incident.\nIf victim’s marital status is “Married/Civil Union/Domestic Partnership, but separated,” code as “Unknown,” unless information is provided to suggest victim was in a relationship at the time of incident.\nIf victim is noted to be in multiple relationships, code as “Currently in a relationship.”\nRegardless of the victim’s age, code “Unknown” if victim’s relationship status is not mentioned in the C/ME or LE report.\nIf the time of injury occurs within 24 hours of a break up between the victim and his/her partner, code as “Currently in a relationship.” If the time of injury occurs more than 24 hours after a break up, code as “Not currently in a relationship.”\n\nNote: Variable was added in March 2015."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.17 Sex of Partner: SexOfPartner"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nSex of the victim’s partner in relation to the victim’s sex"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n1 Same sex as victim\n2 Opposite sex of victim\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nIf the victim’s marital status is “Married/Civil Union/ Domestic Partnership” and the victim is also in another relationship (e.g., extra-marital affair), code this variable based on the sex of the partner to whom the victim is married.\nIf the victim is noted to be in multiple relationships at the time of the incident, code as “Unknown” unless the narrative captures sex of one of the partners. If more than one partner is discussed, capture the sex of the partner that is most salient, given the context of the incident.\nIf relationship status is “Unknown,” sex of partner = “Unknown.”\n\nNote: Variable was added in March 2015."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.18 Victim was pregnant: Pregnant"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nVictim was pregnant or recently pregnant at the time of death."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n0 Not pregnant within last year\n1 Pregnant at time of death\n2 Not pregnant but pregnant w/in 42 days of death\n3 Not pregnant but pregnant 43 days to 1 year before death\n4 Not pregnant, not otherwise specified\n5 Pregnant, not otherwise specified\n8 Not applicable\n9 Unknown if pregnant within past year"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nThis variable is used to identify pregnant or recently pregnant victims and to document types of violence against pregnant and postpartum women. Victim’s pregnancy status is often noted on the DC and in the C/ME report. Findings are more likely to be authoritative if a full autopsy has been performed.\nThis variable should be coded for all female victims regardless of age.\nThe variable will not apply to males and will automatically be coded as “8,” “Not applicable.”\nThis variable is based on the codes used on the new U.S. standard DC. As such, it collects pregnancy status at the time of death, not at the time of injury.\nIf your state’s DC has a pregnancy variable that does not match the NCHS national standard, use the 4 and 5 options to capture this information or use another data source to code this category.\nRegardless of the victim’s age, code “Unknown if pregnant within past year” if the victim’s pregnancy status is not mentioned on the C/ME report and not completed on the DC."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.19 Sexual orientation: SexualOrientation"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nThis variable is used to report sexual orientation, which includes heterosexual, gay, lesbian, or bisexual."
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n0 Straight/Heterosexual\n1 Gay\n2 Lesbian\n3 Bisexual\n4 Unspecified sexual minority\n9 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nSexual orientation is a multi-component construct that is commonly measured in three ways: attraction (e.g., the sex of a person one is sexually attracted to); behavior (e.g., ask respondents to report on the sex of people with whom they had willing sexual experiences); and self-identification (e.g., how would you describe your sexual orientation). In NVDRS, this variable captures whether the victim self-identified as heterosexual, gay, lesbian, or bisexual based on interviews of friends, family, or acquaintances. Only code this variable if the information is reported in the LE or C/ME report. Sexual orientation should not be inferred from marital status. Select “Unknown” if the information is not explicitly reported. Currently, this information is not usually collected systematically so consequently, this variable will only likely detect decedents who were gay, lesbian, or bisexual according to friends, families, or acquaintances. Definitive information about sexual orientation may be unavailable.\n\nNote: This variable was added in August 2013."
+    },
+    {
+      "type": "chapter",
+      "content": "3.1.20 Current or former military personnel: Military"
+    },
+    {
+      "type": "subsection",
+      "content": "Definition:\nHas the person ever served in the U.S. Armed Forces?"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Discussion:\nMilitary status is indicated on the DC in the section captioned, “Ever a member of U.S. Armed Forces.” If a state’s DC has the variant wording, “If U.S. War veteran, specify war,” a blank or missing response should be coded as “Unknown” rather than “No.”\n\nNote: Prior to 2010, the label for this data element was “Veteran status.” The label was changed in 2010 to reflect the actual wording on the standard DC.\n\n±U.S. Armed Forces comprises five armed service branches: Air Force, Army, Coast Guard, Marine Corps, and Navy."
+    },
+    {
+      "type": "chapter",
+      "content": "3.2 Place of Residence, Birthplace, Industry, Occupation, and Education"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1 Residence Variables"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.1 Country of residence: Country"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.2 State of residence: ResidenceState"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.3 County of residence: ResidenceCounty"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.4 City of residence: ResidenceCity"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.5 ZIP code of residence: ResidenceZip"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.6 US Census tract of residence: ResidenceCensusTract"
+    },
+    {
+      "type": "chapter",
+      "content": "3.2.1.7 US Census block group of residence: ResidenceCensusBlock"
+    },
+    {
+      "type": "subsection",
+      "content": "Definitions:\nResidential information is collected at numerous levels (see below) to help support identifying the agency responsible for public health interventions, undertake geocoding, better target interventions, and to calculate population-based injury rates.\nCountry: Residential country of victim\nResidenceState: Residential U.S. state or territory of victim\nResidenceCounty: Residential county (or county equivalent) address of victim\nResidenceCity: Residential city address of the victim (“place” code)\nResidenceZip: Residential zip code\nResidenceCensusTract: U.S. Census tract of victim’s residence\nResidenceCensusBlock: U.S. Census block group of victim’s residence"
+    },
+    {
+      "type": "subsection",
+      "content": "Response Options:\nCountry: Start typing country name to activate auto-complete\nResidenceState: Start typing the state name or INCITS 38-2009 (formerly FIPS code)\n88 Not applicable\n99 Unknown\nResidenceCounty: Start typing the county name or INCITS 31-2009 (formerly FIPS code)\n888 Not applicable\n999 Unknown\nResidenceCity: Start typing the city name or FIPS 55-3 or Census Code\n88888 Not applicable\n99998 Rural\n99999 Unknown\nResidenceZip: Enter 5-digit zip code\n88888 Not applicable\n99999 Unknown\nResidenceCensusTract: Enter 4-digit census tract and when applicable two-digits on right side of the decimal point\n9999.99 Unknown\nResidenceCensusBlock: Enter the one-digit block group number\nLeave blank if Unknown"
+    },
+    {
+      "type": "subsection",
+      "content": "Notes:\nState codes are unchanged between FIPS and INCITS 38-2009.\nCounty codes from FIPS have been carried over into INCITS 31-2009. For missing codes, search for the correct code at the following website: https://www.census.gov/library/reference/code-lists/ansi.html. These codes are provided for U.S. county and “county equivalent” areas (i.e., parishes, boroughs, the District of Columbia, independent cities).\nThough the U.S. Geological Survey officially replaced FIPS 55-3 with INCITS 446-2008, NVDRS will continue using the standard FIPS 55-3 to facilitate data import and to maintain consistency and familiarity.\nCensus tract and census block group information may be obtained using the Census Geocoder Tool from the following website: https://geocoding.geo.census.gov/geocoder/geographies/address?form. From the toolbar on the left side of the screen (options), select the “Find Geographies Using” option. Then click on the \"Address\" tab and type in the street address from the Death Certificate. This will elicit Census Tract and Block Group data directly."
+    }
+  ]
+}

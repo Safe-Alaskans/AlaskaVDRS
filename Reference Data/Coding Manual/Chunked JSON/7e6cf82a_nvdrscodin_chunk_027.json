@@ -1,0 +1,403 @@
+{
+  "summary": [
+    "This section outlines the School-Associated Violent Death (SAVD) module, detailing various aspects related to incidents occurring on school campuses, including location types, school-sponsored events, security measures, and victim behaviors. It emphasizes the importance of documenting specific details about incidents, including prior knowledge and relationships among witnesses, victims, and suspects. The data collected aims to provide insights into the circumstances surrounding school-associated violent deaths."
+  ],
+  "keywords": [
+    "SAVD",
+    "school-associated violent death",
+    "incident documentation",
+    "security measures",
+    "victim behavior",
+    "witness relationships",
+    "school-sponsored events",
+    "prior knowledge",
+    "victimization",
+    "data collection"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 11. School-Associated Violent Death Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "Indoor and outdoor athletic facilities, parking lots, and playgrounds. Off-campus events are only considered SAVDs if the event was school-sponsored (e.g., field trips, dances, ceremonies, sporting events). Off-campus events can occur in any location and should be captured here by endorsing “2 – Off campus.” For all SAVD incidents, the NVDRS variable “Type of location where injury occurred – 4.3.3” should be endorsed and the location should be described in the incident narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "SAVD Campus Location"
+    },
+    {
+      "type": "list_item",
+      "content": "11.2.3 SAVD_CampusLocation_Classroom\n11.2.4 SAVD_CampusLocation_Hallway\n11.2.5 SAVD_CampusLocation_Cafeteria\n11.2.6 SAVD_CampusLocation_GymnasiumIndoorFacility\n11.2.7 SAVD_CampusLocation_LockerRoom\n11.2.8 SAVD_CampusLocation_Office\n11.2.9 SAVD_CampusLocation_Stairwell\n11.2.10 SAVD_CampusLocation_Restroom\n11.2.11 SAVD_CampusLocation_BreakroomorLounge\n11.2.12 SAVD_CampusLocation_Auditorium\n11.2.13 SAVD_CampusLocation_LawnorGarden\n11.2.14 SAVD_CampusLocation_Field_Playground\n11.2.15 SAVD_CampusLocation_ParkingLot\n11.2.16 SAVD_CampusLocation_Driveway\n11.2.17 SAVD_CampusLocation_BusPickUporDropoff\n11.2.18 SAVD_CampusLocation_LibraryorMediaCenter\n11.2.19 SAVD_CampusLocation_OtherOutdoorLocation (Fill in Text)\n11.2.20 SAVD_CampusLocation_OtherIndoorLocation (Fill in Text)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate where on campus the fatal incident occurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check all that apply)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Multiple response options can be selected for the location of the incident. For example, if a death occurred in a restroom in a sports facility, both restroom (11.2.10) and gymnasium or indoor sports facility (11.2.6) should be selected. Additionally, if there are multiple school-associated deaths in an incident, each location of injury (fatal and non-fatal) should be selected. If further, more specific information is known about the injury location(s), it should be noted in the narrative corresponding to the data source where the information is found."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.21 Type of School-Sponsored Event: SAVD_EventType"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates the type of school-sponsored event that was taking place at the time of the injury."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 Sporting event\n2 Dance\n3 Field Trip\n4 Ceremony\n5 Performance or competition\n6 Other\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: School-sponsored events include but are not limited to sporting events, dances, ceremonies, performances, competitions, and field trips. School-sponsored events that are not specified on this list of variables should be coded as “Other” with details about the type of event noted in the narratives as available. A school-sponsored event that is unspecified in the source documents (e.g., “victim was on a school outing”) should also be endorsed as “Other.” If source documents provide details about the school-sponsored event, please include these details in the incident narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.22a Security measures at the time of injury-present: SAVD_SecurityPresent"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if security measures were known to be present at the time of the injury."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown\nFree text field if other information is available"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Presence of security measures (e.g., security cameras, metal detectors) should be endorsed if the source documents mention that security devices were on the premises (whether on or off campus) at the time of the injury. Security measures do not have to be noted by source documents as being in use in order to be listed as present. Furthermore, information about whether or not the security devices were in good working order does not have to be known. The opportunity to note if particular security devices were in use is in a separate checkbox (see variable 11.2.22b)."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.22b Security measures at the time of injury-in use: SAVD_SecurityInUse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if security measures that were known to be present were in use at the time of the injury."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check all that apply)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable should only be endorsed if the presence of a security measure is endorsed and if data sources indicate that security measures were actively in use. Details about the use of security measures can be entered into the “Other text” field (see variable 11.2.36)."
+    },
+    {
+      "type": "list_item",
+      "content": "Types of Security Measures Specified as Present and/or In Use\n11.2.23 SAVD_WalkThroughMetalDetectors_Present\n11.2.24 SAVD_WalkThroughMetalDetectors_InUse\n11.2.25 SAVD_HandHeldMetalDetectors_Present\n11.2.26 SAVD_HandHeldMetalDetectors_InUse\n11.2.27 SAVD_SurveillanceCameras_Present\n11.2.28 SAVD_SurveillanceCameras_InUse\n11.2.29 SAVD_CommunicationDevices_Present\n11.2.30 SAVD_CommunicationDevices_InUse\n11.2.31 SAVD_AccessRestrictions_Present\n11.2.32 SAVD_AccessRestrictions_InUse\n11.2.33 SAVD_OtherSecurity_Present\n11.2.34 SAVD_OtherSecurity_InUse\n11.2.35 SAVD_OtherSecurity_Specify"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate which security measures were noted as being present and which security measures were noted as being in use at the time of the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check all that apply)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: If a security measure is endorsed as “In-use,” it should also be endorsed as “Present.” A security measure should be endorsed as in-use if source documents state that the device was in use (e.g., “surveillance video captured the event”) or imply that the device was in use (e.g., “the victim was identified entering the building on surveillance video”). If use of security measures is unknown, checkboxes should be left blank. If “Other” is selected as present or in use, details can be entered into the “other text” field (11.2.36)."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.36 Security Measures Text: SAVD_Security_Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This is a free text field to provide more information about the use of security measures."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Information such as the number of security devices, when in use, where in use, and how they monitored are examples of information that would be useful here. Details about why security measures were not present or in use can also be included here, as available."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which of the following did any of the victims or suspects leave as signs that they were considering this action?"
+    },
+    {
+      "type": "list_item",
+      "content": "11.2.37 SAVD_Notes(s)\n11.2.38 SAVD_Notes(s)_Text\n11.2.39 SAVD_Journal entry\n11.2.40 SAVD_Journal entry_Text\n11.2.41 SAVD_Social media (e.g., blogs, Twitter, wall postings on social networking sites)\n11.2.42 SAVD_Social media_Text\n11.2.43 SAVD_Verbal threats\n11.2.44 SAVD_Verbal threats_Text\n11.2.45 SAVD_Electronic media (e.g., email messages, IM, or texts via cellphone, voice mail, video, etc.)\n11.2.46 SAVD_Electronic media_Text\n11.2.47 SAVD_Other actions (e.g., playful suggestion that person might commit act, voiced suicidal thoughts)\n11.2.48 SAVD_Other actions_Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate if the victims or suspects left any signs or communication prior to the incident that they were considering the injurious action."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Checkbox (Check all that apply) Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: After homicide and suicide events, people look for things, such as comments, notes, threats, or actions that took place prior to the incident that could have signaled a potential risk for this type of behavior. These variables capture any signs left by victims and suspects indicating they were considering this action. Please include as many signs as are indicated in the source documents, even if they were not recognized as a sign at the time they happened. Use text fields corresponding to the sign/indicator to provide more details."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.49a Did anyone know about the possibility of this event before it happened? SAVD_AdvanceKnowledge"
+    },
+    {
+      "type": "paragraph",
+      "content": "11.2.49b If yes, please specify: SAVD_AdvanceKnowledge_Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures if anyone knew about the possibility of this event before it happened."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable indicates if anyone (e.g., witnesses, bystanders, victims [fatally injured and non-fatally injured], or others) had advance knowledge that the incident might occur. This variable should be completed to indicate whether or not the victim or suspect discussed the possibility of this event occurring or if the victim or suspect hinted or implied that the event might occur. Details can be provided in the open text field. There are also variables regarding what was known, who knew information was known, and to whom the information was disclosed (see variables 11.2.50, 11.2.51, and 11.2.52 through 11.2.61)."
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.50 What information was known by witnesses (including bystanders, informants, or victims) in advance of the incident? SAVD_KnowledgeContent"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures details about what others may have known about the incident before it took place."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This is a free text field to describe what information was known about the event before it took place. Examples include but are not limited to how long the information was known and how the victim or suspect communicated the information, the number of people who were targeted, the motive for the event, and the weapons that were going to be used. Information known by each witness should be placed in a separate witness entry. The term “witness” includes anyone with advance knowledge that the incident might occur. People with advance knowledge could include those who were also involved in the incident as victims or bystanders; however, those who only witnessed the event at the time it occurred but did not have prior knowledge should not be included."
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of a witness may include:\nA student who heard the suspect talking about the event the week prior\nA suspect’s friend, intimate partner, or family member with whom the suspect shared plans or implied that the event might occur\nSomeone who saw the suspect’s posts on social media that stated or implied that the event might occur"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following is an example of what should not be included:\nA student who had no prior knowledge of the event and only saw it as it was happening"
+    },
+    {
+      "type": "subsection",
+      "content": "11.2.51 What relationship did the witness have to the suspect (in the case of a homicide incident) or victim (in the case of a suicide incident)? SAVD_WitnessRelationship"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates the relationship between the person with prior knowledge of the event (i.e., witness) and the person who carried out the fatal injury (e.g., the suspect in a homicide incident, or victim in a suicide incident)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 Family member\n2 Previous or current intimate partner\n3 Friend/colleague\n4 School faculty/staff\n5 Fellow student at school\n6 Community/neighborhood acquaintance\n7 Stranger\n8 Other\n99 Not applicable, Unknown\nFree text field to specify if more information is available"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Only one relationship type can be selected in the dropdown menu for those who had prior knowledge of the event. Select the relationship type that is primary and most intimate in nature. For example, a friend who was also a fellow student at the school should be endorsed as “Friend.” If a general statement is made of people knowing about the event ahead of time but no relationship is provided, select “Unknown, Not applicable” for the relationship type."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use the following sentence as a guide when selecting the appropriate description of the relationship: “The witness is the ____________ of the suspect.” For example, if the suspect in a homicide told a sibling that he or she was planning to carry out violence, this sentence would read “The witness is the family member of the suspect.” In the case of a suicide incident, the following sentence can be used as a guide: “The witness is the ____________ of the victim.” For example, if a teacher of a suicide victim saw social media messages hinting at the victim’s plans to die by suicide, the sentence would read “The witness is the school faculty/staff [member] of the victim.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "The open text field can be used to provide specific descriptions, overlapping relationships, and nuances regarding the relationship between the person with prior knowledge of the event and the suspect or victim as applicable. If there are multiple suspects, indicating multiple relationships with the victim, please use the text box to provide additional information about those multiple relationships."
+    },
+    {
+      "type": "paragraph",
+      "content": "With whom did the witness share the information he or she learned about the planned violence?"
+    },
+    {
+      "type": "list_item",
+      "content": "11.2.52 SAVD_WitnessDisclosedTo_NoOne\n11.2.53 SAVD_WitnessDisclosedTo_Parent\n11.2.54 SAVD_WitnessDisclosedTo_OtherFamilyMember\n11.2.55 SAVD_WitnessDisclosedTo_Peers\n11.2.56 SAVD_WitnessDisclosedTo_SchoolStaff\n11.2.57 SAVD_WitnessDisclosedTo_Other\n11.2.58 SAVD_WitnessDisclosedTo_MedicalMentalHealthProfessional\n11.2.59 SAVD_WitnessDisclosedTo_NotApplicable\n11.2.60 SAVD_WitnessDisclosedTo_Unknown\n11.2.61 SAVD_WitnessDisclosedTo_Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate to whom the witness disclosed prior knowledge of the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options: Checkbox (Check all that apply) Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Multiple disclosure relationships can be selected. The open text field can be used to specify any relationship described as “Other” and to describe what was disclosed."
+    },
+    {
+      "type": "subsection",
+      "content": "11.3 SAVD Victim Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "11.3.1 Which of the following best describes the timing of the fatal injury? SAVDVictim_FatalInjuryTiming"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates the timing of the incident relative to the typical school day."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 On a day when no classes or school events were held (e.g., a weekend, holiday, or an official school break)\n2 On a school day before classes began\n3 On a school day during lunch\n4 On a school day during class changes\n5 On a school day while classes were being held\n6 On a school day during recess or other break\n7 On a school day during a school assembly\n8 On a school day immediately after school, including during detention\n9 On a school day during after-school practice or immediately after\n10 On a school day, timing unspecified\n11 Other (Fill in text field)\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is used to endorse any information that is known about the timing of the incident relative to the typical school day schedule. If the event happened during a school-sponsored event during the school day (e.g., field trip) or after hours (e.g., a school dance or sporting event), endorse this variable as “11 – Other” and provide details in the “Other” text field."
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.2 What was this victim’s primary affiliation with the school associated with this death? SAVDVictim_SchoolAffiliation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable describes this victim’s primary affiliation with the school associated with this death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 A student at this school\n2 Former student at this school\n3 A teacher, administrator, or other faculty/staff at this school\n4 Security guard or police officer\n5 Family member of a student or staff member at this school\n6 Resident of surrounding community\n7 Not associated with the school or community\n66 Other (Fill in text field)\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Only one affiliation can be selected. Select this victim’s affiliation with the school that describes the closest and most primary relationship between the victim and the school. For example, if a victim is a resident of the surrounding community and a former student of the school, select “Former student at this school.”"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.3-11.3.11 Victim Behavior/In the 12 months prior to this event did the victim engage in any of the following behaviors?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: These variables indicate behavior in which the victim engaged in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.3 Name calling, teasing and/or bullying peers: SAVDVictimBehavior_Bullying"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim engaged in name calling, teasing and/or bullying peers or school personnel (in person or online) in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.4 Sent verbal, written, or electronic threats: SAVDVictimBehavior_Sent threats"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim sent verbal, written, or electronic threats in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.5 Posted threats or manifestos online via social media or other platforms: SAVDVictimBehavior_Posted Threats"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim posted threats or manifestos online via social media or other platforms in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.6 Aligned themselves with violent ideologies online: SAVDVictimBehavior_AlignedwithViolentIdeologiesOnline"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim participated in activity aligning themselves with violent ideologies online in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.7 Physically threatened or physically fought with peers: SAVDVictimBehavior_PhysicallyThreatenedOthers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim physically threatened or physically fought with peers in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.8 Damaged or stole another's personal property or damaged school property: SAVDVictimBehavior_DamagedStoleProperty"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim damaged or stole another's personal property or damaged school property in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.9 Possessed or used illicit substances: SAVDVictimBehavior_PossessedUsedIllicitSubstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim possessed or used illicit substances in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.10 Possessed a weapon: SAVDVictimBehavior_PossessedWeapon"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable indicates if the victim possessed a weapon in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Checkbox (Check if applicable)"
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.11 Other Behavior: SAVDVictimBehavior_OtherBehavior"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This free text field can be used to describe details or other notable information about the victim’s behavior in the 12 months prior to the incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable captures behavior that the victim engaged in within the year prior to the incident. This information can provide context for what was happening in the victim’s life that might have contributed to risk for the injury; however, the behavior does not necessarily need to be related to the incident for it to be endorsed."
+    },
+    {
+      "type": "subsection",
+      "content": "11.3.12-11.3.15 Prior Victimization of Victim/ In the 12 months prior to this event was this individual victimized in any of the following ways?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:"
+    }
+  ]
+}

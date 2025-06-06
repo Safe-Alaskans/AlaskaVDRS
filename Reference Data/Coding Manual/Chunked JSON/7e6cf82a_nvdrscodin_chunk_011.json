@@ -1,0 +1,383 @@
+{
+  "summary": [
+    "This document outlines various circumstances related to mental health and substance abuse that may contribute to death, including non-adherence to treatment, alcohol problems, and intimate partner violence. It provides definitions, response options, and discussions on how to assess and code these situations based on available evidence. The document emphasizes the importance of context and additional evidence when determining the relevance of these factors in relation to the manner of death."
+  ],
+  "keywords": [
+    "mental health",
+    "substance abuse",
+    "non-adherence",
+    "alcohol problem",
+    "intimate partner violence",
+    "caregiver burden",
+    "traumatic brain injury",
+    "family relationship problem",
+    "crisis",
+    "death"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "5. Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Do not code this circumstance based only on a positive toxicology test for psychiatric medications (such as antidepressants). There must also be some indication that the victim was actually treated for a mental health condition, such as a current prescription, the report of a family member, etc. Note that a diagnosis does not imply that treatment was received. A victim may have been out of compliance with treatment for a diagnosed condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.7 Non-adherence to treatment for a mental health or substance abuse problem: CME/LE_TreatmentNonAdherence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim did not actively participate in a prescribed regimen for their mental health or substance abuse treatment or did not follow a set treatment plan as recommended by a mental health or medical professional."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Circumstance checkbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable should be endorsed if source documents indicate that the victim did not adhere to treatment plan(s) as recommended by a mental health or medical professional regarding mental health or substance abuse treatment. Treatment includes recommended therapeutic and medication/pharmacological interventions. This variable can be endorsed even if mental health treatment non-adherence is not thought to have directly contributed to the death. It can also be endorsed if the victim could not adhere due to barriers to treatment (e.g., could not afford treatment or faced other issues with access to care)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Do not code this variable based only on toxicology results. There must be some indication that the victim was not adhering to a prescribed treatment regimen. Non-adherence to mental health treatment may be evidenced by:"
+    },
+    {
+      "type": "list_item",
+      "content": "Treatment that was recommended/prescribed to the victim but never initiated by the victim (e.g., never starting a medication or therapeutic treatment although the treatments were recommended or prescribed by a mental health or medical professional).\nTreatment that the victim began but did not adhere to as prescribed or recommended (e.g., inconsistently attending therapy sessions, inconsistently taking or stopping medication without consulting a medical professional)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of non-adherence to mental health treatment include:"
+    },
+    {
+      "type": "list_item",
+      "content": "The victim was prescribed psychiatric medication by a mental health or medical professional but did not start taking the medication, or took recommended medications prescribed by a mental health or medical professional but did not take the medicine as prescribed (e.g., the person took too much, too little, or inconsistently).\nThe victim was recommended to participate in therapy by a mental health or medical professional but never started attending therapy sessions, or participated in the recommended therapeutic intervention, but did so inconsistently (e.g., skipped therapy sessions, stopped attending therapy sessions without notice) or terminated therapy sessions before the timeframe recommended by a medical or mental health professional.\nThe victim did not initiate a mental health or substance abuse treatment program or hospital stay despite a mental health or medical professional’s recommendation, or a court order to do so.\nThe victim left/terminated a mental health or substance abuse treatment program or hospital stay against the advice of a mental health or medical professional.\nThe victim did not maintain or initiate a treatment plan (e.g., medication, therapy) because they faced issues with access to care (e.g., could not afford treatment, did not have transportation, could not find a provider, stigma was a barrier, mistrust of medical/mental health professionals was a barrier)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The following should not be endorsed as mental health non-adherence without additional evidence of nonadherence:"
+    },
+    {
+      "type": "list_item",
+      "content": "A friend or family member (or someone in a non-medical/mental health role) told the victim that they should see a therapist, go to a mental health hospital, or start a treatment program, but the victim or suspect did not.\nThe victim was scheduled to see a mental health provider but died before the appointment date.\nToxicology results were inconsistent with the victim or suspect's prescribed medications (e.g., toxicology showed more than expected or less than expected amounts of a psychotropic medication in the system; non-prescribed psychotropic medications were indicated by the toxicology report)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: “Mental health diagnosis,” “Current diagnosed mental health problem,” and “Ever treated” will often be endorsed if the non-adherence checkbox is selected, but not always. This can happen for several reasons. For example, sometimes a person will be referred to mental health treatment by a general medical practitioner or by court order before there is a mental health diagnosis."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.8 Alcohol problem: CME/LE_AlcoholProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Person has alcohol dependence or alcohol problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCode as “Yes” if the victim was perceived by self or others to have a problem with, or to be addicted to, alcohol. There does not need to be any indication that the alcohol problem directly contributed to the death.\nA victim who is noted as participating in an alcohol rehabilitation program or treatment — including self-help groups and 12-step programs — should be coded as “Yes” for “AlcoholProblem” even if the victim was noted as being currently sober.\nA problem from the past (i.e., five years or more ago) that has resolved and no longer appears to apply should not be coded.\nDo not code if the victim was using alcohol in the hours preceding the incident, and there is no evidence of dependence or a problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.9 Alcohol problem was a crisis: CME/LE_CrisisAlcoholProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Examples include an alcoholic who relapsed two days before the death after being sober for six months or an alcohol problem causes a conflict at work (e.g., getting fired for drinking) or home just before the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.10 Other substance problem: CME/LE_SubstanceAbuseOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Person has a non-alcohol related substance abuse problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the victim was perceived by self or others to have a problem with, or to be addicted to drugs other than alcohol. There does not need to be any indication that the addiction directly contributed to the death. “SubstanceAbuseOther” can be endorsed if a victim was noted as using illicit drugs (such as heroin or cocaine), abusing prescription medications (such as pain relievers or Valium), or regularly using inhalants (e.g., sniffing gas)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A victim who is noted as participating in a drug rehabilitation program or treatment, including self-help groups and 12-step programs, should be coded as “Yes” for “SubstanceAbuseOther” even if the victim was noted as being currently clean.\nA problem from the past (i.e., five years or more ago) that has resolved and no longer appears to apply should not be coded.\nIf the victim is mentioned as using illicit drugs, even if addiction or abuse is not specifically mentioned, code “SubstanceAbuseOther” as “Yes.”\nThe exception to this is marijuana use. For marijuana, the use must be noted as chronic, abusive, or problematic (e.g., “victim smoked marijuana regularly,” “victim’s family indicated he had been stoned much of the past month”).\nIf marijuana was used at the time of the incident, and there is no evidence of regular use, addiction, or abuse, code to “Other circumstance.”\nThe phrase “history of drug abuse” is sufficient to justify endorsing “SubstanceAbuseOther,” unless it is noted that the victim is no longer a drug user.\nPreviously attempting suicide via overdose is not sufficient justification for endorsing “SubstanceAbuseOther” in the absence of other information.\nDo not code based on toxicology findings because multiple reasons could explain the presence of the substances."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: As of August 2013, a victim who takes methadone is no longer assumed to be in treatment for heroin addiction and should be coded as “No” unless other information is available (e.g., taking methadone as part of substance abuse treatment). Please note that the victim is taking methadone on the toxicology page."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.11 Other substance problem was crisis: CME/LE_CrisisSubstanceAbuse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Examples include a victim who experiences a relapse just before the death or a victim whose (non-alcohol related) substance abuse problem causes a conflict at work (e.g., fired from job due to substance use) or home just before the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in July 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.12 Other addiction: CME/LE_OtherAddiction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Person has an addiction other than alcohol or other substance abuse, such as gambling, sexual, etc., that appears to have contributed to the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if the victim was perceived by self or others to have an addiction not related to alcohol or other substance abuse such as gambling or sexual addictions, and there is some indication that this addiction may have contributed to the death. The incident narrative should describe the nature of the addiction."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in 2009."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.13 Other addiction was crisis: CME/LE_CrisisOtherAddiction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: An example is a victim whose gambling problem causes a conflict at work or home just before the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in July 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.14 History of Traumatic Brain Injury (TBI): CME/LE_TraumaticBrainInjuryHistory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim had a history of traumatic brain injury (TBI)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is intended to represent victims who have a history of experiencing a traumatic brain injury (TBI). A bump, blow, jolt to the head/body, or penetrating head injury can cause a TBI resulting in the disruption of normal brain function. TBI may lead to a wide range of outcomes affecting cognitive function, emotion, motor function, and/or sensation. The intent of this variable is to capture cases where a victim had a history of a head injury. The term traumatic brain injury may not be in the report, and that level of detail may not be in the report but can still be included. Additionally, the victim does not have to have been seen by or been diagnosed with a TBI for you to endorse this variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "History of TBI may be evidenced by C/ME, LE or other source document information that notes that the victim had:"
+    },
+    {
+      "type": "list_item",
+      "content": "Previously fell and hit head\nAn accident with a head injury\nExperienced a concussion\nPrior traumatic brain injury\nPreviously experienced head trauma or injury unrelated to cause of death\nHistory of a brain injury, head injury, head trauma, or blast injury (most commonly experienced among military veterans)\nKnown to have experienced several concussions while playing football (or another sport) as a child/adolescent, but may not have complained of any side effects (e.g., headache)"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is important to note that this is a history of TBI that is separate and distinct from the present injury that caused death."
+    },
+    {
+      "type": "paragraph",
+      "content": "The following situations would not be considered a history of TBI:"
+    },
+    {
+      "type": "list_item",
+      "content": "Head injury or brain injury that occurred during the fatal incident (e.g., gunshot wound to head, trauma sustained after jumping from bridge)\nAnoxia (loss of oxygen) due to the manner of death. For example, an anoxic brain injury that happened at birth would not be coded."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: For additional information on TBI: https://www.cdc.gov/traumaticbraininjury/index.html. This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "section",
+      "content": "5.4 Relationships, Abuse, and Life Stressors"
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.1 Intimate partner violence related: CME/LE_IntimatePartnerViolence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable identifies cases in which the homicide or legal intervention is related to immediate or ongoing conflict or violence between current or former intimate partners. This includes all deaths where a victim is killed by their current or former intimate partner."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nDefinition of Intimate Partner: For all intimate partner-related variables, intimate partner is defined as a current or former girlfriend/boyfriend, dating partner, ongoing sexual partner, or spouse. It DOES NOT include instances of sex/intimacy in exchange for money/goods. There must be evidence of an intimate relationship (this does not apply to instances where there is simply attraction/infatuation between two individuals or in cases where one person is romantically interested in the other, but the feelings are not returned). The definition of intimate partner does not require sexual intimacy. This definition includes same-sex partners.\nThis should be coded to represent a fatal incident in which an intimate partner kills their current or former intimate partner (e.g., husband kills wife) or where intimate partner conflict contributed to the death of the victim.\nUse this code for “domestic disputes” or “domestic violence” homicides or legal interventions. The narrative should indicate the nature of the dispute (e.g., end of relationship, divorce, or custody dispute) and who was involved in the dispute.\nIn some instances, this code will be applied in cases associated with intimate partner violence but are not deaths of the intimate partners themselves.\nUse this code for cases in which one intimate partner kills their partner’s new or former intimate partner (e.g., ex-husband kills his ex-wife’s new boyfriend), or the person the partner is having an affair with (e.g., husband kills the man his wife had an affair with).\nUse this code for cases in which someone is killed when someone intervenes in an intimate partner violence incident. For instance, a bystander witnessed a man assaulting his wife. The bystander tried to intervene and was shot by the husband. Use this code when the suspect retaliates in response to an intimate partner violence incident (e.g., son killed his mother’s boyfriend after finding out that the boyfriend had assaulted her).\nUse this code if other people are also killed (a child, friend of the victim, a bystander), and even if the intimate partner is not (e.g., boyfriend kills his girlfriend’s child because he is angry at her).\nUse this code when the perpetrator of intimate partner violence is killed by law enforcement (e.g., victim was attacking spouse when police responded, and victim then attacked police and was killed).\nRemember not to code cases where the suspect had a romantic interest, but never dated the victim or his/her intimate partners. Code the following violent incident “No”: The suspect and his friend began arguing over a girl at a party that they both were interested in, but neither had ever dated. The argument escalated and the suspect pulled out a knife and killed his friend."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Homicide and legal intervention."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.2 Intimate partner problem: CME/LE_IntimatePartnerProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Problems with a current or former intimate partner appear to have contributed to the suicide or undetermined death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if at the time of the incident the victim was experiencing problems with a current or former intimate partner, such as a divorce, break-up, argument, jealousy, conflict, or discord, and this appears to have contributed to the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition of Intimate partner: For all intimate partner-related variables, intimate partner is defined as a current or former girlfriend/boyfriend, dating partner, ongoing sexual partner, or spouse. It DOES NOT include instances of sex/intimacy in exchange for money/goods. There must be evidence of an intimate relationship (this does not apply to instances where there is simply attraction/infatuation between two individuals or in cases where one person is romantically interested in the other, but the feelings are not returned). The definition of intimate partner does not require sexual intimacy. This definition includes same-sex partners.\nThe burden of caring for an ill spouse or partner should not be coded as an intimate partner problem unless there is also evidence of relationship problems.\nPhrases such as “victim was having relationship problems” can be assumed to indicate intimate partner problems."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.3 Intimate partner problem was crisis: CME/LE_CrisisIntimatePartnerProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim found out the morning of her suicide that her husband had filed for a divorce, the victim had a very bad argument with his wife about his drinking problem two days before the suicide, or the victim found out a week ago that his spouse was having an affair and moved out of their house."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.4 Family relationship problem: CME/LE_FamilyRelationship"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim had relationship problems with a family member (other than an intimate partner) that appear to have contributed to the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code as “Yes” if at the time of the incident the victim was experiencing a relationship problem with a family member other than an intimate partner (e.g., a child, mother, in-law), and this appears to have contributed to the death. This variable does NOT capture problems related to the family environment that do not explicitly pertain to the victim’s relationship with a family member (e.g., the stress of caring for a sick family member)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suicide example: The victim is despondent over his argument with his parents and dies by suicide.\nHomicide example: The victim and his brother are estranged and get into a fight at a family reunion in which the victim is killed.\nIf the report indicates that the victim was “having relationship problems,” these should be assumed to be intimate partner problems, and not problems with other friends or family.\nThis code should not be endorsed for custody disputes when the victim is a child because the relationship problem in these instances is typically not with a child or other non-intimate partner family member. If the custody dispute affects the relationship of the parent and child, then this should be coded “Yes.”\nNarrative should contain an explanation of the relationship problem and identify the family member with whom the victim had a problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013 and replaced family stressor, but the coding guidance associated with that variable was also changed. It also changed the focus of “Other relationship problem” (see Section 5.4.8) to exclude relationship problems with family, which are now captured here."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.5 Family relationship problem was crisis: CME/LE_CrisisFamilyRelationship"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples include the victim has a bad argument with his brother the day before his brother attacks and kills him or the victim has an argument with his parents about a school suspension the night before the suicide."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.6 Caregiver burden: CME/LE_CaregiverBurden"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Stress or burden perceived by the victim as a caregiver of a chronically ill, disabled, or elderly person appears to have contributed to the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable should be endorsed if the physical, psychological, emotional, social, or financial stressors associated with the victim’s caregiving experience contributed to the death. This should not be endorsed for caregivers of healthy children."
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of caregiver burden include:"
+    },
+    {
+      "type": "list_item",
+      "content": "The victim/suspect was upset that he could no longer care for his ailing wife due to his own declining health, so he killed his wife and then died by suicide.\nThe victim was stressed that her medical insurance was running out, and she could no longer afford to take care of her disabled adult son, so she died by suicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in November 2020."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: Suicide and undetermined deaths."
+    },
+    {
+      "type": "subsection",
+      "content": "5.4.7 Family stressor: CME/LE_FamilyStressor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: A family stressor(s) appears to have contributed to the death."
+    }
+  ]
+}

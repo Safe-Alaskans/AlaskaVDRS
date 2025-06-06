@@ -1,0 +1,303 @@
+{
+  "summary": [
+    "This document outlines the Child Fatality Review Optional Module, detailing the assessment of child fatalities, including factors such as substance abuse in the household, supervisor characteristics, caregiver characteristics, and records consulted during the review. It provides definitions, response options, and discussions for each section to guide the review process effectively. The document emphasizes the importance of thorough data collection and analysis to understand the circumstances surrounding child fatalities better."
+  ],
+  "keywords": [
+    "Child Fatality Review",
+    "substance abuse",
+    "caregiver characteristics",
+    "supervisor characteristics",
+    "mental health",
+    "preventability",
+    "incident narrative",
+    "data collection",
+    "review process",
+    "child safety"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 9. Child Fatality Review Optional Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "A child in a vegetative state secondary to shaken baby syndrome dies of pneumonia three years later. Answer the following household questions regarding the time of the shaking."
+    },
+    {
+      "type": "list_item",
+      "content": "However, if something about the quality of the child’s foster care at the time of death was also contributory to death, note that in the incident narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.8 Substance abuse in victim's household: CFR_SubAbuseVictimHousehold"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.9 Substance abuse in victim's foster home: CFR_SubAbuseVictimFosterHome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_SubAbuseVictimHousehold: Evidence of substance abuse in victim’s household.\nCFR_SubAbuseVictimFosterHome: Evidence of substance abuse in victim’s foster family (if applicable)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nSubstance abuse refers to all drugs (including alcohol) that are either non-prescription or being used in a manner inconsistent with safe prescribing practices. Questions are to be asked about all children regarding their household at the time of the fatal incident."
+    },
+    {
+      "type": "list_item",
+      "content": "For children who lived with their families or who were institutionalized (either temporarily or permanently), the abstractor should answer the questions regarding the family of origin.\nFor permanently institutionalized children with no family to return to, the answer will be “Not applicable.”\nFor children in foster care at the time of the fatal incident, answer the questions regarding both the foster home and the family of origin.\nIn any kind of household, if the victim misused or abused substance(s) or had a substance abuse problem, but there was no indication that anyone else in the household did, code “No” for victim’s household and/or victim’s foster home.\nHowever, if anyone else in the household was abusing substances, including other children younger than 18 years of age, code “Yes” for household and/or victim’s foster home.\nIf there were circumstances in the decedent’s household at the time of death that contributed to the child’s death, explain that separately in the incident narrative. For example, if a child is in a vegetative state secondary to shaken baby syndrome and dies of pneumonia three years later, answer the following household questions regarding the time of the shaking.\nHowever, if something about the quality of the child’s foster care at the time of death was also contributory to death, note that in the incident narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "9.8 Supervisor Characteristics"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.1 Perpetrator was supervisor: CFR_SupervisorPerpetrator"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.2 Quality of supervision a factor: CFR_SupervisorQuality"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.3 Supervisor’s relationship to victim: CFR_SuperRelationshipVictim"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.4 Supervisor’s age: CFR_SupervisorAge"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.5 Supervisor’s sex: CFR_SupervisorSex"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.6 No supervision: CFR_SupervisorNone"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.7 Supervisor drug/alcohol impaired: CFR_SupervisorDrugAlcohlImpaired"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.8 Supervisor distracted/asleep: CFR_SupervisorDistractedAsleep"
+    },
+    {
+      "type": "subsection",
+      "content": "9.8.9 Other supervisory factor: CFR_SupervisorOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_SupervisorPerpetrator: Perpetrator responsible for supervision at time of incident?\nCFR_SupervisorQuality: Did the quality of supervision contribute to the death of the victim?\nCFR_SuperRelationshipVictim: Relationship of supervisor to the victim.\nCFR_SupervisorAge: Age of supervisor.\nCFR_SupervisorSex: Sex of supervisor.\nCFR_SupervisorNone: No supervision of the victim.\nCFR_SupervisorDrugAlcohlImpaired: The supervisor was drug- or alcohol-impaired.\nCFR_SupervisorDistractedAsleep: The supervisor was distracted or asleep.\nCFR_SupervisorOther: Other supervisory factor contributed to victim’s death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nCFR_SupervisorPerpetrator\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown\n\nCFR_SupervisorQuality\n0 No, supervision was appropriate\n1 Yes, supervisor was not the perpetrator\n2 Yes, supervisor was the perpetrator\n3 Supervision not needed/expected\n4 CFRT could not determine\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown\n\nCFR_SupervisorRelationshipVictim\n1 Primary caregiver\n2 Other adult relative\n3 Babysitter/childcare provider\n4 Primary caregiver’s boy/girlfriend\n5 Sibling/step-sibling\n6 Other, specify in incident narrative\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown\n\nCFR_SupervisorAge\nAge of supervisor in years\n\nCFR_SupervisorSex\n1 Male\n2 Female\n7 Not collected\n8 Not applicable\n9 Unknown\n\nCFR_SupervisorNone\n\nCFR_SupervisorDrugAlcohlImpaired\n\nCFR_SupervisorDistractedAsleep\n\nCFR_SupervisorOther\n0 No, Not collected by local CFR team, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThe supervisor is the person with the primary responsibility for the care and control of the child at the time of the fatal injury. If there were two supervisors at the time of the fatal incident, but one clearly had primary responsibility, code the person with the primary responsibility. If the responsibility of supervision was equally divided between two people, code the person whose supervision quality seemed most contributory to the child’s death."
+    },
+    {
+      "type": "list_item",
+      "content": "If the perpetrator/suspect was responsible for the victim’s direct supervision at the time of the incident (i.e., in the case of a homicide), then code CFR_SupervisorPerpetrator “Yes” and code the rest of the supervision variables as “Not applicable.”\nDetermining supervision adequacy is purposefully left to the Child Fatality Review Team (CFRT) by this group of data elements. “CFR_SupervisorQuality” refers specifically to the quality of supervision at the time the fatal injury occurred, not to parenting style in general. “CFR_SupervisorNone” should be indicated if no arrangements for supervision were apparently made (e.g., leaving a 3-year-old unattended for half an hour). If an inappropriately young or old supervisor was appointed, specify the circumstances under “Other.” Any additional exceptional circumstances may be coded by endorsing “CFR_SupervisorOther” and including a description in the CFR incident narrative. All of the variables are based on the CFRT’s findings, even though the information to support the CFRT’s findings may well originate from multiple sources.\nIf the quality of the supervision did not contribute to the child’s death (as determined by the CFRT) or it is unknown, code “No” or “Unknown” and the remainder of the supervisor variables as “Not applicable.”"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9 Caregiver Characteristics (1st and 2nd)"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.1 Primary caregiver is a victim or suspect in the incident: CFR_CaregiverVictimOrSuspect1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.2 If yes, caregiver's ID in the incident: CFR_CaregiverID1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.3 Relationship to victim: CFR_RelationshipToVictim1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.4 Person lived with victim: CFR_LivedWithVictim1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.5 Primary Caregiver’s Age at time of incident: CFR_AgeAtIncident1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.6 Primary Caregiver’s Sex: CFR_Sex1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.7 Had legal custody of victim at time of death: CFR_CustodyOfVictim1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.8 Had documented history of maltreating: CFR_HistoryOfMaltreating1/2"
+    },
+    {
+      "type": "subsection",
+      "content": "9.9.9 Had a previous child die in his/her care: CFR_PreviousChildDie1/2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions (refers to 1st and 2nd primary caregivers):\nCFR_CaregiverVictimOrSuspect1/2: Is the victim’s primary caregiver a victim or suspect in the incident?\nCFR_CaregiverID1/2: Caregiver’s Person ID in the incident.\nCFR_RelationshipToVictim1/2: Caregiver’s relationship to the victim.\nCFR_LivedWithVictim1/2: Caregiver lived with victim at the time of the incident?\nCFR_AgeAtIncident1/2: Age of Caregiver at the time of the incident.\nCFR_Sex1/2: Sex of Caregiver.\nCFR_CustodyOfVictim1/2: Caregiver had legal custody of victim at time of death?\nCFR_HistoryOfMaltreating1/2: Caregiver had documented history of maltreating a child.\nCFR_PreviousChildDie1/2: Caregiver had a previous child die in his/her care?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nCFR_CaregiverVictimOrSuspect1/2\n0 No\n1 Victim or victim/suspect\n2 Primary suspect\n3 Secondary suspect\n4 Other suspect\n7 Unknown\n8 Not collected by CFR team\n9 Not applicable\n\nCFR_LivedWithVictim1/2\n\nCFR_CustodyOfVictim1/2\n\nCFR_HistoryOfMaltreating1/2\n\nCFR_PreviousChildDie1/2\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown\n\nCFR_CaregiverID\nNumber of the Person in the incident\n\nCFR_AgeAtIncident\nAge of caregiver in years\n\nCFR_Sex\n1 Male\n2 Female\n9 Unknown\n\nCFR_RelationshipToVictim\n1 Biologic parent\n2 Stepparent\n3 Adoptive parent\n4 Other relative\n5 Parent’s intimate partner\n6 Other non-relative\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThe victim’s primary caregiver is defined as the person or persons (up to two) who had responsibility for the care, custody, and control of the child the majority of the time."
+    },
+    {
+      "type": "list_item",
+      "content": "The primary caregiver(s) may be the child’s parent or parents (biological, step, adoptive parents) or another relative.\nIf the child was living with his/her biological or adoptive parents, assume that they were the primary caregivers and had legal custody of the decedent unless otherwise specified in the records.\nThe primary caregiver(s) may also be the state CPS agency/foster parent(s) or another institution in some cases.\nIn the instances when the child is residing in foster care or an institution, complete this information for the primary caregiver(s) in the family of origin if known (not for the foster family or institutional caregivers).\nIn the case of neonaticide, assume that the biological mother was the primary caregiver unless there is evidence that another person (e.g., father, grandmother) had assumed control of the child as a caregiver at the time of the incident.\nIf the primary caregiver(s) at the time of death was different from the primary caregiver(s) at the time of the incident, answer regarding the primary caregiver(s) at the time of the incident.\nFor example, if a baby is shaken by its biological mother as an infant and survives in a vegetative state in foster care until three years of age, code the biological mother.\n“Documented history of child maltreatment” indicates a substantiated CPS report/referral or rights termination."
+    },
+    {
+      "type": "subsection",
+      "content": "9.10 Records Consulted in CFRT Review"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.1 CME records: CFR_RecordCME"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.2 SS/CPS records: CFR_RecordSSCPS"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.3 Law enforcement/Law enforcement records: CFR_RecordPoliceLE"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.4 School records: CFR_RecordSchool"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.5 EMS records: CFR_RecordEMS"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.6 Health Provider/Hospital records: CFR_RecordHealthProviderHospital"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.7 Public Health Department records: CFR_RecordPublicHealthDepartment"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.8 Mental Health Records: CFR_RecordMentalHealth"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.9 Juvenile Justice Records: CFR_RecordJuvenileJustice"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.10 Death Certificate: CFR_RecordDeathCertificate"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.11 Other records: CFR_RecordOther"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.12 Specify (what other records): CFR_RecordOtherText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nRecords from each agency indicated were consulted in the CFRT review of victim’s death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No, Not collected by local CFR team, Unknown\n1 Yes\n\nCFR_RecordOtherText\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThe primary data sources used to review a child death vary from CFR program to program and often from death to death. Code the data source as “Yes” if the records were consulted about the death, even if the given agency ended up having no information about the victim. Do not code a source as “Yes” if the only information gathered was secondary (e.g., the DSS records indicate that law enforcement performed an investigation, but the actual LE reports were not consulted)."
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.13 History of inpatient psychiatric treatment: CFR_HistoryPsychiatricTreatment"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.14 Taking psychiatric medication at time of death: CFR_PsychiatricMedication"
+    },
+    {
+      "type": "subsection",
+      "content": "9.10.15 Barriers to accessing mental health care: CFR_BarriersAccessMntlHealthCare"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_HistoryPsychiatricTreatment: Victim has ever been treated as an inpatient for psychiatric problems.\nCFR_PsychiatricMedication: Victim had a current prescription for a psychiatric medication at the time of the incident.\nCFR_BarriersAccessMntlHealthCare: Victim experienced barriers to accessing mental health care (applicable only to victims coded as having a mental health problem and not being in treatment)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables will provide more in-depth information about mental health treatment for children who die by suicide than is currently collected by the main reporting system for adult victims."
+    },
+    {
+      "type": "list_item",
+      "content": "These variables supplement the basic Suicide Circumstances related to mental health. Indicate that the child received inpatient psychiatric care if there is a documented history of inpatient psychiatric treatment ever, not just at the time of death. This includes an overnight or longer stay at a psychiatric hospital or institution, psychiatric halfway house or group home, or psych unit within an acute care hospital.\nPsychiatricMedication refers to whether the patient had an active prescription for psychiatric medication at the time of death. They need not have actually been taking the medication. When available, toxicology results will help assess whether the decedent was taking the medication prescribed.\nIf a child victim was noted as having a mental health problem and as not being in mental health treatment, the CFR_BarriersAccessMntlHealthCare variable will document whether any evidence in the record indicates that the victim encountered barriers in accessing mental health treatment.\nCode “Yes” if there were specific obstacles or if it was known that treatment was either recommended by a health professional and/or identified by the family yet care was not received. Examples of specific obstacles include lack of insurance coverage, transportation problems, or long waiting lists. Another example would be parental awareness of their child’s suicidal ideation, but inability to establish care because of immigration status.\nPlease describe the nature of the barrier in the Incident Narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "9.11 CFR Concluding Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "9.11.1 CFR conclusion matches Death Certificate: CFR_CFRConclusionMatchedDC"
+    },
+    {
+      "type": "subsection",
+      "content": "9.11.2 If no, manner the CFR designated: CFR_CFRDesignated"
+    },
+    {
+      "type": "subsection",
+      "content": "9.11.3 Text to specify other manner: CFR_MannerOther"
+    },
+    {
+      "type": "subsection",
+      "content": "9.11.4 Action taken to change the official manner: CFR_ActionChgOfficialManner"
+    },
+    {
+      "type": "subsection",
+      "content": "9.11.5 Result of action: CFR_ResultOfAction"
+    },
+    {
+      "type": "subsection",
+      "content": "9.11.6 CFR determination of preventability: CFR_DeathPreventability"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_CFRConclusionMatchedDC: Did the CFR designation of the child’s manner of death match the DC manner?\nCFR_CFRDesignated: Manner of death designated by the CFR.\nCFR_MannerOther: Text field for CFR manner of death if “other”.\nCFR_ActionChgOfficialManner: If CFR designation did not match DC manner, was action taken by the CFR to change the manner of death?\nCFR_ResultOfAction: Result of action taken by the CFR to change the manner of death.\nCFR_DeathPreventability: CFR conclusions regarding the preventability of the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nCFR_CFRConclusionMatchedDC\nCFR_ActionChgOfficialManner\n0 No\n1 Yes\n7 Not collected/CFR team does not make this comparison\n8 Not applicable\n9 Unknown\n\nCFR_CFRDesignated\n1 Natural\n2 Accident\n3 Suicide\n4 Homicide\n5 Pending investigation\n6 Could not be determined\n66 Other\n77 Not collected/CFR team does not designate manner\n88 Not applicable\n99 Unknown\n\nCFR_MannerOther\nText\n\nCFR_ResultOfAction\n0 No change\n1 Manner changed to agree with CFRT\n3 Pending\n6 Other\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown\n\nCFR_DeathPreventability\n0 Probably not preventable\n1 Possibly preventable\n2 Unable to determine preventability\n7 Not collected/CFR team does not determine preventability\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThe CFRT’s conclusions are being compared with the officially-designated manner of death as originally specified on the DC (or, if the DC was unavailable to the committee at the time of their review, the C/ME report)."
+    },
+    {
+      "type": "list_item",
+      "content": "Code CFR_CFRConclusionMatchedDC as “Yes” if the CFRT’s manner of death matched the manner of death originally designated on the DC.\nCode CFR_CFRConclusionMatchedDC as “No” if the CFRT determined that the manner of death was something other than that assigned in the DC data.\nSupply the manner chosen by the CFRT in CFR_CFRDesignated. “Could not be determined” under CFR_CFRDesignated refers to the affirmative designation of undetermined as the CFRT’s manner of death.\n“Unknown” is to be used if the information is not available at the time of data entry. Please use the text box to explain coding “Other” for CFR_CFRDesignated.\nCFR_ActionChgOfficialManner and ResultOfAction will be enabled only if CFR_CFRConclusionMatchedDC is coded as “No.”\nSome CFRTs designate the degree to which a child’s death was preventable (e.g., “definitely preventable,” “probably preventable,” “probably not preventable,” etc.). Respondents should collapse the levels they use to answer the question as “Probably not preventable,” “Possibly preventable,” or “Unable to determine.” If the teams indicate any possibility of prevention then code “Possibly preventable.” “Unable to determine preventability” is an affirmative designation (i.e., it is specifically noted on the CFRT form) otherwise, code “Unknown.”"
+    }
+  ]
+}

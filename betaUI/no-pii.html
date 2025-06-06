@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKVDRS Abstraction Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-title">
+                <a href="index.html" class="logo-link">
+                <img src="images/soadoh.jpg" alt="State of Alaska Department of Health Logo" class="logo"> </a> 
+                <div class="hosting-status">
+                    <span>On-Premises Only</span>
+                    <span class="checkmark">✓</span>
+                </div>
+                <div class="local-processing">
+                    <span>This tool runs only on your computer and is <strong>not</strong> connected to the Internet.</span>
+                    <span class="offline-icon">🔒</span>
+                </div>
+            </div>
+        </header>
+        <div id="intro-screen">
+            <div id="intro-text">
+                <h2>Select case folder for your incident narrative:</h2>
+                <p>Choose a folder containing all relevant files for this case report.</p>
+            </div>
+            
+           
+            
+            <!-- Case Folder Selection -->
+            <div class="folder-selection">
+                 <!-- Tester Information Section -->
+                <div class="tester-info">
+                    <label for="tester-name" class="tester-label">Tester Name</label>
+                    <input type="text" id="tester-name" name="tester-name" placeholder="Enter your name" required>
+                </div>
+                <div class="folder-select-box">
+                    
+                    <p class="folder-label">Select Case Folder</p>
+                    <label class="select-folder">
+                        <input type="file" id="folder-input" webkitdirectory directory multiple style="display: none;">
+                        <i class="fas fa-folder-open folder-icon"></i>
+                    </label>
+                </div>
+            </div>
+
+            <div class="pdf-processing-option">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="enhanced-pdf-toggle" checked>
+                    <span class="slider round"></span>
+                    <span class="toggle-label" style="margin-bottom: 5px;">Enhanced PDF Reading</span>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="enhanced-llm-toggle" checked>
+                    <span class="slider round"></span>
+                    <span class="toggle-label" style="margin-bottom: 5px;">Enhanced LLM Processing</span>
+                </label>
+            </div>
+
+            <div class="selection-info" style="display: none;">
+                <div id="selected-folder-info" style="display: none;">
+                    <p><strong>Selected Folder:</strong> <span id="folder-name">None</span></p>
+                    <p><strong>Files Found:</strong> <span id="file-count">0</span></p>
+                </div>
+                
+                <!-- Dynamic Document Grid (populated by JavaScript) -->
+                <div class="file-list-header" style="display: none;">
+                    <h3>Files in Selected Case Folder:</h3>
+                </div>
+                
+                <div class="document-grid" id="dynamic-document-grid">
+                    <!-- Files will be dynamically added here by JavaScript -->
+                </div>
+            </div>
+
+          
+            
+            
+            <div class="action-area">
+                <button id="generate-summary" class="primary-btn">Generate Summary</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>This tool is built with a local derivative of Llama by Meta, and it is not connected to the Internet.</p>
+            <p>WIP/Draft Security documentation is available <a href="images\security.pdf">here</a> and a user flow diagram is available <a href="images\User Interface Action Diagram.png">here.</a></p>
+            <p>Questions about the project should be directed to <a href="mailto:riley.fitting@alaska.gov">riley.fitting@alaska.gov</a></p>
+            <small>&copy; 2024 Center for Safe Alaskans. All rights reserved.</small>
+        </div>
+    </footer>
+    <script src="no-pii-script.js"></script>
+</body>
+</html>

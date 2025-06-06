@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confidant - Summary Generation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-title">
+                <a href="index.html" class="logo-link">
+                    <img src="images/soadoh.jpg" alt="State of Alaska Department of Health Logo" class="logo">
+                </a>
+                <div class="hosting-status">
+                    <span>Hosted On-Premises</span>
+                    <span class="checkmark">✓</span>
+                </div>
+                <div class="caution-banner">
+                    <span>⚠️ Caution: This is a proof of concept only with experimental technology.</span>
+                </div>
+            </div>
+        </header>
+        <div id="intro-screen">
+            <div id="intro-text">
+                <h1>Generating Summary</h1>
+                <p>Please wait while we process your documents and generate a summary.</p>
+                <div id="progress-steps">
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Reading Files</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Extracting Data</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Generating Summary</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Verifying Output</span>
+                    </div>
+                </div>
+            </div>
+            <div id="upload-section">
+                <div class="summary-box">
+                    <h3>Generated Incident Narrative:</h3>
+                    <textarea id="summary-content" rows="10" readonly></textarea>
+                    <div class="feedback-buttons">
+                        <button class="feedback-btn thumbs-up"><i class="fas fa-thumbs-up"></i></button>
+                        <button class="feedback-btn thumbs-down"><i class="fas fa-thumbs-down"></i></button>
+                        <button class="feedback-btn copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="or-divider"></div>
+            <div id="upload-section">
+                <div class="summary-box">
+                    <h3>Incident Narrative Feedback:</h3>
+                    <textarea id="summary-feedback" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="action-area">
+                <button class="primary-btn regenerate-btn">
+                    <i class="fas fa-sync-alt"></i> Regenerate
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <small>&copy; 2024 Tyler Arnold. All rights reserved.</small>
+    </footer>
+</body>
+</html>

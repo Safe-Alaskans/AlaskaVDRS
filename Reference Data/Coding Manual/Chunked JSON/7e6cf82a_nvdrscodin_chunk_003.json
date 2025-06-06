@@ -1,0 +1,251 @@
+{
+  "summary": [
+    "The document outlines the criteria for categorizing violent deaths, including definitions for resident and occurrent incidents, as well as guidelines for data abstraction and reporting within the NVDRS framework. It emphasizes the importance of accurate data entry, the use of multiple data sources, and the distinction between various types of homicides. Additionally, it provides detailed instructions for entering case data and reabstraction guidelines to ensure data quality."
+  ],
+  "keywords": [
+    "violent deaths",
+    "NVDRS",
+    "data abstraction",
+    "homicide definitions",
+    "incident reporting",
+    "data quality",
+    "reabstraction guidelines",
+    "ICD-10 codes",
+    "data sources",
+    "demographics"
+  ],
+  "structured_content": [
+    {
+      "type": "title",
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The majority of the deaths in the incident must be resident violent deaths (as described in Section II: A–D above). If no jurisdiction accounts for the majority of victims, the incident would be a resident incident for the jurisdiction of residence of the first victim."
+    },
+    {
+      "type": "subsection",
+      "content": "B. Occurrent incident"
+    },
+    {
+      "type": "paragraph",
+      "content": "The majority of fatal injuries in the incident must be occurrent fatal injuries. If no jurisdiction accounts for the majority of fatal injuries, the incident would be an occurrent incident for the place of injury of the first victim."
+    },
+    {
+      "type": "quote",
+      "content": "Note: The responsibility for abstracting an incident falls on the state where the first injury occurred irrespective of where the victim was a resident or died. NVDRS states should cooperate whenever possible by sending records to the state with responsibility for abstraction when incidents cross state lines."
+    },
+    {
+      "type": "chapter",
+      "content": "VII. Data Year"
+    },
+    {
+      "type": "subsection",
+      "content": "A. Year of a violent death"
+    },
+    {
+      "type": "paragraph",
+      "content": "The year of death is the calendar year in which the victim died. So, for example, if a victim was injured at the end of December 2002, but died in early January 2003, the death would be reported in the 2003 data year. Although the NVDRS software allows for specific month or date of death to be entered as “Unknown,” the year of death must be filled in. In the case of a true unknown year of death (as in skeletal remains with unknown year of death, or an unattended death that may have occurred either shortly before or shortly after January 1st), enter the year in which the body was found as the year of death."
+    },
+    {
+      "type": "subsection",
+      "content": "B. Year of a violent death for multiple death incidents"
+    },
+    {
+      "type": "paragraph",
+      "content": "The year of a violent death incident is the first year in which any of the victims in the incident died. For example, if two people are shot on December 21, 2006, and one dies on December 22, 2006, and the second dies on January 4, 2007, the year of the incident would be 2006. The only exception to this rule occurs when any of the deaths occurred in a year prior to 2003, the first year of NVDRS. In that case, place the incident in the first year of death after 2002. Hence, incidents with deaths in 2002 and 2003 should be placed in 2003. Incidents with deaths in 2002 and 2004 should be placed in 2004. Incidents with deaths in 2003 and 2004 should be placed in 2003."
+    },
+    {
+      "type": "chapter",
+      "content": "VIII. Annual Violent Death Rate"
+    },
+    {
+      "type": "paragraph",
+      "content": "The violent death rate per year is the number of resident violent deaths recorded during the calendar year divided by the resident population of the jurisdiction, as defined in official U.S. Census figures, and multiplied by 100,000 for a rate per 100,000 persons. Preliminary rates include both preliminary and confirmed deaths. Confirmed rates include only confirmed deaths. Intercensal state population estimates may be used for intercensal year rates when official U.S. Census figures are not available. The state should specify whether U.S. Census or state estimates are used as the source of the population estimate."
+    },
+    {
+      "type": "table",
+      "content": "5.0 Table 1. ICD-10 External Causes of Death Codes for Manners of Death Meeting the NVDRS Case Definition\n\n| ICD-10 Codes | Manner of death | Death ≤1 year after injury | Death >1 year after injury | Deaths any time after injury |\n|--------------|----------------|----------------------------|----------------------------|------------------------------|\n| Intentional self-harm (suicide) | X60–X84 | Y87.0 | U03 (attributable to terrorism) | |\n| Assault (homicide) | X85–X99, Y00–Y09 | Y87.1 | U01, U02 (attributable to terrorism) | |\n| Event of undetermined intent | Y10–Y34 | Y87.2, Y89.9 | N/A | |\n| Unintentional exposure to inanimate mechanical forces (firearms) | W32–W34 | Y86 | N/A | |\n| Legal intervention (excluding executions, Y35.5) | Y35.0–Y35.4, Y35.6, Y35.7 | Y89.0 | N/A | |"
+    },
+    {
+      "type": "subsection",
+      "content": "6.0 Notes on Terminology"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use of the term “homicide” can be a point of confusion in a violent death reporting system. The origins of the term “homicide” literally mean the killing of one person by another, whether intentionally or unintentionally. Law enforcement and many coroners/medical examiners may adhere to this broader definition of homicide and therefore sometimes refer to certain unintentional car crash deaths as “vehicular homicides,” and the unintentional death of a person which results from another’s negligence as “negligent homicides.” Examples of the latter category are unintentional shootings of one person by another (as in two 12-year-old boys playing with a gun they believed was unloaded) and negligent acts by a caregiver of a dependent person (as in a toddler who was left unattended in the bathtub briefly while her caregiver answered the phone)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ICD system, conversely, uses the term homicide in its narrower sense to indicate the intentional or assault-related killing of one person by another. NVDRS also uses this narrower definition of homicide."
+    },
+    {
+      "type": "paragraph",
+      "content": "The disjuncture between law enforcement and public health uses of the term homicide can lead to coding problems. The ICD system is the basis for coding underlying cause of death on the DC. However, the code is chosen based on the information supplied by the C/ME on the DC. For example, in the case of the 12-year-old boys playing with the gun they mistakenly believed was unloaded, the C/ME is likely to code the manner of death as “homicide” and supply only medical information in the text fields for underlying cause of death. The information regarding the unintentional nature of the shooting will be available only in the narrative report, not on the DC itself. The vital statistics coder will likely code the case in the homicide range, not the unintentional range, because the information that would place it in the unintentional range according to ICD protocols is not available on the DC. This confusion in terms is one reason that the NVDRS includes an abstractor-assigned manner of death code. This code applies a uniform protocol to categorizing violence-related homicides, unintentional deaths, suicides, and deaths due to undetermined intent."
+    },
+    {
+      "type": "paragraph",
+      "content": "One useful piece of information when attempting to distinguish a violence-related homicide from a negligent homicide is to check how the case was reported on the SHR form (if the state collects SHR data). Violence-related homicides are reported as “1A – Murder/non-negligent manslaughter” offenses, while unintentional homicides (e.g., “accidental” shooting while hunting, children playing with a gun) are coded as “1B – Negligent manslaughter” offenses. These distinctions can be made reliably when C/ME and LE reports are reviewed for a case. (See Barber C, Hochstadt J, Hemenway D, Azrael D. Underestimates of unintentional firearm fatalities: comparing supplementary homicide report data with the National Vital Statistics System. Injury Prevention 2002; 8:252–6.)"
+    },
+    {
+      "type": "subsection",
+      "content": "7.0 Entering a Case/Data Structure"
+    },
+    {
+      "type": "paragraph",
+      "content": "An incident involving one or more violent deaths is the unit of surveillance in NVDRS. To understand how all the variables fit together in one incident, it may be helpful to think of them in a hierarchy with two levels:\nThe first, or incident level, is information about the incident to be described, such as how many victims were involved and a narrative of the event.\nThe second, the victim level, demographically describes the victim, the suspect (when appropriate), the weapon that caused the death, and the circumstances related to his or her death."
+    },
+    {
+      "type": "paragraph",
+      "content": "In addition, the system allows states to track the documents from which data are abstracted. In outline form, this hierarchy looks like the following:\n1. Incident:\nIncident summary (Site ID, Incident Type, Incident Category, number nonfatally shot persons, number of victims)\nOptional workflow fields (e.g., abstractor name, flag for follow-up, date supervisor checked incident)\nRelated incidents (those outside 24 hours or other parameters for an NVDRS incident but related in some other way, determined by the states; examples include serial homicides attributed to a common perpetrator(s) or a series of suicides thought to be related).\n2. Victim(s):\nExtended demographics\nManner of death\nDescription, location, and time of injury\nWeapon(s) that inflicted the fatal injury\nToxicology findings\nCircumstances associated with the death (e.g., depressed before a suicide or an argument preceding the homicide)\n3. Suspect(s):\nDemographics\nVictim-suspect relationship\nAdditional suspect characteristics (e.g., suspect was a caregiver for this victim; suspect had been in contact with law enforcement)\n4. Special module (only applicable to school-related incidents meeting certain inclusion criteria):\nSchool-Associated Violent Death (SAVD)\n5. Optional modules:\nChild Fatality Review (CFR)\nIntimate Partner Violence (IPV)\nOverdose (OD)"
+    },
+    {
+      "type": "quote",
+      "content": "Note: Given all the data entry fields available to handle various scenarios, the number of variables in NVDRS is large. Not every section of NVDRS can be completed for every incident. For example, if one of the persons involved is a suspect who did not die in the incident, only limited information is collected. If the weapon was not a firearm, additional details regarding the weapon do not often exist, and therefore no detailed characteristics of non-firearm weapons are tracked in NVDRS."
+    },
+    {
+      "type": "subsection",
+      "content": "8.0 Data Sources"
+    },
+    {
+      "type": "paragraph",
+      "content": "A strength of NVDRS is its use of multiple, complementary data sources. Each state can integrate data across data sources using its knowledge of available resources. Prior work has shown that data across sources on many variables such as victim’s demographics are very similar. More comprehensive and accurate information can be collected on each incident by reviewing multiple sources over time as more information becomes available. Information on circumstances collected from both LE and C/ME reports varies because each source investigates different aspects of the death. Thus, tracking circumstances by source helps document similarities and differences between the findings of different agencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "The table below shows the sources that most often include information about different types of data elements in NVDRS. No PII should ever be entered into the NVDRS web-based system."
+    },
+    {
+      "type": "table",
+      "content": "Data Topic | DC | C/ME | LE | CFR | LAB | USER | HOSP\n--- | --- | --- | --- | --- | --- | --- | ---\nCase status | X | | | | | | |\nIncident narrative | X | X | X | | | | |\nDocument tracking | | X | | | | | |\nPerson type | X | X | X | | | | |\nZip code, county | X | X | X | | | | |\nAge/sex/race/ethnicity | X | X | X | | | | |\nWhen and where (injury/death) | X | X | X | | | | |\nType of medical treatment (inpatient or emergency department) | | | | | X | | |\nCause of death ICD-10 code(s) | X | | | | | | |\nExternal injury ICD-9-CM code(s) | | | | | X | | |\nManner of death | X | X | | X | | | |"
+    },
+    {
+      "type": "subsection",
+      "content": "9.0 Hover over text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Many variables in NVDRS have hover over text that becomes visible when the abstractor moves the cursor over the variable. This text aids abstractors in accurately entering data. They contain short one to two sentence descriptions about what to include/exclude when coding/entering data. These descriptions were first added in August 2013 and are continuously updated."
+    },
+    {
+      "type": "subsection",
+      "content": "10.0 Auto Filling"
+    },
+    {
+      "type": "paragraph",
+      "content": "Some data are auto filled to ensure accurate data entry. For instance, pregnancy status for males is auto-filled as “Not applicable.”"
+    },
+    {
+      "type": "subsection",
+      "content": "11.0 Gray-out"
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent invalid data entry, the software includes automatic gray-out fields that are logically contingent upon another data element. For example, an abstractor cannot complete type of mental health problem until they identify that the decedent had a mental health problem."
+    },
+    {
+      "type": "subsection",
+      "content": "12.0 Additional Features"
+    },
+    {
+      "type": "paragraph",
+      "content": "Data are coded or offer lookup tables whenever possible to avoid problems with variant spellings and valid entries."
+    },
+    {
+      "type": "subsection",
+      "content": "13.0 Unknown and Inapplicable Information"
+    },
+    {
+      "type": "paragraph",
+      "content": "A standard approach is used to code “Unknown” throughout the manual. “Unk” is suggested to be entered for “Unknown” in any relevant text field. For numerical fields, the numbers “9,” “99,” or “999” are mostly used to indicate “Unknown.” Similarly, the numbers “8,” “88,” or “888” are usually used for “Not applicable.” See guidance regarding individual variables for correct values for each."
+    },
+    {
+      "type": "subsection",
+      "content": "14.0 Starting an Incident"
+    },
+    {
+      "type": "paragraph",
+      "content": "Refer to the software manual for instructions about how to start or create an incident, if needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Task 1: Open a new incident in the software by selecting “Create new incident.” Select the incident year and incident type (e.g., NVDRS, NVDRS Non-Targeted Area, etc.) and then hit the button labeled “Create new incident” again. This will create the “shell” of the new incident."
+    },
+    {
+      "type": "paragraph",
+      "content": "Task 2: You will now be in the “Incident Overview” area. In this section, you can add other victims (using “add victim” in the victim section) to the incident as appropriate (see NVDRS definitions of “incident” for further guidance), enter the number of persons nonfatally shot (for either of these that apply) in the incident, and enter information about related incidents. Optional workflow tracking fields such as those in the Incident Checklist and Document(s) sections are also included on this screen. Blank records for each victim in the incident are now created, and abstractors should access each one individually for the steps that follow."
+    },
+    {
+      "type": "paragraph",
+      "content": "Task 3: Enter information for each victim in the incident on each of the five core tabs for each victim record. These are:\n1. Demographics\n2. Injury and Death\n3. Circumstances\n4. Weapon(s)\n5. Toxicology"
+    },
+    {
+      "type": "paragraph",
+      "content": "For all incidents involving one or more suspects according to case information and NVDRS case definitions, enter information on the Suspect(s) tab. Enter information for incidents including SAVDs on the SAVD tab. Note that the abstractor should hit “Save” when leaving each tab. Abstractors should review and attempt to populate all fields on tabs that apply to each case. The “Validate” function in the top right of the screen may also be used for error checking. C/ME and LE narrative fields appear at the bottom of the screen across tabs and can be minimized and maximized using the arrows at the top of each field. IPV, OD, and CFR modules are available in applicable cases at state discretion."
+    },
+    {
+      "type": "subsection",
+      "content": "15.0 Reabstraction Guidelines"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reabstracting cases is an important data quality control measure for VDRS programs. The primary purpose of reabstraction is to identify and correct errors when coding key data elements in a timely manner. Another purpose is to identify data fields with low reliability (i.e., they are not completed in the same way by trained independent observers in a significant percentage of incidents, perhaps because of their inherent subjectivity)."
+    },
+    {
+      "type": "paragraph",
+      "content": "We suggest the following reabstraction guidelines:\nReabstraction should be done by the person who is most skilled in coding. This does not need to be the original abstractor’s supervisor. It should not be done by the same person who did the original coding.\nThe reabstractor should have access to all the original records used by the original abstractor.\nAt a minimum, the reabstractor should reabstract 5 percent of incidents completed in the previous quarter or previous month. “Completed incidents” mean incidents that have had data entered from the DC, LE report, and C/ME report.\nReabstractors should select the incident numbers of the incidents they want to reabstract along with the necessary identifiers.\nReabstraction should start soon after the end of the first quarter of data collection and be done on an ongoing basis so that feedback to abstractors is timely.\nReabstractors will want to compare their results with the original abstractions manually by printing an incident or by setting up queries to do record comparisons for specified pairs of incidents. Any discrepancies noted should be reconciled through discussion with the original abstractor.\nDistinguishing between the two possible sources of error: true coder disagreement and data entry error are important.\nRetraining or clarifying coding instructions may help with coder disagreement, while changes in question format may help with data entry error.\nReabstractors may consider entering reabstracted cases into the training module of the NVDRS web-based system. This will avoid case duplication within the system and will provide a helpful practice environment."
+    },
+    {
+      "type": "subsection",
+      "content": "16.0 Data Elements Key"
+    },
+    {
+      "type": "paragraph",
+      "content": "The next sections provide detailed information for each data element captured by NVDRS. The sections are organized by screens as they appear in the NVDRS software application. The data elements are arranged by location on the screen within each section. Each data element or group of related data elements begin on a new page and follow the format below:\nVariable Label: Variable Name\nDefinition: Variable label is the short definition of the variable\nResponse Option: Lists all valid response options\nDiscussion: Provides guidance about how to code the data element or group of data elements"
+    },
+    {
+      "type": "quote",
+      "content": "Note: The default response option is built in for each variable in the web-based NVDRS program. Variables, with the exception of those that have a “Not applicable” response option, should be left blank/unchecked if data are unavailable."
+    },
+    {
+      "type": "section",
+      "content": "SECTION 1. INCIDENT VARIABLES"
+    },
+    {
+      "type": "subsection",
+      "content": "1.1 Incident Year: IncidentYear"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Year in which the incident occurred"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option: Date (format: YYYY)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The incident year must be provided when creating a new record or importing one. For incidents involving a single death, the incident year is the calendar year in which the victim died. So for example, if a victim was injured at the end of December 2002, but died in early January 2003, the death would be reported in the 2003 data year. Although the NVDRS software allows for a specific month or date of death to be entered as “Unknown,” the year of death must be filled in. In the case of a true unknown year of death (as in skeletal remains with unknown year of death, or an unattended death that may have occurred either shortly before or shortly after January 1st), enter the year in which the body was found as the year of death."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the incident involved multiple victims who died in multiple years, incident year is the first year in which any of the victims in the incident died. For example, if two people are shot on December 21, 2006, and one dies on December 22, 2006, and the second dies on January 4, 2007, the year of the incident would be 2006. The only exception to this rule is when any of the deaths occurred in a year prior to 2003, the first year of NVDRS. In that case, place the incident in the first year of death after 2002. Hence, incidents with deaths in 2002 and 2003 should be placed in 2003. Incidents with deaths in 2002 and 2004 should be placed in 2004. Incidents with deaths in 2003 and 2004 should be placed in 2003."
+    },
+    {
+      "type": "subsection",
+      "content": "1.2 Site Identifier: SiteID"
+    },
+    {
+      "type": "subsection",
+      "content": "1.3 Incident Number: IncidentNumber"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nSiteID indicates which state has abstracted the incident. This may not be the state of injury or of residence of any victim in the incident as discussed in the Definitions section. The Site ID number is the Federal Information Processing Standards (FIPS) code assigned to the state, district, or U.S. territory.\nIncidentNumber is automatically assigned by the software. Incidents are numbered within a year and state with the first one being assigned 1. Each new incident added is automatically assigned the next sequential number. Consequently, within each state, the first incident in 2007 and the first in 2008 will be assigned Incident ID=1. Thus, incident number always needs to be considered within a state and year."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nSiteID is automatically generated by the program based on the abstractor’s permission when a new incident is created.\nIncidentNumber is automatically generated by the program when a new incident is initiated by the abstractor."
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "summary": [
+    "This document outlines the Child Fatality Review Optional Module, detailing various aspects of maternal health, infant conditions, CPS report variables, abuse and neglect substantiation, victim contact with formal systems, and household characteristics. It provides definitions, response options, and discussions for each section to ensure accurate data collection regarding child fatalities. The focus is on understanding the circumstances surrounding the victim's environment and any prior incidents that may have contributed to the fatality."
+  ],
+  "keywords": [
+    "Child Fatality Review",
+    "maternal health",
+    "CPS report",
+    "abuse substantiation",
+    "victim contact",
+    "household characteristics",
+    "intimate partner violence",
+    "data collection",
+    "child welfare",
+    "victim environment"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "9. Child Fatality Review Optional Module"
+    },
+    {
+      "type": "paragraph",
+      "content": "related medical care delivered by a doctor, nurse, or other healthcare professional with the goal of monitoring the pregnancy, providing education, and increasing the likelihood of a positive maternal and fetal outcome."
+    },
+    {
+      "type": "list_item",
+      "content": "Maternal recreational drug use includes all drugs (except alcohol and tobacco) that are either nonprescription or are being used in a manner inconsistent with safe prescribing practices.\nAnswer “Yes” only if there is documented evidence or clear reports of substance, alcohol, or tobacco use during pregnancy with the victim.\nDespite history of maternal substance, alcohol, and/or tobacco use with prior pregnancies, if it is not documented or evident during her pregnancy with the victim, the data element should be coded “No.”"
+    },
+    {
+      "type": "subsection",
+      "content": "9.2.11 Infants: Victim born prematurely: CFR_InfantsBornPrematurely"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was born prematurely."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Do not collect for victims one year of age or older. Prematurity is defined as an estimated gestational age less than 37 weeks. Code “Yes” if prematurity is listed in the source documents."
+    },
+    {
+      "type": "section",
+      "content": "9.3 CPS Report Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "9.3.1 Prior CPS report on the victim‘s household: CFR_PriorCPSReportVicHhold"
+    },
+    {
+      "type": "subsection",
+      "content": "9.3.2 If yes, CPS report filed on whom: CFR_SexualAbuseReportedOn"
+    },
+    {
+      "type": "subsection",
+      "content": "9.3.3 If yes, report substantiated: CFR_SexualAbuseReported"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_PriorCPSReportVicHhold: Prior CPS report was filed on the victim’s household.\nCFR_SexualAbuseReportedOn: Person on behalf of whom or against whom a CPS report was filed.\nCFR_SexualAbuseReported: At least one prior CPS report filed on the victim’s household was substantiated."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nCFR_PriorCPSReportVicHhold\nCFR_SexualAbuseReported\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CFR_SexualAbuseReportedOn\n1 Victim\n2 Other child in household\n3 Both\n4 Adult in household\n6 Other, or unspecified\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables refer to CPS contacts prior to the current incident, and not contacts that resulted from the current case. “Household” is defined as the residence where the victim lived the majority of the time when the fatal incident occurred. Household was chosen as the unit for this question in an attempt to characterize the victim’s environment."
+    },
+    {
+      "type": "list_item",
+      "content": "In the case of a victim living with a foster family or in an institution at the time of the fatal incident, answer regarding the family of origin.\nIf known maltreatment existed in the foster family, describe in incident narrative. Please note that a report or referral can be in reference to a child or an adult living in the household.\nWhen the only information available is that a report was filed on the household, indicate “Unknown” for “CFR_SexualAbuseReportedOn.”\nIf a report was not made on behalf of a child in the household, but a report was filed against an adult who currently lives in the household (e.g., no reports against the victim’s mother, but the mother’s boyfriend was previously investigated for abuse), code “CFR_SexualAbuseReportedOn” as “adult in household.”\nAny substantiation ever should be coded as “Yes” even if some of the reports/referrals were substantiated and others were not."
+    },
+    {
+      "type": "subsection",
+      "content": "9.3.4 CPS case opened on other children due to this death: CFR_CPSCaseOpened"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: A CPS case was opened on other children in the victim’s household as a result of this death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Refers to CPS contacts that resulted from the current case. “Household” is defined as the residence where the victim lived the majority of the time when the fatal incident occurred. Household was chosen as the unit for this question in an attempt to characterize the victim’s environment."
+    },
+    {
+      "type": "list_item",
+      "content": "In the case of a victim living with a foster family or in an institution at the time of the fatal incident, answer regarding the family of origin.\nIf known maltreatment existed in the foster family, describe in incident narrative. Please note that a report or referral can be in reference to a child or an adult living in the household."
+    },
+    {
+      "type": "section",
+      "content": "9.4 Abuse/ Neglect Substantiation Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "9.4.1 Physical abuse substantiated: CFR_PhysicalAbuseSubstant"
+    },
+    {
+      "type": "subsection",
+      "content": "9.4.2 Sexual abuse substantiated: CFR_SexualAbuseSubstant"
+    },
+    {
+      "type": "subsection",
+      "content": "9.4.3 Neglect substantiated: CFR_NeglectSubstantiated"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_PhysicalAbuseSubstant: At least one substantiated CPS report filed on the victim’s household was for physical abuse.\nCFR_SexualAbuseSubstant: At least one substantiated CPS report filed on the victim’s household was for sexual abuse.\nCFR_NeglectSubstantiated: At least one substantiated CPS report filed on the victim’s household was for neglect."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables refer to CPS contacts prior to the current incident, and not contacts that resulted from the current case. “Household” is defined as the residence where the victim lived the majority of the time when the fatal incident occurred. Household was chosen as the unit for this question in an attempt to characterize the victim’s environment."
+    },
+    {
+      "type": "list_item",
+      "content": "In the case of a victim living with a foster family or in an institution at the time of the fatal incident, answer regarding the family of origin.\nIf known maltreatment existed in the foster family, describe in incident narrative. Please note that a report or referral can be in reference to a child or an adult living in the household.\nAny substantiation ever should be coded as “Yes” even if some of the reports/referrals were substantiated and others were not."
+    },
+    {
+      "type": "section",
+      "content": "9.5 Victim Contact with Formal System/Services"
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.1 Victim contact with Law enforcement: CFR_VictimContactPolice"
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.2 Victim contact with juvenile justice system: CFR_VictimContactJuvJusticeSys"
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.3 Victim contact with the health care system: CFR_VictimContactHlthCareSystem"
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.4 Victim contact with mental health services: CFR_VictimContactMentalHlthServ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_VictimContactPolice: Victim had contact with law enforcement in the past 12 months.\nCFR_VictimContactJuvJusticeSys: Victim had contact with juvenile justice system in the past 12 months.\nCFR_VictimContactHlthCareSystem: Victim had contact with health care system in the past 12 months.\nCFR_VictimContactMentalHlthServ: Victim had contact with mental health services in the past 12 months."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables all refer to whether the child/victim had contact with these points in the system prior to the fatal incident."
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.5 Household‘s contact with Law enforcement: CFR_HouseholdContactPolice"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Household had contact with law enforcement in the past 12 months."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Refers to the household’s history of contact with law enforcement (e.g., law enforcement being called by neighbors secondary to domestic disturbance)."
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.6 Victim/primary caregiver contact with social services: CFR_VicCaregiverContactSocServ"
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.7 Victim/primary caregiver contact with WIC: CFR_VicCaregiverContactWIC"
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.8 Victim/primary caregiver contact with Medicaid: CFR_VicCaregiverContactMedicaid"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_VicCaregiverContactSocServ: Victim/primary caregiver had contact with social services in the past 12 months.\nCFR_VicCaregiverContactWIC: Victim/primary caregiver had contact with WIC (Special Supplemental Nutrition Program for Women, Infants and Children) in the past 12 months.\nCFR_VicCaregiverContactMedicaid: Victim/primary caregiver had contact with Medicaid in the past 12 months."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables ask if either the child or the primary caregiver had contact with these points in the system in the year prior to the incident. The social services system can include health educator home visits or voluntary services, such as parenting support or respite services."
+    },
+    {
+      "type": "subsection",
+      "content": "9.5.9 Primary caregiver on welfare/financial assistance: CFR_CaregiverFinancialAssistance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Primary caregiver was on welfare/financial assistance in the past 12 months."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable refers to whether the primary caregiver of the victim was on welfare or receiving governmental financial assistance."
+    },
+    {
+      "type": "section",
+      "content": "9.6 Suspect Charge, Arrest, Etc."
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.1 Specific person suspected: CFR_SuspectIdentified"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.2 Suspect arrested as perpetrator in this death: CFR_SuspectArrested"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.3 Suspect charged as perpetrator in this death: CFR_SuspectCharged"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.4 Suspect prosecuted: CFR_SuspectProsecuted"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.5 Suspect convicted: CFR_SuspectConvicted"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.6 Suspect convicted of original charge: CFR_SuspConvictedOrigCharge"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.7 CPS report or referral ever filed on the suspect: CFR_CPSReportReferralFiled"
+    },
+    {
+      "type": "subsection",
+      "content": "9.6.8 Suspect ever charged with a prior homicide: CFR_SuspChrgedPriorHomicide"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nCFR_SuspectIdentified: Law enforcement identified the suspect by name.\nCFR_SuspectArrested: Suspect was arrested as a perpetrator in this death.\nCFR_SuspectCharged: Suspect was charged as a perpetrator in this death.\nCFR_SuspectProsecuted: Suspect was prosecuted as a perpetrator in this death.\nCFR_SuspectConvicted: Suspect was convicted as a perpetrator in this death.\nCFR_SuspConvictedOrigCharge: Suspect was convicted of original charge.\nCFR_CPSReportReferralFiled: Child Protective Service report had previously been filed on this suspect.\nCFR_SuspChrgedPriorHomicide: Suspect had ever been charged with a prior homicide."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nCFR_SuspectIdentified\nCFR_SuspectArrested\nCFR_CPSReportReferralFiled\nCFR_SuspChrgedPriorHomicide\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CFR_SuspectCharged\nCFR_SuspectProsecuted\n0 No\n1 Yes\n3 Pending/In progress\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CFR_SuspectConvicted\n0 Acquitted\n1 Convicted\n3 Pending/In progress\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CFR_SuspectConvictedOriginalCharge\n0 No, convicted of lesser charge\n1 Yes, convicted of original charge\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code “Yes” to SuspectIdentified if a specific person was identified by law enforcement as a suspect.\nIf law enforcement does not know the identity (i.e., name) of the suspect, or if they only have a physical description, code “No.”\nWhen answering suspect arrested, charged, prosecuted, convicted and convicted of original charge consider whether the suspect was arrested as a perpetrator in this death (i.e., not only charged with lesser offenses such as the possession of a firearm without a permit, or reckless endangerment).\nCFR_CPSReportReferralFiled refers to a prior CPS report filed on the suspect as a perpetrator of child abuse or neglect.\nCFR_SuspectChargedPriorHomicide refers to charges of homicide perpetration prior to this victim, regardless of outcome. Homicide in this case can be of an adult or child.\nIf “CFR_SuspectConvicted” is coded “Acquitted” or “Pending,” code “SuspectConvictedOriginalCharge” as “Not applicable.”"
+    },
+    {
+      "type": "section",
+      "content": "9.7 Victim Household Characteristics"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.1 Type of residence in which victim lived: CFR_ResidenceType"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.2 Length of time in residence: CFR_ResidenceTimeIn"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.3 Unrelated adult living in victim’s household: CFR_HouseholdAdultUnrelated"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.4 Other children <18 years in household: CFR_OtherChildrenUndr18Household"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_ResidenceType: Victim’s type of primary residence.\nCFR_ResidenceTimeIn: Length of time in residence.\nCFR_HouseholdAdultUnrelated: Unrelated adult living in victim’s household.\nCFR_OtherChildrenUndr18Household: Presence of other children under 18 years living in the victim’s household."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nCFR_ResidenceType\n1 Victim’s family home\n2 Foster family home\n3 On own, e.g., living w boyfriend\n4 Residential group home\n5 Shelter\n6 Juvenile detention facility, jail, prison\n7 School/college\n66 Other\n77 Not collected by local reporting site\n88 Not applicable (homeless or adult)\n99 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CFR_ResidenceTimeIn\n0 One week or less\n1 Within the past month\n2 Within the past 6 months (but greater than one month)\n3 Between 6 months and 1 year\n4 Between 1 to 5 years\n5 More than 5 years\n6 Other\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "CFR_HouseholdAdultUnrelated\nCFR_OtherChildrenUndr18Household\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These questions are to be asked of all child victims. Primary residence is the place where the victim lived the majority of the time when the incident occurred (not at the time of death if the residences were different). For example, if a child is injured in his or her own family home and dies four months later in the hospital, answer questions regarding his or her own family home."
+    },
+    {
+      "type": "paragraph",
+      "content": "With regard to CFR_ResidenceType: “Victim’s family home” is defined as victim’s self-identified family where applicable; this may be biologic parents, other relatives, adoptive or stepparents. “On own” indicates that the decedent was living separately from his/her family (e.g., living with boyfriend or peers). If the victim was known to be moving from place to place without a permanent residence (i.e., “on the run”), or if the victim was a newborn who was still in the hospital, code as “Not applicable” and describe in the incident narrative."
+    },
+    {
+      "type": "paragraph",
+      "content": "For length of time in residence, code the approximate length of time that the victim had been living at the residence indicated in “ResidenceType.” All time frames listed are with respect to the timing of the fatal incident. For example, if the victim was known to have come back to live with family of origin after foster care stay and dies by suicide within two weeks of returning, code “Within the past month.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "“CFR_HouseholdAdultUnrelated” and “CFR_Other children <18 years in household” apply to children who lived with their own family, on their own, or with a foster family at the time of the fatal incident. An unrelated adult is defined as a person 18 years of age or older who was living in the household at the time of the incident, including primary caregivers (e.g., mother’s boyfriend, stepmother, friend of family, tenant, nanny, etc.).\nAdoptive parents should not be considered unrelated.\nIf the victim lived in an institution (e.g., shelter, school, juvenile detention facility) at the time of the fatal incident, mark “Not applicable.”\nIf there were circumstances in the decedent’s household at the time of death that contributed to the child’s death, explain that separately in the incident narrative.\nIf a child is in a vegetative state secondary to shaken baby syndrome and dies of pneumonia three years later, answer “CFR_HouseholdAdultUnrelated” and “Other children <18 years in household” regarding the household at the time of the shaking.\nIf something about the quality of the child’s foster care at the time of death was also contributory to its death, note that in the incident narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.5 Marital relationship of victim’s biological parents: CFR_VicBioParentMaritalRel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Marital relationship of victim’s biological parents at the time of incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1 Married\n2 Never married\n3 Widowed\n4 Divorced\n5 Married, but separated\n6 Single, not otherwise specified\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code the response option that best fits the marital relationship of the victim’s biological parents to one another at the time of the fatal incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Example:\nIf the victim’s biological mother and father were never married, but the biological father was married to another woman at the time of the fatal incident, marital relationship should be coded as “Never married.”"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.6 Intimate partner violence in victim‘s household: CFR_IPVVictimHousehold"
+    },
+    {
+      "type": "subsection",
+      "content": "9.7.7 Intimate partner violence in victim‘s foster home: CFR_IPVVictimFosterHome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_IPVVictimHousehold: Evidence of intimate partner violence in victim’s household.\nCFR_IPVVictimFosterHome: Evidence of intimate partner violence in victim’s foster family (if applicable)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n7 Not collected by local CFR team\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These questions about intimate partner violence are to be asked about all children regarding their household at the time of the fatal incident.\nFor children who lived with their families or who were institutionalized (either temporarily or permanently), answer the questions regarding the family of origin.\nFor permanently institutionalized children with no family to return to, the answer will be “Not applicable.”\nFor children in foster care at the time of the fatal incident, answer the questions regarding both the foster home and the family of origin.\nIf there were circumstances in the decedent’s household at the time of death that contributed to the child’s death, explain that separately in the incident narrative."
+    }
+  ]
+}

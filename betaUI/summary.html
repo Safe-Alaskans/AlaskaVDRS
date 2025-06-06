@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKVDRS Abstraction Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-title">
+                <a href="index.html" class="logo-link">
+                <img src="images/soadoh.jpg" alt="State of Alaska Department of Health Logo" class="logo"> </a> 
+                <div class="hosting-status">
+                    <span>On-Premises Only</span>
+                    <span class="checkmark">✓</span>
+                </div>
+                <div class="local-processing">
+                    <span>This tool runs only on your computer and is <strong>not</strong> connected to the Internet.</span>
+                    <span class="offline-icon">🔒</span>
+                </div>
+            </div>
+        </header>
+        <div id="intro-screen">
+            <div id="intro-text">
+                <h1>Generating Narrative</h1>
+                <p>Please wait while we process your documents and generate a draft narrative.</p>
+                <div id="progress-steps">
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Reading Files</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Extracting Data</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Generating Summary</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Verifying Output</span>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Accessing Log</span>
+                    </div>
+                </div>
+            </div>
+            <div id="upload-section">
+                <div class="summary-box">
+                    <h3>Generated Incident Narrative:</h3>
+                    <div class="log-header">
+                        <div class="log-info">
+                            <span class="narrative-id">Narrative ID: NAR-2025-XXXX</span>
+                            <span class="timestamp">Generated: YYYY-MM-DD HH:MM:SS AKST</span>
+                        </div>
+                    </div>
+                    <textarea id="summary-content" rows="10" readonly></textarea>
+                    
+                    <!-- <h4>Notes about this narrative:</h4>
+                    <div class="llm-warnings">
+                        <div class="log-header">
+                            <div class="log-info">
+                                <span class="narrative-id">Narrative ID: NAR-2024-0342</span>
+                                <span class="timestamp">Generated: 2024-03-19 14:32:45 AKST</span>
+                            </div>
+                        </div>
+                        <div id="notes-loading" class="loading-indicator">
+                            <i class="fas fa-spinner fa-spin"></i>
+                            <span>Processing notes...</span>
+                        </div>
+                        <div id="notes-content" style="display: none;">
+                            <div class="warning-message">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Discrepancy detected: Blood Alcohol Content (BAC) values differ between documents. Using the value from the most recent toxicology report (0.24).</span>
+                            </div>
+                            <div class="warning-message">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Notice: Multiple witness statements found. Consolidating consistent details.</span>
+                            </div>
+                            <div class="warning-message">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <span>Data gap identified: Time of death not specified in medical report. Using estimated time from police report.</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                    <div class="feedback-buttons">
+                        <button class="feedback-btn thumbs-up"><i class="fas fa-thumbs-up"></i></button>
+                        <button class="feedback-btn thumbs-down"><i class="fas fa-thumbs-down"></i></button>
+                        <button class="feedback-btn copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="or-divider"></div>
+            <div id="upload-section">
+                <div class="summary-box">
+                    <h3>Incident Narrative Feedback:</h3>
+                    <p>Please provide any feedback you have about the narrative before regenerating.</p>
+                    <p>Be as specific and descriptive as possible.</p>
+                    <textarea id="summary-feedback" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="action-area">
+                <button class="primary-btn regenerate-btn">
+                    <i class="fas fa-sync-alt"></i> Regenerate
+                </button>
+            </div>
+            <div id="upload-section">
+                <div class="summary-box">
+                    <h3>Incident Narrative Notes:</h3>
+                    <p>Please provide any other notes about the narrative.</p>
+                    <textarea id="summary-notes" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="action-area">
+                <button class="primary-btn save-btn">
+                    <i class="fa-solid fa-download"></i> Save
+                </button>
+            </div>
+            
+            <div class="generation-history">
+                <h3>Narrative Activity History:</h3>
+                <div class="history-entries">
+                    <!-- Current active narrative -->
+                    <!-- <div class="history-entry active">
+                        <div class="entry-header">
+                            <div class="entry-meta">
+                                <span class="narrative-id">NAR-2024-0342</span>
+                                <span class="timestamp">Generated: 2024-03-19 14:32:45 AKST</span>
+                                <span class="status active">Currently Displayed</span>
+                            </div>
+                            <div class="feedback-indicators">
+                                <span class="pending">Awaiting User Feedback</span>
+                            </div>
+                        </div>
+                        <div class="entry-content">
+                            <div class="narrative-text">In the unknown hours, the 22-year-old male victim was seen...</div>
+                            <div class="generation-notes">
+                                <h4>Narrative Notes:</h4>
+                                <div class="warning-message"><i class="fas fa-exclamation-triangle"></i>Discrepancy detected: Blood Alcohol Content (BAC) values differ between documents...</div>
+                                <div class="warning-message"><i class="fas fa-info-circle"></i>Notice: Multiple witness statements found...</div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Previous narrative with feedback -->
+                    <!-- <div class="history-entry">
+                        <div class="entry-header">
+                            <div class="entry-meta">
+                                <span class="narrative-id">NAR-2024-0341</span>
+                                <span class="timestamp">Generated: 2024-03-19 14:28:12 AKST</span>
+                                <span class="status previous">Previous Version</span>
+                            </div>
+                            <div class="feedback-indicators">
+                                <span class="thumbs-down"><i class="fas fa-thumbs-down"></i></span>
+                                <div class="abstractor-feedback">
+                                    <ul class="feedback-list">
+                                        <li class="phi-item">17:02 should be changed to "evening hours"</li>
+                                        <li class="phi-item">Mr. Hubble is unnecessary, change to "was last seen at the store with another person"</li>
+                                        <li class="change-item">The victim was found on the ground near the handgun and bullet</li>
+                                        <li class="change-item">prior suicidal attempt, unspecified</li>
+                                        <li class="change-item">The cause of death was a self-inflicted gunshot wound to the head</li>
+                                        <li class="change-item">The manner of death was classified as a suicide</li>
+                                        <li class="change-item">No other circumstances are known</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry-content">
+                            <div class="narrative-text">At 17:02, the 22-year-old male victim was last seen at Mr. Hubble grocery store with another person doing drugs. When the friend got tired, he went to leave after a long conversation and visibly watched the victim shoot himself in the head. The friend didn’t know what to do so he called 911 and when LE arrived but the victim was pronounced. The victim was found on the ground near a handgun and bullet and magazine and blood and grass. The victim has a medical history of polysubstance abuse, depressive episodes, and a prior suicidal attempt. The report does not show ideations, and no note left at the scene. The body was sent to the medical examiners. The cause of death was a self-inflicted gunshot wound to his face. The manner of death was classified a suicide. No other circumstances are known, and no information is available to use.</div>
+                            <div class="generation-notes">
+                                <h4>Narrative Notes:</h4>
+                                <div class="warning-message"><i class="fas fa-exclamation-circle"></i>Data gap identified: Time of death not specified...</div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Alternative generated version -->
+                    <!-- <div class="history-entry alternative">
+                        <div class="entry-header">
+                            <div class="entry-meta">
+                                <span class="narrative-id">NAR-2024-0341-ALT1</span>
+                                <span class="timestamp">Generated: 2024-03-19 14:28:12 AKST</span>
+                                <span class="status alternative">Alternative Version</span>
+                            </div>
+                            <div class="feedback-indicators">
+                                <span class="pending">Alternative Option</span>
+                            </div>
+                        </div>
+                        <div class="entry-content">
+                            <div class="narrative-text">In the early hours, a 22-year-old male was observed in a public setting with another individual consuming alcohol. After a prolonged conversation, the friend began to leave and witnessed the male shoot himself in the head. The friend immediately contacted 911, and law enforcement pronounced the male deceased upon arrival without performing any interventions. The victim was located on the ground near an unspecified handgun. He had a documented history of polysubstance abuse and prior unknown suicidal attempts, but no suicidal thoughts or note were left at the scene. The body was transported to the medical examiner, where it was concluded that the death resulted from a self-inflicted intraoral gunshot wound, with the manner of death classified as suicide. Postmortem toxicology results indicated the presence of methamphetamine and amphetamine. No additional circumstances were reported.</div>
+                            <div class="generation-notes">
+                                <h4>Narrative Notes:</h4>
+                                <div class="warning-message"><i class="fas fa-info-circle"></i>Alternative narrative with focus on medical examiner findings...</div>
+                            </div>
+                            <div class="feedback-buttons alternative-feedback">
+                                <button class="feedback-btn thumbs-up"><i class="fas fa-thumbs-up"></i></button>
+                                <button class="feedback-btn thumbs-down"><i class="fas fa-thumbs-down"></i></button>
+                                <button class="feedback-btn copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                            </div>
+                        </div>
+                    </div>-->
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>This tool is built with a local derivative of Llama by Meta, and it is not connected to the Internet.</p>
+            <p>WIP/Draft Security documentation is available <a href="images\security.pdf">here</a> and a user flow diagram is available <a href="images\User Interface Action Diagram.png">here.</a></p>
+            <p>Questions about the project should be directed to <a href="mailto:riley.fitting@alaska.gov">riley.fitting@alaska.gov</a></p>
+            <small>&copy; 2024 Center for Safe Alaskans. All rights reserved.</small>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

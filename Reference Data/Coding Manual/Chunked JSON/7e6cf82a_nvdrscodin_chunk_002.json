@@ -1,0 +1,571 @@
+{
+  "summary": [
+    "This document outlines the definitions and classifications of various types of violent deaths, including state occurrent violent deaths, preliminary and confirmed violent deaths, and manners of death such as suicide, homicide, and legal intervention. It emphasizes the importance of accurate data collection and categorization for effective public health responses and prevention strategies. The NVDRS framework is designed to capture incidents comprehensively, ensuring that all related deaths are reported together."
+  ],
+  "keywords": [
+    "violent death",
+    "NVDRS",
+    "homicide",
+    "suicide",
+    "legal intervention",
+    "data collection",
+    "public health",
+    "unintentional death",
+    "American Indian reservations",
+    "incident-based reporting"
+  ],
+  "structured_content": [
+    {
+      "type": "title",
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note this also includes injuries that occurred on American Indian reservations."
+    },
+    {
+      "type": "section",
+      "content": "D. State Occurrent Violent Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "The initial injury must have occurred within the state, district, or territory, or on those portions of the American Indian reservations within the state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Collecting all resident violent deaths is essential for calculating population-based rates. Occurrent fatal injury data is essential for designing and evaluating prevention efforts focused on specific communities. State of residence and state of occurrence of a fatal injury will usually be the same, but every state will have some exceptions. States are expected to collect violent deaths among their residents wherever they occur, including fatal violent injuries occurring within their borders irrespective of residence. However, the state of injury occurrence is responsible for collecting the information if the states of residence and injury occurrence are different. For example, if a resident of state A dies as a result of a fatal injury that occurred in state B, state B is responsible for collecting the information."
+    },
+    {
+      "type": "paragraph",
+      "content": "When states receive source documents for an incident that occurred in another state, they may coordinate with the other state responsible for collecting data on that incident by using the Transfer Incident feature in the NVDRS web-based system to share information and to transfer ownership to the appropriate state. The Transfer Incident feature was added in August 2021 to allow states to transfer incidents directly within the web-based system. Please email NVDRS-Software@cdc.gov for guidance on how to use the Transfer Incident feature."
+    },
+    {
+      "type": "paragraph",
+      "content": "If a VDRS program chooses to collect and enter information into the NVDRS web-based system about a resident death where the fatal injury occurred in a different NVDRS state, the data abstractor should mark the incident type for these cases as “Other (State-Defined)” to avoid duplication. Please see the decision tree in Appendix A for further guidance related to resident and occurrent deaths."
+    },
+    {
+      "type": "section",
+      "content": "III. Preliminary Versus Confirmed Violent Death"
+    },
+    {
+      "type": "subsection",
+      "content": "A. Preliminary Violent Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "The underlying cause of death has not yet been officially coded using the International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10). Review of the uncoded DC or official LE or C/ME report will likely indicate that the death should ultimately be coded as one of the ICD codes included in the case definition above."
+    },
+    {
+      "type": "subsection",
+      "content": "B. Confirmed Violent Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "The underlying cause of death has been officially coded using ICD-10. The ICD-10 code assigned to the death matches the case definition above. Alternatively, abstractors identified/confirmed the death using other data sources (e.g., LE and C/ME)."
+    },
+    {
+      "type": "section",
+      "content": "IV. Manners of Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "For public health purposes, the C/ME designates type of NVDRS deaths according to the ICD code assigned to the underlying cause of death indicated on the DC (per Table 1). However, coroners or medical examiners may not uniformly apply the same criteria. Therefore, NVDRS will also try to achieve some standardization of death type through these definitions. Further, some of the manners of death listed below are not included as options on a standard DC. For instance, a person dying after being shot by a law enforcement officer in the line of duty may be called a “homicide” on the DC but will be called a “legal intervention” death in NVDRS. Similarly, a self-inflicted firearm death ruled “accidental” on a DC will be included as an “unintentional firearm” death in NVDRS. Therefore, ICD codes may not always match NVDRS definitions of manner of death. NVDRS sites should use the definitions below to identify preliminary cases."
+    },
+    {
+      "type": "subsection",
+      "content": "A. Suicide"
+    },
+    {
+      "type": "paragraph",
+      "content": "A suicide is a death resulting from the intentional use of force against oneself. A preponderance of evidence should indicate that the use of force was intentional."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note that the following scenarios should be classified as suicide:"
+    },
+    {
+      "type": "list_item",
+      "content": "A person engaged in a suicidal act, then changed their mind, but still died as a result of the act"
+    },
+    {
+      "type": "list_item",
+      "content": "A person died while using a firearm for “Russian roulette,” where a person aims a partially loaded gun at themself and pulls the trigger knowing there is at least some chance the gun would fire"
+    },
+    {
+      "type": "list_item",
+      "content": "A person intended only to injure themself rather than die by suicide (e.g., a man shot himself in the leg with intent to injure but severed the femoral artery and died)"
+    },
+    {
+      "type": "list_item",
+      "content": "Assisted suicide involving passive assistance to the decedent (e.g., supplying only means or information needed to complete the act)"
+    },
+    {
+      "type": "list_item",
+      "content": "Intentional, self-inflicted deaths committed while under the influence of a mind-altering drug taken voluntarily"
+    },
+    {
+      "type": "list_item",
+      "content": "Intentional self-inflicted deaths committed while mentally ill (e.g., acute psychotic episodes that may impair a person’s judgment)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following specific scenarios should not be classified as suicide (the preferred category is shown in parentheses):"
+    },
+    {
+      "type": "list_item",
+      "content": "The physical consequences of chronic substance abuse, including alcohol or drugs (natural death)"
+    },
+    {
+      "type": "list_item",
+      "content": "Acute substance abuse including alcohol or drugs with less than a preponderance of evidence to use the substance(s) with intent to harm oneself (undetermined or unintentional injury death)"
+    },
+    {
+      "type": "list_item",
+      "content": "Death as a result of autoerotic behavior, e.g., self-strangulation during sexual activity (unintentional injury death)"
+    },
+    {
+      "type": "subsection",
+      "content": "B. Homicide"
+    },
+    {
+      "type": "paragraph",
+      "content": "Homicide is defined as a death resulting from the intentional use of force or power, threatened or actual, against another person, group, or community. A preponderance of evidence must indicate that the use of force was intentional. Such deaths resulting from legal intervention are included in a separate category below. Two special scenarios the National Center for Health Statistics (NCHS) regards as homicides are included in the NVDRS definition: (1) arson with no intent to injure a person, and (2) a stabbing with intent unspecified."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note that the following scenarios should be classified as homicide:"
+    },
+    {
+      "type": "list_item",
+      "content": "Deaths when the suspect intended to only injure rather than kill the victim"
+    },
+    {
+      "type": "list_item",
+      "content": "Deaths resulting from heart attacks induced when someone uses force or power against the decedent"
+    },
+    {
+      "type": "list_item",
+      "content": "A death resulting from a weapon that discharges unintentionally while being used to control or frighten the victim"
+    },
+    {
+      "type": "list_item",
+      "content": "Deaths that result when a person kills an attacker in self-defense"
+    },
+    {
+      "type": "list_item",
+      "content": "Deaths labeled “justifiable homicides” where the person committing the homicide was not a law enforcement officer"
+    },
+    {
+      "type": "list_item",
+      "content": "Death that results from a variation of “Russian Roulette” where one person aims a partially loaded gun at another person and pulls the trigger knowing that there was at least some chance that the gun would fire"
+    },
+    {
+      "type": "list_item",
+      "content": "Death attributed to “child abuse” without an intent being specified"
+    },
+    {
+      "type": "list_item",
+      "content": "Death of a child after birth that results from a direct injury due to violence sustained prior to birth"
+    },
+    {
+      "type": "list_item",
+      "content": "Death that results from an intentional act of neglect or omission by one person against another"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following scenarios should not be classified as homicide (the preferred category is shown in parentheses):"
+    },
+    {
+      "type": "list_item",
+      "content": "“Vehicular homicide” without a preponderance of evidence of intent to use force against another (unintentional injury)"
+    },
+    {
+      "type": "list_item",
+      "content": "Hunting accident with a gun (unintentional firearm injury)"
+    },
+    {
+      "type": "list_item",
+      "content": "Accidental deaths at shooting ranges (unintentional firearm injury)"
+    },
+    {
+      "type": "list_item",
+      "content": "A youth kills someone by playing with a gun they believed to be unloaded (unintentional firearm injury)"
+    },
+    {
+      "type": "list_item",
+      "content": "Deaths that take place in combat in declared or undeclared wars (operation of war – not collected by NVDRS)"
+    },
+    {
+      "type": "list_item",
+      "content": "Death of a child after birth that results indirectly from violence sustained by its mother before its birth, e.g., a death from prematurity following premature labor brought on by violence (coded as “condition originating in the perinatal period – not collected by NVDRS”)"
+    },
+    {
+      "type": "list_item",
+      "content": "Accidental (unintentional) poisoning deaths due to illegal or prescription drug overdose, even when the person who provided those drugs was charged with homicide (unintentional deaths not involving firearms are outside the scope of NVDRS. A death of this type might be within the scope of “undetermined manner of death” below if it cannot be determined whether the death was intentional or unintentional.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Infant deaths due to maternal substance misuse (e.g., exposure to substance through breast milk), with no indication of intent to harm the infant, even when the mother is being charged with homicide."
+    },
+    {
+      "type": "subsection",
+      "content": "C. Undetermined Manner of Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "Undetermined death is a death resulting from the use of force or power against oneself or another person for which the evidence indicating one manner of death is no more compelling than the evidence indicating another manner of death, according to the judgment of death investigators. Homicide and suicide deaths can be detected using the ICD-10 codes and by reviewing the manner of death on the preliminary DC, LE report, or C/ME report. In contrast, identifying undetermined deaths involves looking at the ICD-10 codes and reviewing both underlying cause of death and the manner of death on the preliminary DC, LE report, or C/ME report. The process is described below."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1: Before looking at the manner of death, confirm that the cause of death is known and that it results from the use of force or power against oneself or another person (e.g., gunshot wound, drug overdose, hanging/suffocation, or fall) or that mechanism of death is an unspecified trauma. The NVDRS weapon type must be known for the death to be included with an Abstractor Assigned Manner of Death = “Undetermined.” A manner of death of “Could not be determined” on the DC, LE report, or C/ME report by itself is not sufficient to classify a death as Undetermined for NVDRS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tips on reading the DC: abstractors should review the text or narrative information on the DC to identify the possible cause of death (NVDRS weapon type), particularly the text associated with the Cause of Death (Part I and Part II) and the description for “How the Injury Occurred.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tips on LE and C/ME reports: confirm the NVDRS weapon is known."
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of cases that are potentially Undetermined per NVDRS case definitions where the abstractor should review the manner of death (see Step 2):"
+    },
+    {
+      "type": "list_item",
+      "content": "Victim died of a drug overdose"
+    },
+    {
+      "type": "list_item",
+      "content": "Victim died from a fall off of a cliff"
+    },
+    {
+      "type": "list_item",
+      "content": "A child asphyxiated"
+    },
+    {
+      "type": "list_item",
+      "content": "A victim died from blunt trauma to the head from a fall"
+    },
+    {
+      "type": "list_item",
+      "content": "A victim died from abdominal trauma"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of cases that should not be classified as Undetermined:"
+    },
+    {
+      "type": "list_item",
+      "content": "A body is found in the woods and the cause of death is unknown"
+    },
+    {
+      "type": "list_item",
+      "content": "A 3-month old child is found dead in his/her crib by his/her parents. The cause of death is unspecified."
+    },
+    {
+      "type": "list_item",
+      "content": "Deaths due to “Sudden Unexplained Infant Death” (SUID) or “Sudden Infant Death Syndrome” (SIDS)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2: Deaths meeting the criteria for Step 1 (i.e., the cause of death is known and it results from the use of force or power against oneself or another person and the weapon type is known) can be classified as “Undetermined” in NVDRS if the reason the manner could not be determined is the evidence indicating one manner of death is no more compelling than the evidence indicating another manner of death."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tips on reading the DC: identify deaths with manner of death equal to “Could not be determined” from the “Manner of death” checkbox. Inspect other information to confirm that multiple manners of death are plausible or are being considered."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tips on LE and C/ME reports: confirm the manner of death is “Could not be determined.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of cases that should be classified as Undetermined for NVDRS:"
+    },
+    {
+      "type": "list_item",
+      "content": "Victim died of a drug overdose and it could not be determined if it was unintentional (i.e., accidental) or a suicide"
+    },
+    {
+      "type": "list_item",
+      "content": "Victim died from a fall off a cliff and it could not be determined if it was unintentional or a suicide"
+    },
+    {
+      "type": "list_item",
+      "content": "The victim was found in their home and had died of a head trauma sustained in a fall. Foul play was not ruled out."
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of cases that should not be classified as Undetermined:"
+    },
+    {
+      "type": "list_item",
+      "content": "An adult falls off a cliff while hiking with a group of friends and the manner of death is listed on all three data sources as “Accidental/Unintentional.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3: When the ICD-10 codes for the underlying and contributory causes of death become available, compare deaths classified as undetermined intent by the ICD-10 codes (i.e., those with Y10-Y34, Y87.2 or Y89.9) and the deaths identified using the steps above to identify new cases and possible misclassifications."
+    },
+    {
+      "type": "section",
+      "content": "D. Unintentional Firearm Injury Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unintentional firearm death is defined as a death resulting from a penetrating injury or gunshot wound from a weapon that uses a powder charge to fire a projectile when there was a preponderance of evidence that the shooting was not intentionally directed at the victim. Other types of unintentional deaths (e.g., accidental overdose) are not covered here."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note that the following scenarios should be classified as unintentional firearm deaths:"
+    },
+    {
+      "type": "list_item",
+      "content": "Celebratory firing that was not intended to frighten, control, or harm anyone"
+    },
+    {
+      "type": "list_item",
+      "content": "A person shoots himself/herself when using a gun to frighten, control, or harm another person"
+    },
+    {
+      "type": "list_item",
+      "content": "A child younger than the age of 6 shoots himself/herself or another person"
+    },
+    {
+      "type": "list_item",
+      "content": "A soldier who is shot during field exercises in peacetime"
+    },
+    {
+      "type": "list_item",
+      "content": "A person mistakenly thinks a gun is unloaded and shoots himself/herself or another person while fooling around with it"
+    },
+    {
+      "type": "list_item",
+      "content": "A child who dies after birth from an unintentional firearm injury that is sustained prior to birth (i.e., in utero)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following scenarios should not be classified as unintentional firearm deaths (the preferred NVDRS category is shown in parentheses):"
+    },
+    {
+      "type": "list_item",
+      "content": "A person unintentionally shoots someone while defending himself/herself against an aggressor (homicide)"
+    },
+    {
+      "type": "list_item",
+      "content": "A person unintentionally shoots another person while using a gun to commit a crime (homicide)"
+    },
+    {
+      "type": "list_item",
+      "content": "Firearm injuries caused by unintentionally striking a person with the firearm, e.g., by dropping it on someone’s head rather than with a projectile fired from the firearm (homicide or unintentional)"
+    },
+    {
+      "type": "list_item",
+      "content": "Unintentional injuries from non-powder guns such as BB, pellet, and other compressed air or gas-powered guns (outside of system scope)"
+    },
+    {
+      "type": "section",
+      "content": "E. Legal Intervention Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "Legal intervention death is defined as a death in which the decedent was killed by or died as a result of a law enforcement officer or other peace officer (persons with specified legal authority to use deadly force), including military law enforcement, acting in the line of duty. The term legal intervention is a classification from ICD-10 codes and does not denote the lawfulness or legality of the circumstances surrounding the death."
+    },
+    {
+      "type": "paragraph",
+      "content": "These deaths can occur while a law enforcement officer conducts a random or targeted traffic stop, issues a citation, arrests or is in pursuit to apprehend a victim (e.g., victim fleeing or escaping arrest), responds to a call to maintain order, minimizes disturbances and/or ensures safety (e.g., domestic disturbances, to circumvent suicide crisis), or other actions as part of law enforcement duties."
+    },
+    {
+      "type": "paragraph",
+      "content": "Please note that the following scenarios fall within the definition of legal intervention deaths in NVDRS:"
+    },
+    {
+      "type": "list_item",
+      "content": "Incidents in which the decedent was killed while fleeing from/being pursued by law enforcement, including some scenarios in which the victim was not directly injured by law enforcement officers. Examples include:"
+    },
+    {
+      "type": "list_item",
+      "content": "Victim’s death resulting from a car crash while being pursued by law enforcement in a high-speed chase"
+    },
+    {
+      "type": "list_item",
+      "content": "Victim’s death resulting from attempting to escape law enforcement contact or arrest (e.g., victim runs away from officers, unintentionally falls off a bridge, and dies)"
+    },
+    {
+      "type": "list_item",
+      "content": "Death resulting from a victim being killed by another person unrelated to the event while being pursued by law enforcement (e.g., a motorist hits and kills a victim who was being pursued by law enforcement)"
+    },
+    {
+      "type": "list_item",
+      "content": "Incidents in which the decedent died as the result of force applied by law enforcement officers without clear lethal intent (e.g., restraint, use of typically nonlethal weapon such as a taser)"
+    },
+    {
+      "type": "list_item",
+      "content": "“Justifiable” and “criminal” homicides meeting the above definition"
+    },
+    {
+      "type": "list_item",
+      "content": "Bystanders who are inadvertently killed by law enforcement acting in the line of duty by mechanisms such as firearms, explosives, blunt objects (e.g., batons), sharp objects, or personal weapons"
+    },
+    {
+      "type": "paragraph",
+      "content": "Please note that the following scenarios should not be classified as legal intervention deaths in NVDRS:"
+    },
+    {
+      "type": "list_item",
+      "content": "Legal executions and cases of justifiable homicide not involving a law enforcement or other peace officer"
+    },
+    {
+      "type": "list_item",
+      "content": "Persons who were in contact with and wounded by law enforcement, but who subsequently died from some other means (e.g., a person was shot by law enforcement but subsequently died of a drug overdose)"
+    },
+    {
+      "type": "list_item",
+      "content": "In motor vehicle crash deaths, persons who are not directly involved in law enforcement pursuit of a suspect but are inadvertently killed by law enforcement (e.g., law enforcement hit and kill a pedestrian while in pursuit of a suspected drunk driver; law enforcement unintentionally hit an unrelated car at a stoplight while pursuing a suspect)"
+    },
+    {
+      "type": "list_item",
+      "content": "A passenger is riding in the car of the person who is being pursued by law enforcement but is clearly not involved in the perpetration of the crime (or other reason) which led to the pursuit (e.g., a baby is inadvertently killed when a carjacker being pursued by law enforcement crashes the car)"
+    },
+    {
+      "type": "section",
+      "content": "F. Terrorism-Related Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "Terrorism deaths are homicides or suicides that result from events that are labeled by the Federal Bureau of Investigation (FBI) as acts of terrorism. Terrorism is a mechanism of death rather than a manner of death. The manner of such death is either homicide or suicide."
+    },
+    {
+      "type": "section",
+      "content": "G. Unintentional/Accidental Poisoning Death"
+    },
+    {
+      "type": "paragraph",
+      "content": "These deaths are only applicable to data collected within the State Unintentional Drug Overdose Reporting System (SUDORS) program which also uses the NVDRS platform for data collection. See Appendix B for a comparison of NVDRS and SUDORS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unintentional poisoning deaths are those that result from unexpected or unplanned ingestion, inhalation, injection, or other exposure to an amount of any substance that interferes with normal body functions."
+    },
+    {
+      "type": "section",
+      "content": "V. Violent Death Incident"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike most public health surveillance systems based on individuals, the NVDRS is incident-based and reports all victims and suspects associated with a given incident in one record. An incident is defined as one or more related deaths meeting NVDRS case definitions that occur within the same 24-hour period."
+    },
+    {
+      "type": "paragraph",
+      "content": "A violent death incident can be made up of any of the following:"
+    },
+    {
+      "type": "list_item",
+      "content": "One isolated violent death"
+    },
+    {
+      "type": "list_item",
+      "content": "Two or more homicides, including legal intervention deaths, when:"
+    },
+    {
+      "type": "list_item",
+      "content": "the deaths involve at least one person who is a suspect or victim in the first death and a suspect or victim in the second death, and"
+    },
+    {
+      "type": "list_item",
+      "content": "the fatal injuries are inflicted less than 24 hours apart"
+    },
+    {
+      "type": "list_item",
+      "content": "Two or more suicides or undetermined manner of deaths when:"
+    },
+    {
+      "type": "list_item",
+      "content": "there is some evidence that the second or subsequent death was planned to coincide with or follow the preceding death, and"
+    },
+    {
+      "type": "list_item",
+      "content": "the fatal injuries are inflicted less than 24 hours apart"
+    },
+    {
+      "type": "list_item",
+      "content": "One or more homicides or unintentional firearm deaths combined with one or more suicides when:"
+    },
+    {
+      "type": "list_item",
+      "content": "the suspect in the first death is the person who dies by suicide, and"
+    },
+    {
+      "type": "list_item",
+      "content": "the fatal injuries are inflicted less than 24 hours apart"
+    },
+    {
+      "type": "list_item",
+      "content": "Two or more unintentional firearm deaths when:"
+    },
+    {
+      "type": "list_item",
+      "content": "the same firearm is used to inflict two or more fatal injuries, and"
+    },
+    {
+      "type": "list_item",
+      "content": "the fatal injuries are inflicted by one shot or a burst of shots"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of single incidents that involve more than one death:"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide: A member of Gang A kills a member of Gang B and Gang B retaliates, killing a member of Gang A, all during a street brawl. (The members of Gang A are suspects in the first killing, and one of them becomes the victim in the second.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide: A man kills his family and then drives to work to kill his supervisor (The suspect in the first group of homicides is also the suspect in the second homicide.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide and legal intervention: law enforcement kills a suspect as he flees the scene of a homicide (The first suspect is the victim in the second death.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Suicide: An elderly couple dies by suicide together (The deaths were planned to coincide.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide-suicide: A man kills his wife at home and then dies by suicide 12 hours later when confronted by law enforcement."
+    },
+    {
+      "type": "list_item",
+      "content": "Unintentional firearm-suicide: A boy unintentionally kills his father while hunting and dies by suicide within 24 hours due to feelings of guilt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of separate incidents:"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicides: A sniper kills a person and 2 days later returns to the same location and kills another person (more than 24 hours apart)."
+    },
+    {
+      "type": "list_item",
+      "content": "Suicides: Two teenagers agree to die by suicide on the same day. One dies by suicide on the agreed upon day, while the other does not attempt suicide that day but does so a week later and dies (more than 24 hours apart.)"
+    },
+    {
+      "type": "list_item",
+      "content": "Homicide-suicide: A woman learns that her son has murdered her husband. She dies by suicide because of grief. (The suspect in the first death is not the person who dies by suicide.)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Decisions about whether two or more deaths belong to the same incident should be based on the timing of the injuries, rather than the timing of the deaths and the establishment of a clear link between victims."
+    },
+    {
+      "type": "section",
+      "content": "VI. Resident and Occurrent Violent Death Incidents"
+    },
+    {
+      "type": "subsection",
+      "content": "A. Resident Incident"
+    }
+  ]
+}

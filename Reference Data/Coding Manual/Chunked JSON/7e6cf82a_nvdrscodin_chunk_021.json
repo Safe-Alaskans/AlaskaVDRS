@@ -1,0 +1,379 @@
+{
+  "summary": [
+    "This document outlines the toxicology variables and child fatality review optional module, detailing definitions, response options, and discussions for each variable. It provides a comprehensive framework for understanding the relationship between toxicology findings and fatal incidents, including the impact of substances on victims and the circumstances surrounding child fatalities. The information is structured to facilitate data collection and analysis in these critical areas."
+  ],
+  "keywords": [
+    "Toxicology",
+    "Substance Testing",
+    "Child Fatality Review",
+    "Drug Categories",
+    "Alcohol Level",
+    "Carbon Monoxide",
+    "Prescription Drugs",
+    "Disability",
+    "Prenatal Care",
+    "Victim Analysis"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "8. Toxicology Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reference: The look-up table is based upon data from the Lexi-Comp drug database: Lexi-Comp OnlineTM, Hudson, Ohio: Lexi-Comp, Inc.; August 14, 2012 and reports of the data should recognize the license appropriately."
+    },
+    {
+      "type": "subsection",
+      "content": "8.7 Substance Tested: SubstanceTested"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Substance was tested for according to the toxicology report."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Tested\n2. Not tested\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables indicate whether the victim’s blood, urine, vitreous humor (ocular fluid), bile, or other specimens were tested for a variety of drugs or their metabolites by any standard toxicology screening method. Each substance is entered as a row in the toxicology table and there is no limit on the number of substances that can be entered."
+    },
+    {
+      "type": "subsection",
+      "content": "8.8 Substance Result: SubstanceResult"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Toxicology test results for the substance."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Present (e.g., “positive,” “presumptive presence,” or having a numeric level greater than 0)\n2. Not present\n8. Not applicable (e.g., Testing was not done)\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: When Substances Tested is “Unknown” or “Not Tested,” the program will automatically code the Substance Result as “Not applicable.” Each substance is entered as a row in the toxicology table and there is no limit on the number of substances that can be entered."
+    },
+    {
+      "type": "subsection",
+      "content": "8.9 Substance Caused Death: SubstanceCausedDeath"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Substance clearly identified as the cause of death."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No, Unknown\n1. Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The “Cause of Death” variable captures any substance that caused or contributed to the substance overdose death. If a source document clearly identifies a single substance as the cause of death, code only that substance as causing the death. A substance listed as a contributing cause of death on the DC or listed as a contributing cause in the C/ME report or elsewhere (e.g., within the toxicology report itself) should be checked as a “Cause of Death.” For example, if the DC does not specify that a certain substance contributed to death but elsewhere in the C/ME report it is indicated that the substance did contribute (e.g., C/ME noted that the decedent tested positive for a lethal concentration of fentanyl), the “Cause of Death” box for that substance should be checked."
+    },
+    {
+      "type": "paragraph",
+      "content": "If multiple substances are identified with no indication as to which one caused the death of the victim, code all listed substances that are suspected of being involved as cause of death. When victims have been exposed to multiple toxic substances, data providers may not be able to determine which of them was primarily responsible for causing death. Therefore, this code accommodates the entry of multiple substances. Each substance is entered as a row in the toxicology table and there is no limit on the number of substances that can be entered."
+    },
+    {
+      "type": "paragraph",
+      "content": "If a substance class (e.g., opioids) is listed as a contributing cause on the DC AND multiple substances in that substance class were identified by toxicology, the abstractor should check all of the substances in the substance class detected as a “Cause of Death.” For instance, heroin and oxycodone would be checked as “Cause of Death” if the substances were detected by toxicology testing and “opioid” was listed as a contributing cause of death on the DC."
+    },
+    {
+      "type": "paragraph",
+      "content": "For substance overdose deaths where the only cause of death information listed on the DC and C/ME report is “Polysubstance,” “Poly drug,” “Multiple substances,” “Combined toxicity,” or another phrase implicating the involvement of multiple drugs, the abstractor should check “Cause of Death” for all substances that were detected by toxicology tests."
+    },
+    {
+      "type": "list_item",
+      "content": "If, however, the cause of death indicates “substance overdose,” “drug toxicity,” or something similar and only one substance is positive on post-mortem toxicology, the “Cause of Death” box should be checked for that substance."
+    },
+    {
+      "type": "subsection",
+      "content": "8.10 Person Prescribed for: DrugObtainedFor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: For prescription drugs, this describes the relationship between the victim and the person to whom the prescription medications were prescribed."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Self\n2. Intimate Partner\n3. Family (non-intimate partner)\n4. Other\n5. Not prescribed for decedent, unknown who prescribed for\n8. Not applicable (e.g., not a prescribed drug)\n9. Relationship Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable can be used to better understand how the victim or suspect obtained prescription medications. Please record the person for whom the drug(s) taken were prescribed. Over-the-counter medications are by definition not obtained through prescription and may be coded “Not applicable.” Each substance is entered as a row in the toxicology table and there is no limit on the number of substances that can be entered."
+    },
+    {
+      "type": "paragraph",
+      "content": "The option “5 – Not Prescribed for decedent, unknown who prescribed for” should be endorsed when the substance is present on toxicology, but there is evidence that it was not prescribed to the decedent (and not enough evidence to indicate for whom it was prescribed, e.g., a prescription bottle with the label ripped off)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The option “9 – Relationship Unknown” should be endorsed when the drug is present on toxicology, but records do not mention who the drug was prescribed for (so they could have been prescribed to the victim, but it is unclear). If there is uncertainty in the prescription relationship (e.g., either self or someone else), we recommend endorsing “Person Prescribed For” as “9 – Relationship Unknown” and including any prescription information in the narrative."
+    },
+    {
+      "type": "subsection",
+      "content": "8.11 Substance Categories: SubstanceClass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Substance categories."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options: (auto-populated)\n1. Alcohol\n2. Amphetamines\n3. Antidepressants\n4. Antipsychotics\n5. Benzodiazepines\n6. Barbiturates\n7. Cocaine\n8. Carbon Monoxide\n9. Marijuana\n10. Anticonvulsants\n11. Muscle Relaxants\n12. Opiates\n88. Not applicable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The substance category will match the name of the category in the toxicology summary when applicable. For drugs that do not fall into any of the summary categories, the category “Not applicable” will be displayed. Each substance is entered as a row in the toxicology table and there is no limit on the number of substances that can be entered."
+    },
+    {
+      "type": "subsection",
+      "content": "8.12 Summary: Substances Tested For"
+    },
+    {
+      "type": "list_item",
+      "content": "8.12.1 Tested for alcohol: AlcoholTested\n8.12.2 Tested for carbon monoxide: CarbonMonoxideTested\n8.12.3 Tested for amphetamine: AmphetamineTested\n8.12.4 Tested for anticonvulsants: AnticonvulsantTested\n8.12.5 Tested for Antidepressants: AntidepressantsTested\n8.12.6 Tested for Antipsychotics: AntipsychoticsTested\n8.12.7 Tested for barbiturates: BarbituratesTested\n8.12.8 Tested for benzodiazepines: BenzodiazepinesTested\n8.12.9 Tested for cocaine: CocaineTested\n8.12.10 Tested for marijuana: MarijuanaTested\n8.12.11 Tested for muscle relaxant: MuscleRelaxantTested\n8.12.12 Tested for opiate: OpiateTested"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Summary of substance results."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Tested\n0. Not tested\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This set of variables identifies whether certain types of substances were tested for. This can help identify jurisdictions that routinely run toxicology tests on victims. Note: The following summary categories were added in August 2013: anticonvulsants, antipsychotics, barbiturates, benzodiazepines, and muscle relaxants."
+    },
+    {
+      "type": "subsection",
+      "content": "8.13 Summary: Results of Substances Tested For"
+    },
+    {
+      "type": "list_item",
+      "content": "8.13.1 Alcohol results summary: AlcoholResult\n8.13.2 Carbon monoxide results summary: CarbonMonoxideResult\n8.13.3 Amphetamine results summary: AmphetamineResult\n8.13.4 Anticonvulsants results summary: AnticonvulsantResult\n8.13.5 Antidepressants results summary: AntidepressantsResult\n8.13.6 Antipsychotics results summary: AntipsychoticsResult\n8.13.7 Barbiturates results summary: BarbituratesResult\n8.13.8 Benzodiazepines results summary: BenzodiazepinesResult\n8.13.9 Cocaine results summary: CocaineResult\n8.13.10 Marijuana results summary: MarijuanaResult\n8.13.11 Muscle relaxant results summary: MuscleRelaxantResult\n8.13.12 Opiate results summary: OpiateResult"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Summary of substance results."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Present\n2. Not present\n8. Not applicable (e.g., Testing was not done)\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This set of variables identifies whether the tests for various drugs or their metabolites were positive or negative. Findings can assist in exploring the relationship between drug use and violent death. The variables can also be used to document the presence of certain psychiatric medications among suicide victims in jurisdictions that test for these substances. If a test result for a substance was “Not tested” or “Unknown,” the program will automatically auto-fill the results for this variable as “Not applicable.” This information will be auto-populated based on the substances entered in the Toxicology Findings section. Note: The following summary categories were added in August 2013: anticonvulsants, antipsychotics, barbiturates, benzodiazepines, and muscle relaxants."
+    },
+    {
+      "type": "subsection",
+      "content": "8.14 Blood Alcohol Level: AlcoholLevel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Blood alcohol level."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options: Please enter all three digits of the blood alcohol concentration (BAC), if available. Trailing zeroes are added for all values that are not three digits (e.g., .08 becomes .080).\n0.### Blood alcohol level in mg/dl\n0.010 BAC report indicates “trace” amounts without numeric value\n0.000 Below the detection limit of the test (“<0.01%” or “Non-detectable”)\n0.888 Not applicable, no testing\n0.999 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These data will assist in exploring the relationship between alcohol intoxication and violent death when interpreted in conjunction with data on time of injury, time of death, and time at which body specimens were drawn."
+    },
+    {
+      "type": "list_item",
+      "content": "Blood alcohol levels are coded in terms of percent by volume (serum %). Percent by volume equals the milligrams of alcohol found per deciliter of blood (mg/dl) divided by 1000. For example, a level of 30 mg/dl would be 0.030% alcohol. How labs report BAC varies. Many use the format used here (serum %), while others report BAC as milligrams of alcohol per deciliter of blood (mg/dl) — as in 30 mg/dl. To convert mg/dl results to serum % results, divide by 1,000. Only BAC levels should be entered here; levels based on other body fluids such as vitreous fluid should not. Use caution when interpreting BAC levels because variation in the time elapsed between ingestion of substances, time of death, and time of drawing body specimens for toxicological analysis will affect the outcome.\nBAC reported less than 0.01% should be interpreted as “Not present” in the alcohol test results summary field and entered as 0.000 for this BAC variable.\nAlcohol that appears in the blood as a result of decomposition rather than ingestion does not generally measure more than 0.040%. If source documents attribute a BAC level entirely to decomposition, do not record it. If source documents attribute it “partially” or “possibly” to decomposition, record it and add an appropriate note to the incident narrative.\nBAC should only be entered for ethanol (e.g., alcohol, ethyl alcohol, or drinking alcohol) and not for other substances such as methanol."
+    },
+    {
+      "type": "subsection",
+      "content": "8.15 Carbon Monoxide Source: CarbonMonoxideSource"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Source of carbon monoxide."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n1. Motorized vehicle (e.g., car, truck, bus, motorcycle, boat)\n2. Other\n3. Gas tool/appliance/heater\n4. Grill or barbeque (gas or charcoal, includes hibachi grills)\n5. Fire (e.g., house fire)\n8. Not applicable\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This information may be used to understand carbon monoxide sources to prevent suicides and homicides related to fire."
+    },
+    {
+      "type": "subsection",
+      "content": "8.16 Comments: ToxicologyComments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Enter comments about substances or toxicology tests in this field, including substances not included in the substance look-up field."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: If a substance is not on the substance look-up table, please put the information in this field. Also, contact CDC (NVDRS-Coding@cdc.gov) so they can update the substance list. Note: This variable was added in August 2013."
+    },
+    {
+      "type": "section",
+      "content": "9. Child Fatality Review Optional Module"
+    },
+    {
+      "type": "subsection",
+      "content": "9.1.1 Witness(es) to fatal incident: CFR_Witness"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Were there any witnesses to the incident?"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n7. Not collected by reporting site\n8. Not applicable\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Witness(es) include any person(s) other than a suspect who was present and observed the incident that led to the child’s death. The caregiver can be considered a witness, but only if that person was not also the perpetrator."
+    },
+    {
+      "type": "subsection",
+      "content": "9.1.2 Child Witness(es) to fatal incident: CFR_ChildWitness"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Were there any child witnesses to the incident?"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n7. Not collected by reporting site\n8. Not applicable\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: A child witness is defined as a person younger than 18 years of age who was present and observed the fatal incident."
+    },
+    {
+      "type": "subsection",
+      "content": "9.1.3 CFR additional information: CFR_AdditionalInformation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Text field for describing additional relevant information provided by the CFR data source."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Option: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: As a text field, use this area to clarify circumstances surrounding the death that may not be clear from the CFR data elements or other NVDRS data sources. For example, unusual circumstances surrounding the death, household composition, supervision, or CFR committee decisions would be helpful in this text box. Also, coding options for several variables require further explanation in the incident narrative; that information should be included here. This box should only reflect unique information gathered from CFR, as it is a document-based system."
+    },
+    {
+      "type": "subsection",
+      "content": "9.1.4 CFR records available on victim: CFR_CFRRecordsAvailable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Describes whether CFR records are available for this victim."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n7. Not collected by local CFR team\n8. Not applicable\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code CFR_CFRRecordsAvailable as “No” if the records have been requested for a child victim and the CFR program either does not have a record for the victim or is unable to supply the record."
+    },
+    {
+      "type": "subsection",
+      "content": "9.1.5 Scene investigation by law enforcement/CME: CFR_SceneInvestigationLE/CME"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Describes whether or not there was a scene investigation conducted by law enforcement or the coroner/medical examiner."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n7. Unknown\n8. Not collected by local CFR team\n9. Not applicable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: None"
+    },
+    {
+      "type": "subsection",
+      "content": "9.2 Physical illness, Disability, Prenatal Variables"
+    },
+    {
+      "type": "list_item",
+      "content": "9.2.1 Victim had a physical illness at time of incident: CFR_VictimPhysicalIllness\n9.2.2 If yes, specify diagnosis: CFR_Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nVictimPhysicalIllness: Victim had an acute or chronic illness at the time of the incident.\nDiagnosis: Free text field to indicate diagnosis if victim was ill at the time of the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nVictimPhysicalIllness\n0. No, Not Available, Unknown\n1. Yes\n\nDiagnosis: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Physical illness may be acute (e.g., viral gastroenteritis, pneumonia) or chronic (e.g., diabetes, asthma, sickle cell anemia).\nIf the chronic illness did not impose increased care demands at the time of the incident, do not code “Yes.”\nThe severity of the illness should not be considered when coding CFR_VictimPhysicalIllness.\nAny mention in the record of the victim being physically ill at the time of the incident is sufficient to warrant coding CFR_VictimPhysicalIllness as “Yes.”\nExamples:\nFor example, if a child had a history of asthma, but had no acute exacerbation at the time of the incident, code “No.”"
+    },
+    {
+      "type": "list_item",
+      "content": "9.2.3 Victim had disability at time of incident: CFR_VictimDisability\n9.2.4 If yes, disability was physical: CFR_VictimDisabilityPhysical\n9.2.5 If yes, disability was developmental: CFR_VictimDisabilityDevelopmental\n9.2.6 If yes, disability was sensory: CFR_VictimDisabilitySensory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nVictimDisability: Victim had a disability at the time of the incident.\nVictimDisabilityPhysical: Victim’s disability was physical (e.g., paraplegic, cerebral palsy).\nVictimDisabilityDevelopmental: Victim’s disability was developmental (e.g., intellectual disability, autistic).\nVictimDisabilitySensory: Victim’s disability was sensory (e.g., blind, deaf)."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No, Not Available, Unknown\n1. Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Physical disability implies a chronic physical impairment that has a substantial, long-term effect on the child’s day-to-day function (e.g., cerebral palsy, traumatic brain injury). Developmental disability implies a chronic cognitive or developmental deficit that has a substantial, long-term effect on the child’s day-to-day function (as expressed by terms that may be found in source documents, such as autism, intellectual impairments, “mentally challenged,” “mental retardation,” “special needs,” etc.). Sensory disability implies a chronic sensory deficit that has a substantial, long-term impact on the child’s day-to-day functioning (e.g., blindness, deafness)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prematurity in and of itself should not be considered an illness or a disability unless it resulted in a condition that fits into one of those categories (e.g., chronic lung disease, visual impairment).\nPlease see Prenatal History variables to code for prematurity.\nIf a child was not specifically diagnosed with or documented to have one of the listed disabilities, answer “No.”\nThe answer “No” may thereby include missing and unknown and “Known not to be present.”\nThe information used to complete this data element may come from parental history (as per LE reports or CPS records), medical records, and/or autopsy."
+    },
+    {
+      "type": "subsection",
+      "content": "9.2.7 Infants: Prenatal care prior to the 3rd trimester: CFR_InfPrenatCarePri3rdTrim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim’s (birth) mother received prenatal care prior to 3rd trimester."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n7. Not collected by local CFR team\n8. Not applicable\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Do not collect for victims one year of age or older. Prenatal care is defined as pregnancy-related medical care delivered by a doctor, nurse, or other healthcare professional with the goal of monitoring the pregnancy, providing education, and increasing the likelihood of a positive maternal and fetal outcome. Answer “Yes” only if there are documented prenatal visits before the third trimester."
+    },
+    {
+      "type": "subsection",
+      "content": "9.2.8 Infants: Maternal recreational drug use: CFR_InfantsMaternRecDrugUse\n9.2.9 Infants: Maternal alcohol use: CFR_InfantsMaternAlcoholUse\n9.2.10 Infants: Maternal tobacco use: CFR_InfantsMaternTobaccoUse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCFR_InfantsMaternRecDrugUse: Victim was exposed to recreational drugs in utero.\nCFR_InfantsMaternAlcoholUse: Victim was exposed to alcohol in utero.\nCFR_InfantsMaternTobaccoUse: Victim was exposed to tobacco in utero."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0. No\n1. Yes\n7. Not collected by local CFR team\n8. Not applicable\n9. Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Do not collect these items for victims one year of age or older. Prenatal care is defined as pregnancy-related medical care delivered by a doctor, nurse, or other healthcare professional with the goal of monitoring the pregnancy, providing education, and increasing the likelihood of a positive maternal and fetal outcome."
+    }
+  ]
+}

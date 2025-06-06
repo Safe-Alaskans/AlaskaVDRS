@@ -1,0 +1,117 @@
+Labs CONFIDENTIAL
+
+123 Sesame Street
+Phone: 123-456-7891 Fax: 123-456-7891 e-mail:
+
+labs@labs.com
+
+Toxicology Report
+Report Issued 11/25/2023 14:32
+
+To: 10261
+State Medical Examiners Office
+Attn: Jane Smith
+456 Highway, NY 12345
+
+Positive Findings:
+
+Patient Name
+Patient ID
+Chain
+DOB
+Sex
+Workorder
+Page 1 of 2
+
+WILSON, ROBERT
+0000-00001
+AB0001
+1/1/1978
+Male
+00001
+
+None Detected
+
+See Detailed Findings section for additional information
+Testing Requested:
+Test Test Name
+8051TI
+Specimens
+Received:
+
+Postmortem, Basic, Tissue (Forensic)
+
+ID Tube/Container Volume/ Collection Matrix Source Mass Date/Time Labeled As
+001 Red Stopper Glass
+Tube
+
+0.2 mL 11/21/2023 Vitreous Fluid 2023-02556
+
+002 Red Stopper Glass
+Tube
+
+9 mL 11/21/2023 Urine 2023-02556
+003 Plastic Bag 82.3 g 11/21/2023 Liver Tissue 23-2556
+004 Homogenate
+Container
+
+Not Given 11/21/2023 Liver Tissue Not Applicable
+
+All sample volumes/weights are approximations. Specimens received on
+11/22/2023.
+
+v.27.0
+
+CONFIDENTIAL Workorder 00001
+Chain AB0001
+Patient ID 0000-0001
+Page 2 of 2
+
+Detailed Findings:
+Examination of the specimen(s) submitted did not reveal any positive findings of toxicological significance by
+procedures outlined in the accompanying Analysis Summary.
+
+Sample Comments:
+001 Physician/Pathologist Name: Jane Smith
+003 Tissue specimen required homogenization: 0000-003
+004 Labs generated homogenized Tissue sample: 0000-004
+
+Unless alternate arrangements are made by you, the remainder of the submitted specimens will be discarded two (2)
+years from the date of this report; and generated data will be discarded five (5) years from the date the analyses were
+performed.
+
+Workorder 0001 was electronically signed on
+11/25/2023 14:32 by:
+
+Sarah Jones, Ph.D., F-ABFT
+Forensic Toxicologist
+
+Analysis Summary and Reporting Limits:
+All of the following tests were performed for this case. For each test, the compounds listed were included in the scope. The
+Reporting Limit listed for each compound represents the lowest concentration of the compound that will be reported as being
+positive. If the compound is listed as None Detected, it is not present above the Reporting Limit. Please refer to the Positive
+Findings section of the report for those compounds that were identified as being present.
+
+Test 8051TI - Postmortem, Basic, Tissue (Forensic) - Liver Tissue
+
+-Analysis by Enzyme-Linked Immunosorbent Assay (ELISA) for:
+Analyte Rpt. Limit Analyte Rpt. Limit
+Amphetamines 80 ng/g
+Barbiturates 0.16 mcg/g
+Benzodiazepines 400 ng/g
+Buprenorphine /
+Metabolite 2.0 ng/g
+Cannabinoids 40 ng/g
+Cocaine / Metabolites 80 ng/g
+
+-Analysis by Headspace Gas Chromatography (GC) for:
+
+Fentanyl / Acetyl Fentanyl 4.0 ng/g
+Methadone / Metabolite 100 ng/g
+Methamphetamine / MDMA 80 ng/g
+Opiates 80 ng/g
+Oxycodone / Oxymorphone 40 ng/g
+Phencyclidine 40 ng/g
+
+Analyte Rpt. Limit Analyte Rpt. Limit
+Acetone 20 mg

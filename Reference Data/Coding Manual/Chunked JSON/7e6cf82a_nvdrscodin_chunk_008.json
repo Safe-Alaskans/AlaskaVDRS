@@ -1,0 +1,287 @@
+{
+  "summary": [
+    "This document outlines various injury and death variables, including definitions, response options, and discussions for each variable related to victims' circumstances during incidents. It covers aspects such as the location of injury, presence of emergency medical services, custody status, recent institutional releases, suspected alcohol use, survival time, and the presence of children during fatal incidents. Additionally, it details hospital codes and underlying causes of death, providing a comprehensive framework for data collection and analysis in violent injury cases."
+  ],
+  "keywords": [
+    "Injury Variables",
+    "Death Variables",
+    "Victim Home",
+    "Emergency Medical Services",
+    "Custody Status",
+    "Alcohol Use",
+    "Survival Time",
+    "Hospital Codes",
+    "Underlying Cause of Death",
+    "Data Collection"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 4. Injury and Death Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Students injured while going to school or on school ground should not be considered injured at work."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.5 Injured at victim’s home: InjuredAtVictimHome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Injury occurred at the person’s residence."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable is completed for each victim in an incident and is victim-specific (e.g., if two victims are killed in a home and the first victim lived there, code as “Yes.” If the second victim was visiting for dinner, code as “No.” The victim’s residence includes any homes they own (e.g., vacation/second homes). A victim who resides in an institution (e.g., jail, locked mental health facility, long-term care facility, etc.) should be coded “No” even though he/she resides in the institution."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.6 EMS at scene: EMSPresent"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Emergency medical services (EMS) were at the scene of the injury incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: EMS status describes their involvement of emergency medical services in violent injury cases. This may assist in planning and evaluating EMS services and in capturing costs associated with violence. Code \"EMSPresent\" to indicate the presence of medical services at the scene and not to indicate whether any medical services were delivered. If the victim was transported from the scene via ambulance, code this variable as “Yes.”"
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.7 Victim in custody when injured: VictimInCustody"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Person was in public custody when injury occurred."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 Not in custody\n1 In jail or prison\n2 Under arrest but not in jail\n3 Committed to mental hospital\n4 Resident of other state institution\n5 In foster care (i.e., child in out-of-home placement)\n6 Injured prior to arrest\n8 Other (including house arrest, electronic monitoring, legal home confinement)\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: A victim is in public custody if he or she is under arrest, in foster care (i.e., out of home placement), or remanded by law to an institution such as a jail, prison, detention center, psychiatric ward, or hospital, or other institution. Custody is coded based on when the fatal injury was inflicted or when the death occurred."
+    },
+    {
+      "type": "list_item",
+      "content": "If the injury was inflicted while the person was not in custody, but they died in custody, code as “Victim in custody when injured.” Code the applicable response option “1 through 8.”\nThe response “In jail or prison” also covers incarcerations in juvenile detention facilities and other detention facilities.\nAbstractors must distinguish between voluntary and involuntary commitments when coding this variable:\nThe response, “Committed to mental hospital” includes involuntary commitments and involuntary observations at psychiatric wards within standard hospitals or at psychiatric institutions. These types of commitments should be coded with the appropriate institution (e.g., mental hospital would be “3”).\nPeople who voluntarily commit themselves should not be coded as “In custody,” or “Not in custody.”"
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.8 Recent release from institution: RecentRelease"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Deaths that occurred within a month of the decedent being released from an institutional setting."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No evidence of recent release\n1 Jail, prison, or a detention facility\n2 Hospital\n3 Psychiatric hospital\n4 Other psychiatric institution\n5 Long-term residential health facility (e.g., nursing home)\n6 Supervised residential facility related to alcohol or substance abuse treatment (e.g., residential treatment facility, sober house, or group home)\n7 Supervised residential facilities not related to alcohol or substance abuse treatment (e.g., halfway houses or work-release homes)\n9 Other\n99 Unknown type of institution"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable should be coded as “0” if there is no evidence of a release within the past month from an institutionalized setting in the data sources. In contrast, if there is evidence that the victim was released from an institutionalized setting in the last month, the type of institution (e.g., jail, hospital, or psychiatric hospital) should be coded. The decedent is considered institutionalized if they spent one or more nights in the institution. For instance, if a victim was released 3 days ago from an overnight institutional stay or a stay of over a year, the abstractor would record the type of institution from which they were released. If a victim was recently released from more than one facility/institution, code the one from which they were MOST RECENTLY released."
+    },
+    {
+      "type": "list_item",
+      "content": "In contrast to the variable “Victim in custody when injured,” code both voluntary and involuntary commitments. The death should be coded as “0” if a decedent visits an institution for medical care (e.g., emergency department) and does not stay overnight or is arrested and not held overnight.\nDeaths that occur while the decedent is living at the institution should not be coded. The type of institution, however, should be coded in the variable, “Victim in custody when injured.”\nIf the source document(s) indicates the victim was “just” or “recently” released and provides no specific timing on the release, the abstractor should consider the victim recently released and record the type of institution from which he or she was released.\nIf the victim was hospitalized in a psychiatric ward of a non-psychiatric hospital, code type of institution as “Psychiatric hospital.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "When this code is endorsed, the narrative should include information about the reason for being institutionalized (e.g., incarcerated for aggravated assault, hospitalized for a broken hip, or released from court mandated substance treatment), the type of institution (e.g., hospital or prison), the length of time the decedent was institutionalized, and problems related to the release, if applicable (e.g., unable to find a job or financial difficulties after release)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.9 Alcohol use suspected when injured: AlcoholUseSuspected"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: This variable captures the victim’s suspected alcohol use in the hours preceding the incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: “AlcoholUseSuspected” can be coded as “Yes” based on witness or investigator reports (e.g., LE note that the victim “had been drinking heavily”), or circumstantial evidence (e.g., empty six pack scattered around suicide victim). This variable refers only to alcohol use and not drug use. The phrase “in the hours preceding the incident” can be interpreted relatively broadly:"
+    },
+    {
+      "type": "list_item",
+      "content": "If there is no evidence of alcohol use, code this variable as “No.”\nUse the “Unknown” option only if the source does not have a narrative that could provide the evidence of alcohol use. If the narrative does not mention use of alcohol in any way, code “No.”\nThis code should be based solely on the scene investigation and should not refer to toxicology reports. This allows a comparison and integration of the scene investigation with toxicology information which is important."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.10 Survival time (no. of units): SurvivalTime"
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.11 Unit of time used in survival time: SurvivalTimeUnit"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nSurvivalTime: Interval between injury and death\nSurvivalTimeUnit: Unit used to report interval between injury and death"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nSurvivalTime\n888 Not applicable\n999 Unknown\n\nSurvivalTimeUnit\n0 Seconds\n1 Minutes\n2 Hours\n3 Days\n4 Years\n5 Months\n7 Instant\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Survival time is noted on the DC in the section called “Approximate interval between onset and death” to the right of the cause of death text. It is often either explicitly mentioned in the C/ME’s report or it can be calculated based on date and time of injury and death."
+    },
+    {
+      "type": "list_item",
+      "content": "Use only the survival time listed for the violent injury.\nDo not use the survival time listed for the consequences or complications of injury.\nDo not add the survival times listed next to each cause of death listed on the DC.\nIf date and time of injury of death are unknown, do not calculate survival based on the interval between the time the person was last seen and the body was found (unless that was less than 2 hours).\nIndicate the length of survival interval in SurvivalTime and the units of measurement for the interval (e.g., minutes, hours, days) in SurvivalTimeUnits:\nUse minutes for under 2 hours.\nUse hours for 2 through 47 hours.\nUse days for 48 hours and more.\nDays should be labeled in months beyond 30 days and less than 365.\nUse years for 365 or more days or for 12 or more months.\nRound to the nearest whole number.\nIf survival time was noted as a range, use the high end of the range (e.g., 15–30 minutes, use 30).\nIf survival time is not precisely noted, indicate “999” in SurvivalTime and the applicable unit in SurvivalTimeUnits (e.g., “patient survived a few minutes” would be “999” in SurvivalTime and 1 in SurvivalTimeUnits).\nIf death is described as “instant (or instantaneous),” “immediate,” or “sudden,” indicate “0” in SurvivalTime and “7” in SurvivalTimeUnits."
+    },
+    {
+      "type": "subsection",
+      "content": "4.3.12 Children present and/or witnessed fatal incident: ChildPresent"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Child(ren) present during and/or witnessed the fatal incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nTextbox: Enter one of the following response options; ONLY select one.\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Child(ren) present is defined as a person younger than 18 years of age who was present during the fatal incident. The source documents do not have to indicate if a child(ren) observed (saw or heard) the fatal event. This variable identifies children who were present and therefore could have been exposed to or witnessed acts of significant violence (i.e., fatal incidents). This exposure can occur in any type of setting, not only in the home of the child witness or others involved in the incident. This variable is NOT applicable if underage suspects were the only children present/witnessing the fatal incident. Guidance is as follows:"
+    },
+    {
+      "type": "list_item",
+      "content": "Code “Yes” if a child (person under 18 years of age, including infants [i.e., a child <1 year of age]) was present when the fatal injur(ies) occurred. This can include children who were nonfatally injured as part of the incident, and other children who were present and uninjured. This can include children who are able to “hear” or “witness” the fatal incident via the phone or technology (e.g., FaceTime). Code “Yes” if the source documents indicate a child (person under 18 years of age) was asleep or in another room in the house when the fatal injur(ies) occurred.\nCode “Yes” if the child(ren) found the decedent after the fatal injuries occurred, were there when others found the decedent fatally injured, or if the child(ren) were at the scene shortly after the decedent was found (e.g., while police were investigating or EMS had arrived).\nCode “Yes” if a child found the body of the decedent(s) in a public place, even if they did not know the decedent(s). They likely did not witness the fatal incident in this scenario, but were exposed to its aftermath.\nCode “No” if the children present at the time of the fatal incident were all fatally injured in the incident. This variable reflects living “witnesses” only.\nCode “No” if a person(s) 18 years of age or older was present and observed the fatal incident.\nCode “No” if the child present was a prenatal (i.e., fetus) “witness.”\nCode “No” if it is clear in the source documents that no child(ren) witnessed and/or were present during the fatal incident. For example, code “No” if only another adult(s) witnessed and/or was present during the fatal incident.\nCode “No” if the source documents indicate the victim was alone when the fatal incident occurred.\nCode “Unknown” only if the source does not include a narrative that could provide the evidence that child(ren) witnessed and/or were present, or if based on the limited information provided in the source documents, it is unknown if a child was present and/or witnessed the fatal event."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in November 2020. Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "4.4 Hospital Codes"
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.1 Victim seen in emergency department: EmergencyDepartment"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was seen in an emergency department following the fatal incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCode “Yes” for victims who arrived at the emergency department regardless of whether they were dead or alive on arrival and regardless of whether or not they received treatment.\nAlso code: Code “Yes” if the victim was admitted to inpatient care. Most violent injury patients will have been seen in the emergency department if they were later admitted to inpatient care."
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.2 Victim admitted to inpatient care: HospitalAdmit"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was admitted to the hospital for inpatient care following the fatal incident."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Collected, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nVictims who were admitted to inpatient care should be coded as “Yes.”\nCode as “No” if a victim was admitted for an “observation only” overnight stay and not admitted as an inpatient.\nIf the victim was noted as having been in the operating room, code as “Yes” even if they died in the operating room.\nCode as “Yes” if DeathPlace for victim is “1 – Hospital Inpatient.”"
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.3 ICD-9-CM Hospital Code Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.3.1 First external cause of injury ICD9 code by hospital: ExternalCause1ICD9"
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.3.2 Second external cause of injury ICD9 code by hospital: ExternalCause2ICD9"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: E-codes are specialized ICD-9-CM codes used to identify the cause of the fatal injury and are identified by an “E” before the number."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nHospitals provide codes in ICD format: E###.\n# 000.7 Not collected by reporting site\n# 000.8 Not applicable\n# 000.9 Unknown or missing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables should be coded as they appear in the hospital discharge data, or, if unavailable, in the emergency department records. Note the following guidance:\nE-codes are assigned by the medical records department using the International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9-CM), to describe the external cause of injury. Thus, the codes supply information about whether a hospital visit involved suicidal behavior or being assaulted and mechanism of injury (e.g., poison or gun).\nType in the “E” when entering the code unless the “Not collected by reporting site,” “Not applicable,” or “Unknown or missing” codes are being used.\nDO NOT ENTER other ICD-9-CM codes that are not e-codes (i.e., these codes will not have an “E” as the first digit).\nDo not use trailing zeroes after the decimal point (unless a true zero is part of the actual code).\nThese codes will eventually be phased out and replaced by the ICD-10-CM codes."
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.4 ICD-10-CM Hospital Code Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.4.1 First external cause of injury ICD10 code by hospital: ExternalCause1ICD10"
+    },
+    {
+      "type": "subsection",
+      "content": "4.4.4.2 Second external cause of injury ICD10 code by hospital: ExternalCause2ICD10"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: U.S. hospitals will eventually be moving from the ICD-9-CM codes to the ICD-10-CM codes. These variables allow the user to enter such codes as hospitals transition to them."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nHospitals provide codes in ICD format: ###.\n# 000.7 Not collected by reporting site\n# 000.8 Not applicable\n# 000.9 Unknown or missing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: These variables should be coded as they appear in the hospital discharge data, or, if unavailable, in the emergency department records. Do not use trailing zeroes after the decimal point (unless a true zero is part of the actual code). These codes will remain inactive until hospitals start to use them."
+    },
+    {
+      "type": "subsection",
+      "content": "4.5 Wounds and Death Certificate"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.1 Underlying Cause of Death Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.1.1 Underlying cause of death ICD-10 code: UnderlyingCauseCode"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.1.2 Underlying cause of death ICD-10 code 4th digit: UnderlyingCauseCode4thDigit"
+    },
+    {
+      "type": "subsection",
+      "content": "4.5.1.3 Underlying cause of death ICD-10 code 5th digit: UnderlyingCauseCode5thDigit"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nUnderlyingCauseCode: Underlying cause-of-death code (ICD-10)\n4th_ICD: 4th character\n5th_ICD: 5th character"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nUnderlyingCauseCode: ICD-10 Format: L##. ## (the first character must be a letter, followed by at least two and up to four digits) Use “99999 - L99.99” for missing values.\nUnderlyingCauseCode4thDigit: ICD-10 coding of 4th character (type of place of occurrence) — applies only to codes in the W32 to Y34 range, except Y06 and Y07.\n0 Home\n1 Residential institution\n2 School, institution, public administrative area (e.g., courthouse, hospital, daycare center)\n3 Sports and athletic area\n4 Street and highway\n5 Trade and service area\n6 Industrial and construction (e.g., factory, shipyard)\n7 Farm\n8 Other\n9 Unspecified\n\nUnderlyingCauseCode5thDigit: ICD-10 coding of 5th character (type of activity when injured) — applies only to codes in the W32 to Y34 range.\n0 While engaged in sports activity\n1 While engaged in leisure activity\n2 While working for income\n3 While engaged in other types of work (e.g., chores, school)\n4 While resting, sleeping, eating, or engaging in other vital activities"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "summary": [
+    "This document outlines the coding guidelines for the National Violent Death Reporting System (NVDRS), focusing on the circumstances surrounding violent deaths. It provides detailed instructions on how to interpret and code various circumstances related to victims, including mental health and substance abuse issues, while emphasizing the importance of context and the victim's perspective. The guidelines also address discrepancies between data sources and the handling of crisis variables."
+  ],
+  "keywords": [
+    "NVDRS",
+    "coding guidelines",
+    "violent death",
+    "mental health",
+    "substance abuse",
+    "circumstances",
+    "crisis variables",
+    "victim perspective",
+    "data sources",
+    "investigative reports"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "SECTION 5. CIRCUMSTANCE VARIABLES"
+    },
+    {
+      "type": "subsection",
+      "content": "5.1 General Guidance on Coding NVDRS Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "NVDRS collects information about the specific circumstances that are reported or perceived in the investigative reports (i.e., C/ME or LE report and DC) as being related to the violent death. For the vast majority of circumstances, inclusion in the investigation reports and/or occurring before or right after the fatal injury (e.g., preceding or impending events) is sufficient to code a circumstance. These circumstances will help to identify, develop, and evaluate preventive interventions. General guidance on coding circumstances is provided below."
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.1 Circumstances Describe the Victim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Circumstance data elements in NVDRS are part of the victim’s record and apply to victims in an incident. This is important to keep in mind when coding homicide incidents—circumstances must be interpreted as they apply to the victim, not to the suspect. For example, if a person is fired from a job and later kills the manager who fired him, this would not lead to endorsing the “Job problem” circumstance: the victim in this case is the manager who fired him."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, in incidents with multiple victims, please make sure to check the circumstances specific to that victim. For instance, one victim of an incident may have been killed as part of a robbery while the second victim was killed by law enforcement responding. The circumstances for these two victims should be different."
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.2 Coding Mental Health, Alcohol and Substance Abuse Problems"
+    },
+    {
+      "type": "paragraph",
+      "content": "Abstractors should code circumstances related to mental health, alcohol or substance abuse problems, or other addictions as “Yes” if any of these problems are indicated in investigation reports. A direct link to the death is not required. These circumstances are coded for all victims."
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.3 Coding Circumstances Not Related to Mental Health, Alcohol, and Substance Abuse Problems"
+    },
+    {
+      "type": "paragraph",
+      "content": "For other circumstances, the circumstance should be endorsed if there is an indication that it was perceived by investigators as related to the death based on interviews or the investigation (e.g., mentioned in suicide note, family reports the victim was upset about financial problems, or argument was perceived by witnesses to escalate into the homicide). Because LE and C/ME reports are investigative reports, inclusion in the report and/or the circumstance closely preceding or occurring right after the fatal incident (e.g., preceding or impending events) is sufficient to code the circumstance as “Yes.” For instance, a victim going bankrupt a few days before a suicide, a homicide occurring during a robbery, or a suicide occurring the day before a court appearance should be coded (i.e., inclusion in the investigative report does indicate its perceived involvement)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Two exceptions to this rule exist. Health problems and criminal history are sometimes listed as a routine part of the investigation. Criminal legal or health problems should not be endorsed if they are simply listed as part of the routine investigation (e.g., victim had diabetes and heart disease or a criminal history of burglary) and no indication they were related to the death is found."
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.4 Changing Some Circumstances to Suicide or Homicide Only Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "Due to low use and/or lack of clarity in coding, several circumstances currently coded for all deaths will now only be coded for homicide or suicides. Please review the guidance on each variable."
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.5 New Format for Crisis Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Prior to August 2013, abstractors were asked to determine whether the event was related to a crisis by checking a crisis variable and then indicating in the narrative which circumstances were related to it. To better identify this, the crisis option is now available as a checkbox for several circumstances for which it is appropriate. The root circumstance must first be endorsed based on established criteria (see above for guidance) for each of these. Once the root circumstance is endorsed, a crisis related to that circumstance based upon the timing of it in relation to the incident may also be considered. For instance, a victim may have an alcohol problem reported by their family. This would lead to then checking the “alcohol problem” circumstance if the victim had a crisis related to their alcohol problem within 2 weeks of the death (e.g., a relapse a week before the death or losing their job due to the alcohol problem the day before the death) or an impending crisis within 2 weeks of death (e.g., was to be disciplined the day after the suicide for drinking on the job)."
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.6 Coding the Crisis Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "The crisis variable is important to identify deaths that may involve an element of impulsivity and be related to a crisis. Consistent with previous coding manual versions, a “Crisis” is a current/acute event (within 2 weeks of death) that is indicated in one of the source reports to have contributed to the death. Inclusion in the source document and indication that the event occurred within 2 weeks of the death is sufficient to code a circumstance as a crisis. Direct language that the event caused or contributed to the death is not required to code “Yes.”"
+    },
+    {
+      "type": "list_item",
+      "content": "The following guidance will assist in identifying crises:\nA crisis can precede the death (e.g., had a bad argument the day before the incident, divorce papers served that day, or victim laid off the week before) or be an impending event (e.g., house was to be foreclosed on the day after the incident or court date for a criminal offense 3 days after the suicide).\nCrisis should be interpreted from the eyes of the victim. This is particularly relevant for young victims whose crises, such as a bad grade or a dispute with parents over a curfew, may appear to others as relatively minor.\nAn actual time period for the crisis may not be mentioned in the records, so use language as a clue.\n“Decedent was experiencing financial difficulties after losing his job” would not trigger coding a recent crisis because the timeframe is unclear.\n“Decedent had just received a pink slip at work” would be coded because the word “just” indicates that the crisis occurred right before the death, or within two weeks.\nOngoing/chronic problems should not be coded as crises unless there was an acute change in the status (change in prognosis of chronic illness). Coding a case as being related to a crisis does not mean that there aren’t also chronic conditions that have contributed to the victim’s death.\nA homicide followed by a suicide should always be coded as “Yes” for “Crisis” for the suicide victim unless the two deaths were both clearly consensual and planned in advance (i.e., a double suicide).\nCrisis Not Related to an Existing Circumstance: If a crisis is related to a death AND not captured by any of the circumstances, the abstractor should code: “Crisis in past two weeks or upcoming two weeks (legacy data element)” and provide comments in the “other circumstance” field. Please note that in the analytic data file, the legacy data element “CrisisRecent” has been archived as of the 2016 dataset in order to avoid confusion. All cases endorsed as having a recent crisis in the legacy data, as well as current cases with a specific or “other” crisis as described above are captured under the calculated variable “AnyCrisis_c” in the analytic data file."
+    },
+    {
+      "type": "list_item",
+      "content": "Examples of events that should and should not be coded as crises are provided below:\nCode “Yes” for Crisis\nThe victim’s husband announced the day of her suicide that he was divorcing her.\nA 15-year-old adolescent had a heated argument with his mother, stormed out of the room, and shot himself.\nThe decedent killed his ex-wife and then himself.\nFive days prior to the suicide, the victim was questioned about his suspected sexual abuse of his two nephews by police.\nThe victim was about to be returned to prison in a few days before the suicide.\nAfter a recent break-up, the decedent went to his girlfriend’s house to attempt reconciliation. She refused, and he shot himself in her driveway (the crisis, in this case, would be the refused reconciliation, even if the break-up was not within the past two weeks).\nAn elderly man fell in the bathtub breaking his hip. The next day, his doctor told him that he would need to go to a nursing home. A week later, he dies by suicide.\nPolice were pursuing a suspect. As they drew near, the man turned the gun on himself and fired. Victim had just received a lay-off notice at work.\nThe victim was laid off from work. The next day, the victim went back to his office and shot at his coworkers wounding two of them, before being fatally shot by police.\nThe decedent was despondent over recent job loss.\n\nCode “No” for Crisis\nA 45-year-old man was unemployed and experiencing financial difficulties. (Had this statement been added to his case, “was to be evicted from his apartment the following weekend” the case would qualify as a “Yes”). The victim had emphysema and the condition was worsening.\nThe victim was in the process of divorcing her husband."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unless otherwise noted, the response options for crisis variables are:\nResponse Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.7 Export Format of Circumstances"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the circumstance variables are exported into .csv, the variable label for each circumstance will be preceded by its data source (i.e., “LE_” for law enforcement and “C/ME_” for coroner/medical examiner). For instance, the circumstance job problem from LE will be exported as “LE_jobproblem” and from C/ME as “C/ME_jobproblem.”"
+    },
+    {
+      "type": "subsection",
+      "content": "5.1.8 Handling Discrepancies Across Data Sources"
+    },
+    {
+      "type": "paragraph",
+      "content": "The circumstances between the C/ME and LE may not exactly match. This is expected because the different investigations may reveal different circumstances. For this reason, the circumstances from the different sources should be coded independently. In a rare instance, one investigation may disprove the circumstances listed from another data source. For instance, a legal investigation may find a suspect who killed a spouse originally misled authorities by blaming the death on a robbery. However, the C/ME report lists robbery as the precipitating circumstance because it was collected right after the death. In this rare instance where a circumstance is specifically listed and proved as false in a later report, please do not check the circumstance that was proved false. Instead, please note in narrative that the circumstance was proved false (e.g., C/ME: Robbery was reported as precipitating circumstance, but later LE investigation revealed this was a false report)."
+    },
+    {
+      "type": "subsection",
+      "content": "5.2 Circumstances Known Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "5.2.1 Circumstances from C/ME: CME_CircumstancesKnown"
+    },
+    {
+      "type": "subsection",
+      "content": "5.2.2 Circumstances from LE: LE_CircumstancesKnown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCME_CircumstancesKnown: Indicates if any information is available in the C/ME report about the circumstances, including other circumstances, associated with this violent death.\nLE_CircumstancesKnown: Indicates if any information is available in the LE report about the circumstances, including other circumstances, associated with this violent death. For victims 17 years of age or younger, states should enter in circumstances obtained from CFR reports in the LE section."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable operates as a stem question. Checking the circumstances known box causes the individual circumstances to appear on the screen. Un-checking the circumstances known box causes the circumstances to disappear and implies that the circumstances preceding the incident are not known."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: If the abstractor has entered circumstances and un-checks circumstances known box, the program will delete the entered circumstances when the abstractor presses save."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3 Mental Health, Substance Abuse, and Other Addictions"
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.1 Current diagnosed mental health problem: CME/LE_MentalHealthProblem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Current mental health problem"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Code a victim as “Yes” for “C/ME/LE_MentalHealthProblem” if he or she has been identified as currently having a mental health problem. There does not need to be any indication that the mental health condition directly contributed to the death.\nMental health problems include those disorders and syndromes listed in the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5) with the exception of alcohol and other substance dependence (as these are captured in separate variables).\nExamples of disorders qualifying as mental health problems include diagnoses such as major depression, schizophrenia, and generalized anxiety disorder, as well as neurodevelopmental disorders (such as intellectual disability, autism, attention-deficit/hyperactivity disorder), eating disorders, personality disorders, and organic mental disorders (such as Alzheimer’s and other dementias).\nAlso indicate “Yes” if it is mentioned in the source document that the victim was being treated for a mental health problem, even if the nature of the problem is unclear (e.g., “was being treated for various psychiatric problems”).\nIt is acceptable to endorse this variable on the basis of past treatment of a mental health problem, unless it is specifically noted that the past problem has been resolved. However, do not code this circumstance based only on a positive toxicology test for psychiatric medications (such as antidepressants). There must also be some indication that the victim was actually being treated for a mental health condition, such as a current prescription, the report of a family member, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also code: At least one Mental Health Diagnosis variable should also be coded if this is coded. If the type of mental health diagnosis is unknown, please code “Type of first mental illness diagnosed” as “99 – Unknown.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.2 Current diagnosed mental health problem was crisis: CME/LE_CrisisMentalHealth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Examples of possible mental health crises include, but are not limited to: 1) receives diagnosis within two weeks of a suicide; 2) condition abruptly changes or worsens within two weeks of the violence (such as, victim experiencing a psychotic episode or victim fails to comply with medication and symptomatology increases); and 3) changes in care within two weeks of care (such as victim was hospitalized, victim’s therapist relocates)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: This variable was added in August 2013."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.3 Mental Health Diagnosis Variables"
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.3.1 Mental health diagnosis 1: CME/LE_MentalHealthDiagnosis1"
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.3.2 Mental health diagnosis 2: CME/LE_MentalHealthDiagnosis2"
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.3.3 Other mental health diagnosis: CME/LE_MentalHealthDiagnosisOther"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nCME/LE_MentalHealthDiagnosis1/2: Type of mental illness diagnosis\nCME/LE_MentalHealthDiagnosisOther: Other type of mental illness"
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\nCME/LE_MentalHealthDiagnosis1/2\n1 Depression/dysthymia\n2 Bipolar disorder\n3 Schizophrenia\n4 Anxiety disorder\n5 Post-traumatic stress disorder\n6 Attention Deficit/Hyperactivity Disorder (ADHD)\n7 Eating disorder\n8 Obsessive-compulsive disorder\n9 Autism Spectrum (including Asperger’s Syndrome)\n10 Fetal Alcohol Syndrome\n11 Down Syndrome\n12 Dementia (e.g., Alzheimer’s disease, Lewy Body Dementia)\n66 Other (specify in diagnosis text), including personality disorders, etc.\n88 Not applicable\n99 Unknown\n\nCME/LE_MentalHealthDiagnosisOther\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: This variable indicates the nature of the victim’s mental health problem (the diagnosis), if available.\nCode up to two diagnoses and then write in additional diagnoses (i.e., three or more diagnoses) in the “MentalHealthDiagnosisOther” field. When using the “MentalHealthDiagnosisOther” field, please separate diagnoses with a comma (e.g., antisocial personality disorder, narcissistic personality disorder).\nFor cases in which the victim was noted as being treated for a mental health problem, but the actual diagnosis is not documented, code “MentalHealthDiagnosis1” as “Unknown.”\nIf a diagnosis is not on the code list, code “Other” and record the diagnosis in the text field, “MentalHealthDiagnosisOther.”\nDo not attempt to infer a diagnosis based on reading the symptoms.\nWhile it is acceptable to endorse “Mental health problem” based on the victim’s prescription for a psychiatric medication, please do not infer or code a specific mental health diagnosis based on the medication.\nPlease note that bipolar disorder may be referred to as “manic depression” or similar terms (e.g., “manic depressive”) in source documents. While these are outdated terms, please code these cases as “2 – Bipolar Disorder.”\nObsessive compulsive disorder may be referred to as “OCD” in source documents. Please code these cases as “8 – Obsessive Compulsive Disorder.”\nPost-traumatic stress disorder may be referred to as “PTSD” in source documents. Please code these cases as “5 – Post-traumatic Stress Disorder.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.4 Current depressed mood: CME/LE_DepressedMood"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Victim was perceived by self or others to be depressed at the time of the injury."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: Only code this variable when the victim had a depressed mood at the time of injury. There does NOT need to be a clinical diagnosis, and there does not need to be any indication that the depression directly contributed to the death. Other words that can trigger coding this variable besides “depressed” are sad, despondent, down, blue, low, unhappy, etc. Words that should not trigger coding this variable are agitated, angry, mad, anxious, overwrought, etc.\nIf the victim has a known clinical history of depression but had no depressive symptoms at the time of the incident, this variable should NOT be selected.\nDepressed mood should not be inferred by the coder based on the circumstances (e.g., because the person reports a bankruptcy); rather it must be noted in the record."
+    },
+    {
+      "type": "paragraph",
+      "content": "Manner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.5 Current mental health/substance abuse treatment: CME/LE_MentalIllnessTreatmentCurrnt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: Currently in treatment for a mental health problem or substance abuse problem."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThis should be coded “Yes” if the victim was in current treatment (e.g., had a current prescription for a psychiatric medication, saw a mental health professional within the past two months, or participated in treatment for substance abuse such as outpatient treatment or alcohol anonymous) at the time of the injury. Treatment includes:\nSeeing a psychiatrist, psychologist, medical doctor, therapist, or other counselor (including religious or spiritual counselors) for a mental health or substance abuse problem;\nReceiving a prescription for an antidepressant or other psychiatric medicine;\nAttending anger management classes;\nResiding in an inpatient, group home, or halfway house facility for mental health or substance abuse problems; or\nAlcohol or narcotics anonymous.\nDo not code this circumstance based only on a positive toxicology test for psychiatric medications (such as antidepressants). There must also be some indication that the victim was actually being treated for a mental health condition, such as a current prescription, the report of a family member, etc.\nNote that a diagnosis does not imply that treatment was received. A victim may have been out of compliance with treatment for a diagnosed condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: If you code “Yes” for “Current mental health/substance abuse treatment,” you MUST code “Yes” for “Ever treated for mental health/substance abuse.”"
+    },
+    {
+      "type": "list_item",
+      "content": "Also code: Code “Yes” for either “Current Mental Health Diagnosis,” “Alcohol problem,” or “Other substance problem.”\nManner of Death: All manners."
+    },
+    {
+      "type": "subsection",
+      "content": "5.3.6 Ever treated for mental health/substance abuse problem: CME/LE_HistoryMentalIllnessTreatmnt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition: History of ever being treated for a mental health or substance abuse problem."
+    },
+    {
+      "type": "list_item",
+      "content": "Response Options:\n0 No, Not Available, Unknown\n1 Yes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion: The variable indicates whether the victim was noted as ever having received treatment (e.g., had a current prescription for a psychiatric medication, saw a mental health professional within the past two months, or participated in self-help program such as alcohol anonymous) for a mental health problem (including alcohol and other substance abuse problems), either at the time of death or in the past.\nIf a victim is in current treatment, by definition, ever in treatment should be endorsed as well."
+    }
+  ]
+}

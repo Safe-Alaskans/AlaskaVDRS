@@ -1,0 +1,227 @@
+{
+  "summary": [
+    "This document outlines the variables related to firearms and suspects in violent incidents, detailing response options, definitions, and coding guidelines. It emphasizes the importance of accurately capturing firearm calibers, makes, models, storage conditions, and the relationships between victims and suspects. The information is crucial for understanding the context of violent deaths and improving data collection practices."
+  ],
+  "keywords": [
+    "firearm variables",
+    "suspect variables",
+    "caliber",
+    "gauge",
+    "firearm make",
+    "firearm model",
+    "gun storage",
+    "victim-suspect relationship",
+    "data collection",
+    "violent deaths"
+  ],
+  "structured_content": [
+    {
+      "type": "section",
+      "content": "Section 6. Weapon Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:"
+    },
+    {
+      "type": "list_item",
+      "content": "Caliber:\n556 5.56 mm\n308 .308 in\n6 6 mm\n32 .32 in\n635 6.35 mm\n338 .338 in\n65 6.5 mm\n35 .35 in\n7 7 mm\n351 .351 in\n735 7.35 mm\n357 .357 in\n75 7.5 mm\n36 .36 in\n762 7.62 mm\n375 .375 in\n763 7.63 mm\n38 .38 in\n765 7.65 mm\n380 .380 in\n8 8 mm\n40 .40 in\n9 9 mm\n401 .401 in\n10 10 mm\n405 .405 in\n11 11 mm\n41 .41 in\n17 .17 in\n44 .44 in\n22 .22 in\n444 .444 in\n221 .221 in\n455 .455 in\n222 .222 in\n458 .458 in\n223 .223 in\n460 .460 in\n243 .243 in\n50 .50 in\n25 .25 in\n54 .54 in\n250 .250 in\n58 .58 in\n256 .256 in\n60 .60 in\n257 .257 in\n1000 Undetermined whether .38 or .357\n264 .264 in\n1001 Small, unspecified (<=32)\n270 .270 in\n1002 Medium, unspecified (>32, <10mm/.40)\n280 .280 in\n1003 Large, unspecified (>=10mm/.40)\n284 .284 in\n6666 Other\n30 .30 in (including 30-06)\n8888 Not applicable (shotgun or unknown gun type)\n300 .300 in\n9999 Unknown\n303 .303 in"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables are designed to capture the caliber/gauge or estimated caliber/gauge of the firearm used in the fatal event."
+    },
+    {
+      "type": "list_item",
+      "content": "Firearms have a caliber or a gauge but not both. Caliber is used with handguns and rifles. Gauge is used with shotguns.\nThe codes correspond to calibers, measured in fractions of an inch or in millimeters, or gauges in the case of shotguns.\nRecovered cartridge casings, the firearm itself, and the bullet are sources for indicating or estimating the firearm caliber.\nSome firearms will fire more than one type of cartridge. For example, firearms designed to fire the .357 Magnum will also fire .38 (Smith & Wesson) Special cartridges.\nUnless a cartridge casing is recovered, it may be impossible to tell which cartridge type was involved in the incident. Consequently, this field should be coded from cartridge casings when they are available, from the markings stamped onto the firearm when cartridge casings are not recovered, and from recovered bullets when neither a casing nor a firearm is recovered.\nA special code (1000) has been created for cases when a bullet has been recovered, and the absence of a cartridge or firearm makes it impossible to determine the difference between a .38 and a .357."
+    },
+    {
+      "type": "paragraph",
+      "content": "The “caliber” of a rifle or handgun is the diameter of the bore before the rifling grooves were cut.\nCaliber may also be given in terms of bullet, land, or groove diameter.\nIn some cases, the caliber specification associated with particular cartridge types is neither accurate nor consistent. For example, the caliber of the .38 Special cartridge is actually .357, not .38 as the cartridge type suggests."
+    },
+    {
+      "type": "paragraph",
+      "content": "The term “gauge” is used to describe the size of the bore of a shotgun.\nThe term refers to the number of lead balls of the given bore diameter that make up a pound. In a 12-gauge, for example, it takes 12 bore-diameter lead balls to make up a pound.\nThe most common exception to this nomenclature is the .410, which has a bore diameter of 0.410 inches."
+    },
+    {
+      "type": "section",
+      "content": "6.3.4 Firearm make or NCIC code: FirearmMake"
+    },
+    {
+      "type": "section",
+      "content": "6.3.5 Other Firearm make text: FirearmMakeText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nFirearmMake: Manufacturer of the firearm used to inflict the injury (e.g., Colt, Glock, Remington, Sig-Sauer) or National Crime Information Center (NCIC) code.\nFirearmMakeText: Text field to indicate manufacturer of the firearm if “Make” is coded as “Other.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nFirearmMake:\nMake from system\n666 Other make of firearm\n888 Not applicable\n999 Unknown\nFirearmMakeTexts: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese data elements use a 3-character manufacturer code developed by the NCIC of the FBI. A code list covering make and model is supplied in a separate document in the software’s Help utility. The NVDRS software includes a list for the NCIC make codes. NVDRS Software includes a Make Alias feature that shows popular abbreviations, previous names, or industry nicknames for each manufacturer. If a source document indicates a make alias the manufacture associated with the alias should be coded.\nIf a manufacturer does not appear in the code list, please mark “Other make of firearm” and enter the manufacturer in “MakeText.”\nUse “Unknown” when make is unknown."
+    },
+    {
+      "type": "section",
+      "content": "6.3.6 Firearm model: FirearmModel"
+    },
+    {
+      "type": "section",
+      "content": "6.3.7 Other Firearm model text: FirearmModelText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nFirearmModel: Model of the firearm that was used to inflict the injury (e.g., 1911, 17, 870 Express Magnum, P226).\nFirearmModelText: Text field to indicate model of the firearm if model was coded as “Other.”"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nFirearmModel:\nText\nOther model of firearm\n“Not applicable”\n“Unknown”\nFirearmModelText: Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese data elements are coded using a list of models (sorted by manufacturer). A combination of make and model must be used to uniquely identify the firearm type, as some models are made by more than one manufacturer.\nCode as “[model](Other/Unspecified)” If a general model series appears in the code list but differs slightly from available response options. If model(Other/Unspecified) is not an option in the code list, please mark “Other model of firearm” and enter the model in “FirearmModelText.” Example: source document states general Citori shotgun, code as response option Citori(Other/Unspecified).\nIf a specific model is not known, choose “Unknown.”\nIf a model does not appear in the code list, please mark “Other model of firearm” and enter the model in “FirearmModelText.” When completing “FirearmModelText,” capitalize all text, avoid using dashes and decimals, and omit spaces.\nCompletely spell out the model name; do not use abbreviations."
+    },
+    {
+      "type": "section",
+      "content": "6.3.8 Gun stored loaded: GunLoaded"
+    },
+    {
+      "type": "section",
+      "content": "6.3.9 Gun stored locked: GunStoredLocked"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definitions:\nGunLoaded: Was the firearm used in the violent death stored loaded?\nGunStoredLocked: Was the firearm used in the violent death stored locked?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nGunLoaded:\n0 Stored Unloaded\n1 Stored Loaded\n6 Other (specify in gun access narrative)\n8 Not applicable\n9 Unknown\nGunStoredLocked:\n0 Not locked\n1 Locked (stored with trigger lock on or in locked enclosure like closet)\n6 Other (specify in gun access narrative)\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables are to be coded when a firearm was used by a victim or suspect to inflict the fatal injury in suicides, homicides, undetermined deaths, and unintentional firearm deaths. Although this information may not be known for a substantial percent of homicides and some suicides, this information is useful to collect in violent deaths, especially those involving youth (e.g., persons 17 years of age or younger) and suicides or homicides where a gun was accessed quickly by the victim/suspect right before the incident.\nIn the narrative, include a brief summary of where and from whom the firearm was obtained and whether the youth had authorized access to the firearm.\nNote: Before August 2013, this variable primarily collected information on youth victims and suspects and was optional to collect on adult violent deaths involving a firearm. After August 2013, this information is collected for all firearm deaths where data are available."
+    },
+    {
+      "type": "section",
+      "content": "6.3.10 Gun Access Narrative: GunAccessNarrative"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nThe gun access narrative provides details about how the victim or suspect got access to the firearm used to inflict the fatal injury."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Option:\nText"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nComplete this variable when a firearm was used by a victim or suspect to inflict the fatal injury in suicides, homicides, undetermined deaths, and unintentional firearm deaths. The gun access narrative should include a brief summary of where and from whom the firearm was obtained. For incidents involving youth, include whether or not the youth had authorized access to the firearm. Although this information may not be known for a substantial percent of homicides and some suicides, this information is especially useful to collect in violent deaths involving youth (e.g., persons 17 years of age or younger) and suicides or homicides where a gun is accessed quickly by the victim/suspect right before the incident.\nNote: Before August 2013, this variable primarily collected information on youth victims and suspects and was optional to collect on adult violent deaths involving a firearm. After August 2013, this information is collected for all firearm deaths where data are available."
+    },
+    {
+      "type": "section",
+      "content": "6.3.11 Gun owner: GunOwner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nOwner of the firearm used to inflict the fatal injury."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 Shooter\n2 Parent of shooter\n3 Other family member of shooter\n4 Spouse/Intimate partner of shooter\n6 Friend/Acquaintance of shooter\n7 Stranger to shooter\n66 Other (specify in gun access narrative)\n99 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCode this variable when a firearm was used by a victim or suspect to inflict the fatal injury in suicides, homicides, undetermined deaths, and unintentional firearm deaths. This variable can be used to better understand how victims and suspects gain access to the firearms they use to injure themselves or others.\nNote: Before August 2013, this variable primarily collected information on youth victims and suspects and was optional to collect on adult violent deaths involving a firearm. After August 2013, this information is collected on all firearm deaths where data is available. In November 2020, this variable was modified to add “Spouse/Intimate partner of shooter.”"
+    },
+    {
+      "type": "section",
+      "content": "6.3.12 Firearm stolen: FirearmStolen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nFirearm listed or reported as stolen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n0 No\n1 Yes\n8 Not applicable\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nCode this variable when a firearm was used by a victim or suspect to inflict the fatal injury in suicides, homicides, undetermined deaths, and unintentional firearm deaths. Code as “Yes” if the firearm was formally reported as stolen in Alcohol, Tobacco, Firearms and Explosives (ATF) trace results, LE reports, or if law enforcement or the coroner/medical examiner learned that the firearm had been stolen during the course of the death investigation.\nIf a household member takes a firearm from another household member and uses it without his or her permission, do not code the firearm as stolen unless the owner had reported the firearm as stolen to law enforcement."
+    },
+    {
+      "type": "section",
+      "content": "Section 7. Suspect Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "A suspect is defined as a person believed to have committed a crime and who is, therefore, being investigated by the police.\nThere are no suspects for isolated suicides and self-inflicted unintentional firearm deaths.\nFor homicides, include as suspects people who are listed in the LE and/or CME reports as suspects.\nFor unintentional firearm deaths that are not self-inflicted, include the person who fired the weapon as a suspect and anyone else listed by law enforcement as a suspect.\nA person does not have to be arrested or identified to be listed as a suspect. As long as the number of persons involved in the death is known, (e.g., law enforcement report that the victim was stabbed by two men), list each as a suspect, even if nothing further is known about them.\nIf there is no information at all about suspects in the source documents, do not include any suspects in the incident.\nNote: Before August 2013, a victim could only be associated with three suspects. After August 2013, a victim can be associated with any number of suspects. The program automatically links a victim to associated suspects and each suspect will be assigned its own row in the suspects table."
+    },
+    {
+      "type": "section",
+      "content": "7.1 Suspect age in years: AgeYearsSuspect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nAge of the suspect at the time of the incident in years."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\nAge Years:\n1 to 125\n999 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nUnlike age of victim, age of suspect should be reported in years, because very young children are unlikely to be suspects.\nIf age is not provided, code as “999” for “Unknown.”\nSometimes the suspect’s age will be reported as a range\nIf age is provided within a five-year age range or less, choose the midpoint of the range; round to the lower year if the midpoint calculation results in a half year. For example, a suspect reported to be 20 to 25 years of age would be entered as “22.”\nIf an age range of greater than 5 years is provided, enter the age as unknown. For instance, a suspect whose reported age was between 20 and 30 would be entered as “999.”"
+    },
+    {
+      "type": "section",
+      "content": "7.2 Suspect sex: SexSuspect"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nSex of the suspect is the sex as listed in the source documents."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 Male\n2 Female\n9 Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nNone"
+    },
+    {
+      "type": "section",
+      "content": "7.3 Victim to Suspect relation 1: VictimSuspectRelationship1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nDescription of the primary relationship of the victim to the suspect."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 Spouse\n2 Ex-spouse\n3 Girlfriend or boyfriend\n7 Ex-girlfriend or ex-boyfriend\n8 Girlfriend or boyfriend, unspecified whether current or ex\n10 Parent\n11 Child\n12 Sibling\n13 Grandchild\n14 Grandparent\n15 In-law\n16 Stepparent\n17 Stepchild\n18 Child of suspect’s boyfriend/girlfriend (e.g., child killed by mother’s boyfriend)\n19 Intimate partner of suspect’s parent (e.g., teenager kills his mother’s boyfriend)\n20 Foster child\n21 Foster parent\n29 Other family member (e.g., cousin, uncle, etc.)\n30 Babysitter (e.g., child killed by babysitter)\n31 Acquaintance\n32 Friend\n33 Roommate (not intimate partner)\n34 Schoolmate\n35 Current/former work relationship (e.g., co-worker, employee, employer)\n36 Rival gang member\n37 Victim was new partner of suspect's ex-partner (e.g., woman's ex-boyfriend killed her new boyfriend)\n38 Victim was ex-partner of suspect's current partner (e.g., woman's new boyfriend killed her ex-boyfriend)\n44 Other person known to victim\n45 Stranger\n50 Victim was injured by law enforcement officer\n51 Victim was law enforcement officer injured in the line of duty\n99 Relationship Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nThese variables will be assigned by the abstractor for each suspect for a given victim.\nUse the following sentence as a guide for selecting the appropriate description of the relationship: “The victim is the ____________ of the suspect.” For example, when a parent kills a child, the relationship is “Child” not “Parent” (“The victim is the child of the suspect”). Please note that this sentence is intended to be a general guide. However, some relationships may not be captured by this sentence (e.g., babysitter [e.g., child killed by babysitter], victim was injured by law enforcement officer).\nPrioritization in coding:\n1) intimate partner relationships (spouses, girlfriend/boyfriend, ex-partners) or law enforcement\n2) other family relationships\n3) rival gang member\n4) any other relationship\n5) strangers\nGay and lesbian relationships should be coded in the same way as heterosexual relationships (e.g., “girlfriend” or “boyfriend”). The nature of the relationship will be indicated by the sex of the victim and suspect.\nA “babysitter” includes childcare providers such as nannies or relatives of a child other than a parent or guardian.\nAn “acquaintance” is someone with or about whom the victim has had some prior interaction or knowledge.\nA “stranger” is someone with whom the victim has had no prior interaction before the event that culminated in the violent injury.\nWhere there is more than one offender working together in an incident (as in a drive-by shooter and his or her driver), code the victim’s relationship to each offender individually (e.g., the victim may have known one suspect, but not known two other suspects).\nIf it is unknown whether the victim and suspect were strangers or not, code as “99 – Unknown.”\nIf the victim and suspect knew each other, but the exact nature of their relationship is unclear, code as “44 – Other person known to victim.”\nNote: This variable was modified in November 2020 to include victim/suspect relationship categories 37 and 38."
+    },
+    {
+      "type": "section",
+      "content": "7.4 Victim to Suspect relation 2: VictimSuspectRelationship2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:\nDescription of the secondary relationship of the victim to the suspect."
+    },
+    {
+      "type": "paragraph",
+      "content": "Response Options:\n1 Spouse\n2 Ex-spouse\n3 Girlfriend or boyfriend\n7 Ex-girlfriend or ex-boyfriend\n8 Girlfriend or boyfriend, unspecified whether current or ex\n10 Parent\n11 Child\n12 Sibling\n13 Grandchild\n14 Grandparent\n15 In-law\n16 Stepparent\n17 Stepchild\n18 Child of suspect’s boyfriend/girlfriend (e.g., child killed by mother’s boyfriend)\n19 Intimate partner of suspect’s parent (e.g., teenager kills his mother’s boyfriend)\n20 Foster child\n21 Foster parent\n29 Other family member (e.g., cousin, uncle, etc.)\n30 Babysitter (e.g., child killed by babysitter)\n31 Acquaintance\n32 Friend\n33 Roommate (not intimate partner)\n34 Schoolmate\n35 Current/former work relationship (e.g., co-worker, employee, employer)\n36 Rival gang member\n37 Victim was new partner of suspect's ex-partner (e.g., woman's ex-boyfriend killed her new boyfriend)\n38 Victim was ex-partner of suspect's current partner (e.g., woman's new boyfriend killed her ex-boyfriend)\n44 Other person known to victim\n45 Stranger\n50 Victim was injured by law enforcement officer\n51 Victim was law enforcement officer injured in the line of duty\n88 All relevant information about relationship is already provided in Victim to Suspect Relation 1 (entered in the Relationship 2 field)\n99 Relationship Unknown"
+    },
+    {
+      "type": "paragraph",
+      "content": "Discussion:\nIf the victim has two or more relationships with the suspect (e.g., co-workers and intimate partner), this variable should be completed.\nUse the following sentence as a guide for selecting the appropriate description of the relationship: “The victim is the ______________ of the suspect.” For example, when a parent kills a child, the relationship is “Child” not “Parent” (“The victim is the child of the suspect.”). Please note that this sentence is intended to be a general guide. However, some relationships may not be captured by this sentence (e.g., babysitter [e.g., child killed by babysitter], victim was injured by law enforcement officer).\nPrioritization in coding:\n1) intimate partner relationships (spouses, girlfriend/boyfriend, ex-partners) or law enforcement\n2) other family relationships"
+    }
+  ]
+}
