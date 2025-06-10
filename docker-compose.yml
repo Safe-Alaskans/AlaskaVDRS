@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: alaska-vdrs-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+      - ./entrypoint.sh:/entrypoint.sh
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - OLLAMA_HOST=0.0.0.0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    entrypoint: ["/entrypoint.sh"]
+    restart: unless-stopped
+
+  backend:
+    build: ./alaska-vdrs-ai/backend
+    container_name: alaska-vdrs-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./alaska-vdrs-ai/backend:/app
+      - backend_uploads:/app/uploads
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL_NAME=nvdrs-model
+      - NVIDIA_VISIBLE_DEVICES=all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    depends_on:
+      - ollama
+
+  frontend:
+    build: ./alaska-vdrs-ai/frontend
+    container_name: alaska-vdrs-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  ollama_data:
+    driver: local
+  backend_uploads:
+    driver: local

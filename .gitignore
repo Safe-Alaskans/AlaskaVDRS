@@ -163,3 +163,5 @@ cython_debug/
 
 .jetclient/
 *.zip
+
+./alaska-vdrs-ai/backend/uploads

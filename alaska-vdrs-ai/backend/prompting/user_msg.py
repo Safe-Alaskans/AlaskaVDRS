@@ -1,6 +1,6 @@
 from typing import List
 
-from local_server.prompting.input_doc import InputDoc
+from input_doc import InputDoc
 
 
 def build_user_message(input_docs: List[InputDoc]) -> str:

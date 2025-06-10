@@ -9,8 +9,8 @@ import json
 
 load_dotenv()
 
-from .case_loader import load_case_docs_in_chunks, load_example_case_docs, load_case_docs
-from .local_llm import exec_llm, exec_llm_refine, exec_llm_revision, exec_llm_user_revision
+from case_loader import load_case_docs_in_chunks, load_example_case_docs, load_case_docs
+from local_llm import exec_llm, exec_llm_refine, exec_llm_revision, exec_llm_user_revision
 
 os.environ["FLASK_ENV"] = "development"
 os.environ["FLASK_DEBUG"] = "False"

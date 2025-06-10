@@ -16,7 +16,7 @@ from marker.converters.pdf import PdfConverter
 from marker.models import create_model_dict
 from marker.output import text_from_rendered
 from marker.config.parser import ConfigParser
-from model_tuning_workspace.prompting.input_doc import InputDoc
+from input_doc import InputDoc
 import tempfile
 
 # config = {
@@ -30,7 +30,7 @@ os.makedirs(temp_dir, exist_ok=True)
 
 
 # Load the finetuned tokenizer
-tokenizer = AutoTokenizer.from_pretrained("//wsl.localhost/Ubuntu/home/tylersystems/models/NVDRS-v0.3")
+tokenizer = AutoTokenizer.from_pretrained("modularai/Llama-3.1-8B-Instruct-GGUF")
 converter = PdfConverter(
                     artifact_dict=create_model_dict(),
                 )

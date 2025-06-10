@@ -3,10 +3,10 @@ from typing import List
 
 import requests
 
-from local_server.case_loader import load_case_docs_in_chunks
-from local_server.prompting.input_doc import InputDoc
-from local_server.prompting.system_msg import SYS_MSG, SYS_MSG_REVISION
-from local_server.prompting.user_msg import build_user_message, build_user_message_revision
+from case_loader import load_case_docs_in_chunks
+from prompting.input_doc import InputDoc
+from prompting.system_msg import SYS_MSG, SYS_MSG_REVISION
+from prompting.user_msg import build_user_message, build_user_message_revision
 from loguru import logger
 
 should_mock = False
@@ -87,7 +87,7 @@ def _make_chat_completion(sys_msg: str, user_msg: str, temp: float = 0.1) -> dic
     }
 
     try:
-        host = "http://127.0.0.1:11434"
+        host = "http://localhost:11434"
         response = requests.post(
             f"{host}/v1/chat/completions",
             headers=headers,
