@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   ollama:
@@ -20,8 +20,7 @@ services:
               count: all
               capabilities: [gpu]
     entrypoint: ["/entrypoint.sh"]
-    restart: unless-stopped
-
+    
   backend:
     build: ./alaska-vdrs-ai/backend
     container_name: alaska-vdrs-backend

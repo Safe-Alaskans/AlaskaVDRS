@@ -76,6 +76,8 @@ def _make_chat_completion(sys_msg: str, user_msg: str, temp: float = 0.1) -> dic
     headers = {
         "Content-Type": "application/json",
     }
+    
+    logger.info(ollama_model_name)
 
     data = {
         "model": ollama_model_name,
@@ -89,7 +91,7 @@ def _make_chat_completion(sys_msg: str, user_msg: str, temp: float = 0.1) -> dic
     try:
         host = "http://localhost:11434"
         response = requests.post(
-            f"{host}/v1/chat/completions",
+            f"{host}/api/generate",
             headers=headers,
             json=data
         )
