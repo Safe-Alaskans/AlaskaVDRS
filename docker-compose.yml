@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   ollama:
@@ -20,8 +20,9 @@ services:
               count: all
               capabilities: [gpu]
     entrypoint: ["/entrypoint.sh"]
-    restart: unless-stopped
-
+    networks:
+      - app-network
+    
   backend:
     build: ./alaska-vdrs-ai/backend
     container_name: alaska-vdrs-backend
@@ -32,7 +33,7 @@ services:
       - backend_uploads:/app/uploads
     environment:
       - OLLAMA_BASE_URL=http://ollama:11434
-      - OLLAMA_MODEL_NAME=nvdrs-model
+      - OLLAMA_MODEL_NAME=hf.co/SafeAlaskans/Llama-3.1-8B-Chat-NVDRS-NarrativeGeneration-GGUF:latest
       - NVIDIA_VISIBLE_DEVICES=all
     deploy:
       resources:
@@ -43,6 +44,8 @@ services:
               capabilities: [gpu]
     depends_on:
       - ollama
+    networks:
+      - app-network
 
   frontend:
     build: ./alaska-vdrs-ai/frontend
@@ -51,6 +54,12 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
 
 volumes:
   ollama_data:
