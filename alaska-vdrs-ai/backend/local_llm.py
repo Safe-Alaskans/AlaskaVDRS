@@ -12,6 +12,7 @@ from loguru import logger
 should_mock = False
 
 ollama_model_name = os.getenv("OLLAMA_MODEL_NAME")
+ollama_base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 if ollama_model_name is None:
     raise Exception("OLLAMA_MODEL_NAME environment variable not set")
 
@@ -77,8 +78,7 @@ def _make_chat_completion(sys_msg: str, user_msg: str, temp: float = 0.1) -> dic
         "Content-Type": "application/json",
     }
     
-    logger.info(ollama_model_name)
-
+   
     data = {
         "model": ollama_model_name,
         "messages": [
@@ -89,9 +89,13 @@ def _make_chat_completion(sys_msg: str, user_msg: str, temp: float = 0.1) -> dic
     }
 
     try:
-        host = "http://localhost:11434"
+        host = ollama_base_url
+        
+        # logger.debug(host)
+        # logger.debug(ollama_model_name)
+
         response = requests.post(
-            f"{host}/api/generate",
+            f"{host}/v1/chat/completions",
             headers=headers,
             json=data
         )
